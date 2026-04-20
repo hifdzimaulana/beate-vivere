@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filsafat Hukum — Catatan Akademis Komprehensif</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        heading: ['Space Grotesk', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: '#FF006E',
+                        'brand-hover': '#E60063',
+                        'brand-purple': '#6B2D8F',
+                        surface: {
+                            DEFAULT: '#0A0A0A',
+                            100: '#0F0F0F',
+                            200: '#111111',
+                            300: '#161616',
+                            400: '#1A1A1A',
+                            500: '#1E1E1E',
+                            600: '#252525',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --font-heading: 'Space Grotesk', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+        body { font-family: var(--font-body); background: #0A0A0A; color: #fff; }
+        h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+        code, pre, .mono { font-family: var(--font-mono); }
+
+        ::selection { background: #FF006E; color: #fff; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0A0A0A; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+
+        .glass-panel {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .grid-bg {
+            background-size: 40px 40px;
+            background-image:
+                linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+            mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #ffffff, #a1a1aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .brand-gradient {
+            background: linear-gradient(135deg, #FF006E, #FF4D8F);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .purple-gradient {
+            background: linear-gradient(135deg, #6B2D8F, #9333EA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .mermaid svg { max-width: 100%; }
+        .mermaid { background: transparent !important; }
+
+        .callout {
+            border-left: 3px solid;
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+        .callout-quote { border-color: #FF006E; background: rgba(255,0,110,0.05); }
+        .callout-note { border-color: #6B2D8F; background: rgba(107,45,143,0.08); }
+        .callout-important { border-color: #FBBF24; background: rgba(251,191,36,0.08); }
+        .callout-abstract { border-color: #3B82F6; background: rgba(59,130,246,0.08); }
+
+        .toc-link {
+            transition: all 0.2s;
+            border-left: 2px solid transparent;
+        }
+        .toc-link:hover, .toc-link.active {
+            border-left-color: #FF006E;
+            color: #FF006E;
+            background: rgba(255,0,110,0.05);
+        }
+
+        .audio-progress-bar {
+            appearance: none;
+            width: 100%;
+            height: 4px;
+            border-radius: 2px;
+            background: rgba(255,255,255,0.1);
+            cursor: pointer;
+            outline: none;
+        }
+        .audio-progress-bar::-webkit-slider-thumb {
+            appearance: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #FF006E;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(255,0,110,0.5);
+        }
+        .audio-progress-bar::-moz-range-thumb {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #FF006E;
+            cursor: pointer;
+            border: none;
+        }
+        .volume-slider {
+            appearance: none;
+            width: 80px;
+            height: 3px;
+            border-radius: 2px;
+            background: rgba(255,255,255,0.15);
+            cursor: pointer;
+            outline: none;
+        }
+        .volume-slider::-webkit-slider-thumb {
+            appearance: none;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #fff;
+            cursor: pointer;
+        }
+        .volume-slider::-moz-range-thumb {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #fff;
+            cursor: pointer;
+            border: none;
+        }
+
+        table { border-collapse: separate; border-spacing: 0; }
+        th { background: rgba(255,0,110,0.08); }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .float-anim { animation: float 6s ease-in-out infinite; }
+
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(255,0,110,0.2); }
+            50% { box-shadow: 0 0 40px rgba(255,0,110,0.4); }
+        }
+        .pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
+
+        .section-anchor { scroll-margin-top: 100px; }
+
+        @media (max-width: 1023px) {
+            .sidebar { transform: translateX(-100%); transition: transform 0.3s ease; }
+            .sidebar.open { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Fixed Audio Player -->
+    <div id="audioPlayer" class="fixed bottom-0 left-0 right-0 z-50 glass-panel border-t border-white/5 transition-transform duration-300" style="transform: translateY(100%);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+            <div class="flex items-center gap-4">
+                <button onclick="toggleAudioPlay()" id="audioPlayBtn" class="flex-shrink-0 w-10 h-10 rounded-full bg-brand flex items-center justify-center hover:bg-brand-hover transition-colors">
+                    <i data-lucide="play" class="w-4 h-4 text-white fill-white" id="audioPlayIcon"></i>
+                </button>
+                <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium text-white truncate">Beda Todongan Pistol dan Pajak Negara — Audiobook</p>
+                    <div class="flex items-center gap-3 mt-1">
+                        <span class="text-xs text-gray-500 mono" id="audioCurrentTime">0:00</span>
+                        <input type="range" min="0" max="100" value="0" class="audio-progress-bar flex-1" id="audioProgressBar" oninput="seekAudio(this.value)">
+                        <span class="text-xs text-gray-500 mono" id="audioDuration">0:00</span>
+                    </div>
+                </div>
+                <div class="hidden sm:flex items-center gap-2">
+                    <button onclick="toggleMute()" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-lucide="volume-2" class="w-4 h-4" id="volumeIcon"></i>
+                    </button>
+                    <input type="range" min="0" max="100" value="80" class="volume-slider" id="volumeSlider" oninput="changeVolume(this.value)">
+                </div>
+                <button onclick="closeAudioPlayer()" class="flex-shrink-0 text-gray-500 hover:text-white transition-colors ml-2">
+                    <i data-lucide="x" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <audio id="audioElement" preload="metadata" src="https://olrkhntqrkenfjzxnefz.supabase.co/storage/v1/object/public/bucketapaaja/Beda_Todongan_Pistol_dan_Pajak_Negara_compressed.m4a"></audio>
+
+    <!-- Mobile Menu Button -->
+    <button onclick="toggleSidebar()" id="menuBtn" class="fixed top-5 left-5 z-50 lg:hidden w-10 h-10 rounded-lg glass-panel flex items-center justify-center">
+        <i data-lucide="menu" class="w-5 h-5 text-white"></i>
+    </button>
+
+    <!-- Sidebar Overlay -->
+    <div id="sidebarOverlay" class="fixed inset-0 bg-black/60 z-30 lg:hidden hidden" onclick="toggleSidebar()"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar fixed top-0 left-0 w-72 h-full z-40 bg-surface-100 border-r border-white/5 overflow-y-auto">
+        <div class="p-6 border-b border-white/5">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-brand flex items-center justify-center">
+                    <i data-lucide="scale" class="w-4 h-4 text-white"></i>
+                </div>
+                <div>
+                    <h2 class="text-sm font-heading font-bold text-white">FILHUM</h2>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest">Catatan Akademis</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Audio Section in Sidebar -->
+        <div class="p-4 border-b border-white/5">
+            <button onclick="openAudioPlayer()" class="w-full flex items-center gap-3 p-3 rounded-lg bg-brand/10 border border-brand/20 hover:bg-brand/20 transition-colors group">
+                <div class="w-8 h-8 rounded-full bg-brand/20 flex items-center justify-center flex-shrink-0 group-hover:bg-brand/30 transition-colors">
+                    <i data-lucide="headphones" class="w-4 h-4 text-brand"></i>
+                </div>
+                <div class="text-left min-w-0">
+                    <p class="text-xs font-medium text-white truncate">🎧 Audiobook</p>
+                    <p class="text-[10px] text-gray-400 truncate">Beda Todongan Pistol dan Pajak Negara</p>
+                </div>
+                <i data-lucide="play" class="w-3 h-3 text-brand ml-auto flex-shrink-0"></i>
+            </button>
+        </div>
+
+        <nav class="p-4 space-y-0.5">
+            <p class="text-[10px] uppercase tracking-widest text-gray-600 font-medium px-3 mb-3">Daftar Isi</p>
+            <a href="#bagian-i" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">I. Hukum Kodrat</a>
+            <a href="#bagian-ii" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">II. Thomas Aquinas</a>
+            <a href="#bagian-iii" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">III. John Finnis</a>
+            <a href="#bagian-iv" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">IV. Lon Fuller</a>
+            <a href="#bagian-v" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">V. Positivisme: Bentham</a>
+            <a href="#bagian-vi" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">VI. Jurisprudence Historis</a>
+            <a href="#bagian-vii" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">VII. Positivisme Austin</a>
+            <a href="#bagian-viii" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">VIII. Neopositivisme Hart</a>
+            <a href="#bagian-ix" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">IX. Joseph Raz</a>
+            <a href="#bagian-x" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">X. Realisme Hukum</a>
+            <a href="#bagian-xi" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">XI. Neo-Kantianisme</a>
+            <a href="#daftar-pustaka" class="toc-link block px-3 py-2 text-sm text-gray-400 rounded-r-lg">Daftar Pustaka</a>
+        </nav>
+
+        <div class="p-4 border-t border-white/5 mt-4">
+            <p class="text-[10px] text-gray-600 px-3">Gratianus Prikasetya · 2025–2026</p>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="lg:ml-72 min-h-screen">
+
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden">
+            <div class="absolute inset-0 grid-bg"></div>
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-brand/[0.04] rounded-full blur-[120px] pointer-events-none"></div>
+            <div class="absolute top-1/3 left-1/4 w-[300px] h-[300px] bg-brand-purple/[0.06] rounded-full blur-[100px] pointer-events-none"></div>
+
+            <div class="relative px-6 pt-28 pb-20 md:pt-40 md:pb-28 max-w-4xl mx-auto text-center">
+                <!-- Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] mb-8">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand animate-pulse"></span>
+                    <span class="text-xs font-medium text-gray-400 uppercase tracking-widest">Catatan Akademis Komprehensif</span>
+                </div>
+
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold font-heading tracking-tight leading-[1.1] mb-6">
+                    <span class="gradient-text">FILSAFAT</span><br>
+                    <span class="brand-gradient">HUKUM</span>
+                </h1>
+
+                <p class="text-lg md:text-xl font-light text-gray-400 leading-relaxed max-w-2xl mx-auto mb-10">
+                    Dari Hukum Kodrat hingga Positivisme, Realisme, dan Neo-Kantianisme —
+                    catatan ekspansi akademis komprehensif dari kuliah Filsafat Hukum.
+                </p>
+
+                <div class="flex flex-wrap items-center justify-center gap-3 text-xs text-gray-500">
+                    <span class="px-3 py-1 rounded-full bg-white/[0.04] border border-white/5">Ratnapala (2009)</span>
+                    <span class="px-3 py-1 rounded-full bg-white/[0.04] border border-white/5">Hart (1994)</span>
+                    <span class="px-3 py-1 rounded-full bg-white/[0.04] border border-white/5">Finnis (2011)</span>
+                    <span class="px-3 py-1 rounded-full bg-white/[0.04] border border-white/5">Fuller (1969)</span>
+                    <span class="px-3 py-1 rounded-full bg-white/[0.04] border border-white/5">Silalahi (2025)</span>
+                </div>
+
+                <!-- Floating decorative elements -->
+                <div class="absolute top-20 left-10 text-brand/10 text-6xl font-heading font-bold float-anim hidden md:block">§</div>
+                <div class="absolute bottom-20 right-10 text-brand-purple/10 text-6xl font-heading font-bold float-anim hidden md:block" style="animation-delay: 2s;">§</div>
+            </div>
+        </section>
+
+        <!-- Abstract -->
+        <section class="px-6 max-w-4xl mx-auto -mt-8 mb-16 relative z-10">
+            <div class="callout callout-abstract">
+                <div class="flex items-start gap-3">
+                    <i data-lucide="file-text" class="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0"></i>
+                    <div>
+                        <p class="text-xs font-medium text-blue-400 uppercase tracking-widest mb-2">Abstract</p>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Catatan ini merupakan ekspansi akademis komprehensif dari kuliah Filsafat Hukum yang mencakup aliran-aliran utama teori hukum: (1) Hukum Kodrat (<em>Natural Law</em>) dalam varian Aquinas, Finnis, dan Fuller; (2) Positivisme Hukum Klasik melalui Bentham dan Austin; (3) Jurisprudence Historis melalui Savigny; (4) Neopositivisme melalui Hart dan Raz; (5) Realisme Hukum Amerika melalui Holmes; serta (6) Neo-Kantianisme melalui Kelsen dan Radbruch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Sections -->
+        <div class="px-6 max-w-4xl mx-auto pb-32 space-y-24">
+
+            <!-- ==================== BAGIAN I ==================== -->
+            <section id="bagian-i" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN I</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Hukum Kodrat</h2>
+                <p class="text-lg text-gray-500 font-light mb-10"><em>Natural Law</em></p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">1.1 Definisi dan Hakikat Hukum Kodrat</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            <strong class="text-white">Hukum Kodrat</strong> (<em>Natural Law</em>) adalah suatu teori dalam etika dan filsafat yang menyatakan bahwa manusia memiliki nilai-nilai intrinsik yang mengatur penalaran dan perilaku mereka. Nilai-nilai ini bukan berasal dari konstruksi sosial atau perintah penguasa, melainkan dari sifat dasar (<em>nature</em>) manusia itu sendiri.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Sebagaimana dirumuskan oleh Ratnapala (2009), teori-teori hukum kodrat adalah teori tentang <strong class="text-white">hubungan antara hukum kodrat moral dan hukum positif buatan manusia</strong> (<em>positive human law</em>). Mereka berbagi satu gagasan sentral: bahwa ada semacam "hukum yang lebih tinggi" (<em>higher law</em>) yang bersifat non-manusiawi dan berbasis moralitas.
+                        </p>
+                        <div class="callout callout-quote">
+                            <i data-lucide="quote" class="w-4 h-4 text-brand mb-2"></i>
+                            <p class="text-sm text-gray-300 italic leading-relaxed">
+                                "Natural law theories are theories about the relation between the moral natural law and positive human law... they share one central idea: that there is a kind of higher (non-human) 'law', based on morality, against which the moral or legal validity of human law can be measured."
+                            </p>
+                            <p class="text-xs text-gray-500 mt-2">— Ratnapala, <em>Jurisprudence</em> (2009)</p>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed mt-4">
+                            Implikasi dari gagasan ini sangat revolusioner: sebuah hukum positif yang bertentangan dengan hukum kodrat tidak hanya bisa dinilai sebagai hukum yang buruk secara moral, tetapi dalam tradisi tertentu dapat dinyatakan sebagai <strong class="text-white">bukan hukum sama sekali</strong> (<em>lex iniusta non est lex</em>).
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">1.2 Pembedaan Konseptual</h3>
+                        <div class="overflow-x-auto rounded-lg border border-white/5">
+                            <table class="w-full text-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Istilah</th>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Definisi</th>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Domain</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02] transition-colors">
+                                        <td class="px-4 py-3 font-medium text-white"><em>Law of Nature</em></td>
+                                        <td class="px-4 py-3 text-gray-400">Teori ilmiah tentang alam semesta fisik</td>
+                                        <td class="px-4 py-3 text-gray-500">Ilmu Pengetahuan Alam</td>
+                                    </tr>
+                                    <tr class="hover:bg-white/[0.02] transition-colors">
+                                        <td class="px-4 py-3 font-medium text-white"><em>Natural Law</em></td>
+                                        <td class="px-4 py-3 text-gray-400">Sistem prinsip moral universal</td>
+                                        <td class="px-4 py-3 text-gray-500">Etika & Filsafat Hukum</td>
+                                    </tr>
+                                    <tr class="hover:bg-white/[0.02] transition-colors">
+                                        <td class="px-4 py-3 font-medium text-white"><em>Natural Right</em></td>
+                                        <td class="px-4 py-3 text-gray-400">Hak berdasarkan kodrat kemanusiaan</td>
+                                        <td class="px-4 py-3 text-gray-500">Teori Politik & HAM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">1.3 Pandangan Teleologi dalam Hukum Kodrat</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            <strong class="text-white">Teleologi</strong> adalah pandangan filsafat yang menyatakan bahwa segala sesuatu terjadi <em>untuk suatu tujuan</em> (<em>telos</em> = tujuan akhir). Alam bukanlah acak — segala sesuatu terjadi sesuai dengan desain keseluruhan yang koheren.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed mb-6">
+                            Pandangan ini memiliki dua implikasi ontologis fundamental: (1) Setiap objek dan bentuk kehidupan memiliki tujuan dalam eksistensinya; (2) Tidak bisa ada tujuan tanpa ada yang menetapkan — mengarah pada kesimpulan adanya rencana ilahi.
+                        </p>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+graph TD
+    A["Segala sesuatu memiliki tujuan (Telos)"] --> B["Tujuan mensyaratkan adanya Perencana"]
+    B --> C["Perencana Alam Semesta = Tuhan / Kekuatan Supranatural"]
+    C --> D["Tuhan merancang Hukum Abadi (Lex Aeterna)"]
+    D --> E["Hukum Kodrat = Partisipasi Manusia dalam Lex Aeterna"]
+    E --> F["Hukum Positif harus selaras dengan Hukum Kodrat"]
+    F --> G["Hukum Positif yang melanggar Hukum Kodrat kehilangan kekuatan mengikat"]
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">1.4 Plato dan <em>The Republic</em></h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Plato (427–347 SM) mengajukan konsepsi negara ideal yang terstruktur secara hierarkis. Keadilan (<em>Dikaiosyne</em>) bukan sekadar kebajikan individu, melainkan <strong class="text-white">prinsip harmoni struktural</strong>.
+                        </p>
+                        <div class="overflow-x-auto rounded-lg border border-white/5">
+                            <table class="w-full text-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Kelas Sosial</th>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Fungsi</th>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Keutamaan</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]">
+                                        <td class="px-4 py-3 font-medium text-white">Philosopher King</td>
+                                        <td class="px-4 py-3 text-gray-400">Memimpin dan memerintah</td>
+                                        <td class="px-4 py-3 text-brand-purple italic">Sophia (Kebijaksanaan)</td>
+                                    </tr>
+                                    <tr class="hover:bg-white/[0.02]">
+                                        <td class="px-4 py-3 font-medium text-white">Soldiers / Guardian</td>
+                                        <td class="px-4 py-3 text-gray-400">Membela dan melindungi</td>
+                                        <td class="px-4 py-3 text-brand-purple italic">Andreia (Keberanian)</td>
+                                    </tr>
+                                    <tr class="hover:bg-white/[0.02]">
+                                        <td class="px-4 py-3 font-medium text-white">Workers</td>
+                                        <td class="px-4 py-3 text-gray-400">Memproduksi kebutuhan</td>
+                                        <td class="px-4 py-3 text-brand-purple italic">Sophrosyne (Kesederhanaan)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">1.5 Aristoteles: Hukum Kodrat sebagai Nilai Intrinsik</h3>
+                        <div class="callout callout-note">
+                            <i data-lucide="info" class="w-4 h-4 text-purple-400 mb-2"></i>
+                            <p class="text-sm text-gray-300 italic leading-relaxed">
+                                "A theory in ethics and philosophy that says that human beings possess intrinsic values that govern their reasoning and behavior."
+                            </p>
+                            <p class="text-xs text-gray-500 mt-2">— Transkripsi kuliah, 2025</p>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed mt-4">
+                            Aristoteles (384–322 SM) berargumen bahwa manusia adalah <strong class="text-white">zoon politikon</strong> — makhluk politik/sosial secara kodrat. Hukum yang baik (<em>eunomia</em>) adalah hukum yang memungkinkan manusia menjalani kehidupan yang sesuai kodratnya — mengarah pada <em>eudaimonia</em> (kebahagiaan sejati).
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN II ==================== -->
+            <section id="bagian-ii" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN II</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Thomas Aquinas</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Sintesis Terbesar Abad Pertengahan (1225–1274)</p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">2.1 Perjalanan Hidup</h3>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+timeline
+    title Perjalanan Hidup Thomas Aquinas
+    1225 : Lahir di kastil Roccasecca, Italia
+         : Dari keluarga bangsawan
+    1230 : Usia 5 — dipersembahkan ke Biara Benediktin Monte Cassino
+    1239 : Karena perang, dikirim ke Universitas Napoli
+         : Berkenalan dengan pemikiran Aristoteles
+    1243 : Bergabung Ordo Dominikan
+         : Ditentang keras oleh keluarga
+    1245 : Pergi ke Paris — belajar dengan Albertus Magnus
+    1248 : Pindah ke Köln — memberi kuliah Kitab Suci
+    1256 : Menjadi Magister Teologi di Universitas Paris
+    1269 : Kembali ke Paris — periode paling produktif
+    1272 : Kembali ke Napoli — mendirikan sekolah teologi
+    1274 : Meninggal dalam perjalanan ke Konsili Lyon
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">2.2 Konteks: Sintesis Iman dan Akal</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Aquinas berhasil mengintegrasikan filsafat rasional Aristoteles dengan dogma Kristiani. Kontribusi terbesarnya: <strong class="text-white">akal budi tidak bertentangan dengan iman; akal budi adalah jalan menuju iman</strong> (<em>fides et ratio</em>).
+                        </p>
+                        <div class="callout callout-quote">
+                            <i data-lucide="quote" class="w-4 h-4 text-brand mb-2"></i>
+                            <p class="text-sm text-gray-300 italic leading-relaxed">
+                                "Love follows knowledge." — Thomas Aquinas
+                            </p>
+                            <p class="text-xs text-gray-500 mt-2">Kehendak dan cinta yang baik hanya mungkin jika didahului oleh pengetahuan yang benar tentang yang baik.</p>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed mt-4">
+                            Aquinas memosisikan filsafat sebagai "pelayan" (<em>ancilla</em>) teologi — <em>philosophia ancilla theologiae</em> — tanpa merendahkan otoritas filsafat dalam domain rasional-empiris.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">2.3 Quinque Viae — Lima Jalan Menuju Tuhan</h3>
+                        <p class="text-gray-400 leading-relaxed mb-6">
+                            Argumen abduktif — inferensi terbaik menuju penjelasan terbaik:
+                        </p>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+mindmap
+  root((Quinque Viae))
+    Via Prima
+      Argumen dari Gerak
+      Penggerak Pertama yang tidak digerakkan
+    Via Secunda
+      Argumen dari Sebab Efisien
+      Sebab Pertama yang tidak disebabkan
+    Via Tertia
+      Argumen dari Kemungkinan & Keniscayaan
+      Wujud Niscaya tanpa sebab luar
+    Via Quarta
+      Argumen dari Gradasi Ada
+      Wujud Paling Sempurna
+    Via Quinta
+      Argumen dari Desain / Teleologis
+      Perancang Cerdas yang mengarahkan alam
+                            </div>
+                        </div>
+                        <div class="overflow-x-auto rounded-lg border border-white/5 mt-6">
+                            <table class="w-full text-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Via</th>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Nama</th>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Premis Utama</th>
+                                        <th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Konklusi</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">I</td><td class="px-4 py-3 text-white font-medium">Gerak</td><td class="px-4 py-3 text-gray-400">Setiap gerak membutuhkan penggerak</td><td class="px-4 py-3 text-gray-300">Penggerak Pertama</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">II</td><td class="px-4 py-3 text-white font-medium">Sebab Efisien</td><td class="px-4 py-3 text-gray-400">Tidak ada yang menjadi sebab bagi dirinya</td><td class="px-4 py-3 text-gray-300">Sebab Pertama</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">III</td><td class="px-4 py-3 text-white font-medium">Keniscayaan</td><td class="px-4 py-3 text-gray-400">Yang kontingen tidak bisa menjelaskan adanya</td><td class="px-4 py-3 text-gray-300">Wujud Niscaya</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">IV</td><td class="px-4 py-3 text-white font-medium">Gradasi</td><td class="px-4 py-3 text-gray-400">Gradasi kualitas mensyaratkan standar absolut</td><td class="px-4 py-3 text-gray-300">Wujud Paling Sempurna</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">V</td><td class="px-4 py-3 text-white font-medium">Teleologis</td><td class="px-4 py-3 text-gray-400">Makhluk tak berakal pun menuju tujuan</td><td class="px-4 py-3 text-gray-300">Perancang Cerdas</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">2.4 Alam Semesta Hukum: Empat Tingkat</h3>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+graph TD
+    A["🌌 LEX AETERNA — Hukum Abadi — Kebijaksanaan kekal Allah"] --> B["📖 LEX DIVINA — Hukum Ilahi — Wahyu dalam Kitab Suci"]
+    A --> C["🌿 LEX NATURALIS — Hukum Kodrat — Partisipasi makhluk berakal"]
+    C --> D["⚖️ LEX HUMANA — Hukum Positif — Hukum buatan manusia"]
+    B -.->|"Melengkapi"| C
+    D -.->|"Jika bertentangan, tidak memiliki daya ikat moral"| C
+                            </div>
+                        </div>
+
+                        <!-- Lex Aeterna -->
+                        <div class="mt-8 p-6 rounded-lg border border-white/5 bg-surface-200">
+                            <h4 class="text-lg font-heading font-semibold mb-3 text-white">Lex Aeterna (Hukum Abadi)</h4>
+                            <p class="text-gray-400 leading-relaxed mb-3">
+                                Kebijaksanaan kekal Allah sendiri yang mengatur seluruh alam semesta. Memiliki dua cabang: (1) hukum-hukum alam fisik — subjek ilmu-ilmu alam; (2) hukum perilaku / hukum moral — membedakan benar dan salah bagi makhluk berakal.
+                            </p>
+                            <div class="callout callout-note">
+                                <i data-lucide="info" class="w-4 h-4 text-purple-400 mb-2"></i>
+                                <p class="text-sm text-gray-300">Mengapa ada pelaku kejahatan? Aquinas menjawab: pengetahuan tidak sempurna tentang hukum abadi + <em>prudentia carnis</em> (nafsu) yang merusak akal. Pertanyaan mengapa Allah tidak memprogram pengetahuan sempurna <strong class="text-white">tidak dijawab</strong> dalam <em>Summa Theologica</em>.</p>
+                            </div>
+                        </div>
+
+                        <!-- Lex Divina -->
+                        <div class="mt-4 p-6 rounded-lg border border-white/5 bg-surface-200">
+                            <h4 class="text-lg font-heading font-semibold mb-3 text-white">Lex Divina (Hukum Ilahi)</h4>
+                            <p class="text-gray-400 leading-relaxed">
+                                Wahyu Allah dalam Kitab Suci. Diperlukan karena: (1) membimbing menuju kehidupan kekal yang melampaui akal budi; (2) penilaian manusia sering tidak pasti; (3) perlu mengatur gerakan internal jiwa; (4) dosa tidak selalu dapat dihukum hukum manusia.
+                            </p>
+                        </div>
+
+                        <!-- Lex Naturalis -->
+                        <div class="mt-4 p-6 rounded-lg border border-brand/20 bg-brand/[0.03]">
+                            <h4 class="text-lg font-heading font-semibold mb-3 text-white">Lex Naturalis (Hukum Kodrat)</h4>
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Partisipasi makhluk berakal budi dalam Hukum Abadi. Manusia unik: hidup menurut kodratnya namun memiliki <strong class="text-white">kebebasan</strong> — mampu bersikap terhadap faktor alamiah, bukan hanya mengikutinya secara mekanis.
+                            </p>
+                            <div class="callout callout-important">
+                                <i data-lucide="alert-triangle" class="w-4 h-4 text-yellow-400 mb-2"></i>
+                                <p class="text-sm text-gray-300"><strong class="text-white">Presep Primer Hukum Kodrat:</strong> <em>"Bonum est faciendum et prosequendum et malum vitandum"</em> — Kebaikan harus dilakukan dan dikejar; kejahatan harus dihindari.</p>
+                            </div>
+                            <p class="text-gray-400 leading-relaxed mt-4">
+                                Aquinas mendamaikan dua tradisi: Etika Teonom (hidup sesuai perintah Tuhan) dan Eudemonisme Aristotelian (hidup sesuai kodrat demi kebahagiaan). Jawabannya: <strong class="text-white">hidup sesuai kodrat adalah hidup sesuai kehendak Tuhan; tujuan perintah Tuhan = kebahagiaan manusia</strong> (<em>beate vivere</em>).
+                            </p>
+                        </div>
+
+                        <!-- Lex Humana -->
+                        <div class="mt-4 p-6 rounded-lg border border-white/5 bg-surface-200">
+                            <h4 class="text-lg font-heading font-semibold mb-3 text-white">Lex Humana (Hukum Positif)</h4>
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Hukum positif buatan manusia <strong class="text-white">harus sesuai</strong> dengan hukum kodrat. Jika tidak, kehilangan daya ikat moral.
+                            </p>
+                            <div class="overflow-x-auto rounded-lg border border-white/5">
+                                <table class="w-full text-sm">
+                                    <thead><tr><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Level</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Istilah</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Makna</th></tr></thead>
+                                    <tbody class="divide-y divide-white/5">
+                                        <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">1</td><td class="px-4 py-3 text-white italic">Vivere</td><td class="px-4 py-3 text-gray-400">Hidup — kelangsungan biologis dasar</td></tr>
+                                        <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">2</td><td class="px-4 py-3 text-white italic">Bene vivere</td><td class="px-4 py-3 text-gray-400">Hidup baik — bermartabat, bermoral</td></tr>
+                                        <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">3</td><td class="px-4 py-3 text-white italic">Beate vivere</td><td class="px-4 py-3 text-gray-400">Kebahagiaan abadi — tujuan transenden</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN III ==================== -->
+            <section id="bagian-iii" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN III</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">John Finnis</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Revisi Kontemporer Hukum Kodrat (lahir 1940)</p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">3.1–3.2 Proyek Filosofis & Tujuh Kebaikan Dasar</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Finnis menolak lima prekursor Aquinas karena ketergantungan pada metafisika teleologis dan wahyu ilahi. Sebagai gantinya, ia memperkenalkan <strong class="text-white">tujuh kebaikan dasar</strong> (<em>basic goods</em>) yang bersifat <em>self-evident</em>, universal, dan tidak dapat diurutkan hierarkis.
+                        </p>
+                        <div class="overflow-x-auto rounded-lg border border-white/5">
+                            <table class="w-full text-sm">
+                                <thead><tr><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider w-8">No</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Kebaikan Dasar</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Penjelasan</th></tr></thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">1</td><td class="px-4 py-3 text-white font-medium">Life</td><td class="px-4 py-3 text-gray-400">Kelangsungan hidup biologis, kesehatan, reproduksi</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">2</td><td class="px-4 py-3 text-white font-medium">Knowledge</td><td class="px-4 py-3 text-gray-400">Kebenaran untuk kepentingannya sendiri</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">3</td><td class="px-4 py-3 text-white font-medium">Play</td><td class="px-4 py-3 text-gray-400">Aktivitas yang dinikmati untuk kepentingannya sendiri</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">4</td><td class="px-4 py-3 text-white font-medium">Aesthetic Experience</td><td class="px-4 py-3 text-gray-400">Apresiasi terhadap keindahan</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">5</td><td class="px-4 py-3 text-white font-medium">Sociability</td><td class="px-4 py-3 text-gray-400">Hubungan bermakna dengan sesama</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">6</td><td class="px-4 py-3 text-white font-medium">Practical Reasonableness</td><td class="px-4 py-3 text-gray-400">Kemampuan membuat keputusan rasional</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">7</td><td class="px-4 py-3 text-white font-medium">"Religion"</td><td class="px-4 py-3 text-gray-400">Pertanyaan makna, tujuan kosmis, transendensi</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="callout callout-note mt-4">
+                            <i data-lucide="info" class="w-4 h-4 text-purple-400 mb-2"></i>
+                            <p class="text-sm text-gray-300">Finnis menempatkan tanda kutip pada "agama" — ia memaksudkan kategori lebih luas dari agama institusional: keprihatinan eksistensial tentang makna dan tujuan hidup.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">3.3 Common Good dan Practical Reasonableness</h3>
+                        <p class="text-gray-400 leading-relaxed mb-3">
+                            <strong class="text-white">Common Good</strong>: keadaan di mana semua anggota masyarakat memiliki kesempatan dan sumber daya untuk mencapai potensi mereka.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed mb-3">
+                            <strong class="text-white">Practical Reasonableness</strong> menempati kedudukan istimewa — kebaikan dasar yang sekaligus menjadi <em>sarana</em> untuk meraih semua kebaikan dasar lainnya. Finnis membedakan penalaran teoretis (apa yang benar secara faktual) dan penalaran praktis (apa yang harus dilakukan).
+                        </p>
+                        <div class="p-4 rounded-lg border border-white/5 bg-surface-300">
+                            <p class="text-sm text-gray-300 leading-relaxed">
+                                <strong class="text-white">Tentang validitas hukum yang tidak adil:</strong> Finnis menyatakan hukum tetaplah hukum dan berlaku meskipun tidak adil, namun <strong class="text-brand">tidak ada justifikasi moral untuk menegakkannya</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN IV ==================== -->
+            <section id="bagian-iv" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN IV</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Lon Fuller</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Moralitas Internal Hukum (1902–1978)</p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">4.1 Konteks: Trauma Nazi</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Fuller menyaksikan bagaimana sistem hukum Nazi — secara teknis formal "sah" menurut standar positivisme — digunakan untuk mengesahkan kejahatan paling brutal.
+                        </p>
+                        <div class="overflow-x-auto rounded-lg border border-white/5">
+                            <table class="w-full text-sm">
+                                <thead><tr><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider w-8">No</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Patologi Hukum Nazi</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Implikasi Teoritis</th></tr></thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">1</td><td class="px-4 py-3 text-gray-400">Kebijakan retroaktif</td><td class="px-4 py-3 text-gray-400">Melanggar prospektivitas</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">2</td><td class="px-4 py-3 text-gray-400">Peraturan tidak diketahui publik</td><td class="px-4 py-3 text-gray-400">Melanggar promulgasi</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">3</td><td class="px-4 py-3 text-gray-400">Diskresi tanpa kontrol</td><td class="px-4 py-3 text-gray-400">Melanggar konsistensi</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">4</td><td class="px-4 py-3 text-gray-400">Perintah verbal Hitler sebagai dasar kekuasaan</td><td class="px-4 py-3 text-gray-400">Melanggar generalisasi</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">5</td><td class="px-4 py-3 text-gray-400">Hukuman ekstra-yudisial</td><td class="px-4 py-3 text-gray-400">Melanggar kongruensi</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">6</td><td class="px-4 py-3 text-gray-400">Tidak ada pemisahan kekuasaan</td><td class="px-4 py-3 text-gray-400">Melanggar prinsip negara hukum</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-brand mono">7</td><td class="px-4 py-3 text-gray-400">Tidak ada kebebasan hakim</td><td class="px-4 py-3 text-gray-400">Melanggar independensi yudisial</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">4.2 Tiga Karakteristik Esensial Hukum</h3>
+                        <div class="grid md:grid-cols-3 gap-4">
+                            <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                                <div class="w-10 h-10 rounded-lg bg-brand/10 flex items-center justify-center mb-3">
+                                    <i data-lucide="target" class="w-5 h-5 text-brand"></i>
+                                </div>
+                                <h4 class="font-heading font-semibold text-white mb-2">Purposive</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed">Memungkinkan individu berkomunikasi, berkoordinasi, dan saling memahami. Otoritas didasarkan pada sikap moral komunitas.</p>
+                            </div>
+                            <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                                <div class="w-10 h-10 rounded-lg bg-brand-purple/10 flex items-center justify-center mb-3">
+                                    <i data-lucide="repeat" class="w-5 h-5 text-purple-400"></i>
+                                </div>
+                                <h4 class="font-heading font-semibold text-white mb-2">Reciprocal</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed">Kritik langsung terhadap positivisme. Hukum adalah sistem kerjasama, bukan proyeksi otoritas satu arah.</p>
+                            </div>
+                            <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center mb-3">
+                                    <i data-lucide="infinity" class="w-5 h-5 text-blue-400"></i>
+                                </div>
+                                <h4 class="font-heading font-semibold text-white mb-2">Ongoing Enterprise</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed">Sistem hukum mencapai "derajat kehukuman" yang bervariasi. Pada titik tertentu, tidak lagi masuk akal menyebutnya "hukum".</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">4.3 Dua Dimensi Moralitas Hukum</h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                                <h4 class="font-heading font-semibold text-white mb-2">Moralitas Eksternal</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed">Kandungan substantif aturan-aturan hukum. Hukum mendapatkan kesetiaan melalui kualitas moral umum dari aturan-aturannya.</p>
+                            </div>
+                            <div class="p-5 rounded-lg border border-brand/20 bg-brand/[0.03]">
+                                <h4 class="font-heading font-semibold text-white mb-2">Moralitas Internal</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed mb-3">Kualitas yang harus dimiliki peraturan agar benar-benar menjadi hukum, terdiri dari:</p>
+                                <p class="text-sm text-gray-400"><strong class="text-white">Morality of Duty:</strong> Kewajiban fundamental — larangan negatif.</p>
+                                <p class="text-sm text-gray-400 mt-1"><strong class="text-white">Morality of Aspiration:</strong> Perjuangan menuju pencapaian tertinggi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">4.4 Delapan Cara Gagal Membuat Hukum</h3>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+graph LR
+    subgraph KEGAGALAN["❌ Kegagalan"]
+        F1["1. Tidak ada aturan umum"]
+        F2["2. Tidak dipublikasikan"]
+        F3["3. Berlaku surut"]
+        F4["4. Tidak jelas"]
+        F5["5. Saling bertentangan"]
+        F6["6. Mensyaratkan hal mustahil"]
+        F7["7. Terlalu sering diubah"]
+        F8["8. Pelaksanaan tidak sesuai"]
+    end
+    subgraph KEBAJIKAN["✅ Kebajikan"]
+        V1["1. Generality"]
+        V2["2. Publicity"]
+        V3["3. Prospectivity"]
+        V4["4. Clarity"]
+        V5["5. Consistency"]
+        V6["6. Possibility of Compliance"]
+        V7["7. Constancy"]
+        V8["8. Faithful Administration"]
+    end
+    F1 --- V1
+    F2 --- V2
+    F3 --- V3
+    F4 --- V4
+    F5 --- V5
+    F6 --- V6
+    F7 --- V7
+    F8 --- V8
+                            </div>
+                        </div>
+                        <div class="overflow-x-auto rounded-lg border border-white/5 mt-6">
+                            <table class="w-full text-sm">
+                                <thead><tr><th class="text-left px-3 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider w-8">No</th><th class="text-left px-3 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Kegagalan</th><th class="text-left px-3 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Kebajikan</th><th class="text-left px-3 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Penjelasan</th></tr></thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">1</td><td class="px-3 py-2.5 text-gray-400 text-xs">Tidak ada aturan umum</td><td class="px-3 py-2.5 text-white font-medium text-xs">Generality</td><td class="px-3 py-2.5 text-gray-400 text-xs">Hukum berlaku umum, bukan ad hoc</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">2</td><td class="px-3 py-2.5 text-gray-400 text-xs">Tidak dipublikasikan</td><td class="px-3 py-2.5 text-white font-medium text-xs">Publicity</td><td class="px-3 py-2.5 text-gray-400 text-xs">Masyarakat dapat mengakses hukum</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">3</td><td class="px-3 py-2.5 text-gray-400 text-xs">Berlaku surut</td><td class="px-3 py-2.5 text-white font-medium text-xs">Prospectivity</td><td class="px-3 py-2.5 text-gray-400 text-xs">Tidak menghukum tindakan sebelum berlaku</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">4</td><td class="px-3 py-2.5 text-gray-400 text-xs">Tidak jelas</td><td class="px-3 py-2.5 text-white font-medium text-xs">Clarity</td><td class="px-3 py-2.5 text-gray-400 text-xs">Aturan dapat dipahami</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">5</td><td class="px-3 py-2.5 text-gray-400 text-xs">Saling bertentangan</td><td class="px-3 py-2.5 text-white font-medium text-xs">Consistency</td><td class="px-3 py-2.5 text-gray-400 text-xs">Tidak ada aturan yang kontradiktif</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">6</td><td class="px-3 py-2.5 text-gray-400 text-xs">Mensyaratkan hal mustahil</td><td class="px-3 py-2.5 text-white font-medium text-xs">Possibility of Compliance</td><td class="px-3 py-2.5 text-gray-400 text-xs">Tidak menuntut hal yang mustahil</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">7</td><td class="px-3 py-2.5 text-gray-400 text-xs">Terlalu sering berubah</td><td class="px-3 py-2.5 text-white font-medium text-xs">Constancy</td><td class="px-3 py-2.5 text-gray-400 text-xs">Hukum cukup stabil</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-3 py-2.5 text-brand mono text-xs">8</td><td class="px-3 py-2.5 text-gray-400 text-xs">Pelaksanaan tidak sesuai</td><td class="px-3 py-2.5 text-white font-medium text-xs">Faithful Administration</td><td class="px-3 py-2.5 text-gray-400 text-xs">Tindakan pejabat sesuai aturan resmi</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN V ==================== -->
+            <section id="bagian-v" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN V</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Positivisme Hukum Klasik</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Jeremy Bentham (1747–1832)</p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">5.1–5.2 Positivisme sebagai Reaksi & Comte</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Positivisme berdiri di atas dua pilar: (1) Pembedaan <em>the law as it is</em> vs <em>the law as it ought to be</em>; (2) Tidak adanya hubungan konseptual niscaya antara hukum dan moralitas.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed mb-6">
+                            <strong class="text-white">Auguste Comte</strong> memperkenalkan positivisme sebagai gerakan epistemologis, menolak transendensalisme dan mistisisme.
+                        </p>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+graph LR
+    A["⛪ TAHAP TEOLOGIS — Agen supranatural — Pra-modern"] --> B["🔮 TAHAP METAFISIK — Kekuatan abstrak — Transisi"] --> C["🔬 TAHAP POSITIF — Hukum ilmiah empiris — Modern"]
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">5.4 Prinsip Utilitas</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Tindakan yang benar = tindakan yang <strong class="text-white">memaksimalkan kebahagiaan bagi jumlah terbesar orang</strong>. Alam menempatkan manusia di bawah dua penguasa: sakit dan kesenangan.
+                        </p>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+                            <div class="p-4 rounded-lg border border-white/5 bg-surface-200 text-center">
+                                <i data-lucide="heart-pulse" class="w-5 h-5 text-brand mx-auto mb-2"></i>
+                                <p class="text-xs font-medium text-white">Fisik</p>
+                            </div>
+                            <div class="p-4 rounded-lg border border-white/5 bg-surface-200 text-center">
+                                <i data-lucide="landmark" class="w-5 h-5 text-purple-400 mx-auto mb-2"></i>
+                                <p class="text-xs font-medium text-white">Politik</p>
+                            </div>
+                            <div class="p-4 rounded-lg border border-white/5 bg-surface-200 text-center">
+                                <i data-lucide="shield-check" class="w-5 h-5 text-blue-400 mx-auto mb-2"></i>
+                                <p class="text-xs font-medium text-white">Moral</p>
+                            </div>
+                            <div class="p-4 rounded-lg border border-white/5 bg-surface-200 text-center">
+                                <i data-lucide="church" class="w-5 h-5 text-yellow-400 mx-auto mb-2"></i>
+                                <p class="text-xs font-medium text-white">Agama</p>
+                            </div>
+                        </div>
+                        <div class="callout callout-note">
+                            <i data-lucide="info" class="w-4 h-4 text-purple-400 mb-2"></i>
+                            <p class="text-sm text-gray-300">Bentham <strong class="text-white">tidak memedulikan</strong> dari mana kesenangan datang — yang terpenting adalah konsekuensinya. Ini adalah posisi <em>consequentialist</em> murni.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">5.5 Kalkulus Kebahagiaan (<em>Felicific Calculus</em>)</h3>
+                        <div class="overflow-x-auto rounded-lg border border-white/5">
+                            <table class="w-full text-sm">
+                                <thead><tr><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Faktor</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Penjelasan</th></tr></thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Intensity</td><td class="px-4 py-3 text-gray-400">Seberapa kuat kesenangan/penderitaan</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Duration</td><td class="px-4 py-3 text-gray-400">Seberapa lama berlangsung</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Certainty</td><td class="px-4 py-3 text-gray-400">Seberapa pasti akan terjadi</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Propinquity</td><td class="px-4 py-3 text-gray-400">Kedekatan waktu</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Fecundity</td><td class="px-4 py-3 text-gray-400">Kemungkinan diikuti kesenangan/penderitaan lain</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Purity</td><td class="px-4 py-3 text-gray-400">Kebebasan dari campuran sebaliknya</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Extent</td><td class="px-4 py-3 text-gray-400">Jumlah orang terkena dampak</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="mt-4 p-4 rounded-lg border border-white/5 bg-surface-300 text-center">
+                            <p class="mono text-sm text-gray-300">U = Σ (P<sub>i</sub> − S<sub>i</sub>)</p>
+                            <p class="text-xs text-gray-500 mt-1">Total utilitas = jumlah kesenangan dikurangi penderitaan semua individu</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">5.6 Refleksi Kritis</h3>
+                        <div class="overflow-x-auto rounded-lg border border-white/5">
+                            <table class="w-full text-sm">
+                                <thead><tr><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Kritik</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Penjelasan</th></tr></thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium">Reduksi Hakikat Manusia</td><td class="px-4 py-3 text-gray-400">Mereduksi manusia menjadi makhluk pengindera</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium">Pengukuran Kuantitatif</td><td class="px-4 py-3 text-gray-400">Bagaimana mengukur kebahagiaan secara objektif?</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium">Tyranny of the Majority</td><td class="px-4 py-3 text-gray-400">Dapat membenarkan penindasan minoritas</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-green-400 font-medium">Kontribusi Positif</td><td class="px-4 py-3 text-gray-400">Analisis cost-benefit dalam kebijakan publik modern</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN VI ==================== -->
+            <section id="bagian-vi" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN VI</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Jurisprudence Historis</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Savigny dan Mazhab Jerman</p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">6.2 Pra-Savigny: Leibniz, Wolff, Kant</h3>
+                        <div class="space-y-4">
+                            <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                                <h4 class="font-heading font-semibold text-white mb-2">G.W. Leibniz (1646–1716)</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed">Hukum sebagai <em>Rational Order</em> — sistem logis yang dapat diturunkan dari prinsip rasional serupa matematika. Proyek <em>Universal Legal Science</em>.</p>
+                            </div>
+                            <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                                <h4 class="font-heading font-semibold text-white mb-2">Christian Wolff (1679–1754)</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed">Mensistematisasi filsafat rasionalis Leibniz. Mendominasi universitas Jerman pertengahan abad ke-18.</p>
+                            </div>
+                            <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                                <h4 class="font-heading font-semibold text-white mb-2">Immanuel Kant (1724–1804)</h4>
+                                <p class="text-sm text-gray-400 leading-relaxed">Hukum = bagian dari <em>practical reason</em>. Membedakan dimensi <em>ethical</em> (internal) dan <em>legal</em> (eksternal, dapat dipaksakan). Warisan: istilah <strong class="text-white">Rechtswissenschaft</strong> — ilmu hukum positif bebas dari spekulasi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">6.3–6.4 Savigny: Volksgeist</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Mazhab Historis merupakan bagian dari gerakan <strong class="text-white">Romantisisme</strong> — pemberontakan terhadap rasionalisme Pencerahan. Hukum <strong class="text-white">tidak bersumber dari negara</strong>, melainkan dari karakter masyarakat.
+                        </p>
+                        <div class="callout callout-quote">
+                            <i data-lucide="quote" class="w-4 h-4 text-brand mb-2"></i>
+                            <p class="text-sm text-gray-300 italic leading-relaxed">
+                                "Law was derived from the common consciousness of a people (Volksgeist) who already exist as an 'active personal subject'."
+                            </p>
+                        </div>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto mt-6">
+                            <div class="mermaid">
+graph TD
+    A["1️⃣ TAHAP RAKYAT — Volksrecht — Hukum dari kesadaran bersama rakyat"] --> B["2️⃣ TAHAP ILMU HUKUM — Juristenrecht — Abstraksi dan sistematasi oleh ahli hukum"] --> C["3️⃣ TAHAP LEGISLASI — Gesetzesrecht — Undang-undang formal melalui proses legislatif"]
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">6.5 Begriffjurisprudenz</h3>
+                        <div class="overflow-x-auto rounded-lg border border-white/5">
+                            <table class="w-full text-sm">
+                                <thead><tr><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Jenis Hukum</th><th class="text-left px-4 py-3 text-xs font-medium text-gray-300 uppercase tracking-wider">Sumber</th></tr></thead>
+                                <tbody class="divide-y divide-white/5">
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Volksrecht</td><td class="px-4 py-3 text-gray-400">Memancar langsung dari rakyat</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Gesetzesrecht</td><td class="px-4 py-3 text-gray-400">Pembentuk hukum (legislatif)</td></tr>
+                                    <tr class="hover:bg-white/[0.02]"><td class="px-4 py-3 text-white font-medium italic">Juristenrecht</td><td class="px-4 py-3 text-gray-400">Ahli hukum berdasarkan ilmu hukum</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed mt-4">
+                            Otoritas <em>scientific legal rule</em> tidak tergantung pada dokumen sejarah atau <em>practical sense</em>, melainkan <strong class="text-white">logical connection with the totality of the overall system</strong>.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN VII ==================== -->
+            <section id="bagian-vii" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN VII</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Positivisme John Austin</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Hukum sebagai Perintah Penguasa (1790–1859)</p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">7.2 Paradoks: Positivis dengan Simpati Aquinas</h3>
+                        <p class="text-gray-400 leading-relaxed mb-3">
+                            Austin memandang hukum Tuhan sebagai sumber utama aturan moral dengan status <em>"laws properly so called"</em>. Namun ia memisahkan:
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="p-4 rounded-lg border border-white/5 bg-surface-200">
+                                <p class="text-sm font-medium text-white mb-1">Laws Properly So Called</p>
+                                <p class="text-xs text-gray-400">Hukum positif: perintah penguasa bagi yang dikuasai</p>
+                            </div>
+                            <div class="p-4 rounded-lg border border-white/5 bg-surface-200">
+                                <p class="text-sm font-medium text-white mb-1">Laws Improperly So Called</p>
+                                <p class="text-xs text-gray-400">Aturan rumah tangga, perusahaan, ilmu pengetahuan, dll.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">7.3 Taksonomi Hukum Austin</h3>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+graph TD
+    A["SEMUA ATURAN"] --> B["LAWS PROPERLY SO CALLED"]
+    A --> C["LAWS IMPROPERLY SO CALLED"]
+    B --> D["DIVINE LAW — Diwahyukan & Tidak Diwahyukan"]
+    B --> E["POSITIVE LAW — Perintah Penguasa Politik"]
+    B --> F["POSITIVE MORALITY — Opini dan sentimen umum"]
+    E --> G["GENERAL COMMANDS"]
+    E --> H["PARTICULAR COMMANDS"]
+    C --> I["Rules of Fashion / Etiquette"]
+    C --> J["Scientific Laws"]
+    C --> K["International Law → Positive Morality"]
+                            </div>
+                        </div>
+                        <div class="callout callout-important mt-4">
+                            <i data-lucide="alert-triangle" class="w-4 h-4 text-yellow-400 mb-2"></i>
+                            <p class="text-sm text-gray-300"><strong class="text-white">Hukum Internasional</strong> dikategorikan sebagai <em>positive morality</em> — bukan hukum sesungguhnya — karena tidak mengalir dari kehendak seorang penguasa.</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">7.4 Empat Unsur Hukum Positif</h3>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+graph LR
+    A["HUKUM POSITIF"] --> B["1. POLITICAL SOVEREIGN — Penguasa Politik"]
+    A --> C["2. COMMAND — Perintah"]
+    A --> D["3. DUTY — Kewajiban"]
+    A --> E["4. SANCTION — Sanksi"]
+    C --- D
+    D --- E
+    E --- C
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN VIII ==================== -->
+            <section id="bagian-viii" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN VIII</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Neopositivisme H.L.A. Hart</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Konsep Hukum (1907–1992)</p>
+
+                <div class="space-y-6">
+                    <p class="text-gray-400 leading-relaxed">
+                        Hart mengembangkan teori positivisme hukum yang lebih nuansed melalui konsep <strong class="text-white">rules of recognition</strong>, <strong class="text-white">primary rules</strong>, dan <strong class="text-white">secondary rules</strong>. Ia mengkritik model "perintah penguasa" Austin sebagai gambaran yang terlalu sederhana dan tidak mampu menjelaskan kompleksitas sistem hukum modern.
+                    </p>
+                    <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                        <div class="mermaid">
+graph TD
+    A["SISTEM HUKUM — Hart"] --> B["PRIMARY RULES — Aturan Perilaku"]
+    A --> C["SECONDARY RULES — Aturan tentang Aturan"]
+    C --> D["Rule of Recognition — Kriteria validitas hukum"]
+    C --> E["Rule of Change — Proses pembuatan/pengubahan hukum"]
+    C --> F["Rule of Adjudication — Proses penyelesaian sengketa"]
+    B -.->|"Diatur oleh"| C
+                        </div>
+                    </div>
+                    <div class="callout callout-quote">
+                        <i data-lucide="quote" class="w-4 h-4 text-brand mb-2"></i>
+                        <p class="text-sm text-gray-300 italic leading-relaxed">
+                            "The existence of law is one thing; its merit or demerit is another. Whether it be or be not is one inquiry; whether it be or be not conformable to an assumed standard, is a different inquiry."
+                        </p>
+                        <p class="text-xs text-gray-500 mt-2">— H.L.A. Hart, <em>The Concept of Law</em> (1961)</p>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Hart memperkenalkan konsep <strong class="text-white">"open texture" of law</strong> — bahwa bahasa hukum selalu memiliki kekurangan yang memerlukan kebijaksanaan judicial (<em>judicial discretion</em>) untuk mengisi celah-celahnya. Ini merupakan titik temu antara positivisme dan realisme hukum.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN IX ==================== -->
+            <section id="bagian-ix" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN IX</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Joseph Raz</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Soft Positivism dan Otoritas Hukum (1939–2022)</p>
+
+                <div class="space-y-6">
+                    <p class="text-gray-400 leading-relaxed">
+                        Raz mengembangkan teori <strong class="text-white">Service Conception of Authority</strong> — otoritas hukum dibenarkan jika ia membantu individu lebih baik mematuhi reason yang berlaku bagi mereka daripada jika mereka bertindak sendiri. Otoritas yang legitimate harus memenuhi <em>Normal Justification Thesis</em>.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        Raz mendefinisikan <strong class="text-white">Soft Positivism</strong> sebagai posisi bahwa meskipun kriteria identifikasi hukum mungkin secara kontingensi menyertakan prinsip moral, hubungan antara hukum dan moralitas bersifat <em>contingent</em>, bukan <em>necessary</em> — berbeda dari inklusivisme kuat yang dianut Hart.
+                    </p>
+                    <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                        <h4 class="font-heading font-semibold text-white mb-2">Preemption Thesis</h4>
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Klaim sentral Raz: otoritas hukum bersifat <em>pre-emptive</em> — alasan yang diberikan otoritas menggantikan alasan-alasan yang mendasarinya bagi individu. Individu seharusnya mengikuti hukum <strong class="text-white">karena hukum</strong>, bukan karena alasan substantif yang sama dengan hukum tersebut.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN X ==================== -->
+            <section id="bagian-x" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN X</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Realisme Hukum Amerika</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Oliver Wendell Holmes Jr. (1841–1935)</p>
+
+                <div class="space-y-6">
+                    <div class="callout callout-quote">
+                        <i data-lucide="quote" class="w-4 h-4 text-brand mb-2"></i>
+                        <p class="text-sm text-gray-300 italic leading-relaxed">
+                            "The life of the law has not been logic: it has been experience."
+                        </p>
+                        <p class="text-xs text-gray-500 mt-2">— Oliver Wendell Holmes Jr., <em>The Common Law</em> (1881)</p>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Realisme hukum menolak klaim kaum formalis bahwa hukum dapat ditemukan melalui deduksi logis dari prinsip-prinsip abstrak. Bagi Holmes, <strong class="text-white">prediksi tentang apa yang akan dilakukan pengadilan</strong> — itulah yang dimaksud dengan hukum.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                            <h4 class="font-heading font-semibold text-white mb-2">Bad Man Theory</h4>
+                            <p class="text-sm text-gray-400 leading-relaxed">
+                                "Untuk memahami hukum, bayangkan seorang bad man yang hanya pedul pada konsekuensi material dari tindakannya." Perspektif ini mengungkapkan bahwa hukum pada dasarnya tentang sanksi dan prediksi.
+                            </p>
+                        </div>
+                        <div class="p-5 rounded-lg border border-white/5 bg-surface-200">
+                            <h4 class="font-heading font-semibold text-white mb-2">Anti-Formalisme</h4>
+                            <p class="text-sm text-gray-400 leading-relaxed">
+                                Keputusan hakim dipengaruhi oleh faktor-faktor ekstra-legal: kebijaksanaan, pengalaman, bias, konteks sosial. Hukum tidak pernah sepenuhnya determinate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== BAGIAN XI ==================== -->
+            <section id="bagian-xi" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">BAGIAN XI</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Neo-Kantianisme</h2>
+                <p class="text-lg text-gray-500 font-light mb-10">Kelsen dan Radbruch</p>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">Hans Kelsen: Pure Theory of Law (1881–1973)</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Kelsen berusaha membangun teori hukum yang "murni" — bebas dari elemen-elemen non-hukum: sosiologi, etika, politik, teologi. Hukum dipahami sebagai <strong class="text-white">sistem norma</strong> (<em>norms</em>), bukan fakta-fakta sosial.
+                        </p>
+                        <div class="rounded-lg border border-white/5 bg-surface-300 p-4 overflow-x-auto">
+                            <div class="mermaid">
+graph TD
+    A["GRUNDNORM — Norma Dasar — Presupposisi logis"] --> B["Konstitusi"]
+    B --> C["Undang-undang"]
+    C --> D["Keputusan Pengadilan / Tindakan Administratif"]
+    D --> E["Tindakan Individu yang Dikenai Hukum"]
+                            </div>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed mt-4">
+                            <strong class="text-white">Grundnorm</strong> (norma dasar) bukan norma yang diberlakukan oleh otoritas hukum — ia adalah <em>presupposisi</em> logis dari seluruh sistem hukum. Tanpa presuposisi ini, rantai validitas norma menjadi tak berujung (<em>regressus ad infinitum</em>).
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-heading font-semibold mb-4">Gustav Radbruch: Formula Radbruch (1878–1949)</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            Awalnya positivis, Radbruch mengubah posisinya setelah pengalaman Nazi. Ia merumuskan <strong class="text-white">Formula Radbruch</strong>:
+                        </p>
+                        <div class="callout callout-important">
+                            <i data-lucide="alert-triangle" class="w-4 h-4 text-yellow-400 mb-2"></i>
+                            <p class="text-sm text-gray-300 italic leading-relaxed">
+                                "Konflik antara positivitas hukum dan keadilan tidak dapat diselesaikan melalui program positivistik. Jika positivitas hukum bertentangan secara ekstrem dengan keadilan (<em>intolerable injustice</em>), hukum tersebut kehilangan sifat hukumnya."
+                            </p>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed mt-4">
+                            Radbruch menegaskan tiga nilai dasar hukum: <strong class="text-white">keadilan</strong> (<em>Gerechtigkeit</em>), <strong class="text-white">kepastian hukum</strong> (<em>Rechtssicherheit</em>), dan <strong class="text-white">kemanfaatan</strong> (<em>Zweckmäßigkeit</em>). Ketiganya dapat saling bertentangan, dan saat kepastian hukum menjadi alat untuk ketidakadilan ekstrem, keadilan harus didahulukan.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== DAFTAR PUSTAKA ==================== -->
+            <section id="daftar-pustaka" class="section-anchor">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-xs font-mono text-brand tracking-widest">REFERENSI</span>
+                    <div class="flex-1 h-px bg-white/10"></div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-10">Daftar Pustaka</h2>
+
+                <div class="space-y-4">
+                    <div class="p-4 rounded-lg border border-white/5 bg-surface-200 hover:bg-surface-300 transition-colors">
+                        <p class="text-sm text-gray-300">Finnis, J. (2011). <em>Natural Law and Natural Rights</em> (2nd ed.). Oxford University Press.</p>
+                    </div>
+                    <div class="p-4 rounded-lg border border-white/5 bg-surface-200 hover:bg-surface-300 transition-colors">
+                        <p class="text-sm text-gray-300">Fuller, L. L. (1969). <em>The Morality of Law</em> (revised ed.). Yale University Press.</p>
+                    </div>
+                    <div class="p-4 rounded-lg border border-white/5 bg-surface-200 hover:bg-surface-300 transition-colors">
+                        <p class="text-sm text-gray-300">Hart, H. L. A. (1994). <em>The Concept of Law</em> (2nd ed., P. A. Bulloch & J. Raz, Eds.). Clarendon Press.</p>
+                    </div>
+                    <div class="p-4 rounded-lg border border-white/5 bg-surface-200 hover:bg-surface-300 transition-colors">
+                        <p class="text-sm text-gray-300">Ratnapala, S. (2009). <em>Jurisprudence</em>. Cambridge University Press.</p>
+                    </div>
+                    <div class="p-4 rounded-lg border border-white/5 bg-surface-200 hover:bg-surface-300 transition-colors">
+                        <p class="text-sm text-gray-300">Silalahi, M. D. (2025–2026). Materi Kuliah Filsafat Hukum. Program Studi Ilmu Hukum.</p>
+                    </div>
+                    <div class="p-4 rounded-lg border border-white/5 bg-surface-200 hover:bg-surface-300 transition-colors">
+                        <p class="text-sm text-gray-300">Wacks, R. (2012). <em>Understanding Jurisprudence: An Introduction to Legal Theory</em> (3rd ed.). Oxford University Press.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="border-t border-white/5 px-6 py-12 max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-6 h-6 rounded bg-brand flex items-center justify-center">
+                        <i data-lucide="scale" class="w-3 h-3 text-white"></i>
+                    </div>
+                    <span class="text-sm font-heading font-semibold text-white">FILHUM</span>
+                    <span class="text-xs text-gray-600">·</span>
+                    <span class="text-xs text-gray-500">Catatan Akademis Filsafat Hukum</span>
+                </div>
+                <p class="text-xs text-gray-600">Gratianus Prikasetya · 2025–2026</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script>
+        // ===== Mermaid Init =====
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+                primaryColor: '#1E1E1E',
+                primaryTextColor: '#e5e5e5',
+                primaryBorderColor: '#333333',
+                lineColor: '#555555',
+                secondaryColor: '#161616',
+                tertiaryColor: '#0F0F0F',
+                fontFamily: 'Inter, sans-serif',
+                fontSize: '13px',
+                nodeBorder: '#FF006E',
+                mainBkg: '#1E1E1E',
+                clusterBkg: '#161616',
+                edgeLabelBackground: '#0A0A0A',
+            },
+            flowchart: {
+                htmlLabels: true,
+                curve: 'basis',
+                padding: 15,
+            },
+            mindmap: {
+                padding: 15,
+            },
+            timeline: {
+                padding: 15,
+            }
+        });
+
+        // ===== Audio Player =====
+        const audioEl = document.getElementById('audioElement');
+        const playerEl = document.getElementById('audioPlayer');
+        const playBtn = document.getElementById('audioPlayBtn');
+        const progressBar = document.getElementById('audioProgressBar');
+        const currentTimeEl = document.getElementById('audioCurrentTime');
+        const durationEl = document.getElementById('audioDuration');
+        const volumeSlider = document.getElementById('volumeSlider');
+
+        let isPlaying = false;
+        let isMuted = false;
+        let previousVolume = 80;
+
+        audioEl.volume = 0.8;
+
+        audioEl.addEventListener('loadedmetadata', () => {
+            durationEl.textContent = formatTime(audioEl.duration);
+        });
+
+        audioEl.addEventListener('timeupdate', () => {
+            if (audioEl.duration) {
+                const pct = (audioEl.currentTime / audioEl.duration) * 100;
+                progressBar.value = pct;
+                currentTimeEl.textContent = formatTime(audioEl.currentTime);
+            }
+        });
+
+        audioEl.addEventListener('ended', () => {
+            isPlaying = false;
+            updatePlayIcon();
+        });
+
+        function openAudioPlayer() {
+            playerEl.style.transform = 'translateY(0)';
+            if (isSidebarOpen) toggleSidebar();
+        }
+
+        function closeAudioPlayer() {
+            playerEl.style.transform = 'translateY(100%)';
+            audioEl.pause();
+            isPlaying = false;
+            updatePlayIcon();
+        }
+
+        function toggleAudioPlay() {
+            if (isPlaying) {
+                audioEl.pause();
+            } else {
+                audioEl.play().catch(e => {
+                    console.log('Playback failed:', e);
+                });
+            }
+            isPlaying = !isPlaying;
+            updatePlayIcon();
+        }
+
+        function updatePlayIcon() {
+            const icon = document.getElementById('audioPlayIcon');
+            if (isPlaying) {
+                icon.setAttribute('data-lucide', 'pause');
+            } else {
+                icon.setAttribute('data-lucide', 'play');
+            }
+            lucide.createIcons();
+        }
+
+        function seekAudio(val) {
+            if (audioEl.duration) {
+                audioEl.currentTime = (val / 100) * audioEl.duration;
+            }
+        }
+
+        function changeVolume(val) {
+            audioEl.volume = val / 100;
+            if (val == 0) {
+                isMuted = true;
+                document.getElementById('volumeIcon').setAttribute('data-lucide', 'volume-x');
+            } else {
+                isMuted = false;
+                document.getElementById('volumeIcon').setAttribute('data-lucide', 'volume-2');
+            }
+            lucide.createIcons();
+        }
+
+        function toggleMute() {
+            if (isMuted) {
+                isMuted = false;
+                audioEl.volume = previousVolume / 100;
+                volumeSlider.value = previousVolume;
+                document.getElementById('volumeIcon').setAttribute('data-lucide', 'volume-2');
+            } else {
+                isMuted = true;
+                previousVolume = volumeSlider.value;
+                audioEl.volume = 0;
+                volumeSlider.value = 0;
+                document.getElementById('volumeIcon').setAttribute('data-lucide', 'volume-x');
+            }
+            lucide.createIcons();
+        }
+
+        function formatTime(sec) {
+            if (!sec || isNaN(sec)) return '0:00';
+            const m = Math.floor(sec / 60);
+            const s = Math.floor(sec % 60);
+            return m + ':' + (s < 10 ? '0' : '') + s;
+        }
+
+        // ===== Sidebar =====
+        let isSidebarOpen = false;
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            isSidebarOpen = !isSidebarOpen;
+            if (isSidebarOpen) {
+                sidebar.classList.add('open');
+                overlay.classList.remove('hidden');
+            } else {
+                sidebar.classList.remove('open');
+                overlay.classList.add('hidden');
+            }
+        }
+
+        // ===== TOC Active State =====
+        const sections = document.querySelectorAll('.section-anchor');
+        const tocLinks = document.querySelectorAll('.toc-link');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-100px 0px -60% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    tocLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+
+        // Close sidebar on TOC click (mobile)
+        tocLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth < 1024 && isSidebarOpen) {
+                    toggleSidebar();
+                }
+            });
+        });
+
+        // ===== Lucide Icons Init =====
+        lucide.createIcons();
+    </script>
+</body>
+</html>
