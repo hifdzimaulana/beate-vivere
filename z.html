@@ -177,8 +177,15 @@
         .light .border-white\/10 { border-color: rgba(0,0,0,0.1) !important; }
         .light .border-white\/20 { border-color: rgba(0,0,0,0.15) !important; }
 
-        .mermaid svg { max-width: 100%; }
-        .mermaid { background: transparent !important; }
+        .mermaid svg { max-width: 100%; height: auto; }
+        .mermaid {
+            background: transparent !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 100%;
+            padding: 1rem 0;
+        }
 
         .callout {
             border-left: 3px solid;
