@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Filsafat Hukum — Catatan Akademis Komprehensif</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:wght@300;400;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<style>
+:root {
+  --ink:       #1a1208;
+  --paper:     #faf6ee;
+  --paper2:    #f3ece0;
+  --gold:      #b8860b;
+  --gold-lt:   #d4a017;
+  --gold-pale: #f0e0a0;
+  --rust:      #8b3a0f;
+  --sage:      #4a6741;
+  --slate:     #2e3d4f;
+  --border:    rgba(184,134,11,0.25);
+  --shadow:    0 4px 24px rgba(26,18,8,0.10);
+  --r:         8px;
+  --font-body: 'Libre Baskerville', Georgia, serif;
+  --font-ui:   'Josefin Sans', sans-serif;
+  --font-code: 'Source Code Pro', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16.5px;
+  line-height: 1.82;
+  min-height: 100vh;
+}
+
+/* ═══ DECORATIVE BACKGROUND ═══ */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 15% 10%, rgba(212,160,23,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 85% 90%, rgba(139,58,15,0.05) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ═══ LAYOUT ═══ */
+.page-wrap {
+  position: relative;
+  z-index: 1;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+/* ═══ HERO HEADER ═══ */
+.site-header {
+  border-bottom: 2px solid var(--gold);
+  padding: 56px 0 40px;
+  margin-bottom: 0;
+  text-align: center;
+  position: relative;
+}
+.site-header::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  margin: 18px auto 0;
+}
+.site-header .eyebrow {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+.site-header h1 {
+  font-family: var(--font-body);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.18;
+  color: var(--ink);
+}
+.site-header .subtitle {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--rust);
+  margin-top: 10px;
+  opacity: 0.85;
+}
+.site-header .meta {
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  color: var(--slate);
+  margin-top: 18px;
+  opacity: 0.7;
+}
+
+/* ═══ AUDIO PLAYER ═══ */
+.audiobook-section {
+  background: linear-gradient(135deg, var(--slate) 0%, #1a2a3a 100%);
+  border-radius: var(--r);
+  padding: 28px 32px;
+  margin: 36px 0;
+  border: 1px solid rgba(184,134,11,0.3);
+  box-shadow: var(--shadow), inset 0 1px 0 rgba(255,255,255,0.05);
+  position: relative;
+  overflow: hidden;
+}
+.audiobook-section::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 180px; height: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(184,134,11,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+.ab-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.ab-icon {
+  width: 46px; height: 46px;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--rust) 100%);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(184,134,11,0.4);
+}
+.ab-icon svg { width: 22px; height: 22px; fill: white; }
+.ab-title-group {}
+.ab-eyebrow {
+  font-family: var(--font-ui);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+}
+.ab-title {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #f0e8d8;
+  line-height: 1.3;
+}
+.ab-subtitle {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  color: rgba(240,232,216,0.5);
+  margin-top: 2px;
+}
+
+/* Custom audio player */
+.audio-player-wrap {
+  background: rgba(0,0,0,0.25);
+  border-radius: 10px;
+  padding: 16px 20px;
+  border: 1px solid rgba(184,134,11,0.2);
+}
+.audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+.btn-play {
+  width: 44px; height: 44px;
+  background: linear-gradient(135deg, var(--gold-lt), var(--gold));
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 3px 10px rgba(184,134,11,0.45);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn-play:hover { transform: scale(1.08); box-shadow: 0 5px 16px rgba(184,134,11,0.6); }
+.btn-play:active { transform: scale(0.97); }
+.btn-play svg { width: 18px; height: 18px; fill: #fff; margin-left: 2px; }
+.btn-play.playing svg.icon-play { display: none; }
+.btn-play.playing svg.icon-pause { display: block !important; }
+.btn-play svg.icon-pause { display: none; }
+.time-display {
+  font-family: var(--font-code);
+  font-size: 11.5px;
+  color: rgba(240,232,216,0.65);
+  min-width: 90px;
+  white-space: nowrap;
+}
+.volume-wrap {
+  display: flex; align-items: center; gap: 8px; margin-left: auto;
+}
+.volume-wrap svg { width: 16px; height: 16px; fill: rgba(240,232,216,0.5); flex-shrink: 0; }
+.speed-btn {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 600;
+  background: rgba(184,134,11,0.2);
+  border: 1px solid rgba(184,134,11,0.35);
+  border-radius: 20px;
+  color: var(--gold-lt);
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+.speed-btn:hover { background: rgba(184,134,11,0.35); }
+
+/* Progress bar */
+.progress-wrap {
+  position: relative;
+  height: 5px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 99px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold-lt));
+  border-radius: 99px;
+  width: 0%;
+  transition: width 0.25s linear;
+  pointer-events: none;
+}
+input[type=range].volume-slider {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 4px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 99px;
+  outline: none;
+  cursor: pointer;
+}
+input[type=range].volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 13px; height: 13px;
+  border-radius: 50%;
+  background: var(--gold-lt);
+  cursor: pointer;
+}
+
+/* ═══ TWO-COLUMN LAYOUT ═══ */
+.content-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0 48px;
+  align-items: start;
+  margin-top: 36px;
+}
+
+/* ═══ SIDEBAR TOC ═══ */
+.toc-sidebar {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+  padding-right: 8px;
+}
+.toc-sidebar::-webkit-scrollbar { width: 4px; }
+.toc-sidebar::-webkit-scrollbar-track { background: transparent; }
+.toc-sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+
+.toc-label {
+  font-family: var(--font-ui);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.toc-list { list-style: none; }
+.toc-list li { margin-bottom: 2px; }
+.toc-list a {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  text-decoration: none;
+  padding: 5px 8px 5px 10px;
+  border-left: 2px solid transparent;
+  border-radius: 0 4px 4px 0;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  line-height: 1.4;
+}
+.toc-list a:hover {
+  color: var(--gold);
+  border-left-color: var(--gold);
+  background: rgba(184,134,11,0.06);
+}
+.toc-list a.active {
+  color: var(--gold);
+  border-left-color: var(--gold);
+  background: rgba(184,134,11,0.1);
+  font-weight: 600;
+}
+
+/* ═══ MAIN CONTENT ═══ */
+.main-content {}
+
+/* ═══ TYPOGRAPHY ═══ */
+#rendered h1 {
+  font-family: var(--font-body);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ink);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 12px;
+  margin: 52px 0 22px;
+  line-height: 1.25;
+}
+#rendered h1:first-child { margin-top: 0; }
+
+#rendered h2 {
+  font-family: var(--font-body);
+  font-size: 1.38rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 38px 0 14px;
+  padding-left: 14px;
+  border-left: 3px solid var(--gold);
+  line-height: 1.3;
+}
+#rendered h3 {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin: 28px 0 10px;
+}
+#rendered h4 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--slate);
+  margin: 20px 0 8px;
+}
+
+#rendered p {
+  margin-bottom: 1.1em;
+  text-align: justify;
+  hyphens: auto;
+}
+#rendered strong { color: var(--ink); }
+#rendered em { color: var(--rust); }
+
+#rendered a {
+  color: var(--gold);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+#rendered a:hover { color: var(--rust); }
+
+#rendered ul, #rendered ol {
+  padding-left: 1.6em;
+  margin-bottom: 1.1em;
+}
+#rendered li { margin-bottom: 0.35em; }
+
+#rendered hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 36px 0;
+}
+
+/* ═══ CODE ═══ */
+#rendered code {
+  font-family: var(--font-code);
+  font-size: 0.82em;
+  background: rgba(46,61,79,0.08);
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: var(--slate);
+}
+#rendered pre {
+  background: var(--slate);
+  border-radius: var(--r);
+  padding: 20px 22px;
+  overflow-x: auto;
+  margin: 20px 0;
+  box-shadow: var(--shadow);
+}
+#rendered pre code {
+  background: none;
+  color: #d4c5a0;
+  font-size: 0.84em;
+  padding: 0;
+}
+
+/* ═══ MERMAID ═══ */
+.mermaid {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 22px;
+  margin: 22px 0;
+  overflow-x: auto;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.mermaid svg { max-width: 100%; height: auto; }
+
+/* ═══ TABLES ═══ */
+#rendered table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.91em;
+  box-shadow: var(--shadow);
+  border-radius: var(--r);
+  overflow: hidden;
+}
+#rendered thead tr {
+  background: var(--slate);
+  color: #f0e8d8;
+  font-family: var(--font-ui);
+  font-size: 0.82em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+#rendered thead th {
+  padding: 12px 16px;
+  text-align: left;
+  border: none;
+}
+#rendered tbody tr { border-bottom: 1px solid var(--border); }
+#rendered tbody tr:nth-child(even) { background: var(--paper2); }
+#rendered tbody tr:hover { background: rgba(184,134,11,0.06); }
+#rendered tbody td {
+  padding: 10px 16px;
+  vertical-align: top;
+  border: none;
+}
+
+/* ═══ CALLOUTS ═══ */
+.callout {
+  border-radius: var(--r);
+  padding: 18px 22px;
+  margin: 22px 0;
+  border-left: 4px solid;
+  position: relative;
+}
+.callout-title {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+.callout-body { font-size: 0.94em; line-height: 1.75; }
+.callout-body p { margin-bottom: 0.5em; }
+.callout-body p:last-child { margin-bottom: 0; }
+
+.callout-abstract {
+  background: rgba(74,103,65,0.08);
+  border-color: var(--sage);
+}
+.callout-abstract .callout-title { color: var(--sage); }
+
+.callout-quote {
+  background: rgba(46,61,79,0.07);
+  border-color: var(--slate);
+  font-style: italic;
+}
+.callout-quote .callout-title { color: var(--slate); }
+
+.callout-note {
+  background: rgba(184,134,11,0.07);
+  border-color: var(--gold);
+}
+.callout-note .callout-title { color: var(--gold); }
+
+.callout-important {
+  background: rgba(139,58,15,0.07);
+  border-color: var(--rust);
+}
+.callout-important .callout-title { color: var(--rust); }
+
+/* ═══ BLOCKQUOTES (non-callout) ═══ */
+#rendered blockquote {
+  border-left: 3px solid var(--gold-pale);
+  padding: 12px 20px;
+  margin: 18px 0;
+  background: rgba(184,134,11,0.04);
+  border-radius: 0 var(--r) var(--r) 0;
+  color: var(--slate);
+  font-style: italic;
+}
+
+/* ═══ KATEX ═══ */
+.katex-display { margin: 18px 0; overflow-x: auto; }
+
+/* ═══ PROGRESS BAR (reading) ═══ */
+.reading-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--rust));
+  z-index: 999;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+/* ═══ BACK TO TOP ═══ */
+.back-top {
+  position: fixed;
+  bottom: 32px; right: 32px;
+  width: 42px; height: 42px;
+  background: var(--slate);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.25s, transform 0.25s;
+  z-index: 50;
+}
+.back-top.visible { opacity: 1; transform: translateY(0); }
+.back-top svg { width: 18px; height: 18px; fill: var(--gold-lt); }
+.back-top:hover { background: #3a4e63; }
+
+/* ═══ SECTION ANCHORS ═══ */
+[id] { scroll-margin-top: 24px; }
+
+/* ═══ PRINT ═══ */
+@media print {
+  .toc-sidebar, .audiobook-section, .reading-progress, .back-top { display: none; }
+  .content-grid { display: block; }
+}
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 820px) {
+  .content-grid { grid-template-columns: 1fr; }
+  .toc-sidebar { display: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<div class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <p class="eyebrow">Filsafat Hukum · Academic Notes</p>
+    <h1>Filsafat Hukum</h1>
+    <p class="subtitle">Dari Hukum Kodrat hingga Positivisme, Realisme, dan Neo-Kantianisme</p>
+    <p class="meta">Gratianus Prikasetya &nbsp;·&nbsp; 2025–2026 &nbsp;·&nbsp; Sumber: Ratnapala, Hart, Finnis, Fuller, Wacks, Silalahi</p>
+  </header>
+
+  <!-- AUDIO BOOK SECTION -->
+  <section class="audiobook-section" id="audiobook">
+    <div class="ab-header">
+      <div class="ab-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/>
+        </svg>
+      </div>
+      <div class="ab-title-group">
+        <span class="ab-eyebrow">Audio Essay</span>
+        <div class="ab-title">Beda Todongan Pistol dan Pajak Negara</div>
+        <div class="ab-subtitle">Konteks: Positivisme Hukum Austin &amp; Analogi Perampok Hart · Format M4A</div>
+      </div>
+    </div>
+
+    <div class="audio-player-wrap">
+      <audio id="mainAudio" preload="metadata">
+        <source src="https://olrkhntqrkenfjzxnefz.supabase.co/storage/v1/object/public/bucketapaaja/Beda_Todongan_Pistol_dan_Pajak_Negara_compressed.m4a" type="audio/mp4"/>
+        Browser Anda tidak mendukung audio HTML5.
+      </audio>
+
+      <div class="audio-controls">
+        <button class="btn-play" id="playBtn" aria-label="Play / Pause">
+          <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+        </button>
+        <span class="time-display" id="timeDisplay">0:00 / 0:00</span>
+        <button class="speed-btn" id="speedBtn" title="Ubah kecepatan putar">1×</button>
+        <div class="volume-wrap">
+          <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+          <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.05" value="1"/>
+        </div>
+      </div>
+
+      <div class="progress-wrap" id="progressWrap">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TWO-COLUMN CONTENT -->
+  <div class="content-grid">
+
+    <!-- SIDEBAR -->
+    <aside class="toc-sidebar" id="tocSidebar">
+      <span class="toc-label">Daftar Isi</span>
+      <ul class="toc-list" id="tocList"></ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <div id="rendered"></div>
+    </main>
+
+  </div>
+
+</div>
+
+<button class="back-top" id="backTop" title="Kembali ke atas" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24"><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/></svg>
+</button>
+
+<script>
+// ═══════════════════════════════════════════
+// MARKDOWN CONTENT
+// ═══════════════════════════════════════════
+const RAW_MD = "# FILSAFAT HUKUM: Catatan Akademis Komprehensif\n### *Dari Hukum Kodrat hingga Positivisme, Realisme, dan Neo-Kantianisme*\n\n**Penyusun:** Gratianus Prikasetya | **Tahun:** 2025–2026\n**Sumber Utama:** Ratnapala (2009), Hart (1994), Finnis (2011), Fuller (1969), Wacks (2012), Silalahi (2025–2026)\n\n---\n\n> [!ABSTRACT]\n> Catatan ini merupakan ekspansi akademis komprehensif dari kuliah Filsafat Hukum yang mencakup aliran-aliran utama teori hukum: (1) Hukum Kodrat (*Natural Law*) dalam varian Aquinas, Finnis, dan Fuller; (2) Positivisme Hukum Klasik melalui Bentham dan Austin; (3) Jurisprudence Historis melalui Savigny; (4) Neopositivisme melalui Hart dan Raz; (5) Realisme Hukum Amerika melalui Holmes; serta (6) Neo-Kantianisme melalui Kelsen dan Radbruch. Setiap bagian mengintegrasikan biografi, konteks historis, argumen filosofis inti, kritik, dan representasi visual.\n\n---\n\n## Daftar Isi\n\n1. [Bagian I — Hukum Kodrat (Natural Law)](#bagian-i)\n2. [Bagian II — Thomas Aquinas: Sintesis Terbesar Abad Pertengahan](#bagian-ii)\n3. [Bagian III — John Finnis: Revisi Kontemporer Hukum Kodrat](#bagian-iii)\n4. [Lon Fuller: Moralitas Internal Hukum](#bagian-iv)\n5. [Bagian V — Positivisme Hukum Klasik: Bentham](#bagian-v)\n6. [Bagian VI — Jurisprudence Historis: Savigny](#bagian-vi)\n7. [Bagian VII — Positivisme Austin](#bagian-vii)\n8. [Bagian VIII — Neopositivisme H.L.A. Hart](#bagian-viii)\n9. [Bagian IX — Joseph Raz: Soft Positivism dan Otoritas Hukum](#bagian-ix)\n10. [Bagian X — Realisme Hukum Amerika (Holmes)](#bagian-x)\n11. [Bagian XI — Neo-Kantianisme: Kelsen dan Radbruch](#bagian-xi)\n12. [Daftar Pustaka](#daftar-pustaka)\n\n---\n\n# BAGIAN I — HUKUM KODRAT (*NATURAL LAW*) {#bagian-i}\n\n## 1.1 Definisi dan Hakikat Hukum Kodrat\n\n**Hukum Kodrat** (*Natural Law*) adalah suatu teori dalam etika dan filsafat yang menyatakan bahwa manusia memiliki nilai-nilai intrinsik yang mengatur penalaran dan perilaku mereka. Nilai-nilai ini bukan berasal dari konstruksi sosial atau perintah penguasa, melainkan dari sifat dasar (*nature*) manusia itu sendiri — sifat yang oleh para pendukung tradisi ini diyakini sebagai pemberian ilahi atau bagian dari tatanan kosmos yang rasional.\n\nSebagaimana dirumuskan oleh Ratnapala (2009), teori-teori hukum kodrat adalah teori tentang **hubungan antara hukum kodrat moral dan hukum positif buatan manusia** (*positive human law*). Meskipun teori-teori ini beragam dalam tujuan dan isinya, mereka berbagi satu gagasan sentral: bahwa ada semacam \"hukum yang lebih tinggi\" (*higher law*) yang bersifat non-manusiawi dan berbasis moralitas, yang dapat dijadikan tolok ukur untuk mengukur validitas moral atau legal dari hukum buatan manusia.\n\n> [!QUOTE]\n> \"Natural law theories are theories about the relation between the moral natural law and positive human law... they share one central idea: that there is a kind of higher (non-human) 'law', based on morality, against which the moral or legal validity of human law can be measured.\"\n> — Ratnapala, *Jurisprudence* (2009)\n\nImplikasi dari gagasan ini sangat revolusioner: sebuah hukum positif yang bertentangan dengan hukum kodrat tidak hanya bisa dinilai sebagai hukum yang buruk secara moral, tetapi dalam tradisi tertentu (khususnya Aquinas) dapat dinyatakan sebagai **bukan hukum sama sekali** (*lex iniusta non est lex*). Ini adalah perbedaan mendasar dari kaum positivis yang memisahkan validitas hukum dari kandungan moralnya.\n\n---\n\n## 1.2 Pembedaan Konseptual: *Natural Law*, *Law of Nature*, dan *Natural Right*\n\nKetiga istilah ini sering dicampuradukkan, padahal masing-masing memiliki domain yang berbeda:\n\n| Istilah | Definisi | Domain |\n|---|---|---|\n| **Law of Nature** (*Hukum Alam*) | Teori ilmiah tentang alam semesta fisik dan cara kerjanya | Ilmu Pengetahuan Alam (Fisika, Kimia, dll.) |\n| **Natural Law** (*Hukum Kodrat*) | Sistem prinsip-prinsip moral universal yang mengatur tindakan manusia | Etika & Filsafat Hukum |\n| **Natural Right** (*Hak Kodrat*) | Hak-hak yang dimiliki setiap individu berdasarkan kodrat kemanusiaannya | Teori Politik & Hak Asasi Manusia |\n\n**Jus Naturale** dalam pengertian Hobbes adalah kebebasan yang dimiliki setiap manusia untuk menggunakan kekuatannya sendiri sesuai kehendaknya, demi mempertahankan kodratnya — yaitu hidupnya sendiri — dan konsekuensinya, untuk melakukan apa saja yang dalam penilaian dan akal budinya dianggap sebagai sarana yang paling tepat untuk itu. Rumusan Hobbes ini, meskipun berangkat dari premis individualistis yang keras, tetap menempatkan \"kodrat manusia\" sebagai titik acuan normatif.\n\nPerhatian hukum kodrat adalah dengan **tindakan manusia** (*human actions*). Hukum kodrat meminta pelaku manusia untuk tidak terlibat dalam tindakan-tindakan yang merampas **hak-hak kodrat** (*natural rights*) orang lain. Di jantung semua teori hukum kodrat terletak keyakinan bahwa ada hukum-hukum moral universal yang tidak boleh dilanggar oleh hukum manusia tanpa kehilangan kekuatan legal atau moral-nya.\n\n---\n\n## 1.3 Pandangan Teleologi dalam Hukum Kodrat\n\n**Teleologi** adalah pandangan filsafat yang menyatakan bahwa segala sesuatu terjadi *untuk suatu tujuan* (*telos* = tujuan akhir, dalam bahasa Yunani). Alam bukanlah acak — segala sesuatu tidak terjadi karena kebetulan, tetapi sesuai dengan desain keseluruhan yang koheren.\n\nPandangan ini memiliki dua implikasi ontologis yang fundamental:\n\n1. **Setiap objek dan bentuk kehidupan, termasuk manusia, memiliki tujuan dalam eksistensinya.** Seekor mata pisau memiliki tujuan untuk memotong; sebuah biji memiliki tujuan untuk tumbuh menjadi pohon; manusia memiliki tujuan untuk... — dan di sinilah perdebatan besar dimulai.\n\n2. **Tidak bisa ada tujuan tanpa ada yang menetapkan tujuan tersebut.** Oleh karena itu, teleologi secara tak terelakkan mengarah pada kesimpulan bahwa alam semesta dan segala isinya berfungsi sesuai dengan **rencana ilahi atau supranatural**. Argumen ini kelak menjadi salah satu dari Lima Jalan pembuktian eksistensi Tuhan menurut Thomas Aquinas (Argumen dari Desain / *Teleological Argument*).\n\n```mermaid\ngraph TD\n    A[\"Segala sesuatu memiliki tujuan (Telos)\"] --> B[\"Tujuan mensyaratkan adanya Perencana\"]\n    B --> C[\"Perencana Alam Semesta = Tuhan / Kekuatan Supranatural\"]\n    C --> D[\"Tuhan merancang Hukum Abadi (Lex Aeterna)\"]\n    D --> E[\"Hukum Kodrat = Partisipasi Manusia dalam Lex Aeterna\"]\n    E --> F[\"Hukum Positif harus selaras dengan Hukum Kodrat\"]\n    F --> G[\"Hukum Positif yang melanggar Hukum Kodrat kehilangan kekuatan mengikat\"]\n```\n\n---\n\n## 1.4 Plato dan *The Republic*: Akar Idealisme Hukum\n\nPlato (427–347 SM) merupakan salah satu pelopor pemikiran tentang hukum dan keadilan yang berdasar pada tatanan ideal. Dalam karyanya *The Republic* (*Politeia*), Plato mengajukan konsepsi tentang negara ideal yang terstruktur secara hierarkis berdasarkan kemampuan dan fungsi masing-masing kelompok. Negara yang adil, bagi Plato, adalah negara di mana setiap bagian menjalankan fungsinya dengan benar sesuai kodrat masing-masing — sebuah pandangan yang secara langsung memengaruhi pemikiran Aristoteles dan melaluinya, Thomas Aquinas.\n\n| Kelas Sosial | Fungsi dalam Negara | Keutamaan yang Diperlukan |\n|---|---|---|\n| **Philosopher King** (*Raja Filsuf*) | Memimpin dan memerintah negara; terlatih untuk memastikan ketertiban dan keadilan | Kebijaksanaan (*Sophia*) |\n| **Soldiers** (*Prajurit / Guardian*) | Membela dan melindungi negara | Keberanian (*Andreia*) |\n| **Workers** (*Pekerja*) | Memproduksi kebutuhan negara — barang dan jasa | Kesederhanaan (*Sophrosyne*) |\n\nKeadilan (*Dikaiosyne*), menurut Plato, bukan sekadar kebajikan satu individu, melainkan **prinsip harmoni struktural** di mana setiap bagian dari keseluruhan — baik jiwa individu maupun negara — menjalankan fungsi yang memang menjadi kodratnya. Prinsip inilah yang menjadi landasan bagi pemikiran teleologis tentang tujuan negara.\n\n---\n\n## 1.5 Aristoteles: Hukum Kodrat sebagai Nilai Intrinsik\n\n> [!NOTE]\n> **Aristoteles** mendefinisikan Hukum Kodrat sebagai:\n> *\"A theory in ethics and philosophy that says that human beings possess intrinsic values that govern their reasoning and behavior.\"*\n> — Transkripsi kuliah, 2025\n\n**Aristoteles** (384–322 SM), murid Plato dan guru Alexander Agung, membawa teleologi ke tingkat yang lebih sistematis. Dalam karyanya *Nicomachean Ethics* dan *Politics*, Aristoteles berargumen bahwa manusia adalah **zoon politikon** — makhluk politik/sosial secara kodrat. Artinya, hidup dalam komunitas yang terorganisir (polis) bukan sekadar pilihan pragmatis, melainkan adalah **pemenuhan kodrat manusia** itu sendiri.\n\nDari sini Aristoteles menarik implikasi hukum yang penting: hukum yang baik (*eunomia*) adalah hukum yang memungkinkan manusia menjalani kehidupan yang sesuai dengan kodratnya — yaitu kehidupan yang mengarah pada *eudaimonia* (kebahagiaan sejati / flourishing). Hukum yang tidak mendukung kondisi ini adalah hukum yang cacat secara filosofis.\n\n---\n\n# BAGIAN II — THOMAS AQUINAS: SINTESIS TERBESAR ABAD PERTENGAHAN {#bagian-ii}\n\n## 2.1 Biografi Intelektual Thomas Aquinas (1225–1274)\n\n**Thomas Aquinas** adalah tokoh filsafat dan teologi Kristen terbesar dalam sejarah pemikiran Barat, yang berhasil mensintesiskan filsafat rasional Aristoteles dengan dogma Kristiani. Perjalanan hidupnya mencerminkan perjalanan intelektual abad pertengahan yang kaya:\n\n```mermaid\ntimeline\n    title Perjalanan Hidup Thomas Aquinas\n    1225 : Lahir di kastil Roccasecca, Italia\n         : Dari keluarga bangsawan\n    1230 : Usia 5 tahun — dipersembahkan ke Biara Benediktin di Monte Cassino\n    1239 : Karena perang, dikirim ke Universitas Napoli\n         : Pertama kali berkenalan dengan pemikiran Aristoteles\n    1243 : Bergabung dengan Ordo Predicatorum (Dominikan)\n         : Keputusan ini ditentang keras oleh keluarganya\n    1245 : Pergi ke Paris — belajar dengan Albertus Magnus (Albertus Agung)\n    1248 : Pindah ke Köln, Jerman — memberi kuliah tentang Kitab Suci\n    1256 : Menjadi Magister Teologi di Universitas Paris\n    1269 : Kembali ke Paris — periode paling produktif intelektual\n    1272 : Kembali ke Napoli — mendirikan sekolah teologi\n    1274 : Meninggal dalam perjalanan ke Konsili Lyon atas perintah Paus Gregorius X\n```\n\nKarya terpentingnya adalah **Summa Theologica** (juga dikenal sebagai *Summa Theologiae*) — sebuah ensiklopedia teologis-filosofis kolosal yang belum selesai pada saat kematiannya. Di dalamnya terdapat risalah tentang hukum (*Treatise on Law*, I-II, QQ.90-108) yang menjadi fondasi teori hukum kodrat Thomistik.\n\n---\n\n## 2.2 Konteks Abad Pertengahan: Sintesis Iman dan Akal\n\nAquinas hidup dan berpikir dalam konteks abad pertengahan yang ditandai oleh ketegangan antara **teologi Kristiani** yang telah mendominasi pemikiran Eropa selama berabad-abad, dan **filsafat Aristotelian** yang baru-baru itu diterjemahkan kembali ke dalam bahasa Latin melalui karya-karya sarjana Arab seperti Ibnu Rusyd (Averroës) dan Ibnu Sina (Avicenna).\n\nKontribusi terbesar Aquinas terletak pada keberhasilannya mengintegrasikan dua tradisi yang tampaknya bertentangan ini:\n\n- **Filsafat vs. Teologi:** Perbedaan mendasar antara keduanya terletak pada sikap terhadap *wahyu* (*revelation*). Filsafat mengandalkan pengalaman inderawi, akal budi (*ratio*), dan intuisi. Teologi melakukan hal yang sama, tetapi *ditambah* dengan wahyu ilahi sebagai sumber pengetahuan yang lebih tinggi.\n\n- **Peran Aquinas:** Ia membangun argumentasi bahwa pengalaman, akal budi, dan intuisi *terkait dengan* — dan pada akhirnya mengarah kepada — wahyu. Dengan kata lain, **akal budi tidak bertentangan dengan iman; akal budi adalah jalan menuju iman** (*fides et ratio*).\n\n> [!QUOTE]\n> \"Love follows knowledge.\" — Thomas Aquinas\n>\n> Pernyataan ini mengimplikasikan bahwa kehendak (*will*) dan cinta yang baik hanya mungkin jika didahului oleh pengetahuan (*knowledge*) yang benar tentang yang baik. Ini adalah posisi rasionalis dalam etika teologis: kita tidak bisa mencintai apa yang tidak kita kenal.\n\nDalam konteks ini, Aquinas memosisikan **filsafat sebagai \"pelayan\" (*ancilla*) teologi** — sebuah pandangan yang kemudian disebut *philosophia ancilla theologiae*. Namun ini bukan subordinasi yang merendahkan; filsafat tetap memiliki otoritasnya sendiri dalam domain pengetahuan rasional-empiris.\n\n---\n\n## 2.3 Lima Jalan Menemukan Tuhan melalui Akal Budi (*Quinque Viae*)\n\nAquinas berargumen bahwa keberadaan Tuhan dapat dibuktikan melalui lima argumen rasional. Penting dicatat bahwa ini bukan \"bukti\" dalam pengertian matematis modern, melainkan **argumen abduktif** — inferensi terbaik menuju penjelasan terbaik:\n\n```mermaid\nmindmap\n  root((Quinque Viae\nAquinas))\n    Via Prima\n      Argumen dari Gerak\n      Segala yang bergerak digerakkan oleh yang lain\n      Tidak mungkin ada rantai tak terhingga\n      Harus ada Penggerak Pertama yang tidak digerakkan\n      Penggerak Pertama = Tuhan\n    Via Secunda\n      Argumen dari Sebab Efisien\n      Segala sesuatu memiliki sebab\n      Tidak ada sesuatu yang menjadi sebab bagi dirinya sendiri\n      Harus ada Sebab Pertama yang tidak memiliki sebab sebelumnya\n      Sebab Pertama = Tuhan\n    Via Tertia\n      Argumen dari Kemungkinan dan Keniscayaan\n      Segala sesuatu yang ada bisa tidak ada\n      Jika segalanya mungkin tidak ada\n      Pada suatu titik tidak ada apa-apa\n      Ada yang bersifat niscaya tanpa sebab luar = Tuhan\n    Via Quarta\n      Argumen dari Gradasi Ada\n      Ada gradasi kesempurnaan kualitas\n      Sesuatu yang paling sempurna adalah penyebab semua yang lain\n      Ada yang paling baik dan sempurna = Tuhan\n    Via Quinta\n      Argumen dari Desain / Teleologis\n      Segala sesuatu bergerak menuju tujuannya\n      Makhluk tak berakal pun mengarah pada kebaikan\n      Harus ada yang mengarahkan semua ini = Tuhan\n```\n\n| Via | Nama | Premis Utama | Konklusi |\n|---|---|---|---|\n| **Prima** | Argumen dari Gerak (*Unmoved Mover*) | Setiap gerak membutuhkan penggerak; rantai tak terhingga tidak mungkin | Harus ada **Penggerak Pertama yang Tidak Digerakkan** |\n| **Secunda** | Argumen dari Sebab Efisien | Tidak ada sesuatu yang menjadi sebab bagi dirinya sendiri | Harus ada **Sebab Pertama yang Tidak Disebabkan** |\n| **Tertia** | Argumen dari Keniscayaan | Sesuatu yang kontingen (mungkin tidak ada) tidak bisa menjelaskan adanya sesuatu | Harus ada **Wujud Niscaya** (*Necessary Being*) |\n| **Quarta** | Argumen dari Gradasi Ada | Gradasi kualitas (baik-lebih baik-terbaik) mensyaratkan standar absolut | Harus ada **Wujud Paling Sempurna** |\n| **Quinta** | Argumen Teleologis | Makhluk tak berakal pun bergerak menuju tujuan secara konsisten | Harus ada **Perancana Cerdas** yang mengarahkan alam |\n\n---\n\n## 2.4 Alam Semesta Hukum menurut Aquinas: Empat Tingkat Hukum\n\nAquinas membangun hierarki hukum yang komprehensif, mencakup empat tingkatan yang saling berhubungan secara logis dan ontologis:\n\n```mermaid\ngraph TD\n    A[\"🌌 LEX AETERNA\\n(Hukum Abadi)\\nKebijaksanaan kekal Allah\\nMengatur seluruh alam semesta\"] --> B[\"📖 LEX DIVINA\\n(Hukum Ilahi)\\nWahyu Allah dalam Kitab Suci\\nMembimbing manusia menuju keselamatan abadi\"]\n    A --> C[\"🌿 LEX NATURALIS\\n(Hukum Kodrat)\\nPartisipasi makhluk berakal dalam Lex Aeterna\\nDapat diketahui melalui akal budi\"]\n    C --> D[\"⚖️ LEX HUMANA\\n(Hukum Positif)\\nHukum buatan manusia\\nHarus sesuai dengan Lex Naturalis\"]\n    B -.->|\"Melengkapi\"| C\n    D -.->|\"Jika bertentangan\\ntidak memiliki\\ndaya ikat moral\"| C\n\n    style A fill:#2c3e50,color:#fff\n    style B fill:#8e44ad,color:#fff\n    style C fill:#27ae60,color:#fff\n    style D fill:#2980b9,color:#fff\n```\n\n---\n\n### 2.4.1 Lex Aeterna (Hukum Abadi)\n\n**Lex Aeterna** adalah kebijaksanaan kekal Allah sendiri — hukum tertinggi yang hanya ada di dalam pikiran Tuhan dan yang mengatur seluruh alam semesta tanpa pengecualian. Ini bukan hukum yang \"diciptakan\" dalam pengertian temporal, karena Allah sendiri adalah kekal.\n\nAlam semesta adalah ciptaan Allah yang rasional — karena Allah bersifat rasional secara esensial, alam semesta tidak bisa bersifat acak. Hukum-hukum yang mengatur alam semesta ini dikenal sebagai **hukum abadi**, yang mengendalikan segala sesuatu baik yang bernyawa maupun tidak bernyawa. Semua hal yang tunduk pada hukum ini mendapat dari padanya kecenderungan-kecenderungan tertentu menuju tindakan dan tujuan yang sesuai dengan mereka *(Summa Theologica, I-II, Q93, art. 6)*.\n\nHukum abadi memiliki **dua cabang utama:**\n\n1. **Hukum-hukum alam fisik** — yang dalam era modern menjadi subjek ilmu-ilmu fisika, biologi, dan ilmu sosial. Inilah hukum-hukum yang menentukan cara alam semesta berfungsi.\n2. **Hukum perilaku / hukum moral** — yang membedakan perilaku yang benar dan yang salah bagi makhluk-makhluk berakal budi.\n\nPertanyaan kritis muncul: Jika setiap orang tunduk pada hukum abadi, mengapa ada pelaku kejahatan? Aquinas menjawab dengan dua aspek:\n\n- **Pertama,** manusia memiliki pengetahuan yang **tidak sempurna** tentang hukum abadi dan karena itu rentan terhadap kesalahan. Selain itu, *prudentia carnis* (kebijaksanaan daging / nafsu) merusak akal dan mengarah pada kejahatan.\n- **Kedua,** hukum abadi pada akhirnya **memberikan ganjaran** kepada yang baik dan menghukum yang jahat — \"Baik yang terberkati maupun yang terkutuk berada di bawah hukum abadi\" *(I-II, Q93, art. 6)*.\n\n> [!NOTE]\n> Pertanyaan mengapa Allah tidak memprogram semua manusia untuk memiliki pengetahuan sempurna tentang hukum abadi **tidak dijawab** dalam *Summa Theologica* — ini merupakan salah satu keterbatasan yang diakui dalam sistem Aquinas.\n\n---\n\n### 2.4.2 Lex Divina (Hukum Ilahi)\n\n**Lex Divina** adalah wahyu Allah yang termuat dalam Kitab Suci (Alkitab). Fungsinya berbeda dari Hukum Kodrat: sementara Hukum Kodrat dapat ditemukan melalui akal budi semata, Hukum Ilahi mengandung instruksi spesifik untuk keselamatan manusia yang melampaui kemampuan akal budi murni untuk menemukannya.\n\nHukum Ilahi diperlukan karena empat alasan menurut Aquinas: (1) untuk membimbing manusia menuju tujuan akhirnya — yaitu kehidupan kekal — yang tidak dapat dicapai melalui akal budi semata; (2) karena penilaian manusia tentang tindakan yang tepat sering kali tidak pasti, terutama dalam hal-hal yang bersifat kontingen; (3) karena manusia tidak hanya perlu mengatur tindakan eksternal tetapi juga gerakan internal jiwa; (4) karena dosa tidak selalu dapat dihukum oleh hukum manusia, maka diperlukan hukum ilahi yang melarang semua dosa.\n\n---\n\n### 2.4.3 Lex Naturalis (Hukum Kodrat)\n\n**Hukum Kodrat** (*Lex Naturalis*) adalah partisipasi makhluk berakal budi dalam Hukum Abadi — cara manusia, dengan menggunakan akal budinya, dapat menangkap dan mengikuti rencana ilahi untuk kehidupan yang baik.\n\n**Beberapa proposisi kunci dalam doktrin Hukum Kodrat Aquinas:**\n\n- **Hukum kodrat menunjuk pada kodrat ciptaan:** Setiap ciptaan memiliki kodrat (*natura*) — yaitu apa yang secara hakiki merupakan realitas dan kekhasan suatu ciptaan. Hukum kodrat mengatur cara ciptaan itu bergerak, hidup, dan berkembang sesuai dengan kodratnya.\n\n- **Makhluk tak berakal budi** hidup menurut kodratnya secara niscaya dan mekanis — mereka *identik* dengan hukum alam. Hewan dan tumbuhan tidak bisa \"melanggar\" kodratnya dalam pengertian moral karena mereka tidak memiliki kebebasan (*liberum arbitrium*).\n\n- **Manusia adalah kasus yang unik:** Di satu sisi, manusia hidup menurut hukum kodrat (ia perlu makan, berkembang biak, hidup bersama orang lain). Di sisi lain, manusia memiliki **kebebasan** — ia tidak hanya mengikuti faktor alamiah secara mekanis, tetapi mampu bersikap terhadap faktor tersebut.\n\n- **Karena kodrat manusia bersifat terbuka dan tidak pasti,** hukum kodrat tidak bekerja secara niscaya bagi manusia, melainkan lebih sebagai **pernyataan normatif** — dapat dijalankan atau diabaikan. Inilah yang membedakan dimensi moral manusia dari mekanisme alam.\n\n> [!IMPORTANT]\n> **Presepe Primer Hukum Kodrat menurut Aquinas:**\n> *\"Bonum est faciendum et prosequendum et malum vitandum\"*\n> — Kebaikan harus dilakukan dan dikejar; kejahatan harus dihindari.\n> Ini adalah prinsip normatif paling fundamental dalam etika Thomistik.\n\n**Kewajiban moral dasar manusia adalah hidup sesuai dengan kodratnya.** Karena kodrat dapat diketahui dengan akal budi, setiap orang pada dasarnya *seharusnya* mengetahui bagaimana ia harus hidup — tanpa perlu wahyu atau otoritas eksternal. Hidup sesuai kodrat adalah hidup sesuai dengan **martabat manusia** (*dignitas humana*).\n\nPandangan Aquinas tentang hukum kodrat berjasa dalam **mendamaikan dua tradisi etika** yang sebelumnya tampak berlawanan:\n- **Etika Teonom** (*theonomous ethics*): Manusia harus hidup sesuai perintah Tuhan — tetapi tidak menjelaskan *mengapa* perintah itu harus dijalankan.\n- **Etika Eudemonisme** (Aristoteles): Manusia harus hidup sesuai kodratnya karena itu yang paling membahagiakan — tetapi tidak menjelaskan *mengapa* itu harus dilakukan.\n\nAquinas menjembatani keduanya: hidup sesuai kodrat **adalah** hidup sesuai kehendak Tuhan Pencipta; dan tujuan dari perintah Tuhan adalah kebahagiaan manusia itu sendiri (*beate vivere*).\n\n---\n\n### 2.4.4 Lex Humana (Hukum Positif / Hukum Manusia)\n\n**Hukum manusia** (*Lex Humana*) adalah hukum positif buatan manusia — termasuk hukum negara, peraturan perundang-undangan, dan putusan pengadilan. Posisi Aquinas tentang hukum manusia sangat tegas:\n\n- Hukum manusia **harus sesuai** dengan hukum kodrat. Jika tidak, hukum tersebut kehilangan daya ikatnya — tidak perlu ditaati secara moral.\n- Eksistensi negara sejalan dengan kodrat manusia sebagai **makhluk sosial** (*animal sociale*) yang membutuhkan \"wadah\" untuk hidup baik bersama.\n\n**Tujuan Negara = Tujuan Manusia (Tiga Level Kehidupan):**\n\n| Level | Istilah Latin | Makna |\n|---|---|---|\n| 1 | **Vivere** | Hidup dalam arti tidak mati — kelangsungan hidup biologis dasar |\n| 2 | **Bene vivere** | Hidup dengan baik — hidup bermartabat, bermoral, dan bahagia |\n| 3 | **Beate vivere** | Kebahagiaan abadi — kehidupan yang berorientasi pada tujuan transenden |\n\nTujuan negara harus sejalan dengan ketiga tujuan tersebut. Jika tidak, negara harus **dilawan** — sebuah pernyataan yang memiliki implikasi besar bagi teori hak perlawanan terhadap tirani (*right of resistance*).\n\n---\n\n# BAGIAN III — JOHN FINNIS: REVISI KONTEMPORER HUKUM KODRAT {#bagian-iii}\n\n## 3.1 Proyek Filosofis Finnis\n\n**John Finnis** (lahir 1940), seorang filsuf hukum Australia yang mengajar di Oxford dan Notre Dame, menulis karyanya yang paling berpengaruh, *Natural Law and Natural Rights* (1980), sebagai upaya untuk merumuskan kembali teori hukum kodrat dalam kerangka filsafat analitik kontemporer — tanpa mengandalkan argumen teologis atau metafisika supranatural secara langsung.\n\nFinnis berargumen bahwa tujuan Hukum Kodrat adalah memastikan seseorang dapat **hidup yang berharga** (*worthwhile life*) dan \"berkembang\" (*flourish*) — yaitu untuk menetapkan apa yang \"baik\" bagi umat manusia. Proyek ini pada dasarnya adalah menjawab pertanyaan Aristotelian: *Apakah yang merupakan kehidupan manusia yang baik?*\n\n---\n\n## 3.2 Kritik Finnis terhadap Aquinas dan Rekonstruksinya\n\nFinnis memulai dengan **menolak lima prekusor primer Aquinas** karena ia menolak aksiom-aksiom yang mendasarinya — terutama ketergantungan Aquinas pada metafisika teleologis Aristotelian dan argumen dari wahyu ilahi. Posisi Finnis lebih bersifat **sekular** meskipun tidak sepenuhnya anti-religius.\n\nSebagai gantinya, Finnis memperkenalkan **tujuh kebaikan dasar** (*basic goods*) yang bersifat:\n\n- **Self-evident** (terbukti sendiri): Tidak dapat diturunkan dari premis lain; langsung diketahui oleh akal praktis.\n- **Universal**: Berlaku bagi semua manusia di semua budaya.\n- **Tidak dapat diurutkan hierarkis**: Tidak ada satu kebaikan yang secara inheren lebih tinggi dari yang lain.\n\n| No. | Kebaikan Dasar | Penjelasan |\n|---|---|---|\n| 1 | **Life** (*Kehidupan*) | Kelangsungan hidup biologis, kesehatan, dan reproduksi |\n| 2 | **Knowledge** (*Pengetahuan*) | Kebenaran untuk kepentingannya sendiri; intelektualitas |\n| 3 | **Play** (*Hiburan / Permainan*) | Aktivitas yang dinikmati untuk kepentingannya sendiri |\n| 4 | **Aesthetic Experience** (*Pengalaman Estetik*) | Apresiasi terhadap keindahan, baik dalam seni maupun alam |\n| 5 | **Sociability / Friendship** (*Persahabatan / Interaksi Sosial*) | Hubungan yang bermakna dengan sesama manusia |\n| 6 | **Practical Reasonableness** (*Kewajaran Praktis*) | Kemampuan untuk membuat keputusan rasional yang mempengaruhi kehidupan seseorang |\n| 7 | **Religion** (*\"Agama\" / Spiritualitas*) | Pertanyaan tentang makna, tujuan kosmis, dan hubungan dengan yang transenden |\n\n> [!NOTE]\n> Finnis menempatkan tanda kutip pada \"agama\" karena ia memaksudkan kategori yang lebih luas dari agama institusional — yaitu keprihatinan tentang pertanyaan-pertanyaan eksistensial tentang makna dan tujuan hidup, yang tidak harus diekspresikan dalam keyakinan teistik.\n\n---\n\n## 3.3 Konsep Dasar Finnis: *Common Good* dan *Practical Reasonableness*\n\nKonsep dasar yang diperkenalkan oleh Finnis adalah bahwa hukum harus mampu menyediakan **tatanan sosial terbaik** guna merealisasikan **kebaikan bersama** (*common good*). Menurutnya, kebaikan bersama adalah keadaan di mana **semua anggota masyarakat memiliki kesempatan dan sumber daya** untuk mencapai potensi dan kebahagiaan mereka secara penuh.\n\n**Nalar Praktis** (*Practical Reasonableness*) menempati kedudukan istimewa karena ia adalah kebaikan dasar yang sekaligus menjadi *sarana* untuk meraih semua kebaikan dasar lainnya. Finnis membedakan dua jenis penalaran:\n\n- **Penalaran Teoretis** (*Theoretical Reasoning*): Berkaitan dengan apa yang benar secara faktual dan logis; lebih peduli dengan pengetahuan daripada tindakan yang tepat.\n- **Penalaran Praktis** (*Practical Reasoning*): Berkaitan dengan apa yang harus dilakukan; bukan hanya mendeskripsikan dunia tetapi mengarahkan tindakan.\n\nMasalah esensial yang dihadapi Finnis adalah: Kebaikan-kebaikan objektif bersifat abstrak, bukan aturan moral konkret. Bahkan jika nilai-nilai objektif (kebaikan-kebaikan dasar) sama di mana-mana dan selalu sama, **aturan-aturan moral berbeda dari tempat ke tempat dan dari waktu ke waktu.** Menurut Finnis, nilai-nilai dasar membentuk *evaluative substratum of moral judgment* atau *premoral principles of natural law*. Hukum kodrat (moral) diturunkan dari nilai-nilai ini melalui kepatuhan terhadap *practical reasonableness*.\n\n**Tentang validitas hukum yang tidak adil:** Finnis menyatakan bahwa hukum tetaplah hukum dan berlaku meskipun tidak adil, namun **tidak ada justifikasi moral untuk menegakkannya**. Pernyataan ini memberikan petunjuk tentang korelasi antara hukum dan etika (dimensi moralitas) yang wajib saling mengisi.\n\n---\n\n# BAGIAN IV — LON FULLER: MORALITAS INTERNAL HUKUM {#bagian-iv}\n\n## 4.1 Konteks Historis: Pengalaman Nazi sebagai Katalis Pemikiran\n\n**Lon Luvois Fuller** (1902–1978) adalah seorang filsuf hukum Amerika yang latar belakang pemikirannya tidak dapat dilepaskan dari trauma intelektual Perang Dunia II. Fuller menyaksikan bagaimana sistem hukum Jerman di bawah rezim Nazi — yang secara teknis formal adalah \"hukum yang sah\" menurut standar positivisme — digunakan untuk mengesahkan kejahatan paling brutal dalam sejarah manusia.\n\nBeberapa karakteristik sistem politik Jerman di bawah kekuasaan Nazi yang menjadi objek kritik Fuller:\n\n| No. | Patologi Hukum Nazi | Implikasi Teoritis |\n|---|---|---|\n| 1 | Kebijakan-kebijakan **retroaktif** yang menimbulkan kekerasan | Melanggar prinsip prospektivitas hukum |\n| 2 | Penegakan peraturan yang **tidak diketahui publik** | Melanggar prinsip promulgasi / publikasi |\n| 3 | **Diskresi tanpa kontrol** berdasarkan \"selera\" pejabat | Melanggar prinsip konsistensi dan prediktabilitas |\n| 4 | **Perintah verbal Hitler** dianggap sebagai dasar kekuasaan untuk membunuh | Melanggar prinsip generalisasi dan formalisasi hukum |\n| 5 | **Hukuman ekstra-yudisial** (*extra-judicial punishments*) | Melanggar prinsip kongruensi antara aturan dan tindakan pejabat |\n| 6 | **Tidak ada pemisahan kekuasaan** | Melanggar prinsip kelembagaan dasar negara hukum |\n| 7 | **Tidak ada kebebasan hakim** dalam memutus perkara | Melanggar independensi yudisial |\n\n---\n\n## 4.2 Teori Fuller tentang Hukum: Tiga Karakteristik Esensial\n\nFuller menolak dua kubu sekaligus: ia menolak **bentuk-bentuk tradisional teori hukum kodrat** yang mendasarkan hukum manusia pada *universally binding higher law* yang berasal dari Tuhan, sekaligus menolak **positivisme hukum** yang melepaskan hubungan antara hukum dan moralitas. Ia memperkenalkan konsep yang lebih nuansif: **moralitas internal** (*internal morality*) dalam hukum.\n\nTesis Fuller dapat diringkas dalam tiga karakteristik esensial hukum:\n\n### 4.2.1 Purposive (Bertujuan)\n\nTujuan abstrak dari hukum adalah memungkinkan individu-individu untuk **berkomunikasi, berkoordinasi, dan saling memahami satu dengan lainnya.** Hukum bukan sekadar instruksi dari atas ke bawah; ia adalah medium koordinasi sosial. Otoritas hukum tidak dapat didasarkan pada hukum itu sendiri, tetapi pada **sikap moral komunitas** (*moral attitudes of the community*) — masyarakat harus secara sukarela mengakui legitimasi sistem hukum.\n\n### 4.2.2 Reciprocal (Timbal-balik)\n\nHukum tidak dapat dipahami semata-mata sebagai kehendak penguasa jika tujuannya adalah untuk mengoordinasikan masyarakat. Ini adalah **kritik langsung terhadap positivisme hukum** yang menitikberatkan hukum sebagai produk kekuasaan. Fuller berargumen bahwa hukum adalah sistem **kerjasama** (*system of cooperation*), bukan sekadar proyeksi otoritas satu arah. Tujuan hukum mensyaratkan **resiprositas antara penguasa dan warga negara** — penguasa membuat hukum yang jelas dan konsisten, warga negara menaatinya.\n\n### 4.2.3 An Ongoing Enterprise (Proyek yang Berkelanjutan)\n\nSistem hukum mencapai \"tingkat kehukuman\" (*degree of law-ness*) yang bervariasi — dari yang sangat baik hingga yang sangat buruk. Pada titik tertentu, tidak lagi masuk akal untuk menyebut sesuatu \"hukum\" karena ia gagal mencapai tujuan hukum, yaitu memandu perilaku manusia. Seperti halnya dokterin hukum yang tidak dipublikasikan atau yang mensyaratkan hal yang mustahil — sekalipun dibuat dengan itikad baik, hukum seperti itu gagal melakukan pekerjaannya.\n\n---\n\n## 4.3 Dua Dimensi Moralitas Hukum\n\n### A. Moralitas Eksternal (*External Morality*)\n\nMoralitas eksternal hukum merujuk pada **kandungan substantif** aturan-aturan hukum. Hukum mendapatkan kesetiaan (*fidelity*) dari masyarakat melalui kualitas moral umum dari aturan-aturannya. Ini adalah dimensi yang selama ini lebih banyak dibahas dalam teori hukum kodrat tradisional.\n\n### B. Moralitas Internal (*Internal Morality*)\n\nHukum juga memiliki **moralitas internal** yang muncul dari sifatnya sebagai aktivitas manusia yang bertujuan. Moralitas internal ini **bukan terutama tentang kandungan hukum**, tetapi menyangkut kualitas-kualitas yang harus dimiliki oleh suatu peraturan agar benar-benar menjadi hukum.\n\nMoralitas internal hukum mencakup dua dimensi:\n- **Morality of Duty** (*Moralitas Kewajiban*): Kewajiban moral yang fundamental dan esensial — terutama terdiri dari larangan-larangan atau injunksi negatif seperti *\"Jangan membunuh,\" \"Jangan mencuri,\" \"Jangan ingkar janji.\"*\n- **Morality of Aspiration** (*Moralitas Aspirasi*): Moralitas perjuangan menuju pencapaian tertinggi yang terbuka bagi manusia — bukan sekadar memenuhi standar minimum, tetapi mengupayakan hukum terbaik yang mungkin.\n\n---\n\n## 4.4 Delapan Cara Gagal Membuat Hukum / Delapan Kebajikan Hukum\n\nFuller merumuskan **delapan kegagalan yang dapat membuat suatu sistem peraturan gagal menjadi hukum sama sekali.** Setiap kegagalan memiliki \"kebajikan\" yang menjadi lawannya:\n\n```mermaid\ngraph LR\n    subgraph KEGAGALAN [\"❌ 8 Cara Gagal Membuat Hukum\"]\n        F1[\"1. Tidak ada aturan umum\\n(hanya keputusan ad hoc)\"]\n        F2[\"2. Tidak dipublikasikan\"]\n        F3[\"3. Berlaku surut\\n(retroaktif)\"]\n        F4[\"4. Tidak jelas\\n(ambigu, sulit dipahami)\"]\n        F5[\"5. Aturan saling\\nbertentangan\"]\n        F6[\"6. Mensyaratkan\\nhal yang mustahil\"]\n        F7[\"7. Terlalu sering\\ndiubah\"]\n        F8[\"8. Pelaksanaan tidak\\nsesuai aturan\"]\n    end\n\n    subgraph KEBAJIKAN [\"✅ 8 Kebajikan Moralitas Internal\"]\n        V1[\"1. GENERALITY\\n(Generalitas)\"]\n        V2[\"2. PUBLICITY\\n(Promulgasi)\"]\n        V3[\"3. PROSPECTIVITY\\n(Prospektivitas)\"]\n        V4[\"4. CLARITY\\n(Kejelasan)\"]\n        V5[\"5. CONSISTENCY\\n(Konsistensi)\"]\n        V6[\"6. POSSIBILITY\\nOF COMPLIANCE\"]\n        V7[\"7. CONSTANCY\\n(Kekonstanan)\"]\n        V8[\"8. FAITHFUL\\nADMINISTRATION\"]\n    end\n\n    F1 --- V1\n    F2 --- V2\n    F3 --- V3\n    F4 --- V4\n    F5 --- V5\n    F6 --- V6\n    F7 --- V7\n    F8 --- V8\n```\n\n| No. | Kegagalan | Kebajikan Lawannya | Penjelasan |\n|---|---|---|---|\n| 1 | Tidak ada aturan umum | **Generality** | Hukum harus berlaku secara umum, bukan hanya keputusan ad hoc untuk kasus individual |\n| 2 | Tidak dipublikasikan | **Publicity** | Masyarakat harus dapat mengakses dan mengetahui hukum yang mengatur mereka |\n| 3 | Berlaku surut (retroaktif) | **Prospectivity** | Hukum seharusnya tidak menghukum tindakan yang dilakukan sebelum hukum itu berlaku |\n| 4 | Tidak jelas | **Clarity** | Aturan harus dapat dipahami oleh orang yang terkena aturan tersebut |\n| 5 | Saling bertentangan | **Consistency** | Tidak boleh ada dua aturan yang mensyaratkan hal yang saling bertentangan |\n| 6 | Mensyaratkan hal mustahil | **Possibility of Compliance** | Hukum tidak bisa menuntut kepatuhan terhadap hal yang secara fisik atau logis mustahil |\n| 7 | Terlalu sering berubah | **Constancy** | Hukum harus cukup stabil agar dapat dijadikan pegangan |\n| 8 | Pelaksanaan tidak sesuai aturan | **Faithful Administration** | Tindakan pejabat harus sesuai dengan aturan yang telah dinyatakan secara resmi |\n\n---\n\n# BAGIAN V — POSITIVISME HUKUM KLASIK: JEREMY BENTHAM {#bagian-v}\n\n## 5.1 Pengantar: Positivisme sebagai Reaksi terhadap Hukum Kodrat\n\n**Positivisme hukum** merupakan salah satu mazhab hukum yang paling berpengaruh dalam ilmu hukum. Gagasan hukum sebagai ciptaan pembuat hukum manusiawi (*human law giver*) adalah intuisi yang sangat umum. Positivisme berdiri di atas dua pilar utama:\n\n1. **Pembedaan** antara *the law as it is* (hukum sebagaimana adanya) dan *the law as it ought to be* (hukum sebagaimana seharusnya) — yang didasarkan atas alasan-alasan praktis yang baik.\n2. **Tidak adanya hubungan konseptual yang niscaya** antara hukum dan moralitas. Hukum tetaplah hukum meskipun melanggar moralitas yang tidak dijadikan hukum.\n\nPositivis hukum menawarkan teori tentang bagaimana kita dapat membedakan hukum \"dalam pengertian hukum\" dari aturan \"dalam pengertian non-hukum.\" Teori-teori ini umumnya memberikan sifat \"hukum\" hanya kepada aturan-aturan yang berasal dari otoritas pembuat hukum yang ada sebagai fakta politik atau sosial.\n\n---\n\n## 5.2 Auguste Comte dan Positivisme Ilmu Pengetahuan\n\nSebelum memahami positivisme hukum, perlu dipahami konteks intelektual yang lebih luas dari positivisme sebagai gerakan epistemologis:\n\n**Auguste Comte** (1798–1857) merupakan pemrakarsa studi sosiologi yang menganggap metode empiris dalam ilmu-ilmu alam merupakan metode yang paling tepat bagi ilmu sosiologi. Ia adalah tokoh pertama yang secara sistematis memperkenalkan konsep **positivisme** dalam ilmu pengetahuan (*empiricism*). Positivisme menjadi antitesis dari pandangan kodrati yang dianut oleh masyarakat sebelum Revolusi Perancis. Comte menolak transendensalisme dan mistisisme, dan mempengaruhi sosiolog-sosiolog selanjutnya seperti Max Weber, Leon Duguit, dan Eugen Ehrlich.\n\n**Hukum Tiga Tahap Comte** (*The Law of Three Stages*) — proposisi bahwa pemikiran manusia dan masyarakat berkembang melalui tiga tahap evolusioner yang berurutan:\n\n```mermaid\ngraph LR\n    A[\"⛪ TAHAP TEOLOGIS\\n(Theological Stage)\\nPenjelasan fenomena alam\\nmelalui agen supranatural\\n(roh, dewa-dewa, Tuhan)\\nPra-modern\"] --> B[\"🔮 TAHAP METAFISIK\\n(Metaphysical Stage)\\nPenggantian agen supranatural\\ndengan kekuatan abstrak\\ndan esensi-esensi\\nTransisi\"] --> C[\"🔬 TAHAP POSITIF\\n(Positive Stage)\\nPenjelasan melalui\\nhukum ilmiah empiris\\ndan observasi faktual\\nModern\"]\n\n    style A fill:#8B4513,color:#fff\n    style B fill:#4B0082,color:#fff\n    style C fill:#006400,color:#fff\n```\n\n---\n\n## 5.3 Jeremy Bentham (1747–1832): Bapak Utilitarianisme\n\n**Jeremy Bentham** adalah seorang filsuf, juris, dan reformer hukum Inggris. Ia lahir pada tahun 1747 dan meninggal pada tahun 1832. Bentham menyelesaikan pendidikannya di The Queen's College, Oxford. Ia merupakan salah satu tokoh pemikir hukum yang paling berpengaruh, khususnya terkait dengan prinsip individualisme yang menjiwai sistem hukum *common law*.\n\nBuku utamanya adalah ***An Introduction to the Principles of Morals and Legislation*** (1789), yang meletakkan dasar-dasar pemikiran utilitarian dalam hukum dan kebijakan publik.\n\n---\n\n## 5.4 Prinsip Utilitas: \"The Greatest Happiness of the Greatest Number\"\n\nPrinsip inti utilitarian Bentham adalah bahwa tindakan yang benar adalah tindakan yang **memaksimalkan kebahagiaan bagi jumlah terbesar orang**. Konsep ini, meskipun tampak sederhana, memiliki implikasi yang sangat radikal bagi teori hukum.\n\nBentham berpendapat bahwa pada hakikatnya kehidupan manusia di tengah masyarakat terdiri dari dua hal: **kebahagiaan** (*pleasure*) dan **penderitaan** (*pain*). Alam telah menempatkan umat manusia di bawah dua penguasa utama: sakit dan kesenangan. Hanya keduanyalah yang dapat menunjukkan apa yang seharusnya kita lakukan.\n\n**Sumber-sumber kebahagiaan menurut Bentham:**\n\n1. **Fisik** (*Physical*): Kesenangan yang bersumber dari kepuasan kebutuhan fisik dan indrawi.\n2. **Politik** (*Political*): Kesenangan yang berasal dari keamanan, kebebasan, dan partisipasi dalam kehidupan publik.\n3. **Moral** (*Moral*): Kepuasan yang diperoleh dari reputasi yang baik dan hubungan sosial yang harmonis.\n4. **Agama** (*Religious*): Kepuasan spiritual dari keyakinan dan praktik keagamaan.\n\n> [!NOTE]\n> Bentham **tidak memedulikan** dari mana kesenangan atau kebahagiaan itu datang — yang terpenting adalah apakah keempat hal tersebut membawa konsekuensi kesenangan bagi manusia. Ini adalah posisi **consequentialist** murni: motif di balik pembentukan kebijakan tidak diperhitungkan, hanya konsekuensinya.\n\n---\n\n## 5.5 Kalkulus Kebahagiaan (*Felicific Calculus*)\n\nNilai kebahagiaan dan penderitaan dari setiap sumber dipengaruhi oleh tujuh faktor (ditambah dua faktor tambahan):\n\n| Faktor | Penjelasan |\n|---|---|\n| **Intensity** (*Intensitas*) | Seberapa kuat atau kuat kesenangan atau penderitaan tersebut |\n| **Duration** (*Durasi*) | Seberapa lama kesenangan atau penderitaan tersebut berlangsung |\n| **Certainty** (*Kepastian*) | Seberapa pasti kesenangan atau penderitaan tersebut akan terjadi |\n| **Propinquity / Proximity** (*Kedekatan Waktu*) | Seberapa segera atau dekat dalam waktu kesenangan atau penderitaan tersebut akan terjadi |\n| **Fecundity** (*Kesuburan*) | Seberapa besar kemungkinan kesenangan tersebut diikuti oleh kesenangan lain; atau penderitaan diikuti oleh penderitaan lain |\n| **Purity** (*Kemurnian*) | Seberapa bebas kesenangan tersebut dari campuran penderitaan, atau sebaliknya |\n| **Extent** (*Jangkauan*) | Jumlah orang yang terkena dampak oleh kesenangan atau penderitaan tersebut |\n\nSecara formal, Bentham mencoba mengkuantifikasi utilitas total:\n\n$$U = \\sum_{i=1}^{n} (P_i - S_i)$$\n\ndi mana $U$ adalah total utilitas, $P_i$ adalah kesenangan individu ke-$i$, dan $S_i$ adalah penderitaan individu ke-$i$.\n\n---\n\n## 5.6 Utilitarianisme, Hukum, dan Hukuman\n\nTujuan dari hukum adalah memberikan **kemanfaatan dan kebahagiaan yang sebesar-besarnya bagi individu** — dengan kata lain, hukum adalah *sarana* untuk mencapai kemanfaatan (*utility*), bukan tujuan itu sendiri. Pandangan Bentham yang difokuskan pada individu dimaksudkan agar tidak terjadi situasi *homo homini lupus* (manusia adalah serigala bagi manusia lain).\n\nBentham adalah seorang **consequentialism** — yang terpenting baginya adalah konsekuensi dari suatu kebijakan yang dibuat, bukan motif di baliknya.\n\n**Refleksi Kritis terhadap Utilitarianisme:**\n\n| Kritik | Penjelasan |\n|---|---|\n| **Reduksi Hakikat Manusia** | Konsep *pleasure* dan *pain* dianggap mereduksi manusia hanya menjadi makhluk pengindera — mengabaikan dimensi spiritual, dignitas, dan moralitas intrinsik |\n| **Pengukuran Kuantitatif Kebahagiaan** | Kebahagiaan dan penderitaan hanya diukur secara kuantitatif; faktor moral tidak diperhitungkan. Bagaimana mengukur kebahagiaan secara objektif? |\n| **Tyranny of the Majority** | Teori ini secara logis dapat membenarkan penindasan minoritas jika hal itu memaksimalkan kebahagiaan mayoritas |\n| **Kontribusi Positif** | Teori utilitarian memberi sumbangsih pada **analisis cost-benefit** (*untung-rugi*) dalam proses pembentukan hukum — sebuah metodologi yang sangat berpengaruh dalam kebijakan publik modern |\n\n---\n\n# BAGIAN VI — JURISPRUDENCE HISTORIS: SAVIGNY DAN MAZHAB JERMAN {#bagian-vi}\n\n## 6.1 Perkembangan Pemikiran tentang Ilmu Hukum\n\nPemikiran tentang hukum sebagai ilmu pengetahuan berkembang melalui dua fase besar:\n\n1. **Practical Jurisprudence → Dogmatik Hukum:** Upaya mensistematisasi hukum sebagai suatu ilmu pengetahuan (*legal science*). Fase ini berfokus pada sistematika dogmatik hukum sebagai keseluruhan ilmu hukum.\n2. **Social Scientific Form of Legal Thought** (mulai akhir abad ke-19): Pendekatan yang menempatkan hukum dalam konteks sosial dan historisnya.\n\n---\n\n## 6.2 Pra-Savigny: Leibniz, Wolff, dan Kant\n\n### G.W. Leibniz (1646–1716)\nLeibniz meletakkan **dasar metafisika dan logika** bagi pengetahuan hukum. Ia mengembangkan konsep *Law as Rational Order* (harmoni antar-person) dan memandang natural law sebagai **suatu sistem logis** — hukum dapat diturunkan dari prinsip-prinsip rasional serupa dengan matematika dan geometri. Proyek ini dikenal sebagai *Universal Legal Science*.\n\n### Christian Wolff (1679–1754)\nWolff adalah tokoh yang mensistematisasi filsafat rasionalis Leibniz. Ia menyusun sistem deduktif yang komprehensif terkait metafisika, etika, natural law, dan logika. Pemikiran Wolffian mendominasi universitas-universitas Jerman pada pertengahan abad ke-18. Kant belajar dalam tradisi Wolffian sebelum akhirnya mengkritik dan melampaui Wolff.\n\n### Immanuel Kant (1724–1804)\nKant membuat revolusi epistemologis yang berdampak besar pada teori hukum:\n- Hukum adalah bagian dari **practical reason** (*akal praktis*), bukan *theoretical reason*.\n- Ia memperkenalkan **formal theory of law** dan konsep **legal autonomy**.\n- Kant menghancurkan dominasi dasar-dasar metafisika natural law, memuncak pada kesadaran bahwa para sarjana hukum perlu membangun ilmu hukum positif yang bebas dari spekulasi moral atau metafisika.\n- Kant membedakan dimensi **ethical** (bersifat internal dalam diri manusia) dan **legal** (berasal dari otoritas eksternal di luar diri manusia, sehingga dapat dipaksakan).\n- Hukum dipahami sebagai fenomena historis dan sistematis yang menuntut dua pendekatan: **Geschichte** (sejarah) dan **System** (sistem).\n\n**Istilah Rechtswissenschaft** (*rechtwissenschaft*) yang berarti \"ilmu hukum\" adalah warisan terminologi yang berkembang pasca-dekonstruksi Kantian terhadap natural law. Para sarjana hukum Jerman awal abad ke-19 menggunakan terminologi ini untuk merujuk pada ilmu hukum positif yang bebas dari spekulasi.\n\n---\n\n## 6.3 Mazhab Historis: Friedrich Carl von Savigny (1779–1861)\n\n**Mazhab Historis** (*The Historical School*) merupakan bagian dari gerakan **Romantisisme** dalam seni dan filsafat — sebuah pemberontakan terhadap rasionalisme empiris Pencerahan. Dalam ilmu hukum, pemberontakan tersebut berupa penolakan terhadap positivisme hukum yang menganggap hukum sebagai *folkways* (kebiasaan rakyat belaka). Mazhab Historis Jerman berargumen bahwa hukum **tidak bersumber dari negara**, melainkan bersumber pada **karakter masyarakat** itu sendiri.\n\nTokoh utama Mazhab Historis adalah **Friedrich Carl von Savigny** (1779–1861).\n\n---\n\n## 6.4 Doktrin Volksgeist: Jiwa Rakyat sebagai Sumber Hukum\n\nKonsep paling revolusioner Savigny adalah **Volksgeist** (*jiwa rakyat* atau *kesadaran bersama rakyat*):\n\n> *Law was derived from the common consciousness of a people (Volksgeist) who already exist as an 'active personal subject'.*\n\nDengan kata lain, hukum adalah produk dari suatu masyarakat yang sudah ada. Savigny menolak gagasan bahwa hukum muncul secara tidak disadari sebagai kebiasaan; sebaliknya, hukum **hidup dalam kesadaran bersama** masyarakat, bukan sebagai aturan-aturan yang terpisah, melainkan sebagai *living intuition of law in their organic connection*.\n\n**Tiga tahap perkembangan hukum menurut Savigny:**\n\n```mermaid\ngraph TD\n    A[\"1️⃣ TAHAP RAKYAT\\n(Volksrecht)\\nHukum berasal langsung\\ndari kesadaran bersama rakyat\\nDiekspresikan dalam\\nadat-istiadat, kebiasaan, dan\\ntindakan simbolis\"] --> B[\"2️⃣ TAHAP ILMU HUKUM\\n(Juristenrecht)\\nPara ahli hukum terpelajar\\nmengabstraksi dan\\nmensistematisasi\\nprinsip-prinsip hukum\\nyang hidup dalam kesadaran rakyat\"] --> C[\"3️⃣ TAHAP LEGISLASI\\n(Gesetzesrecht)\\nHukum berkembang secara organis\\nseiring waktu menjadi\\nundang-undang formal\\nmelalui proses legislatif\"]\n```\n\nHukum harus **berakar dari aspek budaya setempat** (*Volksgeist*), namun dengan alur logika dan sistematika yang terorganisasi dengan baik. Metode ini dikenal sebagai **metode historis-sistematis**.\n\n---\n\n## 6.5 Begriffjurisprudenz: Puncak Ilmu Hukum Konseptual\n\nPemikiran Savigny berkontribusi pada lahirnya dua aliran dalam ilmu hukum Jerman: **Aliran Romanist** dan **Aliran Germanist**. Kedua aliran ini melahirkan ajaran baru yang dikenal sebagai **Begriffjurisprudenz** (*jurisprudensi konseptual*), dengan tokoh utama **Puchta** dan **Jhering**.\n\nPuchta memperkenalkan tiga jenis hukum berdasarkan sumbernya:\n\n| Jenis Hukum | Nama | Sumber |\n|---|---|---|\n| 1 | **Volksrecht** | Hukum yang memancar secara langsung dari rakyat |\n| 2 | **Gesetzesrecht** | Hukum legislatif yang berasal dari pembentuk hukum |\n| 3 | **Juristenrecht** | Hukum yang dibuat oleh ahli hukum berdasarkan ilmu hukum |\n\n**Begriffjurisprudenz** setidaknya telah mereduksi hukum dalam analisis **induktif-deduktif**. Kebenaran saintifik serta otoritas *scientific legal rule* tidak tergantung pada dokumen-dokumen sejarah, *practical sense*, atau kemanfaatan sosial, melainkan didasarkan atas **logical connection with the totality of the overall system**. Begriffjurisprudenz menjadi puncak gagasan ilmu hukum karena mampu menampilkan karakteristik ilmu pengetahuan yang jelas dan sistematis.\n\n---\n\n# BAGIAN VII — POSITIVISME HUKUM JOHN AUSTIN {#bagian-vii}\n\n## 7.1 Latar Belakang dan Karya Utama\n\n**John Austin** (1790–1859) adalah tokoh positivisme hukum klasik yang paling berpengaruh di dunia *common law*. Karyanya yang paling penting adalah ***The Province of Jurisprudence Determined*** (1832) — sebuah kompilasi dari 10 seri perkuliahan tentang jurisprudensi yang disampaikan di University of London dalam periode 1829–1833.\n\nAustin, seperti Hobbes dan Bentham sebelumnya, memeluk gagasan **hukum sebagai perintah penguasa** (*law as sovereign command*). Ia mengakui bahwa istilah \"hukum\" bermakna berbeda bagi orang yang berbeda, tetapi berargumen bahwa kita semua akan lebih baik jika belajar membedakan jenis-jenis hukum yang berbeda.\n\n---\n\n## 7.2 Paradoks Austin: Positivis dengan Simpati terhadap Aquinas\n\nMenariknya, Austin tidak sepenuhnya memisahkan hukum dan moralitas:\n\n- Austin memandang **hukum Tuhan** sebagaimana diwahyukan dalam Kitab Suci sebagai sumber utama aturan moral — dan ia memberikan status *\"laws properly so called\"* kepada hukum-hukum tersebut.\n- Austin berpikir, seperti Aquinas, bahwa ada bagian dari hukum Tuhan yang tidak diwahyukan dan harus ditemukan melalui akal. Karena Tuhan menghendaki kebahagiaan terbesar bagi semua makhluk-Nya, akal membawa kita pada **prinsip utilitas** (selaras dengan Bentham).\n\nNamun dalam praktiknya, Austin memisahkan antara:\n- ***Laws properly so called*** (identik dengan konsep hukum positif): Hukum yang dibentuk dan dibuat oleh penguasa bagi \"yang dikuasai.\"\n- ***Law improperly so called*** (*law in the figurative sense*): Termasuk aturan rumah tangga, aturan perusahaan, hukum ilmu pengetahuan, dll.\n\n---\n\n## 7.3 Taksonomi Hukum Austin\n\n```mermaid\ngraph TD\n    A[\"SEMUA ATURAN\\n(All Rules)\"] --> B[\"LAWS PROPERLY SO CALLED\\n(Hukum dalam arti sesungguhnya)\"]\n    A --> C[\"LAWS IMPROPERLY SO CALLED\\n(Hukum dalam arti kiasan)\"]\n    \n    B --> D[\"DIVINE LAW\\n(Hukum Tuhan)\\nDiwahyukan & Tidak Diwahyukan\"]\n    B --> E[\"POSITIVE LAW\\n(Hukum Positif)\\nPerintah Penguasa Politik\"]\n    B --> F[\"POSITIVE MORALITY\\n(Moralitas Positif)\\nOpini dan sentimen umum\"]\n    \n    E --> G[\"GENERAL COMMANDS\\n(Perintah Umum)\"]\n    E --> H[\"PARTICULAR COMMANDS\\n(Perintah Khusus)\"]\n    \n    C --> I[\"Rules of Fashion / Etiquette\"]\n    C --> J[\"Scientific Laws\\n(Hukum Ilmu Pengetahuan)\"]\n    C --> K[\"International Law\\n→ Dikategorikan sebagai\\nPositive Morality\"]\n\n    style E fill:#2980b9,color:#fff\n    style D fill:#8e44ad,color:#fff\n    style C fill:#95a5a6,color:#fff\n```\n\n> [!IMPORTANT]\n> **Hukum Internasional menurut Austin:** Hukum internasional (*law of nations*) dikategorikan ke dalam **positive morality** — bukan hukum dalam pengertian sesungguhnya — karena tidak mengalir dari kehendak seorang penguasa, melainkan \"terdiri dari opini dan sentimen yang berlaku di antara negara-negara.\" Ini merupakan salah satu implikasi paling kontroversial dari teori Austin.\n\n---\n\n## 7.4 Empat Unsur Hukum Positif Austin\n\n```mermaid\ngraph LR\n    A[\"HUKUM POSITIF\"] --> B[\"1. POLITICAL SOVEREIGN\\n(Penguasa Politik)\"]\n    A --> C[\"2. COMMAND\\n(Perintah)\"]\n    A --> D[\"3. DUTY\\n(Kewajiban)\"]\n    A --> E[\"4. SANCTION\\n(Sanksi)\"]\n    C --- D\n    D --- E\n    E --- C\n```\n\n### 7.4.1 Political Sovereign (Penguasa Politik)\nPenguasa dalam teori Austin memiliki lima karakteristik yang harus terpenuhi secara kumulatif:\n\n1. Penguasa adalah **superior manusiawi yang determinate** (*a determinate human superior*) — bukan entitas abstrak atau supranatural.\n2. **Sebagian besar rakyat secara kebiasaan menaati** penguasa.\n3. Penguasa **tidak terbiasa taat** kepada superior manusiawi lainnya.\n4. **Kekuasaan penguasa tidak dapat dibatasi secara legal** (*the sovereign's power cannot be legally limited*).\n5. **Kedaulatan tidak terbagi** (*sovereignty is indivisible*).\n\n### 7.4.2 Command and Sanction (Perintah dan Sanksi)\nHukum positif menurut Austin dihasilkan oleh perintah penguasa. Sebuah perintah bukan sebuah permintaan, melainkan suatu **imperatif yang menciptakan kewajiban melalui keberadaan sanksi**. Elemen-elemen sebuah command:\n\n1. Suatu **keinginan atau hasrat** yang dikandung oleh makhluk rasional bahwa makhluk rasional lain harus melakukan atau menahan diri dari suatu perbuatan.\n2. Suatu **kejahatan/konsekuensi buruk** dalam hal ketidakpatuhan.\n3. **Pemberitahuan keinginan** tersebut melalui kata-kata atau tanda-tanda lainnya.\n\nPerintah tidak dapat dipisahkan dari kewajiban dan sanksi — ketiganya adalah aspek dari satu peristiwa tunggal.\n\n---\n\n## 7.5 Tiga Jenis Hukum yang Tidak Imperatif\n\n| No. | Jenis Hukum | Penjelasan |\n|---|---|---|\n| 1 | **Declaratory Laws** | Hukum yang hanya menyatakan atau menjelaskan hukum yang ada, tanpa menciptakan kewajiban baru |\n| 2 | **Laws to Repeal Law** | Hukum yang mencabut hukum lain; bukan perintah imperatif karena menghapus kewajiban, bukan menciptakannya |\n| 3 | **Laws of Imperfect Obligation** | Hukum yang tidak disertai sanksi yang memadai untuk memaksakan pelaksanaannya |\n\n---\n\n# BAGIAN VIII — NEOPOSITIVISME H.L.A. HART {#bagian-viii}\n\n## 8.1 Biografi Singkat H.L.A. Hart (1907–1992)\n\n**Herbert Lionel Adolphus Hart** lahir 18 Juli 1907 di Harrogate, Inggris. Ia adalah seorang filsuf hukum analitik yang karya utamanya, ***The Concept of Law*** (1961), mendefinisikan ulang lanskap filsafat hukum abad ke-20. Hart menganalisis hukum sebagai konsep dan menjelaskan hukum berada pada inti **rule of recognition**. Pemikirannya menempatkan positivisme hukum dalam kerangka **hard positivism** dengan memisahkan secara tegas antara hukum dan moral.\n\n---\n\n## 8.2 Kritik Hart terhadap Positivisme Klasik Austin\n\nHart mengkritisi konsep hukum Austin — sebagai suatu **perintah dari *sovereign commander*** yang kekuasaannya tidak dapat dibatasi oleh apapun — dengan dua argumen utama:\n\n1. **Analogi Perampok:** Bayangkan seorang perampok yang memerintahkan, \"Berikan uangmu atau kamu kutembak!\" — ini adalah ancaman berbalut imperatif, persis seperti struktur perintah + sanksi milik Austin. Apakah kita mengatakan bahwa perampok memiliki kekuasaan yang memiliki sifat hukum? Tentu tidak. **Bagi Hart, jika seseorang mengikuti hukum hanya karena takut sanksi, maka penguasa tidak lebih dari sekadar perampok yang terorganisir.**\n\n2. **Aspek Internal yang Diabaikan Austin:** Konsep hukum yang ditaati hanya karena ancaman sanksi telah meninggalkan aspek penting dari hukum, yaitu *\"the reflective acceptance of the law as binding by the people to whom it is directed.\"* Hukum bukan hanya faktual (aspek eksternal), tetapi juga mengandung dimensi normativitas internal yang diakui secara sukarela oleh mereka yang tunduk padanya.\n\n---\n\n## 8.3 Aspek Internal dan Eksternal dari Aturan (*Rule*)\n\nHart membedakan dua perspektif dalam memahami aturan:\n\n| Aspek | Penjelasan | Contoh |\n|---|---|---|\n| **Aspek Eksternal** (*External Aspect*) | Fakta yang dapat diobservasi dari luar: aturan ini ada dan umumnya diikuti | *Di Arab Saudi ada larangan mengonsumsi minuman beralkohol.* Ini adalah fakta yang dapat dikonfirmasi oleh pengamat luar. |\n| **Aspek Internal** (*Internal Aspect*) | Sikap normatif dari dalam: apakah seseorang memiliki *sense of obligation* untuk mengikuti aturan tersebut? | Apakah saya atau orang lain merasa secara normatif terikat oleh larangan tersebut? Ini tidak dapat diobservasi dari luar. |\n\nContoh konkret: \"Saya wajib lapor SPT Pajak tiap tahun, dan saya melakukannya.\" — Aspek **eksternal**: aturan tersebut adalah fakta. Aspek **internal**: saya memiliki *sense of obligation* untuk melaporkan pajak — bukan semata-mata karena takut sanksi, tetapi karena saya menerima aturan itu sebagai mengikat.\n\n---\n\n## 8.4 Aturan Primer dan Sekunder: Fondasi Sistem Hukum Modern\n\n```mermaid\ngraph TD\n    subgraph PR [\"ATURAN PRIMER (Primary Rules)\"]\n        P1[\"Aturan yang menimpakan\\nKEWAJIBAN kepada individu\\nContoh: larangan membunuh,\\nwajib bayar pajak, dsb.\"]\n    end\n    \n    subgraph SR [\"ATURAN SEKUNDER (Secondary Rules)\"]\n        S1[\"RULE OF RECOGNITION\\nMemberikan kriteria untuk\\nmengidentifikasi aturan primer\\nyang valid\\nContoh: Konstitusi\"]\n        S2[\"RULE OF CHANGE\\nMemberikan kewenangan kepada\\nindividu atau badan untuk\\nmembuat aturan primer baru\\nContoh: Prosedur legislatif\"]\n        S3[\"RULE OF ADJUDICATION\\nMemberikan kewenangan kepada\\nindividu untuk menentukan apakah\\nsuatu aturan primer telah dilanggar\\nContoh: Kekuasaan yudisial\"]\n    end\n    \n    SR -->|\"Memvalidasi dan\\nmengorganisasi\"| PR\n    \n    style P1 fill:#2980b9,color:#fff\n    style S1 fill:#27ae60,color:#fff\n    style S2 fill:#e67e22,color:#fff\n    style S3 fill:#8e44ad,color:#fff\n```\n\n**Aturan Primer** adalah aturan yang menimpakan kewajiban (*obligation*) terhadap orang yang hidup dalam sebuah sistem hukum.\n\n**Aturan Sekunder** adalah aturan tentang aturan — mereka mengatur bagaimana aturan primer dibuat, diidentifikasi, diubah, dan diterapkan. Tanpa adanya aturan sekunder, tidak akan ada sistem hukum sebagaimana dijumpai dalam kehidupan modern.\n\n---\n\n## 8.5 *The Rule of Recognition*: Jantung Teori Hart\n\n**Rule of Recognition** adalah aturan sekunder yang paling fundamental — ia menyediakan **kriteria terakhir** untuk memverifikasi validitas hukum. Ketika parlemen membuat undang-undang dan hakim menemukan bahwa suatu aturan valid menurut *rule of recognition*, mereka tidak sedang mematuhi perintah siapapun dalam pengertian Austin.\n\nLebih tepatnya, mereka **menerima dan mengamati**, dari sudut pandang internal, efek mengikat dari *rule of recognition*. Sebuah sistem hukum dalam pengertian modern muncul ketika dua kondisi bertemu:\n\n1. Aturan-aturan primer yang dianggap valid oleh *rule of recognition* **secara umum dipatuhi oleh warga negara**.\n2. *Rule of recognition* **diterima oleh para pejabat** sebagai standar perilaku resmi.\n\n---\n\n# BAGIAN IX — JOSEPH RAZ: *SOFT POSITIVISM* DAN OTORITAS HUKUM {#bagian-ix}\n\n## 9.1 Biografi Intelektual Joseph Raz (1939–2022)\n\n**Joseph Raz** lahir tanggal 21 Maret 1939. Ayahnya seorang dosen hukum di Universitas Jewish Jerusalem; ibunya, Chaya Mazor Raz, bekerja sebagai jurnalis dan penyair. Raz merupakan anak ketiga dari sembilan bersaudara, dengan latar belakang keluarga yang bertahan hidup di tengah ketidakstabilan politik.\n\nPerjalanan karier akademik Raz:\n- 1967–1972: Pengajar di Faculty of Law and Department of Philosophy, Hebrew University, Jerusalem\n- 1967: Meraih gelar D.Phil di Oxford dengan disertasi *\"Practical Reason and Norms\"* di bawah bimbingan H.L.A. Hart\n- 1972–1985: Pengajar filsafat di Balliol College, Universitas Oxford\n- 1985–2006: **Professor of the Philosophy of Law** di Universitas Oxford\n- 2006–2009: Professor of Research di Oxford\n- Juga mengajar di Columbia University, New York\n- 2 Mei 2022: Meninggal di Rumah Sakit Charing Cross, London, akibat serangan jantung\n\n> [!NOTE]\n> Selain berkiprah dalam dunia akademik, Raz juga dikenal sebagai fotografer yang tekun — ia menekuni hobi fotografi selama lebih dari 25 tahun, dengan ciri khas gradasi warna hitam-putih, detail rumit, dan pola asimetris yang mengandung metafora visual mendalam.\n\n---\n\n## 9.2 Kritik Raz terhadap Kelsen: Tanpa *Grundnorm*\n\nRaz tidak setuju dengan proposisi Kelsen tentang *Grundnorm* sebagai dasar validitas sistem hukum. Raz berargumen bahwa **norma dasar tidak memberikan kontribusi apapun pada kriteria identitas dan keanggotaan** suatu sistem hukum.\n\nMenurut Raz, karena semua norma dari suatu tatanan hukum dapat ditelusuri kembali ke konstitusi, berbagai rantai validitas berakhir di sana. Oleh karena itu, **diagram pohon validitas norma dapat tetap ada meskipun norma dasar dihilangkan**. Ia menyatakan bahwa kekuasaan legislatif tidak harus diciptakan oleh hukum, dan bahwa konstitusi pertama adalah hukum karena kita mengetahui bahwa ia termasuk dalam sistem hukum yang efektif.\n\n---\n\n## 9.3 Teori Otoritas Raz: *Service Conception of Authority*\n\nPemikiran terpenting Raz adalah tentang **otoritas hukum**. Menurut Raz, fungsi utama otoritas adalah untuk memungkinkan individu dapat lebih **menyesuaikan diri dengan alasan yang berlaku bagi individu secara independen** — bukan karena perintah, tetapi karena otoritas tersebut memiliki akses yang lebih baik terhadap alasan-alasan yang ada.\n\nHukum adalah sebuah **struktur otoritas yang kompleks** karena didasarkan pada sumber otoritas yang memungkinkan otoritas dilaksanakan. Raz juga menegaskan pentingnya membedakan antara **argumen moral** dan **standar moral**:\n\n- Seseorang dapat memasukkan argumen moral ke dalam tahap deliberatif pembentukan aturan.\n- Hakim dapat menggunakan standar moral dalam keputusan normatifnya.\n- Namun, argumen moral dapat menetapkan apa yang *seharusnya* dipegang oleh lembaga hukum, tetapi **bukan apa yang mereka nyatakan atau pegang**.\n\n---\n\n## 9.4 Hart dan Raz: Pertemuan Dua Pemikiran\n\nPemikiran Hart dan Raz berada dalam kerangka **Analytical Jurisprudence** yang memandang pengetahuan hukum di era modern tidak seharusnya berkutat hanya pada doktrin atau dogmatik hukum belaka. Keduanya melihat permasalahan memahami hukum sebagai erat dengan **persoalan bahasa** — bahasa diposisikan sebagai bagian dari problem ilmiah. Hukum pada hakikatnya adalah bahasa: aturan bermula dari kesepakatan yang diberlakukan dan mengikat.\n\n```mermaid\ngraph TD\n    subgraph HART [\"H.L.A. HART: Hard Positivism\"]\n        H1[\"Hukum = Aturan Primer + Sekunder\"]\n        H2[\"Rule of Recognition sebagai inti sistem\"]\n        H3[\"Pemisahan tegas hukum & moral\"]\n        H4[\"Internal point of view\\nyang diterima secara sukarela\"]\n    end\n    \n    subgraph RAZ [\"JOSEPH RAZ: Soft Positivism\"]\n        R1[\"Kritik terhadap Grundnorm Kelsen\"]\n        R2[\"Otoritas hukum berbasis\\nService Conception\"]\n        R3[\"Moral dapat masuk dalam\\ntahap deliberasi pembentukan hukum\"]\n        R4[\"Identifikasi hukum tidak selalu\\nmemerlukan pertimbangan moral\"]\n    end\n    \n    HART -->|\"Disertasi Raz\\nbimbingan Hart\"| RAZ\n    RAZ -->|\"Raz mengedit\\nThe Concept of Law\"| HART\n    \n    HART -.->|\"Keduanya dalam\\nAnalytical Jurisprudence\"| RAZ\n```\n\n---\n\n# BAGIAN X — REALISME HUKUM AMERIKA: OLIVER WENDELL HOLMES {#bagian-x}\n\n## 10.1 Klaim Dasar Realisme Hukum\n\n**American Legal Realism** adalah gerakan intelektual yang muncul di Amerika Serikat pada awal abad ke-20 sebagai reaksi terhadap formalisme hukum yang mendominasi praktik dan teori hukum saat itu. Klaim dasarnya adalah:\n\n> *\"The law in real life is very different from the law stated in the law books.\"*\n\nHukum yang nyata, kata kaum Realis, bergantung pada bagaimana **pengadilan banding menafsirkan kata-kata tertulis** dan bagaimana **pengadilan tingkat pertama menentukan fakta** dalam kasus-kasus tertentu.\n\n---\n\n## 10.2 Oliver Wendell Holmes (1841–1935): Bapak Realisme Hukum\n\n**Oliver Wendell Holmes Jr.** adalah hakim Mahkamah Agung Amerika Serikat yang paling berpengaruh sekaligus filsuf hukum terkemuka. Pemikirannya dirumuskan paling tajam dalam esainya yang terkenal, ***\"The Path of the Law\"*** (1897). Empat proposisi utama pemikirannya:\n\n```mermaid\nmindmap\n  root((Oliver Wendell\nHolmes))\n    Proposisi 1\n      Hukum adalah proses evolusioner\n      Produk pengalaman bukan logika\n      Mencerminkan adaptasi masyarakat\n      terhadap dunia yang berubah\n    Proposisi 2\n      Pengadilan berperan vital\n      dalam evolusi hukum\n      Secara aktif mereformasi hukum\n      Putusan bersifat legislatif\n      meski dikemas sebagai logika\n    Proposisi 3\n      Statuta bergantung pada pengadilan\n      untuk efektifitasnya\n      Statuta bukan hukum sampai\n      ditegakkan oleh pengadilan\n    Proposisi 4\n      Hukum = Prediksi tentang\n      apa yang akan diputuskan\n      pengadilan dalam suatu sengketa\n      Bukan aturan abstrak\n```\n\n---\n\n## 10.3 Kritik Holmes terhadap Austin\n\nHolmes mengkritisi teori Austin yang menyatakan bahwa hukum merupakan perintah yang dibuat oleh penguasa politik. Holmes mengamati bahwa **hukum dapat eksis secara independen dari dan bahkan dalam oposisi terhadap kehendak penguasa.** Ia menulis bahwa \"badan-badan lain yang bukan penguasa, bahkan opini, mungkin menghasilkan hukum dalam pengertian filosofis melawan kehendak penguasa.\"\n\nHolmes juga menolak pandangan Austin bahwa kebiasaan dan *common law* menjadi hukum saat pengadilan mendapatkan kekuasaan dari penguasa politik — ini menurutnya adalah **fiksi**. Menurutnya, **kebiasaan (*custom*) telah memiliki fungsi mengatur sebelum pengadilan diminta untuk mengakuinya sebagai hukum.**\n\n---\n\n## 10.4 Peran Lembaga Peradilan: Pembuat Hukum yang Terselubung\n\nHolmes berargumen bahwa hakim hendaknya mengakui kewajiban mereka yang tak terhindarkan untuk menimbang *\"considerations of social advantage\"* dalam menyatakan hukum. Holmes percaya bahwa para hakim melakukan ini dalam kenyataan, sering kali secara tidak sadar. Fondasi nyata dari putusan dibiarkan tidak terungkap karena hakim tidak suka mendiskusikan kebijakan dan membungkus keputusan mereka dalam bahasa logika.\n\n**Hukum sebagai Prediksi:** Holmes membuat klaim luar biasa bahwa hukum hanya terdiri dari prediksi tentang apa yang akan dilakukan pengadilan dalam kasus-kasus tertentu: *\"The primary rights and duties with which jurisprudence busies itself again are nothing but prophecies\"* (1897, hlm. 458). Prediksi-prediksi ini tersebar di buku-buku undang-undang dan laporan hukum; tugas pengacara adalah menggeneralisasinya dan mereduksinya ke dalam sistem yang dapat dikelola.\n\n---\n\n## 10.5 Analogi \"Manusia Jahat\" (*Bad Man Analogy*)\n\nDalam \"The Path of the Law,\" Holmes memperkenalkan analogi terkenal yang disebut **\"bad man analogy\"**:\n\nJika hukum hanyalah prediksi tentang apa yang akan dilakukan pengadilan, maka cara terbaik untuk memahaminya adalah melalui kacamata seorang **manusia jahat** (*bad man*) yang hanya peduli dengan konsekuensi material dari tindakannya, bukan perintah moral hati nurani. Dari perspektif egois ini, pertanyaan hukum direduksi sepenuhnya menjadi **kalkulasi risiko pelanggaran** — seperti berapa tahun penjara yang mungkin dijatuhkan untuk suatu kejahatan, atau bagaimana cara berhasil menipu seorang pemberi kerja.\n\n**Kritik terhadap analogi Holmes** (terutama oleh H.L.A. Hart):\n\n> [!NOTE]\n> Pandangan manusia jahat terlalu sempit untuk mendefinisikan hukum secara keseluruhan. Hukum bukan hanya tentang penghukuman atas kesalahan; ia juga menyediakan **kerangka untuk tindakan sukarela yang positif**, seperti mendirikan yayasan amal, menyusun surat wasiat, atau membentuk perusahaan. Hukum beroperasi seperti permainan di mana pemain secara sukarela mengikuti aturan untuk keuntungan bersama jauh sebelum wasit pun dibutuhkan untuk menegakkannya. Pandangan sinis manusia jahat sepenuhnya gagal menangkap kehidupan hukum yang semarak di luar ruang pengadilan.\n\n| Aspek | Perspektif Holmes (*Bad Man*) | Kritik Hart |\n|---|---|---|\n| Definisi Hukum | Prediksi tentang putusan pengadilan | Terlalu sempit — mengabaikan hukum sebagai medium koordinasi sukarela |\n| Fungsi Hukum | Hanya penghukuman atas pelanggaran | Hukum juga memungkinkan kontrak, waris, korporasi, dll. |\n| Sudut Pandang | Orang yang takut pada sanksi | Gagal menangkap *internal point of view* orang yang menerima hukum sebagai mengikat |\n| Nilai Analitis | Mengungkap fungsi penegakan hukum | Tidak representatif bagi sebagian besar interaksi hukum |\n\n---\n\n# BAGIAN XI — NEO-KANTIANISME: KELSEN DAN RADBRUCH {#bagian-xi}\n\n## 11.1 Konteks Intelektual: Neo-Kantianisme sebagai Gerakan\n\n**Neo-Kantianisme** adalah kebangkitan dan pengembangan filsafat Immanuel Kant dalam abad ke-19 dan ke-20 di Jerman. Gerakan ini muncul di Jerman akhir abad ke-19 dan secara langsung memengaruhi pemikir-pemikir hukum seperti Hans Kelsen dan Gustav Radbruch. Tiga ciri khas Neo-Kantianisme dalam teori hukum:\n\n1. **Pemisahan *Sollen* dan *Sein*:** Pemisahan antara dunia \"seharusnya\" (*ought*) dan dunia \"adalah\" (*is*) — antara norma dan fakta.\n2. **Penekanan pada fondasi normatif dan *a priori*** dari pengetahuan, termasuk penalaran hukum.\n3. **Pengaruh pada positivisme hukum** dan pendekatan formalis terhadap hukum.\n\n---\n\n## 11.2 Hans Kelsen (1881–1973): Teori Hukum Murni\n\n### 11.2.1 Biografi dan Konteks Historis\n\nHans Kelsen memainkan **peran kunci dalam merancang Konstitusi Austria (1920)** dan kemudian menjabat sebagai hakim di Mahkamah Konstitusi Austria. Namun, karena anti-Semitisme dan gejolak politik Nazi, ia terpaksa beremigrasi — mengajar di Jerman, Swiss, dan akhirnya Amerika Serikat.\n\n**Instabilitas Republik Weimar dan bangkitnya totalitarisme** secara langsung memengaruhi penekanan Kelsen pada legalitas dan depolitisasi hukum. Teorinya merespons penyalahgunaan hukum untuk tujuan otoriter. Pengasingannya membentuk keyakinannya pada universalitas hukum dan prinsip-prinsip transnasional.\n\n**Karya Utama:**\n1. ***General Theory of Law and State*** (1945)\n2. ***Pure Theory of Law*** (*Reine Rechtslehre*, 1934; edisi kedua 1960)\n\n### 11.2.2 *Pure Theory of Law* (1934): Pemurnian Ilmu Hukum\n\nTujuan utama Kelsen adalah **memurnikan ilmu hukum dari elemen-elemen politik, sosiologis, dan moral**. Ilmu hukum harus bersifat murni — *rein* — dalam pengertian metodologis:\n\n- Hukum adalah sistem pernyataan **\"seharusnya\" (*Sollen*)**, bukan pernyataan \"adalah\" (*Sein*).\n- Norma-norma mengatur perilaku dan **valid jika diotorisasi oleh norma yang lebih tinggi**.\n- Nilai moral tidak relevan terhadap validitas hukum — Teori Murni berfokus pada struktur, bukan kandungan.\n\n```mermaid\ngraph TD\n    A[\"🌐 GRUNDNORM\\n(Norma Dasar)\\nDipresupposisikan, bukan diberlakukan\\nBersifat hipotetis\\nMenjamin kohesi dan kesatuan sistem\"] --> B[\"📜 KONSTITUSI\\nNorma tertinggi yang berlaku\\ndalam tatanan hukum positif\"]\n    B --> C[\"📋 UNDANG-UNDANG\\nDibuat berdasarkan konstitusi\\nMengikuti prosedur yang ditentukan\"]\n    C --> D[\"📄 PERATURAN PEMERINTAH /\\nDEKRIT\\nDibuat berdasarkan delegasi\\ndari undang-undang\"]\n    D --> E[\"⚖️ KEPUTUSAN INDIVIDUAL\\n(Putusan Pengadilan,\\nKontrak, dsb.)\\nIndividualisasi norma abstrak\"]\n\n    style A fill:#2c3e50,color:#fff\n    style B fill:#8e44ad,color:#fff\n    style C fill:#2980b9,color:#fff\n    style D fill:#27ae60,color:#fff\n    style E fill:#e67e22,color:#fff\n```\n\n### 11.2.3 *Grundnorm* (Norma Dasar)\n\n**Grundnorm** adalah norma dasar hipotetis yang memvalidasi semua norma lain dalam sistem hukum. Ia **tidak diberlakukan, melainkan dipresupposisikan** oleh ilmu hukum. Fungsinya adalah memastikan koherensi dan kesatuan tatanan hukum.\n\nKonstitusi itu sendiri adalah fakta. Norma-norma konstitusional adalah makna yang diberikan oleh ilmuwan hukum kepada konstitusi. Ilmuwan hukum memberikan kekuatan normatif kepada aturan-aturan konstitusi hanya karena norma yang lebih tinggi memberikan validitas kepada mereka — norma yang lebih tinggi itulah Grundnorm.\n\n**Kritik Raz terhadap Grundnorm:** Raz berpendapat bahwa Grundnorm \"tidak memberikan kontribusi apapun pada kriteria identitas dan keanggotaan\" sistem hukum. Diagram pohon validitas norma tetap dapat dipertahankan meskipun Grundnorm dihilangkan dari sana.\n\n### 11.2.4 Negara dan Kedaulatan dalam Kerangka Kelsen\n\n- **Negara diidentifikasi dengan tatanan hukum itu sendiri** — negara bukan entitas fisik yang terpisah, melainkan adalah tatanan normatif itu sendiri.\n- **Kedaulatan** bukan tentang kekuasaan yang tidak terbatas, tetapi tentang **penciptaan norma** (*norm creation*).\n- Negara dan hukum secara konseptual tidak terpisahkan dalam kerangka Kelsen.\n\n---\n\n## 11.3 Gustav Radbruch (1878–1949): Formula Keadilan dan Positivisme yang Dikoreksi\n\n### 11.3.1 Biografi dan Transformasi Intelektual\n\n**Gustav Radbruch** adalah filsuf hukum Jerman sekaligus mantan Menteri Kehakiman Jerman pada era Republik Weimar. Ia hidup melewati empat era yang dramatis: Kekaisaran Jerman, Republik Weimar, era Nazi, dan rekonstruksi pasca-perang.\n\n**Fase Pra-WWII (Positivisme Awal):**\n- Awalnya seorang positivis hukum: Hukum adalah valid jika diberlakukan oleh otoritas yang tepat, **apapun kandungannya**.\n- Meyakini bahwa **kepastian hukum** (*Rechtssicherheit*) adalah kunci keadilan.\n- Mengadvokasi pemisahan tegas antara hukum dan moralitas.\n\n**Fase Pasca-WWII (Transformasi Radikal):**\nMerespons kekejaman Nazi dan penyalahgunaan formalisme hukum, Radbruch melakukan **transformasi intelektual** yang dramatis. Pengalamannya menyaksikan bagaimana hukum-hukum Nazi yang secara formal \"sah\" mengesahkan Holocaust memaksanya untuk merevisi pandangannya secara fundamental.\n\n---\n\n### 11.3.2 Formula Radbruch (*Radbruch Formula*)\n\n> ***\"Where statutory law reaches an intolerable level of injustice, it must yield to justice.\"***\n>\n> — Gustav Radbruch, *Gesetzliches Unrecht und übergesetzliches Recht* (1946)\n\nLebih tepatnya, Formula Radbruch menyatakan bahwa **ketidakadilan yang ekstrem bukan merupakan hukum** (*lex iniustissima non est lex*) — bahkan jika ia diberlakukan secara legal. Ini adalah pembalikan radikal dari positivisme awalnya.\n\n```mermaid\ngraph LR\n    A[\"Hukum yang diberlakukan\\noleh otoritas yang sah\"] --> B{{\"Apakah mencapai\\ntingkat ketidakadilan\\nyang tidak dapat ditoleransi?'\"}}\n    B -->|\"TIDAK\\n(ketidakadilan biasa)\"| C[\"Tetap berlaku sebagai\\nhukum yang sah\\n(meskipun buruk secara moral)\"]\n    B -->|\"YA\\n(ketidakadilan ekstrem)\"| D[\"Kehilangan karakter\\nhukumnya\\nHukum tidak wajib ditaati\"]\n```\n\n---\n\n### 11.3.3 Tiga Elemen Hukum: Konsep Tripartit Radbruch\n\nRadbruch berargumen bahwa sistem hukum yang baik harus **menyeimbangkan tiga elemen** yang saling bersinergi dan kadang-kadang saling bertenangan:\n\n| Elemen | Istilah Jerman | Penjelasan | Ancaman Jika Diabaikan |\n|---|---|---|---|\n| **Kepastian Hukum** | *Rechtssicherheit* | Hukum harus dapat diprediksi dan konsisten; orang harus tahu apa yang diizinkan dan dilarang | Chaos, ketidakpastian, kearbitrarian |\n| **Keadilan** | *Gerechtigkeit* | Hukum harus memperlakukan kasus yang serupa secara serupa; berdasarkan persamaan dan martabat manusia | Penindasan, diskriminasi, tirani |\n| **Kegunaan / Tujuan** | *Zweckmäßigkeit* | Hukum harus melayani tujuan sosial yang berguna; efektif dalam mencapai tujuannya | Hukum yang tidak efektif atau kontraproduktif |\n\n> [!IMPORTANT]\n> Urutan prioritas menurut Radbruch (pasca-WWII): **Keadilan** > Kepastian Hukum > Kegunaan. Ketika kepastian hukum berbenturan secara ekstrem dengan keadilan (sebagaimana terjadi di bawah rezim Nazi), **keadilan harus menang**.\n\n---\n\n### 11.3.4 Warisan Radbruch\n\nFormula Radbruch memiliki dampak yang sangat besar, terutama:\n\n1. **Mempengaruhi konstitusionalisme Jerman pasca-perang:** Grundgesetz (Konstitusi Jerman 1949) sangat dipengaruhi oleh pemikiran bahwa ada batas-batas moral yang tidak boleh dilanggar oleh hukum positif.\n2. **Digunakan dalam pengadilan pasca-perang:** Formula ini digunakan untuk mengevaluasi apakah hukum-hukum Nazi dapat dianggap mengikat secara hukum.\n3. **Penting dalam debat tentang batas moral positivisme hukum:** Formula Radbruch menjadi titik rujukan utama dalam perdebatan antara positivisme (Hart) dan anti-positivisme (Fuller, Dworkin, dll.).\n\n---\n\n## 11.4 Perbandingan Kelsen dan Radbruch: Dua Respons Neo-Kantian terhadap Hukum\n\n| Dimensi | Hans Kelsen | Gustav Radbruch |\n|---|---|---|\n| **Pendekatan Metodologis** | Pemisahan total antara hukum dan moral; kemurnian metodologis | Integrasi hukum dan moral dalam kondisi ekstrem (*Formula Radbruch*) |\n| **Validitas Hukum** | Berdasarkan prosedur dan norma yang lebih tinggi; Grundnorm | Berdasarkan prosedur, tetapi hukum yang sangat tidak adil kehilangan validitasnya |\n| **Respons terhadap Nazi** | Teori Murni dimaksudkan untuk mencegah penggunaan hukum sebagai alat ideologi | Formula Radbruch secara eksplisit memberikan alat untuk membatalkan hukum Nazi yang tidak adil |\n| **Pengaruh** | Positivisme hukum, yurisprudensi konstitusional, dan hukum internasional | Konstitusionalisme Jerman, keadilan transisional, teori hak asasi manusia |\n| **Neo-Kantian** | Menekankan *Sollen* vs *Sein*; hukum sebagai sistem normatif yang otonom | Menekankan nilai-nilai yang *a priori* dari keadilan sebagai batas hukum positif |\n\n---\n\n# RINGKASAN KOMPREHENSIF: PETA TEORI HUKUM\n\n```mermaid\ngraph TD\n    A[\"🌍 TEORI HUKUM\\nJurisprudence\"] --> B[\"🌿 HUKUM KODRAT\\nNatural Law\"]\n    A --> C[\"⚖️ POSITIVISME HUKUM\\nLegal Positivism\"]\n    A --> D[\"🔬 REALISME HUKUM\\nLegal Realism\"]\n    A --> E[\"🧠 NEO-KANTIANISME\\nNeo-Kantianism\"]\n\n    B --> B1[\"Plato\\n(Idealisme Politik)\"]\n    B --> B2[\"Aristoteles\\n(Teleologi & Kodrat)\"]\n    B --> B3[\"Thomas Aquinas\\n(Sintesis Iman & Akal)\"]\n    B --> B4[\"John Finnis\\n(Basic Goods)\"]\n    B --> B5[\"Lon Fuller\\n(Moralitas Internal)\"]\n\n    C --> C1[\"Auguste Comte\\n(Positivisme Ilmu)\"]\n    C --> C2[\"Jeremy Bentham\\n(Utilitarianisme)\"]\n    C --> C3[\"Friedrich Savigny\\n(Mazhab Historis)\"]\n    C --> C4[\"John Austin\\n(Command Theory)\"]\n    C --> C5[\"H.L.A. Hart\\n(Neopositivisme)\"]\n    C --> C6[\"Joseph Raz\\n(Soft Positivism)\"]\n\n    D --> D1[\"Oliver Wendell Holmes\\n(Hukum = Prediksi Pengadilan)\"]\n\n    E --> E1[\"Hans Kelsen\\n(Teori Hukum Murni)\"]\n    E --> E2[\"Gustav Radbruch\\n(Formula Radbruch)\"]\n\n    B3 -->|\"Pengaruh Teleologi\"| B4\n    B3 -->|\"Menolak Aquinas\"| B4\n    B3 -->|\"Mendapat Inspirasi\"| B5\n    C4 -->|\"Kritik Austin\"| C5\n    C5 -->|\"Murid & Kritikus\"| C6\n    C5 -.->|\"Pengaruh\"| D1\n    C2 -->|\"Pengaruh\"| C4\n    E1 -.->|\"Kritik Grundnorm\"| C6\n    B5 -->|\"Tantangan terhadap\"| C4\n    E2 -->|\"Koreksi\"| E1\n\n    style B fill:#27ae60,color:#fff\n    style C fill:#2980b9,color:#fff\n    style D fill:#e74c3c,color:#fff\n    style E fill:#8e44ad,color:#fff\n```\n\n---\n\n# DAFTAR PUSTAKA {#daftar-pustaka}\n\n**Sumber Primer:**\n\n| Penulis | Judul | Penerbit | Tahun |\n|---|---|---|---|\n| Aquinas, Thomas | *Summa Theologica* (vols. 1–3) | Benziger Bros | 1947 |\n| Austin, John | *The Province of Jurisprudence Determined* | John Murray | 1832 |\n| Bentham, Jeremy | *An Introduction to the Principles of Morals and Legislation* | T. Payne | 1789 |\n| Finnis, John | *Natural Law and Natural Rights* (2nd ed.) | Oxford University Press | 2011 |\n| Fuller, Lon L. | *The Morality of Law* (rev. ed.) | Yale University Press | 1969 |\n| Hart, H.L.A. | *The Concept of Law* (3rd ed.) | Oxford: Clarendon Press | 1994 |\n| Holmes, Oliver Wendell | \"The Path of the Law\" | *Harvard Law Review* 10:457 | 1897 |\n| Kelsen, Hans | *Pure Theory of Law* | University of California Press | 1967 |\n| Kelsen, Hans | *General Theory of Law and State* | Harvard University Press | 1945 |\n| Radbruch, Gustav | \"Gesetzliches Unrecht und übergesetzliches Recht\" | *Süddeutsche Juristen-Zeitung* 1(5):105–108 | 1946 |\n| Raz, Joseph | *Practical Reason and Norms* | Oxford University Press | 1979 |\n| Raz, Joseph | *The Authority of Law* (2nd ed.) | Oxford University Press | 2009 |\n| Raz, Joseph | *Between Authority and Interpretation* | Oxford University Press | — |\n| Raz, Joseph | *From Normativity to Responsibility* | Oxford University Press | 2011 |\n\n**Sumber Sekunder:**\n\n| Penulis | Judul | Penerbit | Tahun |\n|---|---|---|---|\n| Huijbers, Theo | *Filsafat Hukum dalam Lintasan Sejarah* | Yogyakarta: Kanisius | 1997 |\n| Manullang, E. Fernando M. | *Norma Hanyalah Makna Grundnorm Malah Seperti Tuhan* | Klaten: Nasmedia | 2024 |\n| Ratnapala, Suri | *Jurisprudence* | Cambridge University Press | 2009 |\n| Wacks, Raymond | *Understanding Jurisprudence: An Introduction to Legal Theory* | Oxford University Press | 2012 |\n\n**Artikel Jurnal:**\n\n- Silalahi, Artha Debora. \"Rethinking Constitutional Interpretation through Joseph Raz's Analytical Jurisprudence.\" *Constitutional Review* Vol.11 No.1 (May 2025): 233–268. DOI: 10.31078/consrev1118.\n- Silalahi, Artha Debora, et al. \"From Authority to Justification: The Epistemological Foundations of Joseph Raz's Legal Philosophy.\" *Jurnal Filsafat* Vol.35 No.1-2 (2025): 228–253. DOI: 10.22146/jf.105256.\n- Silalahi, Artha Debora. \"Criticising the Political System and the Normativity Foundations Through Joseph Raz's Legal and Philosophical Thought.\" *Mimbar Hukum UGM* Vol.37 No.1 (2025): 55–82. DOI: 10.22146/mh.v37i1.20234.\n- Silalahi, Artha Debora, et al. \"Exploring the Ontological Basis of Law: Joseph Raz's Views on Normativity Within The Framework of Legal Realism.\" *International Review of Humanities Studies* Vol.10 No.1 (January 2025): 200–208. DOI: 10.7454/irhs.v10i1.1374.\n\n---\n\n> [!ABSTRACT]\n> **Catatan Penutup:** Dokumen ini merupakan ekspansi akademis komprehensif dari catatan kuliah asli. Setiap bagian telah diperluas dengan konteks historis, argumen filosofis yang mendalam, kritik lintas-teori, tabel perbandingan, dan diagram Mermaid.js yang merepresentasikan struktur konseptual yang sebelumnya hanya berupa daftar singkat. Diagram-diagram yang terdapat dalam sumber asli (Figure 5.1, 5.2, 2.3, 2.4) telah direkonstruksi sebagai diagram Mermaid.js fungsional berdasarkan konteks dan deskripsi yang tersedia dalam teks.\n";
+
+// ═══════════════════════════════════════════
+// CALLOUT PRE-PROCESSOR
+// ═══════════════════════════════════════════
+function processCallouts(md) {
+  // Match > [!TYPE] blocks (Obsidian callout syntax)
+  return md.replace(/^((?:> .*\n?)+)/gm, function(block) {
+    const firstLine = block.split('\n')[0];
+    const calloutMatch = firstLine.match(/^> \[!(ABSTRACT|QUOTE|NOTE|IMPORTANT|WARNING|TIP)\]/i);
+    if (!calloutMatch) return block;
+    const type = calloutMatch[1].toUpperCase();
+    const lines = block.split('\n');
+    const bodyLines = lines
+      .slice(1)
+      .map(l => l.replace(/^> ?/, ''))
+      .join('\n')
+      .trim();
+    const icons = {
+      ABSTRACT: '◈', QUOTE: '❝', NOTE: '◎', IMPORTANT: '◆', WARNING: '⚠', TIP: '◉'
+    };
+    const icon = icons[type] || '◈';
+    return `<div class="callout callout-${type.toLowerCase()}">` +
+           `<span class="callout-title">${icon}&nbsp;${type}</span>` +
+           `<div class="callout-body">${marked.parse(bodyLines)}</div>` +
+           `</div>`;
+  });
+}
+
+// ═══════════════════════════════════════════
+// MARKED CONFIGURATION
+// ═══════════════════════════════════════════
+const renderer = new marked.Renderer();
+
+// Capture headings for TOC
+const tocItems = [];
+renderer.heading = function(token) {
+  const text = token.text;
+  const level = token.depth;
+  // Extract plain text for TOC
+  const plain = text.replace(/<[^>]+>/g, '').replace(/\*\*?([^*]+)\*\*?/g, '$1').trim();
+  // Generate id from text
+  let id = plain.toLowerCase()
+    .replace(/[^a-z0-9\s\u00C0-\u024F]/g, '')
+    .trim()
+    .replace(/\s+/g, '-');
+  if (level <= 2) {
+    tocItems.push({ level, text: plain, id });
+  }
+  return `<h${level} id="${id}">${text}</h${level}>`;
+};
+
+marked.setOptions({ renderer, breaks: false, gfm: true });
+
+// ═══════════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', async function() {
+
+  // 1. Process callouts first, then parse markdown
+  let processed = processCallouts(RAW_MD);
+  // Remove Obsidian {#anchor} custom id syntax from headings  
+  processed = processed.replace(/\s*\{#[^}]+\}/g, '');
+  let html = marked.parse(processed);
+  document.getElementById('rendered').innerHTML = html;
+
+  // 2. Build TOC
+  buildTOC();
+
+  // 3. Init Mermaid
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'base',
+    themeVariables: {
+      primaryColor: '#2e3d4f',
+      primaryTextColor: '#f0e8d8',
+      primaryBorderColor: '#b8860b',
+      lineColor: '#b8860b',
+      secondaryColor: '#4a6741',
+      tertiaryColor: '#faf6ee',
+      background: '#ffffff',
+      mainBkg: '#2e3d4f',
+      nodeBorder: '#b8860b',
+      clusterBkg: '#f3ece0',
+      titleColor: '#1a1208',
+      edgeLabelBackground: '#faf6ee',
+      fontFamily: 'Libre Baskerville, Georgia, serif',
+      fontSize: '13px'
+    },
+    flowchart: { htmlLabels: true, curve: 'basis' },
+    sequence: { diagramMarginX: 20, diagramMarginY: 10 }
+  });
+
+  // Find all mermaid code blocks and render them
+  const codeBlocks = document.querySelectorAll('pre code.language-mermaid, code.language-mermaid');
+  const mermaidDivs = [];
+  codeBlocks.forEach((block, i) => {
+    const container = document.createElement('div');
+    container.className = 'mermaid';
+    container.setAttribute('data-diagram', block.textContent);
+    container.id = 'mermaid-' + i;
+    const pre = block.closest('pre') || block.parentNode;
+    pre.parentNode.replaceChild(container, pre);
+    mermaidDivs.push(container);
+  });
+
+  // Also handle plain ```mermaid that might not have class
+  const allPres = document.querySelectorAll('pre code');
+  allPres.forEach((block, i) => {
+    const txt = block.textContent.trim();
+    if (txt.match(/^(graph|sequenceDiagram|mindmap|timeline|flowchart)/)) {
+      const container = document.createElement('div');
+      container.className = 'mermaid';
+      container.setAttribute('data-diagram', txt);
+      container.id = 'mermaid-extra-' + i;
+      const pre = block.closest('pre');
+      if (pre) {
+        pre.parentNode.replaceChild(container, pre);
+        mermaidDivs.push(container);
+      }
+    }
+  });
+
+  // Render each mermaid diagram
+  for (let i = 0; i < mermaidDivs.length; i++) {
+    const div = mermaidDivs[i];
+    const code = div.getAttribute('data-diagram');
+    try {
+      const { svg } = await mermaid.render('mermaid-svg-' + i, code);
+      div.innerHTML = svg;
+    } catch(e) {
+      div.innerHTML = '<p style="color:#c0392b;font-size:0.8em;font-family:monospace;padding:8px">⚠ Diagram render error: ' + e.message + '</p><pre style="font-size:0.75em;overflow:auto">' + code + '</pre>';
+      console.warn('Mermaid error on diagram', i, e);
+    }
+  }
+
+  // 4. KaTeX render
+  if (window.renderMathInElement) {
+    renderMathInElement(document.getElementById('rendered'), {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false }
+      ],
+      throwOnError: false
+    });
+  }
+
+  // 5. Reading progress + TOC active state
+  setupScrollHandlers();
+
+  // 6. Audio player
+  setupAudioPlayer();
+
+  // 7. Back to top
+  setupBackTop();
+});
+
+// ═══════════════════════════════════════════
+// TOC BUILDER
+// ═══════════════════════════════════════════
+function buildTOC() {
+  const list = document.getElementById('tocList');
+  // Re-gather headings from rendered DOM
+  const headings = document.querySelectorAll('#rendered h1, #rendered h2');
+  list.innerHTML = '';
+  headings.forEach(h => {
+    if (!h.id) return;
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.slice(0, 52) + (h.textContent.length > 52 ? '…' : '');
+    a.style.paddingLeft = h.tagName === 'H2' ? '20px' : '10px';
+    a.style.fontSize = h.tagName === 'H1' ? '12px' : '11px';
+    a.style.fontWeight = h.tagName === 'H1' ? '600' : '400';
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+}
+
+// ═══════════════════════════════════════════
+// SCROLL HANDLERS
+// ═══════════════════════════════════════════
+function setupScrollHandlers() {
+  const progress = document.getElementById('readingProgress');
+  const backTop = document.getElementById('backTop');
+  const tocLinks = () => document.querySelectorAll('.toc-list a');
+
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    progress.style.width = pct + '%';
+
+    backTop.classList.toggle('visible', scrollTop > 400);
+
+    // Active TOC item
+    const headings = document.querySelectorAll('#rendered h1, #rendered h2');
+    let current = null;
+    headings.forEach(h => {
+      if (h.getBoundingClientRect().top <= 100) current = h.id;
+    });
+    tocLinks().forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  }, { passive: true });
+}
+
+// ═══════════════════════════════════════════
+// AUDIO PLAYER
+// ═══════════════════════════════════════════
+function setupAudioPlayer() {
+  const audio = document.getElementById('mainAudio');
+  const playBtn = document.getElementById('playBtn');
+  const timeDisplay = document.getElementById('timeDisplay');
+  const progressFill = document.getElementById('progressFill');
+  const progressWrap = document.getElementById('progressWrap');
+  const volumeSlider = document.getElementById('volumeSlider');
+  const speedBtn = document.getElementById('speedBtn');
+
+  const speeds = [1, 1.25, 1.5, 1.75, 2, 0.75];
+  let speedIdx = 0;
+
+  function fmt(s) {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60);
+    return m + ':' + String(sec).padStart(2, '0');
+  }
+
+  playBtn.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play().catch(e => console.warn('Audio play error:', e));
+    } else {
+      audio.pause();
+    }
+  });
+
+  audio.addEventListener('play', () => playBtn.classList.add('playing'));
+  audio.addEventListener('pause', () => playBtn.classList.remove('playing'));
+  audio.addEventListener('ended', () => playBtn.classList.remove('playing'));
+
+  audio.addEventListener('timeupdate', () => {
+    const cur = audio.currentTime || 0;
+    const dur = audio.duration || 0;
+    timeDisplay.textContent = fmt(cur) + ' / ' + (dur ? fmt(dur) : '—');
+    progressFill.style.width = dur ? (cur / dur * 100) + '%' : '0%';
+  });
+
+  audio.addEventListener('loadedmetadata', () => {
+    timeDisplay.textContent = '0:00 / ' + fmt(audio.duration);
+  });
+
+  progressWrap.addEventListener('click', e => {
+    const rect = progressWrap.getBoundingClientRect();
+    const ratio = (e.clientX - rect.left) / rect.width;
+    if (audio.duration) audio.currentTime = ratio * audio.duration;
+  });
+
+  volumeSlider.addEventListener('input', () => {
+    audio.volume = volumeSlider.value;
+  });
+
+  speedBtn.addEventListener('click', () => {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    audio.playbackRate = speeds[speedIdx];
+    speedBtn.textContent = speeds[speedIdx] + '×';
+  });
+}
+
+// ═══════════════════════════════════════════
+// BACK TO TOP
+// ═══════════════════════════════════════════
+function setupBackTop() {
+  document.getElementById('backTop').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+</script>
+</body>
+</html>
