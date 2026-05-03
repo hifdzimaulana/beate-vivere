@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "sass:color";
 
 :root {
   --callout-deepdive: #6c63ff;
@@ -16,30 +17,32 @@ body.dark {
   --callout-danger: #ec7063;
 }
 
-.callout {
-  &[data-callout="deepdive"] {
-    --color: var(--callout-deepdive);
-    --border: color.mix(#000, var(--callout-deepdive), 15%);
-    --bg: color.mix(#000, var(--callout-deepdive), 10%);
-  }
-  &[data-callout="legal"] {
-    --color: var(--callout-legal);
-    --border: color.mix(#000, var(--callout-legal), 15%);
-    --bg: color.mix(#000, var(--callout-legal), 10%);
-  }
-  &[data-callout="case"] {
-    --color: var(--callout-case);
-    --border: color.mix(#000, var(--callout-case), 15%);
-    --bg: color.mix(#000, var(--callout-case), 10%);
-  }
-  &[data-callout="concept"] {
-    --color: var(--callout-concept);
-    --border: color.mix(#000, var(--callout-concept), 15%);
-    --bg: color.mix(#000, var(--callout-concept), 10%);
-  }
-  &[data-callout="danger"] {
-    --color: var(--callout-danger);
-    --border: color.mix(#000, var(--callout-danger), 15%);
-    --bg: color.mix(#000, var(--callout-danger), 10%);
-  }
+.callout[data-callout="deepdive"] {
+  --color: var(--callout-deepdive);
+  --border: color.mix(#000, var(--callout-deepdive), 15%);
+  --bg: color.mix(#fff, var(--callout-deepdive), 92%);
+}
+
+.callout[data-callout="legal"] {
+  --color: var(--callout-legal);
+  --border: color.mix(#000, var(--callout-legal), 15%);
+  --bg: color.mix(#fff, var(--callout-legal), 92%);
+}
+
+.callout[data-callout="case"] {
+  --color: var(--callout-case);
+  --border: color.mix(#000, var(--callout-case), 15%);
+  --bg: color.mix(#fff, var(--callout-case), 92%);
+}
+
+.callout[data-callout="concept"] {
+  --color: var(--callout-concept);
+  --border: color.mix(#000, var(--callout-concept), 15%);
+  --bg: color.mix(#fff, var(--callout-concept), 92%);
+}
+
+.callout[data-callout="danger"] {
+  --color: var(--callout-danger);
+  --border: color.mix(#000, var(--callout-danger), 15%);
+  --bg: color.mix(#fff, var(--callout-danger), 92%);
 }
