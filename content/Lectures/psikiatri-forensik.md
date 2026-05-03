@@ -101,15 +101,6 @@ Ini adalah **pembeda paling fundamental** yang harus dipahami sejak awal:
 
 ### 2.1 Evolusi Pasal
 
-```
-KUHP LAMA              KUHP BARU (Berlaku)
-─────────────          ──────────────────────────────────
-Pasal 44               Pasal 38 → Kurang mampu bertanggung jawab
-(satu pasal,           Pasal 39 → Tidak mampu bertanggung jawab
-hanya: mampu           Pasal 34 → Pembelaan terpaksa (noodweer)
-atau tidak mampu)      Pasal 43 → Daya paksa / duress defense
-```
-
 > [!legal] Legal — Perbedaan Pasal 38 dan 39 KUHP Baru
 > | | **Pasal 38 — Kurang Mampu** | **Pasal 39 — Tidak Mampu** |
 > |---|---|---|
@@ -154,13 +145,11 @@ flowchart TD
 > **Implikasi hukum:** Jika psikosis disebabkan kondisi medis yang tidak diobati/tidak terdeteksi, peran *mens rea* jauh lebih lemah — bahkan bisa mengarah ke Pasal 39.
 
 > [!warning] Jebakan — Jangan Langsung Labeli "Psikiatri"
+> Ketika seseorang datang ke IGD dengan bicara ngaco dan agitasi, jangan langsung kirim ke psikiatri tanpa skrining medis. Tanyakan dulu: **onset**-nya seperti apa? Onset psikotik primer biasanya gradual — bukan tiba-tiba dalam 4 hari. Periksa riwayat obat-obatan, kondisi metabolik, dan kemungkinan lesi organik terlebih dahulu.
 
+---
 
 ## 5. Model Bumi-Bulan-Matahari
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Reaksi vs Respons dalam Konteks Hukum</div>
-<div class="callout-body">
 
 | | **Reaksi** | **Respons** |
 |---|---|---|
@@ -177,9 +166,6 @@ flowchart TD
 - **Fawn** — Menyesuaikan diri/mengikuti untuk bertahan
 
 Pola 4F ini dibentuk oleh riwayat trauma dan pola asuh — bukan pilihan sadar. Psikiater forensik perlu memetakan *pola mana yang dominan* pada pelaku dan *mengapa*.
-
-</div>
-</div>
 
 ---
 
@@ -201,24 +187,15 @@ graph LR
 
 </div>
 
-<div class="callout callout-case">
-<div class="callout-title">📋 Kasus — Kleptomania (Referensi: Selebriti Hollywood)</div>
-<div class="callout-body">
+### 📋 Kasus — Kleptomania (Referensi: Selebriti Hollywood)
 
 Seorang figur publik didiagnosis kleptomania: ia *tahu* bahwa mencuri adalah salah (moral wrongfulness ada), tetapi kompulsinya tidak dapat dia kendalikan sepenuhnya. Keputusan pengadilan: **tidak masuk penjara, tetapi kerja sosial** (membersihkan area publik sebagai bentuk malu publik) **+ wajib berobat**. Ini contoh sempurna pemidanaan yang bersifat terapeutik, bukan semata punitif.
-
-</div>
-</div>
 
 ---
 
 ## 8. Gangguan Jiwa Spesifik & Implikasi Hukumnya
 
 ### 8.1 Skizofrenia
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Skizofrenia: Halusinasi Bukan Bohong</div>
-<div class="callout-body">
 
 Halusinasi pada skizofrenia adalah **pengalaman persepsi nyata bagi penderitanya** — bukan kebohongan atau manipulasi. Implikasi forensik:
 
@@ -230,14 +207,7 @@ Halusinasi pada skizofrenia adalah **pengalaman persepsi nyata bagi penderitanya
 - Skizofrenia yang responsif terhadap obat → kemungkinan reintegrasi lebih tinggi
 - Setiap relaps → penurunan fungsi kumulatif (deteriorasi)
 
-</div>
-</div>
-
 ### 8.2 Bipolar
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Bipolar & Tanggung Jawab Hukum</div>
-<div class="callout-body">
 
 Bipolar bersifat **temporer dan episodik** — berbeda dari demensia yang permanen. Kesalahan umum: menggunakan alat ukur dimensia (permanen) untuk menilai bipolar.
 
@@ -248,25 +218,14 @@ Bipolar bersifat **temporer dan episodik** — berbeda dari demensia yang perman
 
 **Uji pertanggungjawaban saat manik:** Apakah ada *tanda-tanda perencanaan*? (Misal: menggunakan kondom, memilih waktu, menutup jejak) → Ini menunjukkan fungsi eksekutif **masih ada**, artinya pertanggungjawaban tidak hilang sepenuhnya.
 
-</div>
-</div>
-
 ### 8.3 Gangguan Kepribadian
 
-<div class="callout callout-concept">
-<div class="callout-title">💡 Konsep — Gangguan Kepribadian ≠ Bebas Hukum</div>
-<div class="callout-body">
-
-Gangguan kepribadian (Narcissistic PD, Antisocial PD, Borderline PD) **jarang memenuhi syarat** untuk Pasal 39. Ini karena:
-
-- Pelaku biasanya *tahu* tindakannya salah (moral wrongfulness ada)
-- Gangguan terletak pada *cara beradaptasi*, bukan pada kapasitas kognitif dasar
-- Namun, dapat menjadi **faktor mitigasi** (pasal 38) jika terbukti regulasi emosi sangat terganggu
-
-**NPD dalam konteks hukum:** Pelaku dengan NPD cenderung memanfaatkan sistem — pura-pura tidak mengerti. Psikiater harus mengkorelasikan data kolateral (CCTV, saksi) dengan perilaku saat pemeriksaan.
-
-</div>
-</div>
+> [!concept] Konsep — Gangguan Kepribadian ≠ Bebas Hukum
+> Gangguan kepribadian (Narcissistic PD, Antisocial PD, Borderline PD) **jarang memenuhi syarat** untuk Pasal 39. Ini karena:
+> - Pelaku biasanya *tahu* tindakannya salah (moral wrongfulness ada)
+> - Gangguan terletak pada *cara beradaptasi*, bukan pada kapasitas kognitif dasar
+> - Namun, dapat menjadi **faktor mitigasi** (pasal 38) jika terbukti regulasi emosi sangat terganggu
+> **NPD dalam konteks hukum:** Pelaku dengan NPD cenderung memanfaatkan sistem — pura-pura tidak mengerti. Psikiater harus mengkorelasikan data kolateral (CCTV, saksi) dengan perilaku saat pemeriksaan.
 
 ---
 
@@ -286,129 +245,38 @@ flowchart TD
 
 </div>
 
-<div class="callout callout-danger">
-<div class="callout-title">🚨 Bahaya — False Memory & Hipnosis</div>
-<div class="callout-body">
+> [!danger] Bahaya — False Memory & Hipnosis
+> Penggunaan hipnosis dalam pemeriksaan forensik **sangat berisiko**. Hipnosis tidak mengekstrak "kebenaran murni" — ia mengekstrak campuran memori asli, harapan, dan narasi yang terbentuk dari konteks emosional. Hasilnya bisa berupa **false memory** yang sangat meyakinkan.
+> Lie detector (poligraf) boleh digunakan sebagai *alat bantu*, tetapi **tidak dapat dijadikan dalil** langsung — hanya sebagai data pendukung dalam analisis yang lebih luas.
 
-Penggunaan hipnosis dalam pemeriksaan forensik **sangat berisiko**. Hipnosis tidak mengekstrak "kebenaran murni" — ia mengekstrak campuran memori asli, harapan, dan narasi yang terbentuk dari konteks emosional. Hasilnya bisa berupa **false memory** yang sangat meyakinkan.
-
-Lie detector (poligraf) boleh digunakan sebagai *alat bantu*, tetapi **tidak dapat dijadikan dalil** langsung — hanya sebagai data pendukung dalam analisis yang lebih luas.
-
-</div>
-</div>
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Inkonsistensi ≠ Kebohongan</div>
-<div class="callout-body">
-
-Saksi atau terdakwa yang inkonsisten dalam keterangannya belum tentu berbohong. Inkonsistensi bisa disebabkan oleh:
-
-- **Amnesia disosiatif** — memori kejadian terputus karena stres ekstrem (trauma)
-- **Kondisi psikotik saat kejadian** — memori terfragmentasi
-- **Kelelahan kognitif** — diperiksa berkali-kali tanpa pendamping
-
-**Standar forensik:** Berikan waktu, berikan keleluasaan, dan minta *bukti dukung objektif* — jika bisa memberikannya, maka inkonsistensinya tidak menandakan ketidakcakapan.
-
-</div>
-</div>
-
----
-
-## 10. Gradasi Pertanggungjawaban & Tindakan Hukum
-
-<div class="mindmap-wrap">
-
-```mermaid
-graph TD
-    A["Asesmen Selesai"]
-
-    A --> B["MAMPU PENUH\n(Bertanggung jawab)"]
-    A --> C["KURANG MAMPU\nPasal 38 KUHP Baru"]
-    A --> D["TIDAK MAMPU\nPasal 39 KUHP Baru"]
-
-    B --> B1["Pidana penuh\n± faktor pemberat/peringan\nbiasa"]
-
-    C --> C1["Pidana dikurangi\n+ Wajib berobat\n+ Pengawasan"]
-
-    D --> D1["Bebas dari pidana\nTindakan terapeutik:\n• Perawatan di RS Jiwa\n• Kerja sosial\n• Pengawasan keluarga/negara"]
-
-    C1 & D1 --> E["Pertanyaan Lanjutan:\n• Berapa lama perawatan?\n• Siapa pengawasnya?\n• Di mana penempatannya?\n• Kapan bisa reintegrasi?\n• Masih ada faktor risiko?"]
-```
-
-</div>
-
-<div class="callout callout-legal">
-<div class="callout-title">⚖️ Legal — Paradigma Baru: Dari Punitif ke Terapeutik</div>
-<div class="callout-body">
-
-KUHP baru secara eksplisit mengakui bahwa tidak semua pelaku harus dipenjara. Opsi yang tersedia:
-
-| Mekanisme | Deskripsi |
-|---|---|
-| **Pidana Alternatif** | Kerja sosial, denda, pengawasan — menggantikan penjara |
-| **Pidana Pengawasan** | Bebas bersyarat dengan supervisi intensif |
-| **Komutasi** | Pengurangan hukuman berdasarkan perkembangan kondisi |
-| **Amnesti** | Pengampunan (mempertimbangkan kondisi kesehatan) |
-| **Restriksi** | Pembatasan aktivitas tanpa pemenjaraan |
-
-**Catatan kritis:** Tindakan terapeutik hanya efektif jika sistemnya mendukung — Indonesia memiliki keterbatasan serius: rasio psikiater:narapidana sangat rendah (misal: 2 psikiater untuk 2.789 narapidana di satu lapas), anggaran makan narapidana sekitar Rp 21.000/hari.
-
-</div>
-</div>
-
----
-
-## 11. Motif & Guilty Mind — Apa yang Dicari Psikiater
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Peta Motif Pelaku</div>
-<div class="callout-body">
-
-Meskipun hukum formal sering tidak menuntut pembuktian motif, psikiater forensik perlu memahaminya untuk:
-- Menentukan apakah tindakan itu **terencana vs impulsif**
-- Menilai **risiko residivisme** (potensi pengulangan)
-- Merekomendasikan **intervensi yang tepat sasaran**
-
-**Tipologi reward yang dicari pelaku:**
-1. **Release expression** — melampiaskan emosi (marah, takut dipermalukan)
-2. **Status/esteem** — pengakuan dari kelompok tertentu
-3. **Gain profit** — keuntungan material
-4. **Thrilling/novelty seeking** — sensasi, kebosanan (terkait antisocial PD)
-5. **Compliance to internal command** — mematuhi halusinasi/waham (psikotik)
-6. **Survival** — respons terhadap ancaman nyata atau persepsi terancam
-
-</div>
+> [!legal] Legal — Paradigma Baru: Dari Punitif ke Terapeutik
+> KUHP baru secara eksplisit mengakui bahwa tidak semua pelaku harus dipenjara. Opsi yang tersedia:
+> | Mekanisme | Deskripsi |
+> |---|---|
+> | **Pidana Alternatif** | Kerja sosial, denda, pengawasan — menggantikan penjara |
+> | **Pidana Pengawasan** | Bebas bersyarat dengan supervisi intensif |
+> | **Komutasi** | Pengurangan hukuman berdasarkan perkembangan kondisi |
+> | **Amnesti** | Pengampunan (mempertimbangkan kondisi kesehatan) |
+> | **Restriksi** | Pembatasan aktivitas tanpa pemenjaraan |
+> **Catatan kritis:** Tindakan terapeutik hanya efektif jika sistemnya mendukung — Indonesia memiliki keterbatasan serius: rasio psikiater:narapidana sangat rendah (misal: 2 psikiater untuk 2.789 narapidana di satu lapas), anggaran makan narapidana sekitar Rp 21.000/hari.
 </div>
 
 ---
 
 ## 12. Independensi Ahli & Etika Forensik
 
-<div class="callout callout-warning">
-<div class="callout-title">⚠️ Konflik — Treating vs Assessing di Daerah Terpencil</div>
-<div class="callout-body">
+> [!warning] Konflik — Treating vs Assessing di Daerah Terpencil
+> Idealnya, treating psychiatrist **tidak boleh sekaligus** menjadi assessing psychiatrist karena:
+> - Hubungan terapeutik menciptakan bias pro-pasien
+> - Kerahasiaan jabatan bertentangan dengan kewajiban membuka informasi ke pengadilan
+> **Pengecualian:** Jika psikiater hanya satu di wilayah tersebut, ia *terpaksa* melakukan keduanya — **dengan wajib mencantumkan disclaimer** dalam VeRP dan mendokumentasikan upaya menjaga independensinya.
 
-Idealnya, treating psychiatrist **tidak boleh sekaligus** menjadi assessing psychiatrist karena:
-- Hubungan terapeutik menciptakan bias pro-pasien
-- Kerahasiaan jabatan bertentangan dengan kewajiban membuka informasi ke pengadilan
-
-**Pengecualian:** Jika psikiater hanya satu di wilayah tersebut, ia *terpaksa* melakukan keduanya — **dengan wajib mencantumkan disclaimer** dalam VeRP dan mendokumentasikan upaya menjaga independensinya.
-
-</div>
-</div>
-
-<div class="callout callout-concept">
-<div class="callout-title">💡 Konsep — Cross-Examination & Kompetensi Ahli</div>
-<div class="callout-body">
-
-Psikiater forensik harus siap untuk:
-1. **Mempertahankan temuan dengan data** — bukan hanya otoritas gelar
-2. **Menggunakan bahasa teknis sekaligus bahasa awam** — hakim bukan dokter
-3. **Mengakui batas kompetensi** — "Saya hanya bisa menilai aspek X; aspek Y di luar kewenangan saya"
-4. **Menghadapi repetisi ulang** — Pasal 237 KUHP baru memungkinkan hakim meminta penilaian ulang dari ahli lain jika ada keberatan beralasan
-
-</div>
-</div>
+> [!concept] Konsep — Cross-Examination & Kompetensi Ahli
+> Psikiater forensik harus siap untuk:
+> 1. **Mempertahankan temuan dengan data** — bukan hanya otoritas gelar
+> 2. **Menggunakan bahasa teknis sekaligus bahasa awam** — hakim bukan dokter
+> 3. **Mengakui batas kompetensi** — "Saya hanya bisa menilai aspek X; aspek Y di luar kewenangan saya"
+> 4. **Menghadapi repetisi ulang** — Pasal 237 KUHP baru memungkinkan hakim meminta penilaian ulang dari ahli lain jika ada keberatan beralasan
 
 ---
 
