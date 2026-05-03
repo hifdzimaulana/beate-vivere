@@ -1,57 +1,11 @@
-<style>
-  /* ── Base Reset ───────────────────────────────────────────── */
-  body { font-family: 'Segoe UI', sans-serif; line-height: 1.7; color: #1e1e2e; background: #f8f8fc; }
-  h1 { color: #1a1a2e; border-bottom: 3px solid #6c63ff; padding-bottom: 10px; }
-  h2 { color: #16213e; border-left: 5px solid #6c63ff; padding-left: 12px; margin-top: 2.5rem; }
-  h3 { color: #0f3460; }
-  code { background: #eff0f7; padding: 2px 6px; border-radius: 4px; }
-
-  /* ── Callout Base ─────────────────────────────────────────── */
-  .callout {
-    border-radius: 10px;
-    padding: 16px 20px;
-    margin: 20px 0;
-    border-left: 5px solid;
-    position: relative;
-  }
-  .callout-title {
-    font-weight: 700;
-    font-size: 0.95em;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 8px;
-  }
-  .callout-body p:last-child { margin-bottom: 0; }
-
-  /* ── Callout Variants ─────────────────────────────────────── */
-  .callout-deepdive   { background: #f0ecff; border-color: #6c63ff; }
-  .callout-deepdive   .callout-title { color: #6c63ff; }
-
-  .callout-legal      { background: #e8f4fd; border-color: #2980b9; }
-  .callout-legal      .callout-title { color: #2980b9; }
-
-  .callout-case       { background: #eafaf1; border-color: #27ae60; }
-  .callout-case       .callout-title { color: #27ae60; }
-
-  .callout-warning    { background: #fef9e7; border-color: #f39c12; }
-  .callout-warning    .callout-title { color: #f39c12; }
-
-  .callout-danger     { background: #fdedec; border-color: #e74c3c; }
-  .callout-danger     .callout-title { color: #e74c3c; }
-
-  .callout-concept    { background: #f4f6f7; border-color: #7f8c8d; }
-  .callout-concept    .callout-title { color: #555; }
-
-  /* ── Mindmap Wrapper ─────────────────────────────────────── */
-  .mindmap-wrap { background: #fff; border-radius: 14px; padding: 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); margin: 24px 0; overflow-x: auto; }
-  .mindmap-wrap p { font-size: 0.8em; color: #888; text-align: right; margin: 0; }
-
-  /* ── Table Polish ─────────────────────────────────────────── */
-  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
-  th { background: #6c63ff; color: white; padding: 10px 14px; }
-  td { padding: 9px 14px; border-bottom: 1px solid #e0e0ef; }
-  tr:nth-child(even) td { background: #f5f5ff; }
-</style>
+---
+title: Psikiatri Forensik
+tags:
+  - Prapid
+  - lectures
+  - hukum
+  - psychiatry
+---
 
 # 🧠 Psikiatri Forensik — Materi Kuliah Hukum
 > **Konteks:** Kuliah kolaborasi Kedokteran–Hukum. Topik utama: peran psikiater dalam sistem peradilan pidana, dasar hukum KUHP baru, asesmen kapasitas mental, dan pertanggungjawaban pidana.
@@ -130,29 +84,16 @@ Ini adalah **pembeda paling fundamental** yang harus dipahami sejak awal:
 | **Produk** | Resume/rekam medis | Visum et Repertum Psychiatricum |
 | **Bias risiko** | Pro-pasien | Harus independen |
 
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Visum et Repertum Psychiatricum (VeRP)</div>
-<div class="callout-body">
+> [!deepdive] Deep Dive — Visum et Repertum Psychiatricum (VeRP)
+> VeRP bukan sekadar rekam medis. Strukturnya menjawab **unsur hukum spesifik**:
+> 1. **Ada/tidaknya gangguan jiwa** saat kejadian perkara
+> 2. **Bagaimana gangguan itu memengaruhi** kemampuan memilih dan mengarahkan tindakan
+> 3. **Derajat disabilitas** — apakah *fit*, *unfit temporary*, atau *unfit permanent*
+> 4. **Prosedur asesmen** yang digunakan (harus tertulis agar dapat diuji)
+> Laporan ini menjadi **bukti petunjuk** bagi hakim — bukan vonis, tetapi pertimbangan.
 
-VeRP bukan sekadar rekam medis. Strukturnya menjawab **unsur hukum spesifik**:
-1. **Ada/tidaknya gangguan jiwa** saat kejadian perkara
-2. **Bagaimana gangguan itu memengaruhi** kemampuan memilih dan mengarahkan tindakan
-3. **Derajat disabilitas** — apakah *fit*, *unfit temporary*, atau *unfit permanent*
-4. **Prosedur asesmen** yang digunakan (harus tertulis agar dapat diuji)
-
-Laporan ini menjadi **bukti petunjuk** bagi hakim — bukan vonis, tetapi pertimbangan.
-
-</div>
-</div>
-
-<div class="callout callout-warning">
-<div class="callout-title">⚠️ Jebakan Umum — Treating ≠ Assessing</div>
-<div class="callout-body">
-
-Resume medis dari treating psychiatrist **tidak cukup** untuk keperluan forensik. Ia hanya membuktikan seseorang *pernah sakit*, bukan bahwa gangguan tersebut *memengaruhi kapasitas hukumnya saat kejadian*. Dua hal ini harus selalu dibedakan di persidangan.
-
-</div>
-</div>
+> [!warning] Jebakan Umum — Treating ≠ Assessing
+> Resume medis dari treating psychiatrist **tidak cukup** untuk keperluan forensik. Ia hanya membuktikan seseorang *pernah sakit*, bukan bahwa gangguan tersebut *memengaruhi kapasitas hukumnya saat kejadian*. Dua hal ini harus selalu dibedakan di persidangan.
 
 ---
 
@@ -169,43 +110,18 @@ hanya: mampu           Pasal 34 → Pembelaan terpaksa (noodweer)
 atau tidak mampu)      Pasal 43 → Daya paksa / duress defense
 ```
 
-<div class="callout callout-legal">
-<div class="callout-title">⚖️ Legal — Perbedaan Pasal 38 dan 39 KUHP Baru</div>
-<div class="callout-body">
-
-| | **Pasal 38 — Kurang Mampu** | **Pasal 39 — Tidak Mampu** |
-|---|---|---|
-| **Kondisi** | Disabilitas intelektual **sedang** atau gangguan jiwa dengan remisi parsial | Psikotik **akut** atau disabilitas intelektual **berat** |
-| **Pidana** | Tetap dipidana, namun diringankan | Bebas dari pidana |
-| **Tindakan** | Wajib berobat + pengawasan | Tindakan terapeutik penuh |
-| **Syarat Kritis** | Harus dibuktikan kausalitas gangguan–perbuatan | Sama — *plus* harus dalam kondisi akut saat kejadian |
-
+> [!legal] Legal — Perbedaan Pasal 38 dan 39 KUHP Baru
+> | | **Pasal 38 — Kurang Mampu** | **Pasal 39 — Tidak Mampu** |
+> |---|---|---|
+> | **Kondisi** | Disabilitas intelektual **sedang** atau gangguan jiwa dengan remisi parsial | Psikotik **akut** atau disabilitas intelektual **berat** |
+> | **Pidana** | Tetap dipidana, namun diringankan | Bebas dari pidana |
+> | **Tindakan** | Wajib berobat + pengawasan | Tindakan terapeutik penuh |
+> | **Syarat Kritis** | Harus dibuktikan kausalitas gangguan–perbuatan | Sama — *plus* harus dalam kondisi akut saat kejadian |
 > **Kunci:** Tidak ada orang yang otomatis bebas hanya karena punya kartu kuning (diagnosis psikiatri). Harus dibuktikan bahwa gangguan jiwa tersebut **secara kausal memengaruhi** kemampuan dia saat kejadian perkara.
-
-</div>
-</div>
-
-### 2.2 Pasal Bela Paksa (34 & 43 KUHP Baru)
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — "Keguncangan Jiwa yang Hebat" (Pasal 34)</div>
-<div class="callout-body">
-
-Pembelaan terpaksa dengan keguncangan jiwa (*noodweer exces*) mensyaratkan psikiater forensik membuktikan:
-- Ada **kondisi afektif yang ekstrem** saat kejadian (bukan simulasi)
-- Ada **proporsionalitas** antara ancaman dan respons
-- Keguncangan bersumber dari **trauma atau tekanan nyata**, bukan kepribadian semata
-
-Ini berbeda dari insanity defense — pelaku *tahu* perbuatannya salah, tetapi kapasitasnya untuk memilih tindakan alternatif terganggu oleh tekanan emosional yang luar biasa.
-
-</div>
-</div>
 
 ---
 
 ## 3. Kecakapan Mental (Mental Capacity) — Tiga Lapis
-
-<div class="mindmap-wrap">
 
 ```mermaid
 flowchart TD
@@ -223,107 +139,24 @@ flowchart TD
     E --> H["UNFIT PERMANENT → Tindakan, bukan pidana"]
 ```
 
-</div>
+> [!deepdive] Deep Dive — Menilai Fit/Unfit: Apa yang Diukur?
+> Psikiater tidak hanya bertanya "apakah orang ini sakit?" melainkan menguji **tiga kemampuan spesifik**:
+> 1. **Understanding** — Apakah ia *memahami* perbuatannya dan konsekuensi hukumnya?
+> 2. **Appreciation of Risk** — Apakah ia bisa *menilai risiko* positif dan negatif dari pilihannya?
+> 3. **Volition** — Apakah ia *mampu memilih dan mengarahkan* tindakannya sesuai konteks?
+> **Contoh konkret:** Seseorang dengan bipolar yang memperkosa muridnya saat fase manik — *tetap bisa dipidana* jika terbukti ia menggunakan kondom. Penggunaan kondom membuktikan fungsi eksekutif masih aktif: ia tahu konsekuensi tindakannya, artinya *volition* tidak sepenuhnya terganggu.
 
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Menilai Fit/Unfit: Apa yang Diukur?</div>
-<div class="callout-body">
+> [!deepdive] Deep Dive — Aksis 3: Kondisi Medis Sebagai Mimikri Psikiatri
+> Kondisi medis non-psikiatri bisa **menyerupai psikosis** dan memengaruhi pertanggungjawaban:
+> - **Ensefalitis/infeksi SSP** → halusinasi dan agitasi akut (onset tiba-tiba ≠ onset psikosis primer)
+> - **Gagal hati/ensefalopati metabolik** → confusional state dengan perilaku agresif
+> - **Efek samping obat** → psikosis iatrogenik
+> **Implikasi hukum:** Jika psikosis disebabkan kondisi medis yang tidak diobati/tidak terdeteksi, peran *mens rea* jauh lebih lemah — bahkan bisa mengarah ke Pasal 39.
 
-Psikiater tidak hanya bertanya "apakah orang ini sakit?" melainkan menguji **tiga kemampuan spesifik**:
+> [!warning] Jebakan — Jangan Langsung Labeli "Psikiatri"
 
-1. **Understanding** — Apakah ia *memahami* perbuatannya dan konsekuensi hukumnya?
-2. **Appreciation of Risk** — Apakah ia bisa *menilai risiko* positif dan negatif dari pilihannya?
-3. **Volition** — Apakah ia *mampu memilih dan mengarahkan* tindakannya sesuai konteks?
 
-**Contoh konkret:** Seseorang dengan bipolar yang memperkosa muridnya saat fase manik — *tetap bisa dipidana* jika terbukti ia menggunakan kondom. Penggunaan kondom membuktikan fungsi eksekutif masih aktif: ia tahu konsekuensi tindakannya, artinya *volition* tidak sepenuhnya terganggu.
-
-</div>
-</div>
-
----
-
-## 4. Asesmen Multiaksial dalam Konteks Forensik
-
-Psikiater forensik menggunakan pendekatan **multiaksial** untuk melihat gambaran utuh pelaku:
-
-<div class="mindmap-wrap">
-
-```mermaid
-graph LR
-    subgraph AKSIS["5 Aksis Asesmen"]
-        A1["Aksis 1\n🧠 Gangguan Klinis\n(Psikosis, Depresi,\nBipolar, PTSD)"]
-        A2["Aksis 2\n🪞 Kepribadian\n& Intelektual\n(NPD, BPD, Retardasi)"]
-        A3["Aksis 3\n🏥 Kondisi Medis\n(Tumor otak,\nMetabolik, Infeksi)"]
-        A4["Aksis 4\n🌍 Psikososial\n(Kemiskinan, Trauma,\nKehilangan)"]
-        A5["Aksis 5\n📊 GAF Score\n(Derajat fungsi\nglobal)"]
-    end
-    AKSIS --> OUT["Kesimpulan Forensik:\nKausalitas Gangguan–Perbuatan"]
-```
-
-</div>
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Aksis 3: Kondisi Medis Sebagai Mimikri Psikiatri</div>
-<div class="callout-body">
-
-Kondisi medis non-psikiatri bisa **menyerupai psikosis** dan memengaruhi pertanggungjawaban:
-
-- **Ensefalitis/infeksi SSP** → halusinasi dan agitasi akut (onset tiba-tiba ≠ onset psikosis primer)
-- **Gagal hati/ensefalopati metabolik** → confusional state dengan perilaku agresif
-- **Efek samping obat** (misalnya obat antimalaria, kortikosteroid) → psikosis iatrogenik
-
-**Implikasi hukum:** Jika psikosis disebabkan kondisi medis yang tidak diobati/tidak terdeteksi, peran *mens rea* jauh lebih lemah — bahkan bisa mengarah ke Pasal 39.
-
-</div>
-</div>
-
-<div class="callout callout-warning">
-<div class="callout-title">⚠️ Jebakan — Jangan Langsung Labeli "Psikiatri"</div>
-<div class="callout-body">
-
-Ketika seseorang datang ke IGD dengan bicara ngaco dan agitasi, jangan langsung kirim ke psikiatri tanpa skrining medis. Tanyakan dulu: **onset**-nya seperti apa? Onset psikotik primer biasanya gradual — bukan tiba-tiba dalam 4 hari. Periksa riwayat obat-obatan, kondisi metabolik, dan kemungkinan lesi organik terlebih dahulu.
-
-</div>
-</div>
-
----
-
-## 5. Model Bumi–Bulan–Matahari 🌍🌙☀️
-
-Model ini menjelaskan mengapa seseorang melakukan kejahatan — tidak ada faktor tunggal:
-
-<div class="mindmap-wrap">
-
-```mermaid
-graph TD
-    BUMI["🌍 BUMI\nFaktor Internal\n━━━━━━━━━━━\n• Regulasi emosi\n• Kepribadian\n• Riwayat trauma\n• Kognisi / cara pikir"]
-    BULAN["🌙 BULAN\nStressor Eksternal\n━━━━━━━━━━━\n• Konflik interpersonal\n• Tekanan finansial\n• Kehilangan\n• Ancaman status"]
-    MATAHARI["☀️ MATAHARI\nPemicu / Support System\n━━━━━━━━━━━\n• Support system (protektif)\n• Trigger situasional (risiko)\n• Lingkungan kelompok"]
-
-    BUMI --> GERHANA
-    BULAN --> GERHANA
-    MATAHARI --> GERHANA
-    GERHANA["💥 GERHANA\n= Kejahatan Terjadi\n(ketiga faktor berkumpul)"]
-
-    GERHANA --> PR["Pertanyaan Forensik:\nFaktor mana yang dominan?\nApa yang bisa diintervensi?"]
-```
-
-</div>
-
-<div class="callout callout-concept">
-<div class="callout-title">💡 Konsep — Stres Akut vs Kapasitas</div>
-<div class="callout-body">
-
-**Stres akut** terjadi ketika **ekspektasi > kapasitas yang tersedia saat itu**. Ini bukan semata-mata lemahnya karakter — melainkan fungsi eksekutif (prefrontal cortex) yang *terlampaui* oleh aktivasi amigdala.
-
-Secara neurosains: saat stres akut, amigdala (respons emosional primitif) mendominasi dan menghambat fungsi prefrontal cortex (pengambilan keputusan rasional). Ini berkaitan langsung dengan **kemampuan *volition*** yang dinilai dalam forensik.
-
-</div>
-</div>
-
----
-
-## 6. Reaksi vs Respons — Dikotomi Kunci
+## 5. Model Bumi-Bulan-Matahari
 
 <div class="callout callout-deepdive">
 <div class="callout-title">🔬 Deep Dive — Reaksi vs Respons dalam Konteks Hukum</div>

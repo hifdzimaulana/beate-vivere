@@ -1,3 +1,12 @@
+---
+title: Filsafat Hukum - Midterm
+tags:
+  - Filhum
+  - lectures
+  - hukum
+  - philosophy
+---
+
 # FILSAFAT HUKUM: Catatan Akademis Komprehensif
 ### *Dari Hukum Kodrat hingga Positivisme, Realisme, dan Neo-Kantianisme*
 

@@ -1,3 +1,24 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+.callout {
+  &[data-callout="deepdive"] {
+    --color: #6c63ff;
+    --border: #6c63ff;
+    --bg: #f0ecff;
+  }
+  &[data-callout="legal"] {
+    --color: #2980b9;
+    --border: #2980b9;
+    --bg: #e8f4fd;
+  }
+  &[data-callout="case"] {
+    --color: #27ae60;
+    --border: #27ae60;
+    --bg: #eafaf1;
+  }
+  &[data-callout="concept"] {
+    --color: #7f8c8d;
+    --border: #7f8c8d;
+    --bg: #f4f6f7;
+  }
+}
