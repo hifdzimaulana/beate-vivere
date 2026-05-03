@@ -12,9 +12,7 @@ tags:
 
 ---
 
-## 🗺️ Peta Konsep Besar (Mindmap)
-
-<div class="mindmap-wrap">
+## 🗺️ Peta Konsep Besar
 
 ```mermaid
 mindmap
@@ -68,11 +66,9 @@ mindmap
       Rehabilitasi dan Reintegrasi
 ```
 
-</div>
-
 ---
 
-## 1. Dua Peran Psikiater di Sistem Hukum
+## 1. Dua Peran Psikiater
 
 Ini adalah **pembeda paling fundamental** yang harus dipahami sejak awal:
 
@@ -120,9 +116,9 @@ flowchart TD
     A --> C[Fit to Stand Trial?]
     A --> D[Fit to be Detained?]
 
-    B --> B1["Mampu memberikan keterangan\nyang reliabel kepada penyidik"]
-    C --> C1["Mampu mengikuti sidang,\nmemahami dakwaan,\nmembela diri"]
-    D --> D1["Mampu menjalani pidana\ntanpa risiko kesehatan ekstrem"]
+    B --> B1["Keterangan<br/>reliabel"]
+    C --> C1["Ikuti sidang<br/>pahami dakwaan"]
+    D --> D1["Lakukan pidana"]
 
     B1 & C1 & D1 --> E{Hasilnya?}
     E --> F["FIT → Proses pidana normal"]
@@ -173,21 +169,15 @@ Pola 4F ini dibentuk oleh riwayat trauma dan pola asuh — bukan pilihan sadar. 
 
 Ini adalah dikotomi penting dalam menentukan *mens rea*:
 
-<div class="mindmap-wrap">
-
 ```mermaid
 graph LR
-    MW["Moral Wrongfulness\n━━━━━━━━━━━━━━━━\nTahu bahwa perbuatannya\nsalah secara moral/sosial\nTETAPI tetap melakukannya\n\nContoh: Kleptomania\n— tahu mencuri salah,\ntapi dorongan tak tertahankan"]
-
-    KW["Kognitif Wrongfulness\n━━━━━━━━━━━━━━━━\nTidak memiliki kapasitas\nkognitif untuk mengenali\nbahwa perbuatannya salah\n\nContoh: Skizofrenia akut\n— membunuh karena\n'suara' memerintahkan"]
-
-    MW --> IM1["Implikasi: Cenderung\nmampu bertanggung jawab\n(Pasal 38 atau pidana penuh)\n+ wajib berobat"]
-    KW --> IM2["Implikasi: Potensi\ntidak mampu bertanggung\njawab (Pasal 39)\nbila terbukti akut"]
+    MW["Moral Wrongfulness<br/>Tahu salah tapi tetap lakukan"]
+    KW["Kognitif Wrongfulness<br/>Tidak mengenali kesalahan"]
+    MW --> IM1["Pasal 38<br/>atau pidana penuh"]
+    KW --> IM2["Pasal 39<br/>bila akut"]
 ```
 
-</div>
-
-### 📋 Kasus — Kleptomania (Referensi: Selebriti Hollywood)
+### 📋 Kasus — Kleptomania
 
 Seorang figur publik didiagnosis kleptomania: ia *tahu* bahwa mencuri adalah salah (moral wrongfulness ada), tetapi kompulsinya tidak dapat dia kendalikan sepenuhnya. Keputusan pengadilan: **tidak masuk penjara, tetapi kerja sosial** (membersihkan area publik sebagai bentuk malu publik) **+ wajib berobat**. Ini contoh sempurna pemidanaan yang bersifat terapeutik, bukan semata punitif.
 
@@ -231,19 +221,15 @@ Bipolar bersifat **temporer dan episodik** — berbeda dari demensia yang perman
 
 ## 9. Proses Asesmen Forensik
 
-<div class="mindmap-wrap">
-
 ```mermaid
 flowchart TD
-    REQ["Permintaan Asesmen\n(dari Penyidik / Jaksa / Hakim / Pengacara)"]
-    REQ --> COLLECT["Pengumpulan Data Kolateral\n• Rekam medis sebelumnya\n• Keterangan saksi\n• Rekaman CCTV\n• BAP (Berita Acara Pemeriksaan)\n• Riwayat psikiatri keluarga"]
-    COLLECT --> EXAM["Pemeriksaan Langsung\n• Wawancara klinis terstruktur\n• Tes psikologis (IQ, kepribadian)\n• Observasi perilaku\n• Pemeriksaan neurologis bila perlu"]
-    EXAM --> CORR["Korelasi & Analisis\n• Apakah cerita pasien konsisten\n  dengan data kolateral?\n• Adakah memori yang hilang?\n• Apakah inkonsistensi menunjukkan\n  simulasi atau genuine amnesia?"]
-    CORR --> REP["VeRP (Visum et Repertum\nPsychiatricum)\nMenjawab unsur hukum spesifik"]
-    REP --> COURT["Persidangan\n• Presentasi ahli\n• Cross-examination\n• Kemungkinan penilaian ulang\n  (Pasal 237)"]
+    REQ["Permintaan<br/>Asesmen"]
+    REQ --> COLLECT["Pengumpulan<br/>Data Kolateral"]
+    COLLECT --> EXAM["Pemeriksaan<br/>Langsung"]
+    EXAM --> CORR["Korelasi<br/>& Analisis"]
+    CORR --> REP["VeRP"]
+    REP --> COURT["Persiddersangan"]
 ```
-
-</div>
 
 > [!danger] Bahaya — False Memory & Hipnosis
 > Penggunaan hipnosis dalam pemeriksaan forensik **sangat berisiko**. Hipnosis tidak mengekstrak "kebenaran murni" — ia mengekstrak campuran memori asli, harapan, dan narasi yang terbentuk dari konteks emosional. Hasilnya bisa berupa **false memory** yang sangat meyakinkan.
@@ -282,26 +268,21 @@ flowchart TD
 
 ## 13. Ringkasan — Alur Berpikir Psikiater Forensik
 
-<div class="mindmap-wrap">
-
 ```mermaid
 flowchart LR
     Q1{"Ada gangguan jiwa?"}
-    Q1 -->|Tidak| OUT1["Bertanggung jawab penuh\nPidana normal"]
-    Q1 -->|Ya| Q2{"Gangguan aktif\nsaat kejadian?"}
-    Q2 -->|Tidak / Remisi| OUT2["Kontribusi minimal\nFaktor mitigasi biasa\natau Pasal 38"]
-    Q2 -->|Ya - Akut| Q3{"Memengaruhi\nkapasitas memilih\n& mengarahkan?"}
-    Q3 -->|Tidak / Parsial| OUT3["Kurang mampu\nPasal 38\nPidana + Terapi"]
-    Q3 -->|Ya - Total| OUT4["Tidak mampu\nPasal 39\nTindakan Terapeutik"]
-
-    OUT3 & OUT4 --> RISK["Asesmen Risiko:\n• Masih berbahaya?\n• Bisa reintegrasi?\n• Perlu pengawasan?\n• Berapa lama?"]
+    Q1 -->|Tidak| OUT1["Penuh"]
+    Q1 -->|Ya| Q2{"Aktif saat<br/>kejadian?"}
+    Q2 -->|Tidak| OUT2["Mitigasi"]
+    Q2 -->|Ya| Q3{"Memengaruhi<br/>kapasitas?"}
+    Q3 -->|Parsial| OUT3["Pasal 38"]
+    Q3 -->|Total| OUT4["Pasal 39"]
+    OUT3 & OUT4 --> RISK["Asesmen<br/>Risiko"]
 ```
-
-</div>
 
 ---
 
-## 📚 Referensi Kasus yang Dibahas dalam Kuliah
+## 📚 Referensi Kasus
 
 | Nama Kasus | Isu Forensik Utama | Pasal Relevan |
 |---|---|---|

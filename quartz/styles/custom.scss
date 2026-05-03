@@ -22,3 +22,28 @@
     --bg: #f4f6f7;
   }
 }
+
+body.dark {
+  .callout {
+    &[data-callout="deepdive"] {
+      --color: #a5a1ff;
+      --border: #a5a1ff;
+      --bg: #1e1a2e;
+    }
+    &[data-callout="legal"] {
+      --color: #5dade2;
+      --border: #5dade2;
+      --bg: #1a2634;
+    }
+    &[data-callout="case"] {
+      --color: #58d68d;
+      --border: #58d68d;
+      --bg: #1f2d25;
+    }
+    &[data-callout="concept"] {
+      --color: #aab7b8;
+      --border: #aab7b8;
+      --bg: #252a2a;
+    }
+  }
+}
