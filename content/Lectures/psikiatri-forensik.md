@@ -141,9 +141,9 @@ flowchart TD
     A --> C[Fit to Stand Trial?]
     A --> D[Fit to be Detained?]
 
-    B --> B1["Mampu memberikan keterangan\nyang reliabel kepada penyidik"]
-    C --> C1["Mampu mengikuti sidang,\nmemahami dakwaan,\nmembela diri"]
-    D --> D1["Mampu menjalani pidana\ntanpa risiko kesehatan ekstrem"]
+    B --> B1["Keterangan<br/>reliabel"]
+    C --> C1["Ikuti sidang<br/>pahami dakwaan"]
+    D --> D1["Lakukan pidana"]
 
     B1 & C1 & D1 --> E{Hasilnya?}
     E --> F["FIT → Proses pidana normal"]
@@ -170,14 +170,14 @@ Psikiater forensik menggunakan pendekatan **multiaksial** untuk melihat gambaran
 
 ```mermaid
 graph LR
-    subgraph AKSIS["5 Aksis Asesmen"]
-        A1["Aksis 1\n🧠 Gangguan Klinis\n(Psikosis, Depresi,\nBipolar, PTSD)"]
-        A2["Aksis 2\n🪞 Kepribadian\n& Intelektual\n(NPD, BPD, Retardasi)"]
-        A3["Aksis 3\n🏥 Kondisi Medis\n(Tumor otak,\nMetabolik, Infeksi)"]
-        A4["Aksis 4\n🌍 Psikososial\n(Kemiskinan, Trauma,\nKehilangan)"]
-        A5["Aksis 5\n📊 GAF Score\n(Derajat fungsi\nglobal)"]
+    subgraph AKSIS["5 Aksis"]
+        A1["Aksis 1<br/>Gangguan Klinis"]
+        A2["Aksis 2<br/>Kepribadian"]
+        A3["Aksis 3<br/>Kondisi Medis"]
+        A4["Aksis 4<br/>Psikososial"]
+        A5["Aksis 5<br/>GAF Score"]
     end
-    AKSIS --> OUT["Kesimpulan Forensik:\nKausalitas Gangguan–Perbuatan"]
+    AKSIS --> OUT["Kesimpulan<br/>Forensik"]
 ```
 
 </div>
@@ -212,16 +212,16 @@ Model ini menjelaskan mengapa seseorang melakukan kejahatan — tidak ada faktor
 
 ```mermaid
 graph TD
-    BUMI["🌍 BUMI\nFaktor Internal\n━━━━━━━━━━━\n• Regulasi emosi\n• Kepribadian\n• Riwayat trauma\n• Kognisi / cara pikir"]
-    BULAN["🌙 BULAN\nStressor Eksternal\n━━━━━━━━━━━\n• Konflik interpersonal\n• Tekanan finansial\n• Kehilangan\n• Ancaman status"]
-    MATAHARI["☀️ MATAHARI\nPemicu / Support System\n━━━━━━━━━━━\n• Support system (protektif)\n• Trigger situasional (risiko)\n• Lingkungan kelompok"]
+    BUMI["BUMI<br/>Faktor Internal"]
+    BULAN["BULAN<br/>Stressor Eksternal"]
+    MATAHARI["MATAHARI<br/>Support System"]
 
     BUMI --> GERHANA
     BULAN --> GERHANA
     MATAHARI --> GERHANA
-    GERHANA["💥 GERHANA\n= Kejahatan Terjadi\n(ketiga faktor berkumpul)"]
+    GERHANA["GERHANA<br/>= Kejahatan Terjadi"]
 
-    GERHANA --> PR["Pertanyaan Forensik:\nFaktor mana yang dominan?\nApa yang bisa diintervensi?"]
+    GERHANA --> PR["Pertanyaan<br/>Forensik"]
 ```
 
 </div>
@@ -261,12 +261,10 @@ Ini adalah dikotomi penting dalam menentukan *mens rea*:
 
 ```mermaid
 graph LR
-    MW["Moral Wrongfulness\n━━━━━━━━━━━━━━━━\nTahu bahwa perbuatannya\nsalah secara moral/sosial\nTETAPI tetap melakukannya\n\nContoh: Kleptomania\n— tahu mencuri salah,\ntapi dorongan tak tertahankan"]
-
-    KW["Kognitif Wrongfulness\n━━━━━━━━━━━━━━━━\nTidak memiliki kapasitas\nkognitif untuk mengenali\nbahwa perbuatannya salah\n\nContoh: Skizofrenia akut\n— membunuh karena\n'suara' memerintahkan"]
-
-    MW --> IM1["Implikasi: Cenderung\nmampu bertanggung jawab\n(Pasal 38 atau pidana penuh)\n+ wajib berobat"]
-    KW --> IM2["Implikasi: Potensi\ntidak mampu bertanggung\njawab (Pasal 39)\nbila terbukti akut"]
+    MW["Moral<br/>Wrongfulness"]
+    KW["Kognitif<br/>Wrongfulness"]
+    MW --> IM1["Pasal 38<br/>atau pidana"]
+    KW --> IM2["Pasal 39"]
 ```
 
 </div>
@@ -317,12 +315,12 @@ graph LR
 
 ```mermaid
 flowchart TD
-    REQ["Permintaan Asesmen\n(dari Penyidik / Jaksa / Hakim / Pengacara)"]
-    REQ --> COLLECT["Pengumpulan Data Kolateral\n• Rekam medis sebelumnya\n• Keterangan saksi\n• Rekaman CCTV\n• BAP (Berita Acara Pemeriksaan)\n• Riwayat psikiatri keluarga"]
-    COLLECT --> EXAM["Pemeriksaan Langsung\n• Wawancara klinis terstruktur\n• Tes psikologis (IQ, kepribadian)\n• Observasi perilaku\n• Pemeriksaan neurologis bila perlu"]
-    EXAM --> CORR["Korelasi & Analisis\n• Apakah cerita pasien konsisten\n  dengan data kolateral?\n• Adakah memori yang hilang?\n• Apakah inkonsistensi menunjukkan\n  simulasi atau genuine amnesia?"]
-    CORR --> REP["VeRP (Visum et Repertum\nPsychiatricum)\nMenjawab unsur hukum spesifik"]
-    REP --> COURT["Persidangan\n• Presentasi ahli\n• Cross-examination\n• Kemungkinan penilaian ulang\n  (Pasal 237)"]
+    REQ["Permintaan<br/>Asesmen"]
+    REQ --> COLLECT["Pengumpulan<br/>Data Kolateral"]
+    COLLECT --> EXAM["Pemeriksaan<br/>Langsung"]
+    EXAM --> CORR["Korelasi<br/>& Analisis"]
+    CORR --> REP["VeRP"]
+    REP --> COURT["Persiddersangan"]
 ```
 
 </div>
@@ -364,17 +362,15 @@ Saksi atau terdakwa yang inkonsisten dalam keterangannya belum tentu berbohong. 
 graph TD
     A["Asesmen Selesai"]
 
-    A --> B["MAMPU PENUH\n(Bertanggung jawab)"]
-    A --> C["KURANG MAMPU\nPasal 38 KUHP Baru"]
-    A --> D["TIDAK MAMPU\nPasal 39 KUHP Baru"]
+    A --> B["MAMPU PENUH"]
+    A --> C["KURANG MAMPU"]
+    A --> D["TIDAK MAMPU"]
 
-    B --> B1["Pidana penuh\n± faktor pemberat/peringan\nbiasa"]
+    B --> B1["Pidana penuh"]
 
-    C --> C1["Pidana dikurangi\n+ Wajib berobat\n+ Pengawasan"]
+    C --> C1["Pidana dikurangi"]
 
-    D --> D1["Bebas dari pidana\nTindakan terapeutik:\n• Perawatan di RS Jiwa\n• Kerja sosial\n• Pengawasan keluarga/negara"]
-
-    C1 & D1 --> E["Pertanyaan Lanjutan:\n• Berapa lama perawatan?\n• Siapa pengawasnya?\n• Di mana penempatannya?\n• Kapan bisa reintegrasi?\n• Masih ada faktor risiko?"]
+    D --> D1["Bebas dari pidana"]
 ```
 
 </div>
@@ -447,14 +443,13 @@ Psikiater forensik harus siap untuk:
 ```mermaid
 flowchart LR
     Q1{"Ada gangguan jiwa?"}
-    Q1 -->|Tidak| OUT1["Bertanggung jawab penuh\nPidana normal"]
-    Q1 -->|Ya| Q2{"Gangguan aktif\nsaat kejadian?"}
-    Q2 -->|Tidak / Remisi| OUT2["Kontribusi minimal\nFaktor mitigasi biasa\natau Pasal 38"]
-    Q2 -->|Ya - Akut| Q3{"Memengaruhi\nkapasitas memilih\n& mengarahkan?"}
-    Q3 -->|Tidak / Parsial| OUT3["Kurang mampu\nPasal 38\nPidana + Terapi"]
-    Q3 -->|Ya - Total| OUT4["Tidak mampu\nPasal 39\nTindakan Terapeutik"]
-
-    OUT3 & OUT4 --> RISK["Asesmen Risiko:\n• Masih berbahaya?\n• Bisa reintegrasi?\n• Perlu pengawasan?\n• Berapa lama?"]
+    Q1 -->|Tidak| OUT1["Penuh"]
+    Q1 -->|Ya| Q2{"Aktif saat<br/>kejadian?"}
+    Q2 -->|Tidak| OUT2["Mitigasi"]
+    Q2 -->|Ya| Q3{"Memengaruhi<br/>kapasitas?"}
+    Q3 -->|Parsial| OUT3["Pasal 38"]
+    Q3 -->|Total| OUT4["Pasal 39"]
+    OUT3 & OUT4 --> RISK["Asesmen<br/>Risiko"]
 ```
 
 </div>

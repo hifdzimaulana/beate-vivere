@@ -81,12 +81,9 @@ Pandangan ini memiliki dua implikasi ontologis yang fundamental:
 
 ```mermaid
 graph TD
-    A["Segala sesuatu memiliki tujuan (Telos)"] --> B["Tujuan mensyaratkan adanya Perencana"]
-    B --> C["Perencana Alam Semesta = Tuhan / Kekuatan Supranatural"]
-    C --> D["Tuhan merancang Hukum Abadi (Lex Aeterna)"]
-    D --> E["Hukum Kodrat = Partisipasi Manusia dalam Lex Aeterna"]
-    E --> F["Hukum Positif harus selaras dengan Hukum Kodrat"]
-    F --> G["Hukum Positif yang melanggar Hukum Kodrat kehilangan kekuatan mengikat"]
+    A["Hukum valid"] --> B{{"Ketidakadilan<br/>ditolerir?"}}
+    B -->|"TIDAK"| C["Tetap valid"]
+    B -->|"YA"| D["Hukum tidak<br/>wajib ditaati"]
 ```
 
 ---
@@ -219,11 +216,9 @@ Aquinas membangun hierarki hukum yang komprehensif, mencakup empat tingkatan yan
 
 ```mermaid
 graph TD
-    A["🌌 LEX AETERNA\n(Hukum Abadi)\nKebijaksanaan kekal Allah\nMengatur seluruh alam semesta"] --> B["📖 LEX DIVINA\n(Hukum Ilahi)\nWahyu Allah dalam Kitab Suci\nMembimbing manusia menuju keselamatan abadi"]
-    A --> C["🌿 LEX NATURALIS\n(Hukum Kodrat)\nPartisipasi makhluk berakal dalam Lex Aeterna\nDapat diketahui melalui akal budi"]
-    C --> D["⚖️ LEX HUMANA\n(Hukum Positif)\nHukum buatan manusia\nHarus sesuai dengan Lex Naturalis"]
-    B -.->|"Melengkapi"| C
-    D -.->|"Jika bertentangan\ntidak memiliki\ndaya ikat moral"| C
+    A["LEX AETERNA<br/>Hukum Abadi"] --> B["LEX DIVINA<br/>Hukum Ilahi"]
+    A --> C["LEX NATURALIS<br/>Hukum Kodrat"]
+    C --> D["LEX HUMANA<br/>Hukum Positif"]
 
     style A fill:#2c3e50,color:#fff
     style B fill:#8e44ad,color:#fff
@@ -423,36 +418,27 @@ Fuller merumuskan **delapan kegagalan yang dapat membuat suatu sistem peraturan 
 
 ```mermaid
 graph LR
-    subgraph KEGAGALAN ["❌ 8 Cara Gagal Membuat Hukum"]
-        F1["1. Tidak ada aturan umum\n(hanya keputusan ad hoc)"]
-        F2["2. Tidak dipublikasikan"]
-        F3["3. Berlaku surut\n(retroaktif)"]
-        F4["4. Tidak jelas\n(ambigu, sulit dipahami)"]
-        F5["5. Aturan saling\nbertentangan"]
-        F6["6. Mensyaratkan\nhal yang mustahil"]
-        F7["7. Terlalu sering\ndiubah"]
-        F8["8. Pelaksanaan tidak\nsesuai aturan"]
+    subgraph KEGAGALAN["8 Cara Gagal"]
+        F1["Tidak ada aturan umum"]
+        F2["Tidak dipublikasikan"]
+        F3["Berlaku surut"]
+        F4["Tidak jelas"]
+        F5["Aturan bertentangan"]
+        F6["Mustahil dipenuhi"]
+        F7["Terlalu sering berubah"]
+        F8["Tidak sesuai aturan"]
     end
 
-    subgraph KEBAJIKAN ["✅ 8 Kebajikan Moralitas Internal"]
-        V1["1. GENERALITY\n(Generalitas)"]
-        V2["2. PUBLICITY\n(Promulgasi)"]
-        V3["3. PROSPECTIVITY\n(Prospektivitas)"]
-        V4["4. CLARITY\n(Kejelasan)"]
-        V5["5. CONSISTENCY\n(Konsistensi)"]
-        V6["6. POSSIBILITY\nOF COMPLIANCE"]
-        V7["7. CONSTANCY\n(Kekonstanan)"]
-        V8["8. FAITHFUL\nADMINISTRATION"]
+    subgraph KEBAJIKAN["8 Kebajikan"]
+        V1["GENERALITY"]
+        V2["PUBLICITY"]
+        V3["PROSPECTIVITY"]
+        V4["CLARITY"]
+        V5["CONSISTENCY"]
+        V6["POSSIBILITY"]
+        V7["CONSTANCY"]
+        V8["ADMINISTRATION"]
     end
-
-    F1 --- V1
-    F2 --- V2
-    F3 --- V3
-    F4 --- V4
-    F5 --- V5
-    F6 --- V6
-    F7 --- V7
-    F8 --- V8
 ```
 
 | No. | Kegagalan | Kebajikan Lawannya | Penjelasan |
@@ -491,8 +477,7 @@ Sebelum memahami positivisme hukum, perlu dipahami konteks intelektual yang lebi
 
 ```mermaid
 graph LR
-    A["⛪ TAHAP TEOLOGIS\n(Theological Stage)\nPenjelasan fenomena alam\nmelalui agen supranatural\n(roh, dewa-dewa, Tuhan)\nPra-modern"] --> B["🔮 TAHAP METAFISIK\n(Metaphysical Stage)\nPenggantian agen supranatural\ndengan kekuatan abstrak\ndan esensi-esensi\nTransisi"] --> C["🔬 TAHAP POSITIF\n(Positive Stage)\nPenjelasan melalui\nhukum ilmiah empiris\ndan observasi faktual\nModern"]
-
+    A["TEOLOGIS"] --> B["METAFISIK"] --> C["POSITIF"]
     style A fill:#8B4513,color:#fff
     style B fill:#4B0082,color:#fff
     style C fill:#006400,color:#fff
@@ -616,7 +601,14 @@ Dengan kata lain, hukum adalah produk dari suatu masyarakat yang sudah ada. Savi
 
 ```mermaid
 graph TD
-    A["1️⃣ TAHAP RAKYAT\n(Volksrecht)\nHukum berasal langsung\ndari kesadaran bersama rakyat\nDiekspresikan dalam\nadat-istiadat, kebiasaan, dan\ntindakan simbolis"] --> B["2️⃣ TAHAP ILMU HUKUM\n(Juristenrecht)\nPara ahli hukum terpelajar\nmengabstraksi dan\nmensistematisasi\nprinsip-prinsip hukum\nyang hidup dalam kesadaran rakyat"] --> C["3️⃣ TAHAP LEGISLASI\n(Gesetzesrecht)\nHukum berkembang secara organis\nseiring waktu menjadi\nundang-undang formal\nmelalui proses legislatif"]
+    P1["Aturan Primer"]
+    SR["Rule of Recognition"]
+    SC["Rule of Change"]
+    SA["Rule of Adjudication"]
+
+    P1 --> SR
+    SR --> SC
+    SR --> SA
 ```
 
 Hukum harus **berakar dari aspek budaya setempat** (*Volksgeist*), namun dengan alur logika dan sistematika yang terorganisasi dengan baik. Metode ini dikenal sebagai **metode historis-sistematis**.
@@ -666,23 +658,15 @@ Namun dalam praktiknya, Austin memisahkan antara:
 
 ```mermaid
 graph TD
-    A["SEMUA ATURAN\n(All Rules)"] --> B["LAWS PROPERLY SO CALLED\n(Hukum dalam arti sesungguhnya)"]
-    A --> C["LAWS IMPROPERLY SO CALLED\n(Hukum dalam arti kiasan)"]
-    
-    B --> D["DIVINE LAW\n(Hukum Tuhan)\nDiwahyukan & Tidak Diwahyukan"]
-    B --> E["POSITIVE LAW\n(Hukum Positif)\nPerintah Penguasa Politik"]
-    B --> F["POSITIVE MORALITY\n(Moralitas Positif)\nOpini dan sentimen umum"]
-    
-    E --> G["GENERAL COMMANDS\n(Perintah Umum)"]
-    E --> H["PARTICULAR COMMANDS\n(Perintah Khusus)"]
-    
-    C --> I["Rules of Fashion / Etiquette"]
-    C --> J["Scientific Laws\n(Hukum Ilmu Pengetahuan)"]
-    C --> K["International Law\n→ Dikategorikan sebagai\nPositive Morality"]
+    A["SEMUA ATURAN"] --> B["LAWS PROPERLY"]
+    A --> C["LAWS IMPROPERLY"]
 
-    style E fill:#2980b9,color:#fff
-    style D fill:#8e44ad,color:#fff
-    style C fill:#95a5a6,color:#fff
+    B --> D["DIVINE LAW"]
+    B --> E["POSITIVE LAW"]
+    B --> F["POSITIVE MORALITY"]
+
+    E --> G["GENERAL COMMANDS"]
+    E --> H["PARTICULAR COMMANDS"]
 ```
 
 > [!IMPORTANT]
@@ -694,13 +678,10 @@ graph TD
 
 ```mermaid
 graph LR
-    A["HUKUM POSITIF"] --> B["1. POLITICAL SOVEREIGN\n(Penguasa Politik)"]
-    A --> C["2. COMMAND\n(Perintah)"]
-    A --> D["3. DUTY\n(Kewajiban)"]
-    A --> E["4. SANCTION\n(Sanksi)"]
-    C --- D
-    D --- E
-    E --- C
+    A["HUKUM POSITIF"] --> B["POLITICAL SOVEREIGN"]
+    A --> C["COMMAND"]
+    A --> D["DUTY"]
+    A --> E["SANCTION"]
 ```
 
 ### 7.4.1 Political Sovereign (Penguasa Politik)
@@ -768,22 +749,14 @@ Contoh konkret: "Saya wajib lapor SPT Pajak tiap tahun, dan saya melakukannya." 
 
 ```mermaid
 graph TD
-    subgraph PR ["ATURAN PRIMER (Primary Rules)"]
-        P1["Aturan yang menimpakan\nKEWAJIBAN kepada individu\nContoh: larangan membunuh,\nwajib bayar pajak, dsb."]
-    end
-    
-    subgraph SR ["ATURAN SEKUNDER (Secondary Rules)"]
-        S1["RULE OF RECOGNITION\nMemberikan kriteria untuk\nmengidentifikasi aturan primer\nyang valid\nContoh: Konstitusi"]
-        S2["RULE OF CHANGE\nMemberikan kewenangan kepada\nindividu atau badan untuk\nmembuat aturan primer baru\nContoh: Prosedur legislatif"]
-        S3["RULE OF ADJUDICATION\nMemberikan kewenangan kepada\nindividu untuk menentukan apakah\nsuatu aturan primer telah dilanggar\nContoh: Kekuasaan yudisial"]
-    end
-    
-    SR -->|"Memvalidasi dan\nmengorganisasi"| PR
-    
-    style P1 fill:#2980b9,color:#fff
-    style S1 fill:#27ae60,color:#fff
-    style S2 fill:#e67e22,color:#fff
-    style S3 fill:#8e44ad,color:#fff
+    P1["Aturan Primer"]
+    SR["Rule of Recognition"]
+    SC["Rule of Change"]
+    SA["Rule of Adjudication"]
+
+    P1 --> SR
+    SR --> SC
+    SR --> SA
 ```
 
 **Aturan Primer** adalah aturan yang menimpakan kewajiban (*obligation*) terhadap orang yang hidup dalam sebuah sistem hukum.
@@ -849,24 +822,9 @@ Pemikiran Hart dan Raz berada dalam kerangka **Analytical Jurisprudence** yang m
 
 ```mermaid
 graph TD
-    subgraph HART ["H.L.A. HART: Hard Positivism"]
-        H1["Hukum = Aturan Primer + Sekunder"]
-        H2["Rule of Recognition sebagai inti sistem"]
-        H3["Pemisahan tegas hukum & moral"]
-        H4["Internal point of view\nyang diterima secara sukarela"]
-    end
-    
-    subgraph RAZ ["JOSEPH RAZ: Soft Positivism"]
-        R1["Kritik terhadap Grundnorm Kelsen"]
-        R2["Otoritas hukum berbasis\nService Conception"]
-        R3["Moral dapat masuk dalam\ntahap deliberasi pembentukan hukum"]
-        R4["Identifikasi hukum tidak selalu\nmemerlukan pertimbangan moral"]
-    end
-    
-    HART -->|"Disertasi Raz\nbimbingan Hart"| RAZ
-    RAZ -->|"Raz mengedit\nThe Concept of Law"| HART
-    
-    HART -.->|"Keduanya dalam\nAnalytical Jurisprudence"| RAZ
+    HART["HART"] --> RAZ["RAZ"]
+    RAZ --> HART
+    HART -.-> RAZ
 ```
 
 ---
@@ -986,16 +944,10 @@ Tujuan utama Kelsen adalah **memurnikan ilmu hukum dari elemen-elemen politik, s
 
 ```mermaid
 graph TD
-    A["🌐 GRUNDNORM\n(Norma Dasar)\nDipresupposisikan, bukan diberlakukan\nBersifat hipotetis\nMenjamin kohesi dan kesatuan sistem"] --> B["📜 KONSTITUSI\nNorma tertinggi yang berlaku\ndalam tatanan hukum positif"]
-    B --> C["📋 UNDANG-UNDANG\nDibuat berdasarkan konstitusi\nMengikuti prosedur yang ditentukan"]
-    C --> D["📄 PERATURAN PEMERINTAH /\nDEKRIT\nDibuat berdasarkan delegasi\ndari undang-undang"]
-    D --> E["⚖️ KEPUTUSAN INDIVIDUAL\n(Putusan Pengadilan,\nKontrak, dsb.)\nIndividualisasi norma abstrak"]
-
-    style A fill:#2c3e50,color:#fff
-    style B fill:#8e44ad,color:#fff
-    style C fill:#2980b9,color:#fff
-    style D fill:#27ae60,color:#fff
-    style E fill:#e67e22,color:#fff
+    A["GRUNDNORM"] --> B["KONSTITUSI"]
+    B --> C["UNDANG-UNDANG"]
+    C --> D["PERATURAN"]
+    D --> E["KEPUTUSAN"]
 ```
 
 ### 11.2.3 *Grundnorm* (Norma Dasar)
@@ -1039,10 +991,11 @@ Merespons kekejaman Nazi dan penyalahgunaan formalisme hukum, Radbruch melakukan
 Lebih tepatnya, Formula Radbruch menyatakan bahwa **ketidakadilan yang ekstrem bukan merupakan hukum** (*lex iniustissima non est lex*) — bahkan jika ia diberlakukan secara legal. Ini adalah pembalikan radikal dari positivisme awalnya.
 
 ```mermaid
-graph LR
-    A["Hukum yang diberlakukan\noleh otoritas yang sah"] --> B{{"Apakah mencapai\ntingkat ketidakadilan\nyang tidak dapat ditoleransi?'"}}
-    B -->|"TIDAK\n(ketidakadilan biasa)"| C["Tetap berlaku sebagai\nhukum yang sah\n(meskipun buruk secara moral)"]
-    B -->|"YA\n(ketidakadilan ekstrem)"| D["Kehilangan karakter\nhukumnya\nHukum tidak wajib ditaati"]
+graph TD
+    H1["External View"]
+    H2["Internal View"]
+    H1 --> H2
+    H2 --> H1
 ```
 
 ---
@@ -1088,44 +1041,16 @@ Formula Radbruch memiliki dampak yang sangat besar, terutama:
 
 ```mermaid
 graph TD
-    A["🌍 TEORI HUKUM\nJurisprudence"] --> B["🌿 HUKUM KODRAT\nNatural Law"]
-    A --> C["⚖️ POSITIVISME HUKUM\nLegal Positivism"]
-    A --> D["🔬 REALISME HUKUM\nLegal Realism"]
-    A --> E["🧠 NEO-KANTIANISME\nNeo-Kantianism"]
+    TEORI["TEORI HUKUM"] --> KODRAT["HUKUM KODRAT"]
+    TEORI --> POSITIVISME["POSITIVISME"]
+    TEORI --> REALISME["REALISME"]
+    TEORI --> NEOKANT["NEO-KANTIAN"]
 
-    B --> B1["Plato\n(Idealisme Politik)"]
-    B --> B2["Aristoteles\n(Teleologi & Kodrat)"]
-    B --> B3["Thomas Aquinas\n(Sintesis Iman & Akal)"]
-    B --> B4["John Finnis\n(Basic Goods)"]
-    B --> B5["Lon Fuller\n(Moralitas Internal)"]
-
-    C --> C1["Auguste Comte\n(Positivisme Ilmu)"]
-    C --> C2["Jeremy Bentham\n(Utilitarianisme)"]
-    C --> C3["Friedrich Savigny\n(Mazhab Historis)"]
-    C --> C4["John Austin\n(Command Theory)"]
-    C --> C5["H.L.A. Hart\n(Neopositivisme)"]
-    C --> C6["Joseph Raz\n(Soft Positivism)"]
-
-    D --> D1["Oliver Wendell Holmes\n(Hukum = Prediksi Pengadilan)"]
-
-    E --> E1["Hans Kelsen\n(Teori Hukum Murni)"]
-    E --> E2["Gustav Radbruch\n(Formula Radbruch)"]
-
-    B3 -->|"Pengaruh Teleologi"| B4
-    B3 -->|"Menolak Aquinas"| B4
-    B3 -->|"Mendapat Inspirasi"| B5
-    C4 -->|"Kritik Austin"| C5
-    C5 -->|"Murid & Kritikus"| C6
-    C5 -.->|"Pengaruh"| D1
-    C2 -->|"Pengaruh"| C4
-    E1 -.->|"Kritik Grundnorm"| C6
-    B5 -->|"Tantangan terhadap"| C4
-    E2 -->|"Koreksi"| E1
-
-    style B fill:#27ae60,color:#fff
-    style C fill:#2980b9,color:#fff
-    style D fill:#e74c3c,color:#fff
-    style E fill:#8e44ad,color:#fff
+    KODRAT --> P1["Plato"]
+    KODRAT --> P2["Aristoteles"]
+    KODRAT --> P3["Aquinas"]
+    KODRAT --> P4["Finnis"]
+    KODRAT --> P5["Fuller"]
 ```
 
 ---
