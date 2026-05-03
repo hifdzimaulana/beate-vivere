@@ -1,49 +1,45 @@
 @use "./base.scss";
 
-.callout {
-  &[data-callout="deepdive"] {
-    --color: #6c63ff;
-    --border: #6c63ff;
-    --bg: #f0ecff;
-  }
-  &[data-callout="legal"] {
-    --color: #2980b9;
-    --border: #2980b9;
-    --bg: #e8f4fd;
-  }
-  &[data-callout="case"] {
-    --color: #27ae60;
-    --border: #27ae60;
-    --bg: #eafaf1;
-  }
-  &[data-callout="concept"] {
-    --color: #7f8c8d;
-    --border: #7f8c8d;
-    --bg: #f4f6f7;
-  }
+:root {
+  --callout-deepdive: #6c63ff;
+  --callout-legal: #2980b9;
+  --callout-case: #27ae60;
+  --callout-concept: #7f8c8d;
+  --callout-danger: #e74c3c;
 }
 
 body.dark {
-  .callout {
-    &[data-callout="deepdive"] {
-      --color: #a5a1ff;
-      --border: #a5a1ff;
-      --bg: #1e1a2e;
-    }
-    &[data-callout="legal"] {
-      --color: #5dade2;
-      --border: #5dade2;
-      --bg: #1a2634;
-    }
-    &[data-callout="case"] {
-      --color: #58d68d;
-      --border: #58d68d;
-      --bg: #1f2d25;
-    }
-    &[data-callout="concept"] {
-      --color: #aab7b8;
-      --border: #aab7b8;
-      --bg: #252a2a;
-    }
+  --callout-deepdive: #a5a1ff;
+  --callout-legal: #5dade2;
+  --callout-case: #58d68d;
+  --callout-concept: #aab7b8;
+  --callout-danger: #ec7063;
+}
+
+.callout {
+  &[data-callout="deepdive"] {
+    --color: var(--callout-deepdive);
+    --border: color.mix(#000, var(--callout-deepdive), 15%);
+    --bg: color.mix(#000, var(--callout-deepdive), 10%);
+  }
+  &[data-callout="legal"] {
+    --color: var(--callout-legal);
+    --border: color.mix(#000, var(--callout-legal), 15%);
+    --bg: color.mix(#000, var(--callout-legal), 10%);
+  }
+  &[data-callout="case"] {
+    --color: var(--callout-case);
+    --border: color.mix(#000, var(--callout-case), 15%);
+    --bg: color.mix(#000, var(--callout-case), 10%);
+  }
+  &[data-callout="concept"] {
+    --color: var(--callout-concept);
+    --border: color.mix(#000, var(--callout-concept), 15%);
+    --bg: color.mix(#000, var(--callout-concept), 10%);
+  }
+  &[data-callout="danger"] {
+    --color: var(--callout-danger);
+    --border: color.mix(#000, var(--callout-danger), 15%);
+    --bg: color.mix(#000, var(--callout-danger), 10%);
   }
 }
