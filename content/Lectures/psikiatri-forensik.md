@@ -92,7 +92,7 @@ Ini adalah **pembeda paling fundamental** yang harus dipahami sejak awal:
 > 4. **Prosedur asesmen** yang digunakan (harus tertulis agar dapat diuji)
 > Laporan ini menjadi **bukti petunjuk** bagi hakim — bukan vonis, tetapi pertimbangan.
 
-> [!warning] Jebakan Umum — Treating != Assessing
+> [!warning] Jebakan Umum — Treating ≠ Assessing
 > Resume medis dari treating psychiatrist **tidak cukup** untuk keperluan forensik. Ia hanya membuktikan seseorang *pernah sakit*, bukan bahwa gangguan tersebut *memengaruhi kapasitas hukumnya saat kejadian*. Dua hal ini harus selalu dibedakan di persidangan.
 
 ---
@@ -299,7 +299,7 @@ graph LR
 
 ### 8.3 Gangguan Kepribadian
 
-> [!concept] Konsep — Gangguan Kepribadian != Bebas Hukum
+> [!concept] Konsep — Gangguan Kepribadian ≠ Bebas Hukum
 > Gangguan kepribadian (Narcissistic PD, Antisocial PD, Borderline PD) **jarang memenuhi syarat** untuk Pasal 39 karena:
 > - Pelaku biasanya *tahu* tindakannya salah (moral wrongfulness ada)
 > - Gangguan terletak pada *cara beradaptasi*, bukan pada kapasitas kognitif dasar
@@ -329,27 +329,12 @@ flowchart TD
 > Penggunaan hipnosis dalam pemeriksaan forensik **sangat berisiko**. Hipnosis tidak mengekstrak kebenaran murni — ia mengekstrak campuran memori asli, harapan, dan narasi yang terbentuk dari konteks emosional. Hasilnya bisa berupa **false memory** yang sangat meyakinkan.
 > Lie detector (poligraf) boleh digunakan sebagai *alat bantu*, tetapi **tidak dapat dijadikan dalil** langsung — hanya sebagai data pendukung dalam analisis yang lebih luas.
 
-> [!deepdive] Deep Dive — Inkonsistensi != Kebohongan
+> [!deepdive] Deep Dive — Inkonsistensi ≠ Kebohongan
 > Saksi atau terdakwa yang inkonsisten dalam keterangannya belum tentu berbohong. Inkonsistensi bisa disebabkan oleh:
 > - **Amnesia disosiatif** — memori kejadian terputus karena stres ekstrem (trauma)
 > - **Kondisi psikotik saat kejadian** — memori terfragmentasi
 > - **Kelelahan kognitif** — diperiksa berkali-kali tanpa pendamping
 > **Standar forensik:** Berikan waktu, berikan keleluasaan, dan minta *bukti dukung objektif* — jika bisa memberikannya, maka inkonsistensinya tidak menandakan ketidakcakapan.
-</div>
-
-<div class="callout callout-deepdive">
-<div class="callout-title">🔬 Deep Dive — Inkonsistensi ≠ Kebohongan</div>
-<div class="callout-body">
-
-Saksi atau terdakwa yang inkonsisten dalam keterangannya belum tentu berbohong. Inkonsistensi bisa disebabkan oleh:
-
-- **Amnesia disosiatif** — memori kejadian terputus karena stres ekstrem (trauma)
-- **Kondisi psikotik saat kejadian** — memori terfragmentasi
-- **Kelelahan kognitif** — diperiksa berkali-kali tanpa pendamping
-
-**Standar forensik:** Berikan waktu, berikan keleluasaan, dan minta *bukti dukung objektif* — jika bisa memberikannya, maka inkonsistensinya tidak menandakan ketidakcakapan.
-
-</div>
 </div>
 
 ---
@@ -419,19 +404,6 @@ graph TD
 > 2. **Menggunakan bahasa teknis sekaligus bahasa awam** — hakim bukan dokter
 > 3. **Mengakui batas kompetensi**
 > 4. **Menghadapi repetisi ulang** — Pasal 237 KUHP baru memungkinkan hakim meminta penilaian ulang dari ahli lain
-</div>
-
-<div class="callout callout-concept">
-<div class="callout-title">💡 Konsep — Cross-Examination & Kompetensi Ahli</div>
-<div class="callout-body">
-
-Psikiater forensik harus siap untuk:
-1. **Mempertahankan temuan dengan data** — bukan hanya otoritas gelar
-2. **Menggunakan bahasa teknis sekaligus bahasa awam** — hakim bukan dokter
-3. **Mengakui batas kompetensi** — "Saya hanya bisa menilai aspek X; aspek Y di luar kewenangan saya"
-4. **Menghadapi repetisi ulang** — Pasal 237 KUHP baru memungkinkan hakim meminta penilaian ulang dari ahli lain jika ada keberatan beralasan
-
-</div>
 </div>
 
 ---
