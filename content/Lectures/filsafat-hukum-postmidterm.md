@@ -43,12 +43,9 @@ Motto gerakan ini dinyatakan Hägerström dengan tegas: ***Censeo metaphysicam e
 
 ```mermaid
 graph TD
-    A["Positivisme Formal
-(Kelsen)"] --> |"Terlalu abstrak/normatif"| C
-    B["Idealisme Hegel
-(Hukum = Roh Objektif)"] --> |"Terlalu spekulatif"| C
-    C["KRITIK REALISME SKANDINAVIA
-'Basmi Metafisika'"]
+    A["Positivisme Formal</br>(Kelsen)"] --> |"Terlalu abstrak/normatif"| C
+    B["Idealisme Hegel</br>(Hukum = Roh Objektif)"] --> |"Terlalu spekulatif"| C
+    C["KRITIK REALISME SKANDINAVIA</br>'Basmi Metafisika'"]
     C --> D["Hägerström: Hukum = Perasaan Psikologis"]
     C --> E["Ross: Hukum = Fakta Sosial yang Dapat Diamati"]
     C --> F["Olivecrona: Hukum = Perintah Independen"]
@@ -116,13 +113,10 @@ Ross menolak konsep validitas Kelsen yang murni normatif (berlaku karena berasal
 
 ```mermaid
 graph LR
-    A["Norma Hukum"] --> B{"Diterapkan
-oleh Hakim?"}
+    A["Norma Hukum"] --> B{"Diterapkan</br>oleh Hakim?"}
     B --> |"YA - secara konsisten"| C["VALID / 'IN FORCE'"]
-    B --> |"TIDAK"| D["Tidak Valid
-(meskipun tertulis di UU)"]
-    C --> E["Diperkuat oleh
-Ideologi Normatif Hakim"]
+    B --> |"TIDAK"| D["Tidak Valid</br>(meskipun tertulis di UU)"]
+    C --> E["Diperkuat oleh</br>Ideologi Normatif Hakim"]
 ```
 
 > [!IMPORTANT]
@@ -173,21 +167,12 @@ Untuk memahami teori hukum Marxis, kita harus memahami **garis transformasi inte
 
 ```mermaid
 graph LR
-    A["HEGEL
-Hukum = perwujudan
-Kebebasan / Roh Objektif"]
-    B["FEUERBACH
-Membalikkan: Abstraksi
-kembali ke manusia konkret"]
-    C["MARX
-Melampaui keduanya:
-Manusia = makhluk
-historis-material"]
+    A["HEGEL</br>Hukum = perwujudan</br>Kebebasan / Roh Objektif"]
+    B["FEUERBACH</br>Membalikkan: Abstraksi</br>kembali ke manusia konkret"]
+    C["MARX</br>Melampaui keduanya:</br>Manusia = makhluk</br>historis-material"]
     A --> |"Diinversi oleh"| B
     B --> |"Diradikalisasi oleh"| C
-    C --> D["Hukum = Bentuk Historis
-yg mengekspresikan
-hubungan produksi"]
+    C --> D["Hukum = Bentuk Historis</br>yg mengekspresikan</br>hubungan produksi"]
 ```
 
 ### 13.1.1 Hegel: Hukum sebagai Eksistensi Kebebasan
@@ -339,19 +324,13 @@ Filsafat hukum tidak pernah berhenti pada pertanyaan "apa bunyi aturan", tetapi 
 
 ```mermaid
 graph TD
-    A["Problem Sentral:
-Hukum yang sangat tidak adil
-apakah masih mengikat?"]
-    B["RADBRUCH
-Menjawab dari sisi validitas
-hukum positif ekstrem"]
-    C["RAWLS
-Menjawab dari sisi desain
-institusi sosial yang fair"]
+    A["Problem Sentral:</br>Hukum yang sangat tidak adil</br>apakah masih mengikat?"]
+    B["RADBRUCH</br>Menjawab dari sisi validitas</br>hukum positif ekstrem"]
+    C["RAWLS</br>Menjawab dari sisi desain</br>institusi sosial yang fair"]
     A --> B
     A --> C
-    B --> D["Formula: hukum yang<br/>nterlalu tidak adil bukan hukum"]
-    C --> E["Prinsip: institusi adil bila<br/>ndirancang di balik 'veil of ignorance'"]
+    B --> D["Formula: hukum yang</br>terlalu tidak adil bukan hukum"]
+    C --> E["Prinsip: institusi adil bila</br>dirancang di balik 'veil of ignorance'"]
 ```
 
 ---
@@ -390,14 +369,13 @@ Formula Radbruch — sebagaimana direkonstruksi oleh Robert Alexy — terdiri da
 ```mermaid
 graph TD
     Start["Norma Positif Berlaku"]
-    Q1{"Apakah melahirkan<br/>nketidakadilan?"}
-    Q2{"Seberapa berat<br/>nketidakadilan?"}
-    Q3{"Apakah norma<br/>nsengaja menyangkal<br/>nkesetaraan?"}
-    A["Tetap berlaku<br/>n(Kepastian diutamakan)"]
-    B["Tetap berlaku dengan<br/>ncatatan kritis"]
-    C["Dapat dibatalkan
-(Tesis Toleransi)"]
-    D["Null and void —<br/>nbukan hukum sama sekali<br/>n(Tesis Penyangkalan)"]
+    Q1{"Apakah melahirkan</br>ketidakadilan?"}
+    Q2{"Seberapa berat</br>ketidakadilan?"}
+    Q3{"Apakah norma</br>sengaja menyangkal</br>kesetaraan?"}
+    A["Tetap berlaku</br>(Kepastian diutamakan)"]
+    B["Tetap berlaku dengan</br>catatan kritis"]
+    C["Dapat dibatalkan</br>(Tesis Toleransi)"]
+    D["Null and void —</br>bukan hukum sama sekali</br>(Tesis Penyangkalan)"]
 
     Start --> Q1
     Q1 --> |"TIDAK"| A
@@ -471,9 +449,9 @@ Dari posisi asal, Rawls berargumen bahwa orang-orang rasional akan memilih **dua
 
 ```mermaid
 graph TD
-    A["Prinsip 1: KEBEBASAN DASAR<br/>n(Prioritas Tertinggi — Leksikal)"]
-    B["Prinsip 2a: EQUAL OPPORTUNITY<br/>n(Jabatan terbuka secara fair)"]
-    C["Prinsip 2b: DIFFERENCE PRINCIPLE<br/>n(Ketimpangan hanya jika menguntungkan<br/>nyang paling tidak beruntung)"]
+    A["Prinsip 1: KEBEBASAN DASAR</br>(Prioritas Tertinggi — Leksikal)"]
+    B["Prinsip 2a: EQUAL OPPORTUNITY</br>(Jabatan terbuka secara fair)"]
+    C["Prinsip 2b: DIFFERENCE PRINCIPLE</br>(Ketimpangan hanya jika menguntungkan</br>yang paling tidak beruntung)"]
     A --> |"Dipenuhi terlebih dahulu"| B
     B --> |"Kemudian"| C
 ```
@@ -619,9 +597,9 @@ Ini adalah salah satu konsep terpenting Gadamer: **"historically effected consci
 
 ```mermaid
 graph LR
-    A["HORIZON TEKS<br/>n(masa lalu, konteks asal)"]
-    B["HORIZON PENAFSIR<br/>n(masa kini, konteks baru)"]
-    C["FUSI HORIZON<br/>n(pemahaman baru yang<br/>nmelampaui keduanya)"]
+    A["HORIZON TEKS</br>(masa lalu, konteks asal)"]
+    B["HORIZON PENAFSIR</br>(masa kini, konteks baru)"]
+    C["FUSI HORIZON</br>(pemahaman baru yang</br>melampaui keduanya)"]
     A --> C
     B --> C
 ```
@@ -839,8 +817,8 @@ Modernisme mengandaikan **subjek hukum** sebagai individu yang rasional, otonom,
 
 ```mermaid
 graph LR
-    A["SUBJEK MODERN<br/>n- Rasional<br/>n- Otonom<br/>n- Universal<br/>n- Berpusat pada diri"]
-    B["SUBJEK POSTMODERN<br/>n- Terkonstruksi oleh wacana<br/>n- Cair/terdesentralisasi<br/>n- Kontekstual<br/>n- Produk kekuasaan"]
+    A["SUBJEK MODERN</br>- Rasional</br>- Otonom</br>- Universal</br>- Berpusat pada diri"]
+    B["SUBJEK POSTMODERN</br>- Terkonstruksi oleh wacana</br>- Cair/terdesentralisasi</br>- Kontekstual</br>- Produk kekuasaan"]
     A -->|"Postmodernisme membongkar"| B
 ```
 
@@ -895,14 +873,14 @@ Ratnapala memandang postmodernisme sebagai **tantangan serius bagi rule of law d
 
 ```mermaid
 graph TD
-    PUSAT["PERTANYAAN PUSAT<br/>n'Apa itu Hukum?<br/>nMengapa mengikat?<br/>nBagaimana dipahami?'"]
+    PUSAT["PERTANYAAN PUSAT</br>'Apa itu Hukum?</br>Mengapa mengikat?</br>Bagaimana dipahami?'"]
 
-    R_SKAND["REALISME SKANDINAVIA<br/>n→ Hukum = fakta psikologis/sosial<br/>n→ Basis: empirisme radikal"]
-    MARXISME["MARXISME<br/>n→ Hukum = superstruktur kelas<br/>n→ Basis: materialisme historis"]
-    KEA_KEP["KEADILAN & KEPASTIAN<br/>n(Radbruch & Rawls)<br/>n→ Hukum legitimate harus adil<br/>n→ Basis: Neo-Kantian & Liberalisme"]
-    HERMEN["HERMENEUTIKA<br/>n(Dworkin & Gadamer)<br/>n→ Hukum = praktik interpretatif<br/>n→ Basis: Filsafat bahasa & sejarah"]
-    CLS["CLS<br/>n→ Hukum = ideologi kelas/gender<br/>n→ Basis: Kritik liberal + Marx"]
-    POSTMOD["POSTMODERNISME<br/>n→ Hukum = wacana kuasa<br/>n→ Basis: Post-strukturalisme"]
+    R_SKAND["REALISME SKANDINAVIA</br>→ Hukum = fakta psikologis/sosial</br>→ Basis: empirisme radikal"]
+    MARXISME["MARXISME</br>→ Hukum = superstruktur kelas</br>→ Basis: materialisme historis"]
+    KEA_KEP["KEADILAN & KEPASTIAN</br>(Radbruch & Rawls)</br>→ Hukum legitimate harus adil</br>→ Basis: Neo-Kantian & Liberalisme"]
+    HERMEN["HERMENEUTIKA</br>(Dworkin & Gadamer)</br>→ Hukum = praktik interpretatif</br>→ Basis: Filsafat bahasa & sejarah"]
+    CLS["CLS</br>→ Hukum = ideologi kelas/gender</br>→ Basis: Kritik liberal + Marx"]
+    POSTMOD["POSTMODERNISME</br>→ Hukum = wacana kuasa</br>→ Basis: Post-strukturalisme"]
 
     PUSAT --> R_SKAND
     PUSAT --> MARXISME
