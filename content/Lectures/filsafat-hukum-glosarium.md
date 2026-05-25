@@ -1,5 +1,5 @@
 ---
-title: Filsafat Hukum — Glosarium, Tokoh, dan Istilah Kunci
+title: Glosarium Filsafat Hukum
 tags:
   - Filhum
   - lectures
