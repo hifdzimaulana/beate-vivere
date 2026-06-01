@@ -1,0 +1,117 @@
+.quiz-list-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem 0;
+  align-items: center;
+}
+
+.quiz-search {
+  flex: 1 1 200px;
+  min-width: 200px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  background: var(--light);
+  color: var(--dark);
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.quiz-search:focus {
+  outline: 2px solid var(--secondary);
+  outline-offset: 1px;
+}
+
+.quiz-filter {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  background: var(--light);
+  color: var(--dark);
+  font-family: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.quiz-filter:focus {
+  outline: 2px solid var(--secondary);
+  outline-offset: 1px;
+}
+
+.quiz-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quiz-card {
+  padding: 1rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  background: var(--light);
+  transition:
+    transform 0.1s ease,
+    border-color 0.1s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quiz-card:hover,
+.quiz-card:focus-within {
+  transform: translateY(-1px);
+  border-color: var(--secondary);
+}
+
+.quiz-card-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.quiz-card-title a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.quiz-card-title a:hover,
+.quiz-card-title a:focus {
+  text-decoration: underline;
+}
+
+.quiz-card-description {
+  margin: 0;
+  color: var(--gray);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.quiz-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.quiz-card-category {
+  padding: 0.1rem 0.4rem;
+  background: var(--highlight);
+  border-radius: 3px;
+  color: var(--darkgray);
+}
+
+.quiz-card-count {
+  color: var(--gray);
+}
+
+.quiz-empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--gray);
+}

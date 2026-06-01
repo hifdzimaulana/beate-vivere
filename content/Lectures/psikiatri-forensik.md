@@ -8,6 +8,7 @@ tags:
 ---
 
 # Psikiatri Forensik — Materi Kuliah Hukum
+
 > **Konteks:** Kuliah kolaborasi Kedokteran–Hukum. Topik utama: peran psikiater dalam sistem peradilan pidana, dasar hukum KUHP baru, asesmen kapasitas mental, dan pertanggungjawaban pidana.
 
 ---
@@ -76,24 +77,25 @@ mindmap
 
 Ini adalah **pembeda paling fundamental** yang harus dipahami sejak awal:
 
-| Aspek | Treating Psychiatrist | Assessing Psychiatrist |
-|---|---|---|
-| **Hubungan** | Dokter–Pasien | Ahli–Pengadilan |
-| **Tujuan** | Mengobati | Menilai kapasitas mental |
-| **Kerahasiaan** | Rahasia jabatan berlaku | Dibuka atas perintah hukum |
-| **Produk** | Resume/rekam medis | Visum et Repertum Psychiatricum |
-| **Bias risiko** | Pro-pasien | Harus independen |
+| Aspek           | Treating Psychiatrist   | Assessing Psychiatrist          |
+| --------------- | ----------------------- | ------------------------------- |
+| **Hubungan**    | Dokter–Pasien           | Ahli–Pengadilan                 |
+| **Tujuan**      | Mengobati               | Menilai kapasitas mental        |
+| **Kerahasiaan** | Rahasia jabatan berlaku | Dibuka atas perintah hukum      |
+| **Produk**      | Resume/rekam medis      | Visum et Repertum Psychiatricum |
+| **Bias risiko** | Pro-pasien              | Harus independen                |
 
 > [!deepdive] Deep Dive — visum et Repertum Psychiatricum (VeRP)
 > VeRP bukan sekadar rekam medis. Strukturnya menjawab **unsur hukum spesifik**:
+>
 > 1. **Ada/tidaknya gangguan jiwa** saat kejadian perkara
 > 2. **Bagaimana gangguan itu memengaruhi** kemampuan memilih dan mengarahkan tindakan
-> 3. **Derajat disabilitas** — apakah *fit*, *unfit temporary*, atau *unfit permanent*
+> 3. **Derajat disabilitas** — apakah _fit_, _unfit temporary_, atau _unfit permanent_
 > 4. **Prosedur asesmen** yang digunakan (harus tertulis agar dapat diuji)
-> Laporan ini menjadi **bukti petunjuk** bagi hakim — bukan vonis, tetapi pertimbangan.
+>    Laporan ini menjadi **bukti petunjuk** bagi hakim — bukan vonis, tetapi pertimbangan.
 
 > [!warning] Jebakan Umum — Treating ≠ Assessing
-> Resume medis dari treating psychiatrist **tidak cukup** untuk keperluan forensik. Ia hanya membuktikan seseorang *pernah sakit*, bukan bahwa gangguan tersebut *memengaruhi kapasitas hukumnya saat kejadian*. Dua hal ini harus selalu dibedakan di persidangan.
+> Resume medis dari treating psychiatrist **tidak cukup** untuk keperluan forensik. Ia hanya membuktikan seseorang _pernah sakit_, bukan bahwa gangguan tersebut _memengaruhi kapasitas hukumnya saat kejadian_. Dua hal ini harus selalu dibedakan di persidangan.
 
 ---
 
@@ -116,17 +118,19 @@ atau tidak mampu)      Pasal 43 → Daya paksa / duress defense
 > | **Kondisi** | Disabilitas intelektual **sedang** atau gangguan jiwa dengan remisi parsial | Psikotik **akut** atau disabilitas intelektual **berat** |
 > | **Pidana** | Tetap dipidana, namun diringankan | Bebas dari pidana |
 > | **Tindakan** | Wajib berobat + pengawasan | Tindakan terapeutik penuh |
-> | **Syarat Kritis** | Harus dibuktikan kausalitas gangguan–perbuatan | Sama — *plus* harus dalam kondisi akut saat kejadian |
+> | **Syarat Kritis** | Harus dibuktikan kausalitas gangguan–perbuatan | Sama — _plus_ harus dalam kondisi akut saat kejadian |
 > **Kunci:** Tidak ada orang yang otomatis bebas hanya karena punya kartu kuning (diagnosis psikiatri). Harus dibuktikan bahwa gangguan jiwa tersebut **secara kausal memengaruhi** kemampuan dia saat kejadian perkara.
 
 ### 2.2 Pasal Bela Paksa (34 & 43 KUHP Baru)
 
 > [!deepdive] Deep Dive — Keguncangan Jiwa yang Hebat (Pasal 34)
 > Pembelaan terpaksa dengan keguncangan jiwa (noodweer exces) mensyaratkan psikiater forensik membuktikan:
+>
 > - Ada **kondisi afektif yang ekstrem** saat kejadian (bukan simulasi)
 > - Ada **proporsionalitas** antara ancaman dan respons
 > - Keguncangan bersumber dari **trauma atau tekanan nyata**, bukan kepribadian semata
-> Ini berbeda dari insanity defense — pelaku *tahu* perbuatannya salah, tetapi kapasitasnya untuk memilih tindakan alternatif terganggu oleh tekanan emosional yang luar biasa.
+>   Ini berbeda dari insanity defense — pelaku _tahu_ perbuatannya salah, tetapi kapasitasnya untuk memilih tindakan alternatif terganggu oleh tekanan emosional yang luar biasa.
+
 </div>
 
 ---
@@ -155,10 +159,11 @@ flowchart TD
 
 > [!deepdive] Deep Dive — Menilai Fit/Unfit: Apa yang Diukur?
 > Psikiater tidak hanya bertanya "apakah orang ini sakit?" melainkan menguji **tiga kemampuan spesifik**:
-> 1. **Understanding** — Apakah ia *memahami* perbuatannya dan konsekuensi hukumnya?
-> 2. **Appreciation of Risk** — Apakah ia bisa *menilai risiko* positif dan negatif dari pilihannya?
-> 3. **Volition** — Apakah ia *mampu memilih dan mengarahkan* tindakannya sesuai konteks?
-> **Contoh konkret:** Seseorang dengan bipolar yang memperkosa muridnya saat fase manik — *tetap bisa dipidana* jika terbukti ia menggunakan kondom. Penggunaan kondom membuktikan fungsi eksekutif masih aktif: ia tahu konsekuensi tindakannya, artinya *volition* tidak sepenuhnya terganggu.
+>
+> 1. **Understanding** — Apakah ia _memahami_ perbuatannya dan konsekuensi hukumnya?
+> 2. **Appreciation of Risk** — Apakah ia bisa _menilai risiko_ positif dan negatif dari pilihannya?
+> 3. **Volition** — Apakah ia _mampu memilih dan mengarahkan_ tindakannya sesuai konteks?
+>    **Contoh konkret:** Seseorang dengan bipolar yang memperkosa muridnya saat fase manik — _tetap bisa dipidana_ jika terbukti ia menggunakan kondom. Penggunaan kondom membuktikan fungsi eksekutif masih aktif: ia tahu konsekuensi tindakannya, artinya _volition_ tidak sepenuhnya terganggu.
 
 ---
 
@@ -184,13 +189,15 @@ graph LR
 
 > [!deepdive] Deep Dive — Aksis 3: Kondisi Medis Sebagai Mimikri Psikiatri
 > Kondisi medis non-psikiatri bisa **menyerupai psikosis** dan memengaruhi pertanggungjawaban:
+>
 > - **Ensefalitis/infeksi SSP** — halusinasi dan agitasi akut
 > - **Gagal hati/ensefalopati metabolik** — confusional state dengan perilaku agresif
 > - **Efek samping obat** — psikosis iatrogenik
-> **Implikasi hukum:** Jika psikosis disebabkan kondisi medis yang tidak diobati/tidak terdeteksi, peran *mens rea* jauh lebih lemah — bahkan bisa mengarah ke Pasal 39.
+>   **Implikasi hukum:** Jika psikosis disebabkan kondisi medis yang tidak diobati/tidak terdeteksi, peran _mens rea_ jauh lebih lemah — bahkan bisa mengarah ke Pasal 39.
 
 > [!warning] Jebakan — Jangan Langsung Labeli Psikiatri
 > Ketika seseorang datang ke IGD dengan bicara ngaco dan agitasi, jangan langsung kirim ke psikiatri tanpa skrining medis. Tanyakan dulu: onset-nya seperti apa? Onset psikotik primer biasanya gradual — bukan tiba-tiba dalam 4 hari. Periksa riwayat obat-obatan, kondisi metabolik, dan kemungkinan lesi organik terlebih dahulu.
+
 </div>
 
 <div class="callout callout-warning">
@@ -227,8 +234,9 @@ graph TD
 </div>
 
 > [!concept] Konsep — Stres Akut vs Kapasitas
-> **Stres akut** terjadi ketika **ekspektasi > kapasitas yang tersedia saat itu**. Ini bukan semata-mata lemuhnya karakter — melainkan fungsi eksekutif (prefrontal cortex) yang *terlampaui* oleh aktivasi amigdala.
-> Secara neurosains: saat stres akut, amigdala (respons emosional primitif) mendominasi dan menghambat fungsi prefrontal cortex. Ini berkaitan langsung dengan **kemampuan *volition*** yang dinilai dalam forensik.
+> **Stres akut** terjadi ketika **ekspektasi > kapasitas yang tersedia saat itu**. Ini bukan semata-mata lemuhnya karakter — melainkan fungsi eksekutif (prefrontal cortex) yang _terlampaui_ oleh aktivasi amigdala.
+> Secara neurosains: saat stres akut, amigdala (respons emosional primitif) mendominasi dan menghambat fungsi prefrontal cortex. Ini berkaitan langsung dengan **kemampuan _volition_** yang dinilai dalam forensik.
+
 </div>
 
 ---
@@ -244,18 +252,20 @@ graph TD
 > | **Contoh** | Memukul saat disentuh | Merencanakan serangan |
 > | **Implikasi** | Potensi mitigasi mens rea | Mens rea penuh |
 > **Pola respons terhadap ancaman (4F):**
+>
 > - **Fight** — Melawan
 > - **Flight** — Melarikan diri
 > - **Freeze** — Membeku
 > - **Fawn** — Menyesuaikan diri
-> Pola 4F ini dibentuk oleh riwayat trauma dan pola asuh — bukan pilihan sadar.
+>   Pola 4F ini dibentuk oleh riwayat trauma dan pola asuh — bukan pilihan sadar.
+
 </div>
 
 ---
 
 ## 7. Moral Wrongfulness vs Kognitif Wrongfulness
 
-Ini adalah dikotomi penting dalam menentukan *mens rea*:
+Ini adalah dikotomi penting dalam menentukan _mens rea_:
 
 <div class="mindmap-wrap">
 
@@ -270,7 +280,7 @@ graph LR
 </div>
 
 > [!case] Kasus — Kleptomania (Referensi: Selebriti Hollywood)
-> Seorang figur publik didiagnosis kleptomania: ia *tahu* bahwa mencuri adalah salah (moral wrongfulness ada), tetapi kompulsinya tidak dapat dia kendalikan sepenuhnya. Keputusan pengadilan: **tidak masuk penjara, tetapi kerja sosial** (membersihkan area publik sebagai bentuk malu publik) **+ wajib berobat**. Ini contoh sempurna pemidanaan yang bersifat terapeutik, bukan semata punitif.
+> Seorang figur publik didiagnosis kleptomania: ia _tahu_ bahwa mencuri adalah salah (moral wrongfulness ada), tetapi kompulsinya tidak dapat dia kendalikan sepenuhnya. Keputusan pengadilan: **tidak masuk penjara, tetapi kerja sosial** (membersihkan area publik sebagai bentuk malu publik) **+ wajib berobat**. Ini contoh sempurna pemidanaan yang bersifat terapeutik, bukan semata punitif.
 
 ---
 
@@ -280,10 +290,12 @@ graph LR
 
 > [!deepdive] Deep Dive — Skizofrenia: Halusinasi Bukan Bohong
 > Halusinasi pada skizofrenia adalah **pengalaman persepsi nyata bagi penderitanya** — bukan kebohongan atau manipulasi. Implikasi forensik:
+>
 > - Tindak pidana akibat perintah halusinasi — potensi Pasal 39 (tidak mampu)
 > - **Kunci:** Apakah saat terjadi kejahatan pasien sedang dalam kondisi **akut** atau **remisi**?
-> - Pasien yang *sudah sembuh* dapat menjawab pertanyaan pengadilan, tetapi ini tidak berarti ia *bertanggung jawab* atas tindakan yang dilakukan saat akut
-> **Faktor prognosis penting untuk hakim:** Skizofrenia yang responsif terhadap obat — kemungkinan reintegrasi lebih tinggi. Setiap relaps — penurunan fungsi kumulatif.
+> - Pasien yang _sudah sembuh_ dapat menjawab pertanyaan pengadilan, tetapi ini tidak berarti ia _bertanggung jawab_ atas tindakan yang dilakukan saat akut
+>   **Faktor prognosis penting untuk hakim:** Skizofrenia yang responsif terhadap obat — kemungkinan reintegrasi lebih tinggi. Setiap relaps — penurunan fungsi kumulatif.
+
 </div>
 
 ### 8.2 Bipolar
@@ -291,20 +303,24 @@ graph LR
 > [!deepdive] Deep Dive — Bipolar and Tanggung Jawab Hukum
 > Bipolar bersifat **temporer dan episodik** — berbeda dari demensia yang permanen.
 > **Saat episode manik:**
+>
 > - Hyperseksualitas — risiko pelecehan seksual
 > - Impulsivitas tinggi — pengeluaran besar, tindakan ceroboh
-> - *Grandiosity* — merasa kebal hukum
-> **Uji pertanggungjawaban saat manik:** Apakah ada *tanda-tanda perencanaan*? (Misal: menggunakan kondom, memilih waktu, menutup jejak) — Ini menunjukkan fungsi eksekutif **masih ada**, artinya pertanggungjawaban tidak hilang sepenuhnya.
+> - _Grandiosity_ — merasa kebal hukum
+>   **Uji pertanggungjawaban saat manik:** Apakah ada _tanda-tanda perencanaan_? (Misal: menggunakan kondom, memilih waktu, menutup jejak) — Ini menunjukkan fungsi eksekutif **masih ada**, artinya pertanggungjawaban tidak hilang sepenuhnya.
+
 </div>
 
 ### 8.3 Gangguan Kepribadian
 
 > [!concept] Konsep — Gangguan Kepribadian ≠ Bebas Hukum
 > Gangguan kepribadian (Narcissistic PD, Antisocial PD, Borderline PD) **jarang memenuhi syarat** untuk Pasal 39 karena:
-> - Pelaku biasanya *tahu* tindakannya salah (moral wrongfulness ada)
-> - Gangguan terletak pada *cara beradaptasi*, bukan pada kapasitas kognitif dasar
+>
+> - Pelaku biasanya _tahu_ tindakannya salah (moral wrongfulness ada)
+> - Gangguan terletak pada _cara beradaptasi_, bukan pada kapasitas kognitif dasar
 > - Namun, dapat menjadi **faktor mitigasi** (pasal 38) jika terbukti regulasi emosi sangat terganggu
-> **NPD dalam konteks hukum:** Pelaku dengan NPD cenderung memanfaatkan sistem — pura-pura tidak mengerti. Psikiater harus mengkorelasikan data kolateral (CCTV, saksi) dengan perilaku saat pemeriksaan.
+>   **NPD dalam konteks hukum:** Pelaku dengan NPD cenderung memanfaatkan sistem — pura-pura tidak mengerti. Psikiater harus mengkorelasikan data kolateral (CCTV, saksi) dengan perilaku saat pemeriksaan.
+
 </div>
 
 ---
@@ -327,14 +343,16 @@ flowchart TD
 
 > [!danger] Bahaya — False Memory and Hipnosis
 > Penggunaan hipnosis dalam pemeriksaan forensik **sangat berisiko**. Hipnosis tidak mengekstrak kebenaran murni — ia mengekstrak campuran memori asli, harapan, dan narasi yang terbentuk dari konteks emosional. Hasilnya bisa berupa **false memory** yang sangat meyakinkan.
-> Lie detector (poligraf) boleh digunakan sebagai *alat bantu*, tetapi **tidak dapat dijadikan dalil** langsung — hanya sebagai data pendukung dalam analisis yang lebih luas.
+> Lie detector (poligraf) boleh digunakan sebagai _alat bantu_, tetapi **tidak dapat dijadikan dalil** langsung — hanya sebagai data pendukung dalam analisis yang lebih luas.
 
 > [!deepdive] Deep Dive — Inkonsistensi ≠ Kebohongan
 > Saksi atau terdakwa yang inkonsisten dalam keterangannya belum tentu berbohong. Inkonsistensi bisa disebabkan oleh:
+>
 > - **Amnesia disosiatif** — memori kejadian terputus karena stres ekstrem (trauma)
 > - **Kondisi psikotik saat kejadian** — memori terfragmentasi
 > - **Kelelahan kognitif** — diperiksa berkali-kali tanpa pendamping
-> **Standar forensik:** Berikan waktu, berikan keleluasaan, dan minta *bukti dukung objektif* — jika bisa memberikannya, maka inkonsistensinya tidak menandakan ketidakcakapan.
+>   **Standar forensik:** Berikan waktu, berikan keleluasaan, dan minta _bukti dukung objektif_ — jika bisa memberikannya, maka inkonsistensinya tidak menandakan ketidakcakapan.
+
 </div>
 
 ---
@@ -377,10 +395,12 @@ graph TD
 
 > [!deepdive] Deep Dive — Peta Motif Pelaku
 > Meskipun hukum formal sering tidak menuntut pembuktian motif, psikiater forensik perlu memahaminya untuk:
+>
 > - Menentukan apakah tindakan itu **terencana vs impulsif**
 > - Menilai **risiko residivisme** (potensi pengulangan)
 > - Merekomendasikan **intervensi yang tepat sasaran**
-> **Tipologi reward yang dicari pelaku:**
+>   **Tipologi reward yang dicari pelaku:**
+>
 > 1. **Release expression** — melampiaskan emosi
 > 2. **Status/esteem** — pengakuan dari kelompok tertentu
 > 3. **Gain profit** — keuntungan material
@@ -394,16 +414,19 @@ graph TD
 
 > [!warning] Konflik — Treating vs Assessing di Daerah Terpencil
 > Idealnya, treating psychiatrist **tidak boleh sekaligus** menjadi assessing psychiatrist karena:
+>
 > - Hubungan terapeutik menciptakan bias pro-pasien
 > - Kerahasiaan jabatan bertentangan dengan kewajiban membuka informasi ke pengadilan
-> **Pengecualian:** Jika psikiater hanya satu di wilayah tersebut, ia *terpaksa* melakukan keduanya — **dengan wajib mencantumkan disclaimer** dalam VeRP.
+>   **Pengecualian:** Jika psikiater hanya satu di wilayah tersebut, ia _terpaksa_ melakukan keduanya — **dengan wajib mencantumkan disclaimer** dalam VeRP.
 
 > [!concept] Konsep — Cross-Examination and Kompetensi Ahli
 > Psikiater forensik harus siap untuk:
+>
 > 1. **Mempertahankan temuan dengan data** — bukan hanya otoritas gelar
 > 2. **Menggunakan bahasa teknis sekaligus bahasa awam** — hakim bukan dokter
 > 3. **Mengakui batas kompetensi**
 > 4. **Menghadapi repetisi ulang** — Pasal 237 KUHP baru memungkinkan hakim meminta penilaian ulang dari ahli lain
+
 </div>
 
 ---
@@ -430,17 +453,17 @@ flowchart LR
 
 ## 📚 Referensi Kasus yang Dibahas dalam Kuliah
 
-| Nama Kasus | Isu Forensik Utama | Pasal Relevan |
-|---|---|---|
-| Anak bunuh bapak & nenek | Psikotik akut, riwayat pola asuh | 39 KUHP Baru |
-| Guru les bipolar | Manik → pelecehan seksual, pakai kondom | 38 (masih mampu parsial) |
-| Kasus "Bakpao" | Amnesia vs demensia vs simulasi | Fit to stand trial |
-| Gubernur Papua (almarhum) | Fit to be interviewed dengan kondisi medis | Fit to be interviewed |
-| Kasus Sambo | Ada tekanan / duress defense | 34/43 KUHP Baru |
-| Kasus Mahalina | Gangguan jiwa + peran psikiater forensik | 38/39 KUHP Baru |
-| Britney Spears | Alat ukur salah (bipolar diukur dgn tes demensia) | Pengampuan / kompetensi |
-| Kleptomania (Hollywood) | Moral wrongfulness ada, kontrol terganggu | Pidana alternatif |
+| Nama Kasus                | Isu Forensik Utama                                | Pasal Relevan            |
+| ------------------------- | ------------------------------------------------- | ------------------------ |
+| Anak bunuh bapak & nenek  | Psikotik akut, riwayat pola asuh                  | 39 KUHP Baru             |
+| Guru les bipolar          | Manik → pelecehan seksual, pakai kondom           | 38 (masih mampu parsial) |
+| Kasus "Bakpao"            | Amnesia vs demensia vs simulasi                   | Fit to stand trial       |
+| Gubernur Papua (almarhum) | Fit to be interviewed dengan kondisi medis        | Fit to be interviewed    |
+| Kasus Sambo               | Ada tekanan / duress defense                      | 34/43 KUHP Baru          |
+| Kasus Mahalina            | Gangguan jiwa + peran psikiater forensik          | 38/39 KUHP Baru          |
+| Britney Spears            | Alat ukur salah (bipolar diukur dgn tes demensia) | Pengampuan / kompetensi  |
+| Kleptomania (Hollywood)   | Moral wrongfulness ada, kontrol terganggu         | Pidana alternatif        |
 
 ---
 
-> **Catatan Studi:** Materi ini direkonstruksi dari kuliah dan dapat mengandung penyederhanaan. Untuk referensi hukum formal, selalu rujuk ke teks KUHP terbaru dan literatur psikiatri forensik (misalnya *Textbook of Forensic Psychiatry* — Simon & Gold, atau panduan PERDOSSI/PDSKJI).
+> **Catatan Studi:** Materi ini direkonstruksi dari kuliah dan dapat mengandung penyederhanaan. Untuk referensi hukum formal, selalu rujuk ke teks KUHP terbaru dan literatur psikiatri forensik (misalnya _Textbook of Forensic Psychiatry_ — Simon & Gold, atau panduan PERDOSSI/PDSKJI).

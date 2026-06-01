@@ -23,6 +23,6 @@ Navigate through the four pillars of this garden:
 ---
 
 > "The garden is a place of growth, patience, and constant renewal."
-> — *Beate Vivere*
+> — _Beate Vivere_
 
 Built with [Quartz](https://quartz.jzhao.xyz) | Maintained by Hifdzi Maulana

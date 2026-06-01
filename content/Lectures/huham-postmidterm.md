@@ -14,11 +14,11 @@ tags: [HUHAM, HAM, hukum, lectures]
 
 Dalam terminologi hukum Indonesia, terdapat tiga kategori hak yang sering tumpang tindih namun memiliki landasan filosofis dan yuridis yang berbeda:
 
-1. **Hak Asasi Manusia (Human Rights / *Natural Rights*)**: Hak yang melekat pada manusia sejak lahir karena dia adalah manusia (*human being*). Hak ini bersifat **inalienable** (tidak dapat dicabut), **universal**, dan tidak bergantung pada pengakuan negara. Contoh: hak untuk hidup, hak untuk bebas dari penyiksaan, dan hak atas kebebasan pikiran. Filosofinya berakar pada pemikiran John Locke tentang *"life, liberty, and property"* serta teori hak alamiah (*natural law*).
+1. **Hak Asasi Manusia (Human Rights / _Natural Rights_)**: Hak yang melekat pada manusia sejak lahir karena dia adalah manusia (_human being_). Hak ini bersifat **inalienable** (tidak dapat dicabut), **universal**, dan tidak bergantung pada pengakuan negara. Contoh: hak untuk hidup, hak untuk bebas dari penyiksaan, dan hak atas kebebasan pikiran. Filosofinya berakar pada pemikiran John Locke tentang _"life, liberty, and property"_ serta teori hak alamiah (_natural law_).
 
-2. **Hak Konstitusional (Constitutional Rights)**: Hak-hak yang dijamin dan diatur secara tegas dalam konstitusi suatu negara. Di Indonesia, hak konstitusional dijamin dalam **UUD 1945**, terutama Pasal 28A–28J (hasil amandemen). Hak asasi manusia yang telah tercantum dalam UUD 1945 secara otomatis menjadi hak konstitusional. Namun, *tidak semua hak konstitusional adalah hak asasi manusia*; ada hak konstitusional yang bersifat khusus bagi warga negara tertentu (misalnya hak memilih yang hanya dimiliki warga negara, bukan setiap orang).
+2. **Hak Konstitusional (Constitutional Rights)**: Hak-hak yang dijamin dan diatur secara tegas dalam konstitusi suatu negara. Di Indonesia, hak konstitusional dijamin dalam **UUD 1945**, terutama Pasal 28A–28J (hasil amandemen). Hak asasi manusia yang telah tercantum dalam UUD 1945 secara otomatis menjadi hak konstitusional. Namun, _tidak semua hak konstitusional adalah hak asasi manusia_; ada hak konstitusional yang bersifat khusus bagi warga negara tertentu (misalnya hak memilih yang hanya dimiliki warga negara, bukan setiap orang).
 
-3. **Hak Legal (Legal Rights / *Civil Rights*)**: Hak yang diberikan oleh undang-undang atau peraturan perundang-undangan di bawah konstitusi (*subordinate legislations*). Hak ini dapat diubah, dikurangi, atau dicabut oleh pembentuk undang-undang sesuai dengan prosedur yang berlaku. Contoh: hak atas tunjangan tertentu, hak atas izin usaha, atau hak atas jaminan sosial yang diatur dalam peraturan pemerintah.
+3. **Hak Legal (Legal Rights / _Civil Rights_)**: Hak yang diberikan oleh undang-undang atau peraturan perundang-undangan di bawah konstitusi (_subordinate legislations_). Hak ini dapat diubah, dikurangi, atau dicabut oleh pembentuk undang-undang sesuai dengan prosedur yang berlaku. Contoh: hak atas tunjangan tertentu, hak atas izin usaha, atau hak atas jaminan sosial yang diatur dalam peraturan pemerintah.
 
 > [!IMPORTANT]
 > **Relasi Hierarkis**: UUD 1945 → UU HAM (UU 39/1999) → UU Sektor (Perlindungan Anak, SPPA, dll.) → Peraturan Pemerintah/Perpres. Hak asasi manusia yang dikonstitusikan menjadi **hak konstitusional**, kemudian dijabarkan menjadi **hak legal** melalui undang-undang.
@@ -50,7 +50,7 @@ graph TD
 ```
 
 > [!NOTE]
-> Sebagai norma fundamental, konstitusi mencerminkan nilai dasar yang disepakati sebagai *nilai bersama* masyarakat dan warga negara. Pembentukan negara adalah perwujudan keinginan terhadap kedaulatan bersama atas tujuan bersama, dengan semangat dan cara yang disepakati secara bersama-sama. Oleh karena itu, hak-hak yang diatur dalam konstitusi tidak dapat dipisahkan dari keinginan masyarakat tentang bagaimana hak-hak mereka harus diatur.
+> Sebagai norma fundamental, konstitusi mencerminkan nilai dasar yang disepakati sebagai _nilai bersama_ masyarakat dan warga negara. Pembentukan negara adalah perwujudan keinginan terhadap kedaulatan bersama atas tujuan bersama, dengan semangat dan cara yang disepakati secara bersama-sama. Oleh karena itu, hak-hak yang diatur dalam konstitusi tidak dapat dipisahkan dari keinginan masyarakat tentang bagaimana hak-hak mereka harus diatur.
 
 ---
 
@@ -58,16 +58,17 @@ graph TD
 
 ### 2.1 Definisi dan Ruang Lingkup
 
-**Hak Turut Serta dalam Pemerintahan** (*The Right to Participate in Government*) adalah hak setiap warga negara untuk terlibat dalam penyelenggaraan pemerintahan, baik secara langsung (*direct participation*) maupun tidak langsung melalui perwakilan yang dipilih secara bebas (*representative democracy*).
+**Hak Turut Serta dalam Pemerintahan** (_The Right to Participate in Government_) adalah hak setiap warga negara untuk terlibat dalam penyelenggaraan pemerintahan, baik secara langsung (_direct participation_) maupun tidak langsung melalui perwakilan yang dipilih secara bebas (_representative democracy_).
 
-Dalam UUD 1945, hak ini dijamin dalam **Pasal 28D ayat (3)**: *"Setiap warga negara berhak memperoleh kesempatan yang sama dalam pemerintahan"*. Pasal ini menempatkan HTSDP sebagai **hak konstitusional** sekaligus **hak warga negara** (*citizenship right*), artinya hanya warga negara Indonesia yang memiliki hak ini, berbeda dengan hak asasi manusia yang dimiliki oleh *setiap orang* (*every person*) tanpa memandang status kewarganegaraan.
+Dalam UUD 1945, hak ini dijamin dalam **Pasal 28D ayat (3)**: _"Setiap warga negara berhak memperoleh kesempatan yang sama dalam pemerintahan"_. Pasal ini menempatkan HTSDP sebagai **hak konstitusional** sekaligus **hak warga negara** (_citizenship right_), artinya hanya warga negara Indonesia yang memiliki hak ini, berbeda dengan hak asasi manusia yang dimiliki oleh _setiap orang_ (_every person_) tanpa memandang status kewarganegaraan.
 
 HTSDP dapat dianalisis dari dua sudut pandang:
-- **Sudut kedudukannya sebagai hak**: Sebagai bagian dari hak demokratis yang menjamin setiap warga negara memiliki *equal opportunity* untuk berpartisipasi.
+
+- **Sudut kedudukannya sebagai hak**: Sebagai bagian dari hak demokratis yang menjamin setiap warga negara memiliki _equal opportunity_ untuk berpartisipasi.
 - **Sudut ruang lingkupnya**: Sebagai bentuk keikutsertaan masyarakat/warga negara dalam pemerintahan, yang mencakup pemilihan umum, pemilihan langsung kepala daerah, partisipasi dalam pembuatan kebijakan publik, dan pengawasan terhadap penyelenggaraan pemerintahan.
 
 > [!QUOTE]
-> *"Terkadang norma atau nilai yang terbentuk dalam masyarakat berjalan jauh lebih cepat daripada norma atau kaedah hukum yang tercipta dalam suatu peraturan perundang-undangan."* Fenomena ini menunjukkan adanya *gap* antara *living law* (hukum yang hidup dalam masyarakat) dan *positive law* (hukum tertulis), sehingga pembentuk undang-undangan harus responsif terhadap perkembangan nilai-nilai demokrasi di masyarakat.
+> _"Terkadang norma atau nilai yang terbentuk dalam masyarakat berjalan jauh lebih cepat daripada norma atau kaedah hukum yang tercipta dalam suatu peraturan perundang-undangan."_ Fenomena ini menunjukkan adanya _gap_ antara _living law_ (hukum yang hidup dalam masyarakat) dan _positive law_ (hukum tertulis), sehingga pembentuk undang-undangan harus responsif terhadap perkembangan nilai-nilai demokrasi di masyarakat.
 
 ### 2.2 Instrumen Internasional
 
@@ -75,18 +76,19 @@ HTSDP dapat dianalisis dari dua sudut pandang:
 
 **Pasal 21** DUHAM mengatur hak partisipasi politik dalam tiga butir:
 
-| Butir | Isi | Makna Hukum |
-|-------|-----|-------------|
-| 1 | *Everyone has the right to take part in the government of his country, directly or through freely chosen representatives.* | Menegaskan partisipasi langsung dan perwakilan sebagai dua jalur utama. |
-| 2 | *Everyone has the right of equal access to public service in his country.* | Menjamin akses yang setara ke jabatan publik (aparatur sipil negara). |
-| 3 | *The will of the people shall be the basis of the authority of government... expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.* | Menegaskan kedaulatan rakyat (*popular sovereignty*) sebagai sumber legitimasi pemerintahan. |
+| Butir | Isi                                                                                                                                                                                                                                                | Makna Hukum                                                                                  |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 1     | _Everyone has the right to take part in the government of his country, directly or through freely chosen representatives._                                                                                                                         | Menegaskan partisipasi langsung dan perwakilan sebagai dua jalur utama.                      |
+| 2     | _Everyone has the right of equal access to public service in his country._                                                                                                                                                                         | Menjamin akses yang setara ke jabatan publik (aparatur sipil negara).                        |
+| 3     | _The will of the people shall be the basis of the authority of government... expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures._ | Menegaskan kedaulatan rakyat (_popular sovereignty_) sebagai sumber legitimasi pemerintahan. |
 
 #### 2.2.2 Kovenan Internasional tentang Hak-Hak Sipil dan Politik (ICCPR) – 1966
 
 Diratifikasi Indonesia melalui **UU No. 12 Tahun 2005**. **Pasal 25** ICCPR menjabarkan tiga komponen hak partisipasi politik:
-1. Hak untuk mengambil bagian dalam pengelolaan urusan publik (*directly or through freely chosen representatives*).
+
+1. Hak untuk mengambil bagian dalam pengelolaan urusan publik (_directly or through freely chosen representatives_).
 2. Hak untuk memilih dan dipilih dalam pemilihan umum yang berkala, dengan hak pilih universal dan setara, serta pemungutan suara rahasia.
-3. Hak untuk memiliki akses yang setara kepada jabatan publik (*equal access to public service*).
+3. Hak untuk memiliki akses yang setara kepada jabatan publik (_equal access to public service_).
 
 > [!NOTE]
 > General Comment No. 25 (1996) dari Human Rights Committee menjelaskan bahwa hak dalam Pasal 25 ICCPR tidak hanya mencakup hak formal untuk memilih, tetapi juga mencakup **hak untuk menjadi anggota partai politik**, **hak untuk kampanye**, dan **hak untuk mendapatkan informasi** yang memadai untuk membuat pilihan yang terinformasi.
@@ -94,44 +96,46 @@ Diratifikasi Indonesia melalui **UU No. 12 Tahun 2005**. **Pasal 25** ICCPR menj
 #### 2.2.3 Deklarasi Kairo tentang Hak Asasi Manusia dalam Islam (Cairo Declaration) – 1990
 
 Diadopsi pada Konferensi Menteri Luar Negeri Islam ke-19 di Kairo, 5 Agustus 1990. **Pasal 23(b)** menyatakan:
-> *"Setiap orang berhak untuk berpartisipasi, secara langsung atau tidak langsung dalam administrasi urusan publik negaranya. Dia juga memiliki hak untuk memangku jabatan publik sesuai dengan ketentuan Syariah."*
 
-Perbedaan mendasar dengan instrumen universal adalah adanya kualifikasi *"sesuai dengan ketentuan Syariah"*, yang menunjukkan pendekatan hak asasi manusia berbasis nilai keislaman.
+> _"Setiap orang berhak untuk berpartisipasi, secara langsung atau tidak langsung dalam administrasi urusan publik negaranya. Dia juga memiliki hak untuk memangku jabatan publik sesuai dengan ketentuan Syariah."_
+
+Perbedaan mendasar dengan instrumen universal adalah adanya kualifikasi _"sesuai dengan ketentuan Syariah"_, yang menunjukkan pendekatan hak asasi manusia berbasis nilai keislaman.
 
 #### 2.2.4 Deklarasi Hak Asasi Manusia ASEAN (ASEAN Human Rights Declaration) – 2012
 
-Diadopsi pada 18 November 2012 di Phnom Penh, Kamboja. Bagian *Civil and Political Rights* angka 25 menyatakan:
-> *"Setiap orang yang merupakan warga negara di negaranya memiliki hak untuk berpartisipasi dalam pemerintahan di negaranya, baik secara langsung maupun tidak langsung melalui perwakilan yang dipilih secara demokratis, sesuai dengan hukum nasional..."*
+Diadopsi pada 18 November 2012 di Phnom Penh, Kamboja. Bagian _Civil and Political Rights_ angka 25 menyatakan:
+
+> _"Setiap orang yang merupakan warga negara di negaranya memiliki hak untuk berpartisipasi dalam pemerintahan di negaranya, baik secara langsung maupun tidak langsung melalui perwakilan yang dipilih secara demokratis, sesuai dengan hukum nasional..."_
 
 > [!WARNING]
-> ASEAN Human Rights Declaration mengandung klausul *"sesuai dengan hukum nasional"* yang lebih luas dibandingkan instrumen universal, sehingga memberikan *margin of appreciation* yang besar bagi negara-negara ASEAN untuk membatasi hak partisipasi berdasarkan undang-undang domestik.
+> ASEAN Human Rights Declaration mengandung klausul _"sesuai dengan hukum nasional"_ yang lebih luas dibandingkan instrumen universal, sehingga memberikan _margin of appreciation_ yang besar bagi negara-negara ASEAN untuk membatasi hak partisipasi berdasarkan undang-undang domestik.
 
 #### 2.2.5 Deklarasi PBB tentang Hak dan Tanggung Jawab Individu, Kelompok, dan Organ Masyarakat (1999)
 
-Dokumen ini, yang sering disebut *Declaration on Human Rights Defenders*, menegaskan dalam **Pasal 1** bahwa setiap orang memiliki hak untuk mempromosikan dan melindungi HAM. **Pasal 2** menegaskan tanggung jawab utama negara untuk melindungi HAM, dan **Pasal 3** menegaskan bahwa hukum domestik harus konsisten dengan Piagam PBB.
+Dokumen ini, yang sering disebut _Declaration on Human Rights Defenders_, menegaskan dalam **Pasal 1** bahwa setiap orang memiliki hak untuk mempromosikan dan melindungi HAM. **Pasal 2** menegaskan tanggung jawab utama negara untuk melindungi HAM, dan **Pasal 3** menegaskan bahwa hukum domestik harus konsisten dengan Piagam PBB.
 
 ### 2.3 Instrumen Nasional
 
 #### 2.3.1 UUD 1945
 
-| Pasal | Isi | Kategori Hak |
-|-------|-----|--------------|
-| 28D ayat (1) | Pengakuan, jaminan, perlindungan, dan kepastian hukum yang adil serta perlakuan sama di hadapan hukum. | Hak Umum (setiap orang) |
-| 28D ayat (2) | Hak untuk bekerja serta mendapat imbalan dan perlakuan yang adil dan layak. | Hak Ekonomi |
-| **28D ayat (3)** | **Setiap warga negara berhak memperoleh kesempatan yang sama dalam pemerintahan.** | **Hak Warga Negara** |
-| 28D ayat (4) | Hak atas status kewarganegaraan. | Hak Warga Negara |
+| Pasal            | Isi                                                                                                    | Kategori Hak            |
+| ---------------- | ------------------------------------------------------------------------------------------------------ | ----------------------- |
+| 28D ayat (1)     | Pengakuan, jaminan, perlindungan, dan kepastian hukum yang adil serta perlakuan sama di hadapan hukum. | Hak Umum (setiap orang) |
+| 28D ayat (2)     | Hak untuk bekerja serta mendapat imbalan dan perlakuan yang adil dan layak.                            | Hak Ekonomi             |
+| **28D ayat (3)** | **Setiap warga negara berhak memperoleh kesempatan yang sama dalam pemerintahan.**                     | **Hak Warga Negara**    |
+| 28D ayat (4)     | Hak atas status kewarganegaraan.                                                                       | Hak Warga Negara        |
 
 #### 2.3.2 UU No. 39 Tahun 1999 tentang Hak Asasi Manusia (UU HAM)
 
 > [!IMPORTANT]
 > **UU HAM** (UU 39/1999) menjabarkan hak turut serta dalam pemerintahan secara lebih rinci dalam **Pasal 43–44**.
 
-| Pasal | Isi | Makna Yuridis |
-|-------|-----|---------------|
-| 43 ayat (1) | Setiap warga negara berhak dipilih dan memilih dalam pemilu berdasarkan persamaan hak, melalui pemungutan suara yang **langsung, umum, bebas, rahasia, jujur, dan adil** (Luber Jurdil). | Pemilu adalah **instrumen utama** untuk mewujudkan hak turut serta dalam pemerintahan. |
-| 43 ayat (2) | Setiap warga negara berhak turut serta dalam pemerintahan secara langsung atau melalui wakil yang dipilihnya dengan bebas. | Menegaskan prinsip partisipasi **langsung** dan **perwakilan**. |
-| 43 ayat (3) | Setiap warga negara dapat diangkat dalam setiap jabatan pemerintahan. | Memberikan kesempatan pada warga negara untuk turut serta dalam pemerintahan secara langsung melalui kinerja mereka dalam berbagai jabatan publik. |
-| 44 | Setiap orang berhak mengajukan pendapat, permohonan, pengaduan, dan/atau usulan kepada pemerintah dalam rangka pelaksanaan pemerintahan yang bersih, efektif, dan efisien. | Rakyat dapat terus mengawasi jalannya pemerintahan, memberikan masukan, pendapat, pengaduan, maupun permohonan kepada pemerintah yang sedang berkuasa. |
+| Pasal       | Isi                                                                                                                                                                                      | Makna Yuridis                                                                                                                                          |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 43 ayat (1) | Setiap warga negara berhak dipilih dan memilih dalam pemilu berdasarkan persamaan hak, melalui pemungutan suara yang **langsung, umum, bebas, rahasia, jujur, dan adil** (Luber Jurdil). | Pemilu adalah **instrumen utama** untuk mewujudkan hak turut serta dalam pemerintahan.                                                                 |
+| 43 ayat (2) | Setiap warga negara berhak turut serta dalam pemerintahan secara langsung atau melalui wakil yang dipilihnya dengan bebas.                                                               | Menegaskan prinsip partisipasi **langsung** dan **perwakilan**.                                                                                        |
+| 43 ayat (3) | Setiap warga negara dapat diangkat dalam setiap jabatan pemerintahan.                                                                                                                    | Memberikan kesempatan pada warga negara untuk turut serta dalam pemerintahan secara langsung melalui kinerja mereka dalam berbagai jabatan publik.     |
+| 44          | Setiap orang berhak mengajukan pendapat, permohonan, pengaduan, dan/atau usulan kepada pemerintah dalam rangka pelaksanaan pemerintahan yang bersih, efektif, dan efisien.               | Rakyat dapat terus mengawasi jalannya pemerintahan, memberikan masukan, pendapat, pengaduan, maupun permohonan kepada pemerintah yang sedang berkuasa. |
 
 > [!NOTE]
 > Prinsip **Luber Jurdil** (Langsung, Umum, Bebas, Rahasia, Jujur, dan Adil) merupakan standard minimum pemilu demokratis yang juga diakui dalam praktik internasional. Prinsip ini kemudian diatur lebih lanjut dalam **UU No. 7 Tahun 2017 tentang Pemilihan Umum** (sebagai perubahan dari UU sebelumnya).
@@ -148,29 +152,29 @@ Hak konstitusional adalah hak-hak yang dijamin di dalam dan oleh UUD 1945. Hak-h
 
 ### 2.5 HTSDP sebagai Ciri dari Negara Demokratis
 
-Robert Dahl (1989) dalam bukunya *"Democracy and Its Critics"*, mengemukakan bahwa untuk mencapai demokrasi yang ideal dibutuhkan lima kriteria:
+Robert Dahl (1989) dalam bukunya _"Democracy and Its Critics"_, mengemukakan bahwa untuk mencapai demokrasi yang ideal dibutuhkan lima kriteria:
 
-| Kriteria | Definisi | Relevansi di Indonesia |
-|----------|----------|------------------------|
-| **Effective Participation** | Warga negara harus memiliki peluang yang setara dan memadai terhadap pilihan dan tempat mereka dalam ruang publik. | Partisipasi dalam pemilu, musyawarah desa, dan pengawasan penyelenggaraan pemerintahan. |
-| **Voting Equality at the Decisive Stage** | Setiap warga negara harus diyakinkan bahwa penilaiannya akan dianggap sama dengan penilaian orang lain. | Prinsip *"one person, one vote, one value"* dalam pemilu. |
-| **Enlightened Understanding** | Warga negara harus menikmati kesempatan yang sama untuk memilih apa yang terbaik bagi mereka. | Hak atas informasi publik (UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik). |
-| **Control of the Agenda** | Setiap orang harus memiliki kesempatan untuk memutuskan masalah/kebijakan apa yang penting dan harus didiskusikan terlebih dahulu. | Mekanisme *citizen initiative* atau pengajuan usul RUU oleh DPRD bersama rakyat. |
-| **Inclusiveness** | Kesetaraan harus diperluas ke seluruh warga negara dan setiap orang memiliki legitimasi dalam proses politik. | Penghapusan diskriminasi dalam pemilu berdasarkan gender, etnis, atau agama. |
+| Kriteria                                  | Definisi                                                                                                                           | Relevansi di Indonesia                                                                  |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **Effective Participation**               | Warga negara harus memiliki peluang yang setara dan memadai terhadap pilihan dan tempat mereka dalam ruang publik.                 | Partisipasi dalam pemilu, musyawarah desa, dan pengawasan penyelenggaraan pemerintahan. |
+| **Voting Equality at the Decisive Stage** | Setiap warga negara harus diyakinkan bahwa penilaiannya akan dianggap sama dengan penilaian orang lain.                            | Prinsip _"one person, one vote, one value"_ dalam pemilu.                               |
+| **Enlightened Understanding**             | Warga negara harus menikmati kesempatan yang sama untuk memilih apa yang terbaik bagi mereka.                                      | Hak atas informasi publik (UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik).  |
+| **Control of the Agenda**                 | Setiap orang harus memiliki kesempatan untuk memutuskan masalah/kebijakan apa yang penting dan harus didiskusikan terlebih dahulu. | Mekanisme _citizen initiative_ atau pengajuan usul RUU oleh DPRD bersama rakyat.        |
+| **Inclusiveness**                         | Kesetaraan harus diperluas ke seluruh warga negara dan setiap orang memiliki legitimasi dalam proses politik.                      | Penghapusan diskriminasi dalam pemilu berdasarkan gender, etnis, atau agama.            |
 
 > [!NOTE]
-> Agenda tersebut merupakan upaya untuk mewujudkan **tata pemerintahan yang baik** (*good governance*), antara lain: keterbukaan, akuntabilitas, efektivitas, dan efisiensi, menjunjung tinggi supremasi hukum, dan membuka partisipasi masyarakat yang dapat menjamin kelancaran, keserasian, dan keterpaduan tugas dan fungsi penyelenggaraan pemerintahan dan pembangunan.
+> Agenda tersebut merupakan upaya untuk mewujudkan **tata pemerintahan yang baik** (_good governance_), antara lain: keterbukaan, akuntabilitas, efektivitas, dan efisiensi, menjunjung tinggi supremasi hukum, dan membuka partisipasi masyarakat yang dapat menjamin kelancaran, keserasian, dan keterpaduan tugas dan fungsi penyelenggaraan pemerintahan dan pembangunan.
 
 ### 2.6 Kewajiban Dasar dan Tanggung Jawab Pemerintah
 
-| Pasal UU HAM | Isi | Interpretasi |
-|--------------|-----|--------------|
+| Pasal UU HAM | Isi                                                                                                                                                                                                                                                                                                                                                    | Interpretasi                                                                                                                                  |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Pasal 70** | Dalam menjalankan hak dan kebebasannya, setiap orang wajib tunduk kepada pembatasan yang ditetapkan undang-undang dengan maksud untuk menjamin pengakuan serta penghormatan atas hak dan kebebasan orang lain dan untuk memenuhi tuntutan yang adil sesuai dengan pertimbangan moral, keamanan, dan ketertiban umum dalam suatu masyarakat demokratis. | Pembatasan hak harus berdasarkan **undang-undang**, tidak boleh sewenang-wenang, dan harus untuk tujuan yang sah dalam masyarakat demokratis. |
-| **Pasal 71** | Pemerintah wajib dan bertanggung jawab menghormati, melindungi, menegakkan, dan memajukan hak asasi manusia yang diatur dalam UU ini, peraturan perundang-undangan lain, dan hukum internasional tentang HAM yang diterima oleh Indonesia. | Menegaskan kewajiban negara (*obligation to respect, protect, and fulfill*) terhadap HAM. |
-| **Pasal 73** | Hak dan kebebasan yang diatur dalam UU ini hanya dapat dibatasi oleh dan berdasarkan undang-undang, semata-mata untuk menjamin pengakuan dan penghormatan terhadap HAM serta kebebasan dasar orang lain, kesusilaan, ketertiban umum dan kepentingan bangsa. | Prinsip **legalitas pembatasan hak**: pembatasan harus berdasarkan UU, tidak boleh bertentangan dengan esensi hak, dan harus proporsional. |
+| **Pasal 71** | Pemerintah wajib dan bertanggung jawab menghormati, melindungi, menegakkan, dan memajukan hak asasi manusia yang diatur dalam UU ini, peraturan perundang-undangan lain, dan hukum internasional tentang HAM yang diterima oleh Indonesia.                                                                                                             | Menegaskan kewajiban negara (_obligation to respect, protect, and fulfill_) terhadap HAM.                                                     |
+| **Pasal 73** | Hak dan kebebasan yang diatur dalam UU ini hanya dapat dibatasi oleh dan berdasarkan undang-undang, semata-mata untuk menjamin pengakuan dan penghormatan terhadap HAM serta kebebasan dasar orang lain, kesusilaan, ketertiban umum dan kepentingan bangsa.                                                                                           | Prinsip **legalitas pembatasan hak**: pembatasan harus berdasarkan UU, tidak boleh bertentangan dengan esensi hak, dan harus proporsional.    |
 
 > [!IMPORTANT]
-> Prinsip *"dibatasi oleh dan berdasarkan undang-undang"* dalam Pasal 73 UU HAM sejalan dengan **Pasal 4 ayat (2) ICCPR** dan **Pasal 4 UU HAM** tentang hak yang tidak dapat dikurangi dalam keadaan apapun (*non-derogable rights*).
+> Prinsip _"dibatasi oleh dan berdasarkan undang-undang"_ dalam Pasal 73 UU HAM sejalan dengan **Pasal 4 ayat (2) ICCPR** dan **Pasal 4 UU HAM** tentang hak yang tidak dapat dikurangi dalam keadaan apapun (_non-derogable rights_).
 
 ### 2.7 Mekanisme Pemenuhan dan Penegakan HTSDP
 
@@ -178,13 +182,13 @@ Robert Dahl (1989) dalam bukunya *"Democracy and Its Critics"*, mengemukakan bah
 
 1. Menyelenggarakan pemilihan umum secara reguler dan berkala.
 2. Meningkatkan akuntabilitas pejabat publik.
-3. Memberikan kesempatan bagi masyarakat untuk mengambil bagian dalam urusan publik (musyawarah perencanaan pembangunan, *participatory budgeting*).
+3. Memberikan kesempatan bagi masyarakat untuk mengambil bagian dalam urusan publik (musyawarah perencanaan pembangunan, _participatory budgeting_).
 4. Meningkatkan transparansi lembaga publik termasuk prosedur pembuatan kebijakannya.
 5. Meningkatkan akses masyarakat seluas mungkin terhadap informasi tentang kegiatan otoritas nasional dan lokal (sesuai UU KIP).
 
 #### 2.7.2 Mahkamah Konstitusi (MK)
 
-MK menegakkan konstitutionalisme berdasarkan hak asasi yang membentuk norma konstitusi, sebagai sistem kontrol yang demokratis. MK berwenang menguji undang-undang terhadap UUD 1945 (*judicial review*), sehingga dapat membatalkan undang-undang yang membatasi hak partisipasi secara berlebihan atau diskriminatif. Contoh: Putusan MK No. 102/PUU-XIII/2015 tentang verifikasi partai politik, dan berbagai putusan terkait pemilu.
+MK menegakkan konstitutionalisme berdasarkan hak asasi yang membentuk norma konstitusi, sebagai sistem kontrol yang demokratis. MK berwenang menguji undang-undang terhadap UUD 1945 (_judicial review_), sehingga dapat membatalkan undang-undang yang membatasi hak partisipasi secara berlebihan atau diskriminatif. Contoh: Putusan MK No. 102/PUU-XIII/2015 tentang verifikasi partai politik, dan berbagai putusan terkait pemilu.
 
 #### 2.7.3 Komnas HAM
 
@@ -192,18 +196,18 @@ MK menegakkan konstitutionalisme berdasarkan hak asasi yang membentuk norma kons
 2. Meningkatkan perlindungan dan penegakan hak asasi manusia guna berkembangnya pribadi manusia Indonesia seutuhnya dan kemampuannya berpartisipasi dalam berbagai bidang kehidupan.
 
 > [!QUOTE]
-> *"Sebagai contoh dalam hal pemerintah membuat suatu kebijakan publik, maka diharapkan adanya suatu konsep keterlibatan seluruh unsur yang berhubungan dengan tujuan adanya kebijakan tersebut. Sehingga dikeluarkannya sebuah kebijakan oleh pemerintah bertujuan untuk mengurus dan mengatur publik, bukan sebagai alat yang digunakan untuk merugikan masyarakat."*
+> _"Sebagai contoh dalam hal pemerintah membuat suatu kebijakan publik, maka diharapkan adanya suatu konsep keterlibatan seluruh unsur yang berhubungan dengan tujuan adanya kebijakan tersebut. Sehingga dikeluarkannya sebuah kebijakan oleh pemerintah bertujuan untuk mengurus dan mengatur publik, bukan sebagai alat yang digunakan untuk merugikan masyarakat."_
 
 ### 2.8 Perbandingan dengan Negara Lain dan Kritik Implementasi di Indonesia
 
-| Aspek | Indonesia | Praktik Internasional (Contoh: Jerman/Skandinavia) |
-|-------|-----------|-----------------------------------------------------|
-| **Partisipasi Langsung** | Terbatas pada pemilu dan pilkada; *referendum* hanya untuk daerah otonomi baru (UU No. 5 Tahun 1974). | *Referendum* dan *citizen initiative* umum di Swiss; *Bürgerbegehren* di Jerman. |
-| **Transparansi Kebijakan** | UU KIP 2008 memberikan akses, namun praktik *open government* masih berkembang. | *Freedom of Information Act* di banyak negara dengan sanksi tegas bagi pelanggar. |
-| **Pengawasan** | Komnas HAM dan Ombudsman berperan, namun seringkali rekomendasi tidak mengikat. | *National Human Rights Institutions* (NHRI) dengan status A (Paris Principles) memiliki kewenangan investigasi yang lebih kuat. |
+| Aspek                      | Indonesia                                                                                             | Praktik Internasional (Contoh: Jerman/Skandinavia)                                                                              |
+| -------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Partisipasi Langsung**   | Terbatas pada pemilu dan pilkada; _referendum_ hanya untuk daerah otonomi baru (UU No. 5 Tahun 1974). | _Referendum_ dan _citizen initiative_ umum di Swiss; _Bürgerbegehren_ di Jerman.                                                |
+| **Transparansi Kebijakan** | UU KIP 2008 memberikan akses, namun praktik _open government_ masih berkembang.                       | _Freedom of Information Act_ di banyak negara dengan sanksi tegas bagi pelanggar.                                               |
+| **Pengawasan**             | Komnas HAM dan Ombudsman berperan, namun seringkali rekomendasi tidak mengikat.                       | _National Human Rights Institutions_ (NHRI) dengan status A (Paris Principles) memiliki kewenangan investigasi yang lebih kuat. |
 
 > [!WARNING]
-> **Kritik Implementasi**: Meskipun kerangka hukum HTSDP di Indonesia relatif lengkap, praktiknya masih menghadapi tantangan: (1) *money politics* dan politik uang dalam pemilu; (2) rendahnya partisipasi perempuan dan kelompok marginal dalam politik; (3) keterbatasan akses informasi di tingkat daerah; (4) lemahnya mekanisme *accountability* terhadap pelanggaran hak partisipasi.
+> **Kritik Implementasi**: Meskipun kerangka hukum HTSDP di Indonesia relatif lengkap, praktiknya masih menghadapi tantangan: (1) _money politics_ dan politik uang dalam pemilu; (2) rendahnya partisipasi perempuan dan kelompok marginal dalam politik; (3) keterbatasan akses informasi di tingkat daerah; (4) lemahnya mekanisme _accountability_ terhadap pelanggaran hak partisipasi.
 
 ---
 
@@ -213,16 +217,16 @@ MK menegakkan konstitutionalisme berdasarkan hak asasi yang membentuk norma kons
 
 Definisi "anak" tidak seragam dalam peraturan perundang-undangan Indonesia. Perbedaan ini mencerminkan berbagai pendekatan hukum berdasarkan tujuan pengaturan (perkawinan, ketenagakerjaan, pidana, atau perlindungan umum).
 
-| Sumber Hukum | Definisi Anak | Usia/Kriteria |
-|--------------|---------------|---------------|
-| **Pasal 1 butir 5 UU HAM** (UU 39/1999) | Mereka yang berumur kurang dari 18 tahun dan belum pernah kawin. | < 18 tahun, belum kawin |
-| **Pasal 1 butir 1 UU 23/2002** (UU Perlindungan Anak) | Seseorang yang belum berusia 18 tahun, termasuk anak di dalam kandungan. | < 18 tahun, termasuk janin |
-| **Pasal 1 butir 2 UU 4/1979** (UU Kesejahteraan Anak) | Mereka yang berusia kurang dari 21 tahun dan belum pernah kawin. | < 21 tahun, belum kawin |
-| **Pasal 330 KUHPerdata** | Mereka yang berusia kurang dari 21 tahun. | < 21 tahun |
-| **Pasal 7 UU 1/1974** (UU Perkawinan) | Usia minimum menikah: 19 tahun (pria) dan 16 tahun (wanita) [sebelum putusan MK]. | [VERIFICATION NEEDED: Putusan MK No. 22/PUU-XV/2017 menyatakan batas usia nikah 16 tahun bagi perempuan adalah diskriminasi, sehingga batas usia menikah bagi laki-laki dan perempuan sama-sama 19 tahun. Namun, perlu diverifikasi apakah UU Perkawinan telah diubah secara resmi pasca-putusan MK atau hanya putusan MK yang berlaku.] |
-| **Pasal 1 butir 26 UU 13/2003** (UU Ketenagakerjaan) | Mereka yang berumur kurang dari 18 tahun. | < 18 tahun |
-| **Pasal 4 UU 3/1997** (UU Pengadilan Anak) | Untuk pertanggungjawaban pidana, usia minimal anak adalah 12 tahun. | 12–18 tahun (pidana) |
-| **Pasal 1 CRC** (Konvensi Hak Anak) | Setiap manusia di bawah usia 18 tahun kecuali menurut hukum yang berlaku bagi anak, dewasa dicapai lebih awal. | < 18 tahun (standar internasional) |
+| Sumber Hukum                                          | Definisi Anak                                                                                                  | Usia/Kriteria                                                                                                                                                                                                                                                                                                                            |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pasal 1 butir 5 UU HAM** (UU 39/1999)               | Mereka yang berumur kurang dari 18 tahun dan belum pernah kawin.                                               | < 18 tahun, belum kawin                                                                                                                                                                                                                                                                                                                  |
+| **Pasal 1 butir 1 UU 23/2002** (UU Perlindungan Anak) | Seseorang yang belum berusia 18 tahun, termasuk anak di dalam kandungan.                                       | < 18 tahun, termasuk janin                                                                                                                                                                                                                                                                                                               |
+| **Pasal 1 butir 2 UU 4/1979** (UU Kesejahteraan Anak) | Mereka yang berusia kurang dari 21 tahun dan belum pernah kawin.                                               | < 21 tahun, belum kawin                                                                                                                                                                                                                                                                                                                  |
+| **Pasal 330 KUHPerdata**                              | Mereka yang berusia kurang dari 21 tahun.                                                                      | < 21 tahun                                                                                                                                                                                                                                                                                                                               |
+| **Pasal 7 UU 1/1974** (UU Perkawinan)                 | Usia minimum menikah: 19 tahun (pria) dan 16 tahun (wanita) [sebelum putusan MK].                              | [VERIFICATION NEEDED: Putusan MK No. 22/PUU-XV/2017 menyatakan batas usia nikah 16 tahun bagi perempuan adalah diskriminasi, sehingga batas usia menikah bagi laki-laki dan perempuan sama-sama 19 tahun. Namun, perlu diverifikasi apakah UU Perkawinan telah diubah secara resmi pasca-putusan MK atau hanya putusan MK yang berlaku.] |
+| **Pasal 1 butir 26 UU 13/2003** (UU Ketenagakerjaan)  | Mereka yang berumur kurang dari 18 tahun.                                                                      | < 18 tahun                                                                                                                                                                                                                                                                                                                               |
+| **Pasal 4 UU 3/1997** (UU Pengadilan Anak)            | Untuk pertanggungjawaban pidana, usia minimal anak adalah 12 tahun.                                            | 12–18 tahun (pidana)                                                                                                                                                                                                                                                                                                                     |
+| **Pasal 1 CRC** (Konvensi Hak Anak)                   | Setiap manusia di bawah usia 18 tahun kecuali menurut hukum yang berlaku bagi anak, dewasa dicapai lebih awal. | < 18 tahun (standar internasional)                                                                                                                                                                                                                                                                                                       |
 
 > [!IMPORTANT]
 > Dengan berlakunya **UU No. 35 Tahun 2014** (Perubahan atas UU 23/2002) dan **UU No. 17 Tahun 2016**, batasan usia anak dalam UU Perlindungan Anak (di bawah 18 tahun, termasuk janin) merupakan standar yang berlaku umum, kecuali untuk anak yang berhadapan dengan hukum yang tunduk pada **UU No. 11 Tahun 2012** tentang Sistem Peradilan Pidana Anak (SPPA) dan UU No. 3/1997 tentang Pengadilan Anak.
@@ -231,12 +235,12 @@ Definisi "anak" tidak seragam dalam peraturan perundang-undangan Indonesia. Perb
 
 Prinsip-prinsip ini diatur dalam **Bab II Pasal 2 UU No. 23 Tahun 2002** tentang Perlindungan Anak, yang sejalan dengan **Pasal 2–3 CRC**:
 
-| Prinsip | UU 23/2002 | CRC | Penjelasan |
-|---------|------------|-----|------------|
-| **Non-diskriminasi** | Pasal 2 ayat (1) | Pasal 2 | Tidak adanya perlakuan yang membeda-bedakan anak berdasarkan suku, agama, ras, golongan, jenis kelamin, etnis, budaya, bahasa, status hukum, urutan kelahiran, serta kondisi fisik dan/atau mental. |
-| **Kepentingan Terbaik Bagi Anak** (*Best Interest of the Child*) | Pasal 2 ayat (2) | Pasal 3 | Dalam semua tindakan yang menyangkut anak, kepentingan yang terbaik bagi anak harus menjadi pertimbangan utama. |
-| **Hak untuk Hidup, Kelangsungan Hidup, dan Perkembangan** | Pasal 2 ayat (3) | Pasal 6 | Hak asasi yang paling mendasar, dilindungi oleh negara, pemerintah, masyarakat, keluarga, dan orang tua. |
-| **Penghargaan terhadap Pendapat Anak** | Pasal 2 ayat (4) | Pasal 12 | Penghormatan atas hak anak untuk berpartisipasi dan menyatakan pendapatnya dalam pengambilan keputusan yang menyangkut kehidupannya, disesuaikan dengan usia dan kematangan. |
+| Prinsip                                                          | UU 23/2002       | CRC      | Penjelasan                                                                                                                                                                                          |
+| ---------------------------------------------------------------- | ---------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Non-diskriminasi**                                             | Pasal 2 ayat (1) | Pasal 2  | Tidak adanya perlakuan yang membeda-bedakan anak berdasarkan suku, agama, ras, golongan, jenis kelamin, etnis, budaya, bahasa, status hukum, urutan kelahiran, serta kondisi fisik dan/atau mental. |
+| **Kepentingan Terbaik Bagi Anak** (_Best Interest of the Child_) | Pasal 2 ayat (2) | Pasal 3  | Dalam semua tindakan yang menyangkut anak, kepentingan yang terbaik bagi anak harus menjadi pertimbangan utama.                                                                                     |
+| **Hak untuk Hidup, Kelangsungan Hidup, dan Perkembangan**        | Pasal 2 ayat (3) | Pasal 6  | Hak asasi yang paling mendasar, dilindungi oleh negara, pemerintah, masyarakat, keluarga, dan orang tua.                                                                                            |
+| **Penghargaan terhadap Pendapat Anak**                           | Pasal 2 ayat (4) | Pasal 12 | Penghormatan atas hak anak untuk berpartisipasi dan menyatakan pendapatnya dalam pengambilan keputusan yang menyangkut kehidupannya, disesuaikan dengan usia dan kematangan.                        |
 
 ```mermaid
 graph LR
@@ -254,64 +258,64 @@ graph LR
 
 ### 3.3 Instrumen Internasional
 
-| Instrumen | Tahun | Ratifikasi Indonesia | Hak Anak yang Diatur |
-|-----------|-------|---------------------|----------------------|
-| **Deklarasi Jenewa tentang Hak-Hak Anak** | 1924 | – | Hak anak atas bantuan kemanusiaan (pra-CRC). |
-| **DUHAM (UDHR)** | 1948 | – | Pasal 25 ayat (2): anak berhak atas perawatan dan bantuan khusus. |
-| **ICCPR** | 1966 | UU No. 12/2005 | Pasal 24: perlindungan anak tanpa diskriminasi; Pasal 6: hak hidup. |
-| **ICESCR** | 1966 | UU No. 11/2005 | Pasal 10 ayat (3): perlindungan khusus bagi anak dan remaja dari eksploitasi ekonomi dan sosial. |
-| **CRC (Konvensi Hak Anak)** | 1989 | Keppres No. 36/1990 | Pasal 6–41: hak hidup, identitas, keluarga, kesehatan, pendidikan, perlindungan dari kekerasan, dll. |
-| **Konvensi ILO No. 138** | 1973 | UU No. 20/1999 | Batas usia minimum untuk bekerja. |
-| **Konvensi ILO No. 182** | 1999 | UU No. 1/2000 | Pelarangan bentuk-bentuk pekerjaan terburuk untuk anak. |
-| **Riyadh Guidelines** | 1990 | – | Pencegahan delinkuensi juvenile. |
-| **Beijing Rules** | 1985 | – | Standar administrasi peradilan anak (Rule 7: *age of criminal responsibility*). |
-| **General Comment No. 10 CRC** | 2007 | – | Hak anak dalam sistem peradilan pidana juvenile; usia minimum pidana tidak boleh di bawah 12 tahun. |
+| Instrumen                                 | Tahun | Ratifikasi Indonesia | Hak Anak yang Diatur                                                                                 |
+| ----------------------------------------- | ----- | -------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Deklarasi Jenewa tentang Hak-Hak Anak** | 1924  | –                    | Hak anak atas bantuan kemanusiaan (pra-CRC).                                                         |
+| **DUHAM (UDHR)**                          | 1948  | –                    | Pasal 25 ayat (2): anak berhak atas perawatan dan bantuan khusus.                                    |
+| **ICCPR**                                 | 1966  | UU No. 12/2005       | Pasal 24: perlindungan anak tanpa diskriminasi; Pasal 6: hak hidup.                                  |
+| **ICESCR**                                | 1966  | UU No. 11/2005       | Pasal 10 ayat (3): perlindungan khusus bagi anak dan remaja dari eksploitasi ekonomi dan sosial.     |
+| **CRC (Konvensi Hak Anak)**               | 1989  | Keppres No. 36/1990  | Pasal 6–41: hak hidup, identitas, keluarga, kesehatan, pendidikan, perlindungan dari kekerasan, dll. |
+| **Konvensi ILO No. 138**                  | 1973  | UU No. 20/1999       | Batas usia minimum untuk bekerja.                                                                    |
+| **Konvensi ILO No. 182**                  | 1999  | UU No. 1/2000        | Pelarangan bentuk-bentuk pekerjaan terburuk untuk anak.                                              |
+| **Riyadh Guidelines**                     | 1990  | –                    | Pencegahan delinkuensi juvenile.                                                                     |
+| **Beijing Rules**                         | 1985  | –                    | Standar administrasi peradilan anak (Rule 7: _age of criminal responsibility_).                      |
+| **General Comment No. 10 CRC**            | 2007  | –                    | Hak anak dalam sistem peradilan pidana juvenile; usia minimum pidana tidak boleh di bawah 12 tahun.  |
 
 > [!NOTE]
 > CRC merupakan konvensi HAM yang paling banyak diratifikasi dalam sejarah (196 negara per Oktober 2015). Hanya Amerika Serikat yang belum meratifikasi, meskipun telah menandatangani konvensi tersebut.
 
 ### 3.4 Instrumen Nasional
 
-| Undang-Undang | Keterangan |
-|---------------|------------|
-| **UUD 1945** | Pasal 28B ayat (2): setiap anak berhak atas kelangsungan hidup, tumbuh, dan berkembang serta berhak atas perlindungan dari kekerasan dan diskriminasi. |
-| **UU No. 39/1999** (UU HAM) | Pasal 52–66 mengatur hak anak secara spesifik. |
-| **UU No. 23/2002** (UU Perlindungan Anak) | Mengatur hak anak, kewajiban orang tua, dan sanksi pidana. Diubah oleh UU No. 35/2014 dan UU No. 17/2016. |
-| **UU No. 3/1997** (UU Pengadilan Anak) | Mengatur peradilan bagi anak yang melakukan tindak pidana. |
-| **UU No. 11/2012** (SPPA) | Sistem Peradilan Pidana Anak, mulai berlaku 2014, menggantikan sebagian UU 3/1997. |
-| **UU No. 36/2009** (UU Kesehatan) | Mengatur kesehatan ibu, bayi, dan anak; Pasal 75–76 tentang aborsi. |
-| **UU No. 12/2006** (UU Kewarganegaraan) | Mengatur kewarganegaraan anak, termasuk dari perkawinan campuran. |
-| **UU No. 23/2004** (UU PKDRT) | Perlindungan anak dari kekerasan dalam rumah tangga. |
-| **UU No. 21/2007** (UU Tindak Pidana Perdagangan Orang) | Perlindungan anak dari trafficking. |
-| **UU No. 13/2006** (UU Perlindungan Saksi dan Korban) | Perlindungan anak sebagai saksi/korban. |
-| **UU No. 20/2003** (Sisdiknas) | Pasal 5 ayat (2): pendidikan khusus bagi penyandang disabilitas. |
+| Undang-Undang                                           | Keterangan                                                                                                                                             |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **UUD 1945**                                            | Pasal 28B ayat (2): setiap anak berhak atas kelangsungan hidup, tumbuh, dan berkembang serta berhak atas perlindungan dari kekerasan dan diskriminasi. |
+| **UU No. 39/1999** (UU HAM)                             | Pasal 52–66 mengatur hak anak secara spesifik.                                                                                                         |
+| **UU No. 23/2002** (UU Perlindungan Anak)               | Mengatur hak anak, kewajiban orang tua, dan sanksi pidana. Diubah oleh UU No. 35/2014 dan UU No. 17/2016.                                              |
+| **UU No. 3/1997** (UU Pengadilan Anak)                  | Mengatur peradilan bagi anak yang melakukan tindak pidana.                                                                                             |
+| **UU No. 11/2012** (SPPA)                               | Sistem Peradilan Pidana Anak, mulai berlaku 2014, menggantikan sebagian UU 3/1997.                                                                     |
+| **UU No. 36/2009** (UU Kesehatan)                       | Mengatur kesehatan ibu, bayi, dan anak; Pasal 75–76 tentang aborsi.                                                                                    |
+| **UU No. 12/2006** (UU Kewarganegaraan)                 | Mengatur kewarganegaraan anak, termasuk dari perkawinan campuran.                                                                                      |
+| **UU No. 23/2004** (UU PKDRT)                           | Perlindungan anak dari kekerasan dalam rumah tangga.                                                                                                   |
+| **UU No. 21/2007** (UU Tindak Pidana Perdagangan Orang) | Perlindungan anak dari trafficking.                                                                                                                    |
+| **UU No. 13/2006** (UU Perlindungan Saksi dan Korban)   | Perlindungan anak sebagai saksi/korban.                                                                                                                |
+| **UU No. 20/2003** (Sisdiknas)                          | Pasal 5 ayat (2): pendidikan khusus bagi penyandang disabilitas.                                                                                       |
 
 ### 3.5 Hak Anak menurut UU HAM (Pasal 52–66) – Tabel Ringkasan
 
 #### Hak yang Bersifat Umum
 
-| Pasal | Hak | Penjelasan Singkat |
-|-------|-----|-------------------|
-| **52** | Hak untuk dilindungi oleh orang tua, masyarakat, dan negara; diakui dan dilindungi oleh hukum sejak dalam kandungan. | Hak anak adalah HAM; perlindungan dimulai sejak konsepsi. |
-| **53** | Hak atas kehidupan, kelangsungan hidup, nama, dan kewarganegaraan. | Hak fundamental yang melekat sejak lahir. |
-| **55** | Hak untuk beribadah menurut agamanya; berpikir dan berekspresi sesuai tingkat intelektualitas di bawah bimbingan orang tua. | Kebebasan beragama dan berekspresi dengan kualifikasi bimbingan orang tua. |
-| **56** | Hak untuk mengetahui siapa orang tuanya; hak untuk dibesarkan dan dipelihara sendiri oleh orang tuanya. | Hak atas identitas asal-usul dan hak untuk tumbuh dalam keluarga asal. |
-| **57** | Hak untuk dibesarkan, dipelihara, dirawat, dididik, diarahkan, dan dibimbing oleh orang tua/wali sampai dewasa; hak memperoleh orang tua angkat. | Hak parental care dan hak adopsi. |
-| **58** | Perlindungan hukum dari segala bentuk kekerasan, penganiayaan, penelantaran, perlakuan buruk, dan pelecehan seksual dari orang tua/wali. | Perlindungan dari *child abuse* dalam lingkungan keluarga. |
-| **59** | Hak untuk tidak dipisahkan dari orang tuanya (kecuali untuk kepentingan terbaik anak berdasarkan aturan hukum yang sah). | Prinsip *best interest* dalam kasus perceraian orang tua. |
-| **60** | Hak memperoleh pendidikan dan informasi yang bermanfaat bagi pengembangan pribadi. | Hak pendidikan dan hak informasi yang sesuai usia. |
-| **61** | Hak untuk beristirahat, bergaul dengan anak sebaya, bermain, berekreasi, dan berkreasi. | Hak rekreasi dan *leisure* untuk perkembangan psikososial. |
-| **62** | Hak atas pelayanan kesehatan dan jaminan sosial. | Hak kesehatan dan perlindungan sosial. |
-| **63** | Hak untuk tidak dilibatkan dalam perang, sengketa bersenjata, kerusuhan sosial, dan peristiwa berunsur kekerasan. | Perlindungan dari *child soldiering* dan eksploitasi militer. |
-| **64** | Hak memperoleh perlindungan dari eksploitasi ekonomi dan pekerjaan yang membahayakan. | Perlindungan dari *child labor* yang berbahaya. |
-| **65** | Hak memperoleh perlindungan dari eksploitasi dan pelecehan seksual, penculikan, perdagangan anak, serta penyalahgunaan napza. | Perlindungan dari *trafficking* dan eksploitasi seksual komersial. |
+| Pasal  | Hak                                                                                                                                              | Penjelasan Singkat                                                         |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| **52** | Hak untuk dilindungi oleh orang tua, masyarakat, dan negara; diakui dan dilindungi oleh hukum sejak dalam kandungan.                             | Hak anak adalah HAM; perlindungan dimulai sejak konsepsi.                  |
+| **53** | Hak atas kehidupan, kelangsungan hidup, nama, dan kewarganegaraan.                                                                               | Hak fundamental yang melekat sejak lahir.                                  |
+| **55** | Hak untuk beribadah menurut agamanya; berpikir dan berekspresi sesuai tingkat intelektualitas di bawah bimbingan orang tua.                      | Kebebasan beragama dan berekspresi dengan kualifikasi bimbingan orang tua. |
+| **56** | Hak untuk mengetahui siapa orang tuanya; hak untuk dibesarkan dan dipelihara sendiri oleh orang tuanya.                                          | Hak atas identitas asal-usul dan hak untuk tumbuh dalam keluarga asal.     |
+| **57** | Hak untuk dibesarkan, dipelihara, dirawat, dididik, diarahkan, dan dibimbing oleh orang tua/wali sampai dewasa; hak memperoleh orang tua angkat. | Hak parental care dan hak adopsi.                                          |
+| **58** | Perlindungan hukum dari segala bentuk kekerasan, penganiayaan, penelantaran, perlakuan buruk, dan pelecehan seksual dari orang tua/wali.         | Perlindungan dari _child abuse_ dalam lingkungan keluarga.                 |
+| **59** | Hak untuk tidak dipisahkan dari orang tuanya (kecuali untuk kepentingan terbaik anak berdasarkan aturan hukum yang sah).                         | Prinsip _best interest_ dalam kasus perceraian orang tua.                  |
+| **60** | Hak memperoleh pendidikan dan informasi yang bermanfaat bagi pengembangan pribadi.                                                               | Hak pendidikan dan hak informasi yang sesuai usia.                         |
+| **61** | Hak untuk beristirahat, bergaul dengan anak sebaya, bermain, berekreasi, dan berkreasi.                                                          | Hak rekreasi dan _leisure_ untuk perkembangan psikososial.                 |
+| **62** | Hak atas pelayanan kesehatan dan jaminan sosial.                                                                                                 | Hak kesehatan dan perlindungan sosial.                                     |
+| **63** | Hak untuk tidak dilibatkan dalam perang, sengketa bersenjata, kerusuhan sosial, dan peristiwa berunsur kekerasan.                                | Perlindungan dari _child soldiering_ dan eksploitasi militer.              |
+| **64** | Hak memperoleh perlindungan dari eksploitasi ekonomi dan pekerjaan yang membahayakan.                                                            | Perlindungan dari _child labor_ yang berbahaya.                            |
+| **65** | Hak memperoleh perlindungan dari eksploitasi dan pelecehan seksual, penculikan, perdagangan anak, serta penyalahgunaan napza.                    | Perlindungan dari _trafficking_ dan eksploitasi seksual komersial.         |
 
 #### Hak yang Bersifat Khusus
 
-| Pasal | Hak | Penjelasan Singkat |
-|-------|-----|-------------------|
-| **54** | Anak cacat fisik/mental berhak atas perawatan, pendidikan, pelatihan, dan bantuan khusus atas biaya negara. | Affirmative action bagi penyandang disabilitas. |
-| **66** | Anak yang melakukan tindak pidana tidak boleh dianiaya, disiksa, atau dijatuhi hukuman tidak manusiawi; hukuman mati/seumur hidup dilarang. | *Juvenile justice*; perlindungan dalam sistem peradilan pidana. |
+| Pasal  | Hak                                                                                                                                         | Penjelasan Singkat                                              |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **54** | Anak cacat fisik/mental berhak atas perawatan, pendidikan, pelatihan, dan bantuan khusus atas biaya negara.                                 | Affirmative action bagi penyandang disabilitas.                 |
+| **66** | Anak yang melakukan tindak pidana tidak boleh dianiaya, disiksa, atau dijatuhi hukuman tidak manusiawi; hukuman mati/seumur hidup dilarang. | _Juvenile justice_; perlindungan dalam sistem peradilan pidana. |
 
 ### 3.6 Hak-Hak Spesifik Anak
 
@@ -366,7 +370,7 @@ Hak untuk hidup merupakan hak asasi yang paling mendasar. **Pasal 53 ayat (1) UU
 
 - **Pasal 18 ICCPR**: Menjamin kebebasan beragama, termasuk hak orang tua untuk memberikan pendidikan agama kepada anak-anaknya sesuai dengan keyakinan mereka.
 - **Pasal 14 dan 30 CRC**: Kebebasan pikiran, hati nurani, dan agama; hak untuk beragama dengan bimbingan orang tua.
-- **Pasal 6, 42–43 UU 23/2002**: 
+- **Pasal 6, 42–43 UU 23/2002**:
   - Anak berhak mendapatkan jaminan perlindungan untuk beribadah menurut agamanya dari negara, pemerintah, masyarakat, keluarga, orang tua, wali, dan lembaga sosial.
   - Anak mengikuti agama orang tuanya sebelum mampu menentukan pilihannya sendiri.
 - **Pasal 86 UU 23/2002**: Ancaman pidana penjara maksimal 5 tahun dan/atau denda Rp 100 juta bagi setiap orang yang dengan sengaja menggunakan tipu muslihat atau membujuk anak untuk memilih agama lain bukan atas kemauannya sendiri.
@@ -388,11 +392,11 @@ Hak untuk hidup merupakan hak asasi yang paling mendasar. **Pasal 53 ayat (1) UU
 - **RKUHP**: Merumuskan kejahatan terhadap anak dalam Pasal 423 (perkosaan), 425 (percabulan), 428–430 (incest), 487 (penganiayaan).
 - **UU 23/2002 Bab X**: Ancaman pidana bagi pelaku kekerasan, penelantaran, diskriminasi, eksploitasi, penculikan, dan perdagangan anak. Sanksi berlaku juga bagi mereka yang mengetahui dan sengaja membiarkan (Pasal 77–85).
 - **UU No. 23/2004** (PKDRT): Perlindungan anak dari kekerasan dalam rumah tangga.
-- **Pasal 54 UU 23/2002**: Anak di lingkungan sekolah wajib dilindungi dari tindakan kekerasan oleh guru, pengelola sekolah, atau teman (*bullying*).
+- **Pasal 54 UU 23/2002**: Anak di lingkungan sekolah wajib dilindungi dari tindakan kekerasan oleh guru, pengelola sekolah, atau teman (_bullying_).
 - **Pasal 69 dan 71 UU 23/2002**: Anak korban perlakuan salah berhak atas rehabilitasi medis dan psikososial oleh pemerintah, serta kerahasiaan identitas (Pasal 17 ayat (2)).
 
 > [!WARNING]
-> **Studi Kasus**: Kasus kekerasan seksual terhadap anak di lingkungan pendidikan dan keagamaan (seperti kasus yang terungkap di beberapa pondok pesantren dan sekolah) menunjukkan lemahnya mekanisme pelaporan dan perlindungan. UU 23/2002 memberikan kerangka hukum, namun implementasi di tingkat daerah seringkali terhambat oleh stigma, ketidaktahuan korban akan haknya, dan praktik *victim-blaming*.
+> **Studi Kasus**: Kasus kekerasan seksual terhadap anak di lingkungan pendidikan dan keagamaan (seperti kasus yang terungkap di beberapa pondok pesantren dan sekolah) menunjukkan lemahnya mekanisme pelaporan dan perlindungan. UU 23/2002 memberikan kerangka hukum, namun implementasi di tingkat daerah seringkali terhambat oleh stigma, ketidaktahuan korban akan haknya, dan praktik _victim-blaming_.
 
 #### 3.6.8 Hak Atas Pendidikan dan Informasi
 
@@ -430,13 +434,13 @@ Hak untuk hidup merupakan hak asasi yang paling mendasar. **Pasal 53 ayat (1) UU
 
 #### 3.7.1 Kerangka Hukum
 
-**UU No. 11/2012** tentang Sistem Peradilan Pidana Anak (SPPA) mulai berlaku tahun 2014, menggantikan sebagian besar UU No. 3/1997 tentang Pengadilan Anak. SPPA mengadopsi pendekatan *child-friendly justice* yang berpusat pada rehabilitasi dan reintegrasi, bukan pembalasan.
+**UU No. 11/2012** tentang Sistem Peradilan Pidana Anak (SPPA) mulai berlaku tahun 2014, menggantikan sebagian besar UU No. 3/1997 tentang Pengadilan Anak. SPPA mengadopsi pendekatan _child-friendly justice_ yang berpusat pada rehabilitasi dan reintegrasi, bukan pembalasan.
 
-| Kategori | Definisi | Usia |
-|----------|----------|------|
-| **Anak yang Berkonflik dengan Hukum (ABH)** | Anak yang diduga/terbukti melakukan tindak pidana. | 12 ≤ usia < 18 tahun |
-| **Anak Korban Tindak Pidana** | Anak yang mengalami penderitaan fisik, mental, atau kerugian ekonomi akibat tindak pidana. | < 18 tahun |
-| **Anak Saksi Tindak Pidana** | Anak yang memberikan keterangan untuk penyidikan, penuntutan, atau pemeriksaan di sidang. | < 18 tahun |
+| Kategori                                    | Definisi                                                                                   | Usia                 |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------- |
+| **Anak yang Berkonflik dengan Hukum (ABH)** | Anak yang diduga/terbukti melakukan tindak pidana.                                         | 12 ≤ usia < 18 tahun |
+| **Anak Korban Tindak Pidana**               | Anak yang mengalami penderitaan fisik, mental, atau kerugian ekonomi akibat tindak pidana. | < 18 tahun           |
+| **Anak Saksi Tindak Pidana**                | Anak yang memberikan keterangan untuk penyidikan, penuntutan, atau pemeriksaan di sidang.  | < 18 tahun           |
 
 > [!NOTE]
 > **Pasal 6 UU 26/2000** (Pengadilan HAM): Pengadilan HAM tidak berwenang memeriksa pelanggaran HAM berat yang dilakukan oleh orang di bawah 18 tahun. Anak yang melakukan pelanggaran HAM berat diperiksa oleh Pengadilan Negeri biasa.
@@ -444,6 +448,7 @@ Hak untuk hidup merupakan hak asasi yang paling mendasar. **Pasal 53 ayat (1) UU
 #### 3.7.2 Prinsip-Prinsip Dasar SPPA
 
 **Pasal 2 SPPA** menegaskan asas-asas:
+
 1. Perlindungan;
 2. Keadilan;
 3. Non-diskriminasi;
@@ -452,15 +457,16 @@ Hak untuk hidup merupakan hak asasi yang paling mendasar. **Pasal 53 ayat (1) UU
 6. Kelangsungan tumbuh kembang anak;
 7. Pembinaan dan pembimbingan anak;
 8. Proporsionalitas;
-9. Perampasan kemerdekaan dan pemidanaan adalah upaya terakhir (*ultimum remedium*);
+9. Perampasan kemerdekaan dan pemidanaan adalah upaya terakhir (_ultimum remedium_);
 10. Penghindaran pembalasan.
 
 #### 3.7.3 Proses Diversi
 
-**Diversi** adalah upaya pengalihan penyelesaian perkara anak dari proses peradilan pidana ke proses di luar peradilan pidana, berdasarkan pendekatan **Keadilan Restoratif** (*Restorative Justice*).
+**Diversi** adalah upaya pengalihan penyelesaian perkara anak dari proses peradilan pidana ke proses di luar peradilan pidana, berdasarkan pendekatan **Keadilan Restoratif** (_Restorative Justice_).
 
 > [!IMPORTANT]
 > **Tujuan Diversi** (Pasal 6 SPPA):
+>
 > 1. Mencapai perdamaian antara korban dan anak;
 > 2. Menyelesaikan perkara anak di luar proses peradilan;
 > 3. Menghindarkan anak dari perampasan kemerdekaan;
@@ -484,17 +490,20 @@ graph TD
 ```
 
 **Syarat Diversi** (Pasal 7 SPPA):
+
 - Ancaman pidana kurang dari tujuh tahun;
 - Bukan merupakan pengulangan tindak pidana;
 - Diterapkan pada tingkat penyidikan, penuntutan, dan pemeriksaan.
 
 **Pihak dalam Diversi**:
+
 - Pelaku (anak) dan orang tua/walinya;
 - Korban dan/atau orang tua/walinya;
 - Pembimbing Kemasyarakatan (PK);
 - Pekerja Sosial Profesional (PSP).
 
 **Hasil Kesepakatan Diversi**:
+
 1. Pengembalian kerugian;
 2. Rehabilitasi medis dan psikososial;
 3. Penyerahan kembali kepada orang tua/wali;
@@ -503,11 +512,12 @@ graph TD
 
 #### 3.7.4 Keadilan Restoratif
 
-**Keadilan Restoratif** adalah penyelesaian perkara tindak pidana dengan melibatkan pelaku, korban, keluarga pelaku/korban, dan pihak terkait untuk bersama-sama mencari penyelesaian yang adil dengan menekankan **pemulihan kembali pada keadaan semula** (*restoration*), bukan pembalasan (*retribution*).
+**Keadilan Restoratif** adalah penyelesaian perkara tindak pidana dengan melibatkan pelaku, korban, keluarga pelaku/korban, dan pihak terkait untuk bersama-sama mencari penyelesaian yang adil dengan menekankan **pemulihan kembali pada keadaan semula** (_restoration_), bukan pembalasan (_retribution_).
 
 #### 3.7.5 Pidana dan Tindakan
 
 **Pidana Pokok** (Pasal 71 SPPA):
+
 1. Pidana peringatan;
 2. Pidana dengan syarat;
 3. Pembinaan di luar lembaga;
@@ -518,15 +528,18 @@ graph TD
 8. Penjara.
 
 **Pidana Tambahan** (Pasal 71 ayat (2)):
+
 - Perampasan keuntungan dari tindak pidana;
 - Pemenuhan kewajiban adat.
 
 **Syarat Penahanan** (Pasal 32 SPPA):
+
 - Anak telah berumur 14 tahun atau lebih; **dan**
 - Diduga melakukan tindak pidana dengan ancaman pidana penjara 7 tahun atau lebih.
 - Anak tidak boleh ditahan jika memperoleh jaminan dari orang tua/wali/lembaga bahwa anak tidak akan melarikan diri, merusak barang bukti, atau mengulangi tindak pidana.
 
 **Pidana Pembatasan Kebebasan** diterapkan jika anak melakukan tindak pidana berat (ancaman di atas 7 tahun), dengan ketentuan:
+
 - Pidana dijatuhkan ½ dari maksimum penjara orang dewasa;
 - Minimum khusus pidana penjara tidak berlaku terhadap anak;
 - Anak yang belum berusia 14 tahun hanya bisa dikenai tindakan (Pasal 69 SPPA).
@@ -537,25 +550,25 @@ graph TD
 - Hakim, penuntut umum, penyidik, penasihat hukum, dan petugas lain tidak memakai toga atau pakaian dinas;
 - Anak dipisahkan dari orang dewasa selama menjalani hukuman (Pasal 66 ayat (5) UU HAM; Pasal 10 ayat (2) ICCPR);
 - Bantuan hukum wajib diberikan (Pasal 51–52 UU 3/1997; Pasal 66 ayat (6–7) UU HAM; Pasal 14 ayat (1) ICCPR);
-- Pemberian hukuman lebih bertujuan untuk mendidik kembali (*reeducate*) dan memperbaiki anak (*rehabilitate*).
+- Pemberian hukuman lebih bertujuan untuk mendidik kembali (_reeducate_) dan memperbaiki anak (_rehabilitate_).
 
 #### 3.7.7 Moral Disengagement pada Anak
 
 **Moral Disengagement** adalah ketidakmampuan seseorang dalam mengontrol perilaku yang ia lakukan sehingga memungkinkannya untuk melakukan perilaku yang tidak manusiawi. Konsep ini dikembangkan oleh Albert Bandura dan relevan untuk memahami mekanisme psikologis di balik delinkuensi anak.
 
-| Mekanisme | Definisi | Contoh pada Anak |
-|-----------|----------|------------------|
-| **1. Moral Justification** | Perilaku merusak dibenarkan demi tujuan sosial yang dianggap mulia. | "Tawuran untuk membela martabat sekolah." |
-| **2. Euphemistic Language** | Bahasa yang menyamarkan sifat merusak dari perilaku. | "Berdansa" untuk tawuran; "nongkrong" untuk konspirasi. |
-| **3. Advantageous Comparison** | Membandingkan perilaku sendiri dengan kejahatan yang lebih besar. | "Setidaknya kami tidak membunuh seperti geng lain." |
-| **4. Displacement of Responsibility** | Menyalahkan pihak lain atas kerusakan. | "Guru yang menyuruh kami melakukan ini." |
-| **5. Diffusion of Responsibility** | Mengaburkan peran individu dalam kerusakan kolektif. | "Semua orang ikut, jadi saya juga ikut." |
-| **6. Misrepresenting the Harm** | Mendistorsi, meminimalkan, atau tidak percaya akan efek merusak. | "Dia hanya lecet sedikit." |
-| **7. Ascription of Blame** | Menyalahkan korban atas penderitaannya. | "Dia yang provokasi duluan." |
-| **8. Dehumanization** | Menghilangkan kualitas kemanusiaan dari korban. | Memanggil korban dengan nama binatang atau hinaan. |
+| Mekanisme                             | Definisi                                                            | Contoh pada Anak                                        |
+| ------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- |
+| **1. Moral Justification**            | Perilaku merusak dibenarkan demi tujuan sosial yang dianggap mulia. | "Tawuran untuk membela martabat sekolah."               |
+| **2. Euphemistic Language**           | Bahasa yang menyamarkan sifat merusak dari perilaku.                | "Berdansa" untuk tawuran; "nongkrong" untuk konspirasi. |
+| **3. Advantageous Comparison**        | Membandingkan perilaku sendiri dengan kejahatan yang lebih besar.   | "Setidaknya kami tidak membunuh seperti geng lain."     |
+| **4. Displacement of Responsibility** | Menyalahkan pihak lain atas kerusakan.                              | "Guru yang menyuruh kami melakukan ini."                |
+| **5. Diffusion of Responsibility**    | Mengaburkan peran individu dalam kerusakan kolektif.                | "Semua orang ikut, jadi saya juga ikut."                |
+| **6. Misrepresenting the Harm**       | Mendistorsi, meminimalkan, atau tidak percaya akan efek merusak.    | "Dia hanya lecet sedikit."                              |
+| **7. Ascription of Blame**            | Menyalahkan korban atas penderitaannya.                             | "Dia yang provokasi duluan."                            |
+| **8. Dehumanization**                 | Menghilangkan kualitas kemanusiaan dari korban.                     | Memanggil korban dengan nama binatang atau hinaan.      |
 
 > [!WARNING]
-> Pemahaman terhadap mekanisme *moral disengagement* penting dalam merancang program intervensi psikososial dan diversi, karena diversi tidak hanya menyelesaikan perkara hukum tetapi juga harus mengembalikan kesadaran moral anak akan konsekuensi perbuatannya.
+> Pemahaman terhadap mekanisme _moral disengagement_ penting dalam merancang program intervensi psikososial dan diversi, karena diversi tidak hanya menyelesaikan perkara hukum tetapi juga harus mengembalikan kesadaran moral anak akan konsekuensi perbuatannya.
 
 ---
 
@@ -563,49 +576,51 @@ graph TD
 
 ### 4.1 Pengertian dan Sejarah
 
-**Hukum Humaniter Internasional** (International Humanitarian Law / IHL), sering disebut **hukum perang** (*law of war* atau *law of armed conflict*), adalah keseluruhan asas, kaidah, dan ketentuan internasional—baik tertulis maupun tidak tertulis—yang mencakup hukum perang dan hukum HAM, bertujuan untuk menjamin penghormatan terhadap harkat dan martabat manusia dalam situasi konflik bersenjata.
+**Hukum Humaniter Internasional** (International Humanitarian Law / IHL), sering disebut **hukum perang** (_law of war_ atau _law of armed conflict_), adalah keseluruhan asas, kaidah, dan ketentuan internasional—baik tertulis maupun tidak tertulis—yang mencakup hukum perang dan hukum HAM, bertujuan untuk menjamin penghormatan terhadap harkat dan martabat manusia dalam situasi konflik bersenjata.
 
 > [!QUOTE]
-> Menurut Mohammed Bedjaoui, hukum humaniter tidak dimaksudkan untuk **melarang perang**, tetapi ditujukan untuk **memanusiawikan perang** (*humanize the war*).
+> Menurut Mohammed Bedjaoui, hukum humaniter tidak dimaksudkan untuk **melarang perang**, tetapi ditujukan untuk **memanusiawikan perang** (_humanize the war_).
 
 #### Sejarah Singkat
 
 - **1859**: Henry Dunant, seorang pengusaha Swiss, menyaksikan pemandangan mengerikan dalam Pertempuran Solferino (Italia Utara) antara Prancis dan Austria, di mana ribuan prajurit terluka dan mati tanpa perawatan.
-- **1862**: Dunant menerbitkan *"Un Souvenir de Solferino"* (Kenangan dari Solferino) dengan dua himbauan:
+- **1862**: Dunant menerbitkan _"Un Souvenir de Solferino"_ (Kenangan dari Solferino) dengan dua himbauan:
   1. Pembentukan lembaga internasional yang menangani orang sakit dan terluka, apapun kebangsaan, agama, atau rasnya;
   2. Negara-negara membuat kesepakatan yang mengakui lembaga tersebut dan memberi jaminan perlindungan.
 - **1863**: Terbentuk **International Committee for Aid to the Wounded**, yang kemudian menjadi **International Committee of the Red Cross (ICRC)**.
-- **1864**: **Konvensi Jenewa Pertama** (*Convention for the Amelioration of the Condition of the Wounded in Armies in the Field*), disahkan oleh 16 negara.
+- **1864**: **Konvensi Jenewa Pertama** (_Convention for the Amelioration of the Condition of the Wounded in Armies in the Field_), disahkan oleh 16 negara.
 - **1949**: Empat Konvensi Jenewa yang komprehensif.
 - **1977**: Dua Protokol Tambahan yang memperluas perlindungan.
 
 ### 4.2 Sumber Hukum Humaniter
 
-| Sumber | Keterangan |
-|--------|------------|
-| **Hukum Kebiasaan Internasional** (*Customary International Law*) | Prinsip-prinsip yang berkembang dari praktik konsisten negara-negara yang diterima sebagai hukum (*opinio juris*). Contoh: prinsip pembedaan, larangan penyiksaan. |
-| **Traktat/Perjanjian Internasional** | Konvensi Den Haag, Konvensi Jenewa, Protokol Tambahan, dll. |
-| **Hukum Den Haag** (*Hague Law*) | Mengatur cara dan alat berperang (*means and methods of warfare*). Berasal dari Konferensi Den Haag I (1899) dan II (1907). |
-| **Hukum Jenewa** (*Geneva Law*) | Mengatur perlindungan korban perang (tentara luka, tawanan perang, penduduk sipil). Berasal dari Konvensi Jenewa 1949 dan Protokol 1977. |
-| **Upaya PBB** | Resolusi-resolusi Dewan Keamanan PBB; pembentukan ICC; larangan senjata tertentu. |
+| Sumber                                                            | Keterangan                                                                                                                                                         |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Hukum Kebiasaan Internasional** (_Customary International Law_) | Prinsip-prinsip yang berkembang dari praktik konsisten negara-negara yang diterima sebagai hukum (_opinio juris_). Contoh: prinsip pembedaan, larangan penyiksaan. |
+| **Traktat/Perjanjian Internasional**                              | Konvensi Den Haag, Konvensi Jenewa, Protokol Tambahan, dll.                                                                                                        |
+| **Hukum Den Haag** (_Hague Law_)                                  | Mengatur cara dan alat berperang (_means and methods of warfare_). Berasal dari Konferensi Den Haag I (1899) dan II (1907).                                        |
+| **Hukum Jenewa** (_Geneva Law_)                                   | Mengatur perlindungan korban perang (tentara luka, tawanan perang, penduduk sipil). Berasal dari Konvensi Jenewa 1949 dan Protokol 1977.                           |
+| **Upaya PBB**                                                     | Resolusi-resolusi Dewan Keamanan PBB; pembentukan ICC; larangan senjata tertentu.                                                                                  |
 
 #### Konvensi Den Haag 1899 dan 1907
 
 **Konferensi Perdamaian I (1899)** menghasilkan 3 konvensi dan 3 deklarasi:
+
 - **Konvensi I**: Penyelesaian Damai Persengketaan Internasional.
 - **Konvensi II**: Hukum dan Kebiasaan Perang di Darat.
 - **Konvensi III**: Adaptasi Asas-Asas Konvensi Jenewa 1864 untuk Perang di Laut.
 - **Deklarasi**: Larangan peluru dum-dum; larangan peluncuran proyektil dari balon; larangan gas beracun.
 
 **Konferensi Perdamaian II (1907)** menghasilkan 13 konvensi, termasuk:
+
 - **Konvensi III**: Cara Memulai Peperangan (pernyataan perang atau ultimatum bersyarat).
-- **Konvensi IV**: Hukum dan Kebiasaan Perang di Darat (dengan *Klausula Martens*).
+- **Konvensi IV**: Hukum dan Kebiasaan Perang di Darat (dengan _Klausula Martens_).
 - **Konvensi V**: Hak dan Kewajiban Negara Netral dalam Perang di Darat.
 - **Konvensi XIII**: Hak dan Kewajiban Negara Netral dalam Perang di Laut.
 
 > [!IMPORTANT]
-> **Klausula Martens** (Pembukaan Konvensi Den Haag IV 1907): *"Until a more complete code of laws of war is issued, the High Contracting Parties think it right to declare that in cases not included in the Regulations adopted by them, populations and belligerents remain under the protection and empire of the principles of international law, as they result from the usages established between civilized nations, from the laws of humanity and the requirements of the public conscience."*
-> 
+> **Klausula Martens** (Pembukaan Konvensi Den Haag IV 1907): _"Until a more complete code of laws of war is issued, the High Contracting Parties think it right to declare that in cases not included in the Regulations adopted by them, populations and belligerents remain under the protection and empire of the principles of international law, as they result from the usages established between civilized nations, from the laws of humanity and the requirements of the public conscience."_
+>
 > Klausula ini menjamin bahwa meskipun suatu situasi tidak diatur secara eksplisit dalam traktat, pihak-pihak yang berperang tetap terlindungi oleh prinsip-prinsip hukum internasional umum, hukum kemanusiaan, dan hati nurani publik.
 
 ### 4.3 Asas-Asas Hukum Humaniter
@@ -627,19 +642,19 @@ graph LR
     style E fill:#3498db,stroke:#333,stroke-width:3px,color:#fff
 ```
 
-#### 4.3.1 Asas Tujuan Militer (*Military Necessity*)
+#### 4.3.1 Asas Tujuan Militer (_Military Necessity_)
 
 Pihak yang bersengketa dibenarkan menggunakan kekerasan untuk menundukkan lawan demi tercapainya tujuan perang. Hak para pihak untuk menentukan kekuatan yang diperlukan untuk menaklukkan musuh dalam waktu sesingkat-singkatnya dengan biaya rendah dan korban sekecil-kecilnya. Namun, hak ini **tidak tak terbatas**; senjata dan metode yang digunakan tetap harus mematuhi larangan hukum humaniter.
 
-#### 4.3.2 Asas Kemanusiaan (*Humanity*)
+#### 4.3.2 Asas Kemanusiaan (_Humanity_)
 
 Pihak yang bersengketa diharuskan memperhatikan perikemanusiaan. Dilarang menggunakan kekerasan yang menimbulkan luka berlebihan atau penderitaan tidak perlu. Orang-orang yang luka, sakit, atau telah menjadi tawanan perang tidak lagi merupakan ancaman, sehingga harus dirawat dan dilindungi. Penduduk sipil yang tidak turut serta dalam konflik harus dilindungi dari akibat perang.
 
-#### 4.3.3 Asas Kesatriaan (*Chivalry*)
+#### 4.3.3 Asas Kesatriaan (_Chivalry_)
 
-Di dalam perang, kejujuran harus diutamakan. Penggunaan alat-alat yang tidak terhormat, tipu muslihat, dan cara-cara yang bersifat khianat dilarang. Prinsip ini merupakan sisa dari sifat-sifat kesatriaan pada masa silam, namun masih relevan dalam larangan penggunaan senjata kimia, biologis, dan *perfidy* (tipu daya yang melibatkan perlindungan hukum humaniter, misalnya menyamar sebagai petugas medis untuk menyerang).
+Di dalam perang, kejujuran harus diutamakan. Penggunaan alat-alat yang tidak terhormat, tipu muslihat, dan cara-cara yang bersifat khianat dilarang. Prinsip ini merupakan sisa dari sifat-sifat kesatriaan pada masa silam, namun masih relevan dalam larangan penggunaan senjata kimia, biologis, dan _perfidy_ (tipu daya yang melibatkan perlindungan hukum humaniter, misalnya menyamar sebagai petugas medis untuk menyerang).
 
-#### 4.3.4 Asas Pembedaan (*Distinction Principle*)
+#### 4.3.4 Asas Pembedaan (_Distinction Principle_)
 
 Asas ini membedakan penduduk negara yang terlibat konflik bersenjata ke dalam dua golongan: **Kombatan** dan **Penduduk Sipil**.
 
@@ -656,28 +671,29 @@ graph TD
 ```
 
 - **Kombatan**: Penduduk yang terlibat secara langsung dalam permusuhan; anggota angkatan bersenjata. Hanya kombatan yang berhak menyerang dan menahan musuh.
-- **Penduduk Sipil**: Penduduk yang tidak terlibat dalam permusuhan. Penduduk sipil tidak boleh dijadikan objek serangan, bahkan dalam pembalasan (*reprisals*).
+- **Penduduk Sipil**: Penduduk yang tidak terlibat dalam permusuhan. Penduduk sipil tidak boleh dijadikan objek serangan, bahkan dalam pembalasan (_reprisals_).
 
 **Prinsip-prinsip Aplikasi**:
+
 1. Pihak-pihak yang bersengketa harus membedakan antara kombatan dan penduduk sipil guna menyelamatkan penduduk sipil dan objek-objek sipil.
 2. Penduduk sipil tidak boleh dijadikan objek serangan.
 3. Tindakan maupun ancaman kekerasan yang tujuan utamanya menyebarkan teror terhadap penduduk sipil dilarang.
 4. Pihak-pihak yang bersengketa harus mengambil segala langkah pencegahan yang memungkinkan untuk menyelamatkan penduduk sipil.
 
-#### 4.3.5 Asas Proporsionalitas (*Proportionality*)
+#### 4.3.5 Asas Proporsionalitas (_Proportionality_)
 
-Menekankan pelarangan serangan yang berlebihan untuk tujuan keuntungan militer yang dapat mengakibatkan cedera atau kematian korban sipil serta perusakan objek sipil. Serangan militer hanya diperbolehkan jika keuntungan militer yang diharapkan tidak berlebihan dibandingkan dengan kerugian sipil yang diperkirakan (*incidental loss*).
+Menekankan pelarangan serangan yang berlebihan untuk tujuan keuntungan militer yang dapat mengakibatkan cedera atau kematian korban sipil serta perusakan objek sipil. Serangan militer hanya diperbolehkan jika keuntungan militer yang diharapkan tidak berlebihan dibandingkan dengan kerugian sipil yang diperkirakan (_incidental loss_).
 
 > [!WARNING]
 > **Pelanggaran yang Dilarang dalam Semua Situasi**: Pembunuhan, penyiksaan, hukuman badan, mutilasi, penghinaan martabat pribadi, penyanderaan, hukuman kolektif, pelaksanaan hukuman tanpa pengadilan, dan perlakuan kejam atau merendahkan martabat manusia.
 
 ### 4.4 Klasifikasi Konflik Bersenjata
 
-| Jenis | Definisi | Instrumen Hukum yang Berlaku |
-|-------|----------|------------------------------|
-| **Sengketa Bersenjata Internasional** | Konflik antara dua atau lebih negara. | Empat Konvensi Jenewa 1949; Protokol I 1977; Hukum Den Haag; Hukum Kebiasaan. |
-| **Sengketa Bersenjata Non-Internasional** | Konflik bersenjata yang terjadi di dalam wilayah suatu negara (misalnya pemberontakan bersenjata). | Pasal 3 Bersama Konvensi Jenewa 1949; Protokol II 1977; Hukum Kebiasaan. |
-| **Internasionalisasi Konflik Internal** | Konflik internal yang berubah sifat menjadi internasional karena intervensi negara lain. | Tergantung pada tingkat intervensi; bisa diterapkan Protokol I. |
+| Jenis                                     | Definisi                                                                                           | Instrumen Hukum yang Berlaku                                                  |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **Sengketa Bersenjata Internasional**     | Konflik antara dua atau lebih negara.                                                              | Empat Konvensi Jenewa 1949; Protokol I 1977; Hukum Den Haag; Hukum Kebiasaan. |
+| **Sengketa Bersenjata Non-Internasional** | Konflik bersenjata yang terjadi di dalam wilayah suatu negara (misalnya pemberontakan bersenjata). | Pasal 3 Bersama Konvensi Jenewa 1949; Protokol II 1977; Hukum Kebiasaan.      |
+| **Internasionalisasi Konflik Internal**   | Konflik internal yang berubah sifat menjadi internasional karena intervensi negara lain.           | Tergantung pada tingkat intervensi; bisa diterapkan Protokol I.               |
 
 > [!NOTE]
 > Protokol I 1977 memperluas definisi sengketa bersenjata internasional untuk mencakup perlawanan terhadap dominasi kolonial, perjuangan melawan pendudukan asing, dan perlawanan terhadap rezim rasialis.
@@ -688,24 +704,25 @@ Indonesia meratifikasi Konvensi Jenewa 1949 melalui **UU No. 59 Tahun 1958** ten
 
 #### Empat Konvensi Jenewa 1949
 
-| Konvensi | Subjek Perlindungan | Kewajiban Negara Peserta |
-|----------|---------------------|--------------------------|
-| **I** | Perbaikan Keadaan Anggota Angkatan Bersenjata yang Luka dan Sakit di Medan Pertempuran Darat. | Perlindungan, perawatan, dan penghormatan terhadap personel medis serta fasilitas kesehatan. |
-| **II** | Perbaikan Keadaan Anggota Angkatan Bersenjata yang Luka, Sakit, dan Korban Karam di Laut. | Perlindungan personel kapal rumah sakit dan kapal yang membantu korban karam. |
-| **III** | Perlakuan Terhadap Tawanan Perang. | Perlakuan manusiawi; larangan penyiksaan; hak atas peradilan yang adil; kewajiban bekerja tidak berbahaya. |
-| **IV** | Perlindungan Penduduk Sipil di Waktu Perang. | Perlindungan penduduk sipil dari tindakan kekerasan, deportasi, dan pengambilan sandera; perlindungan property sipil. |
+| Konvensi | Subjek Perlindungan                                                                           | Kewajiban Negara Peserta                                                                                              |
+| -------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **I**    | Perbaikan Keadaan Anggota Angkatan Bersenjata yang Luka dan Sakit di Medan Pertempuran Darat. | Perlindungan, perawatan, dan penghormatan terhadap personel medis serta fasilitas kesehatan.                          |
+| **II**   | Perbaikan Keadaan Anggota Angkatan Bersenjata yang Luka, Sakit, dan Korban Karam di Laut.     | Perlindungan personel kapal rumah sakit dan kapal yang membantu korban karam.                                         |
+| **III**  | Perlakuan Terhadap Tawanan Perang.                                                            | Perlakuan manusiawi; larangan penyiksaan; hak atas peradilan yang adil; kewajiban bekerja tidak berbahaya.            |
+| **IV**   | Perlindungan Penduduk Sipil di Waktu Perang.                                                  | Perlindungan penduduk sipil dari tindakan kekerasan, deportasi, dan pengambilan sandera; perlindungan property sipil. |
 
 #### Protokol Tambahan 1977
 
-| Protokol | Subjek | Inovasi Utama |
-|----------|--------|---------------|
-| **Protokol I** | Perlindungan Korban Pertikaian Bersenjata Internasional. | Memperluas definisi konflik internasional; memperkenalkan konsep *civilian population*, *civilian objects*, dan *military objectives*; mengatur *civil defence*. |
-| **Protokol II** | Perlindungan Korban Pertikaian Bersenjata Non-Internasional. | Memberikan perlindungan lebih rinci dalam konflik internal (minimal 2 pihak bersenjata dengan kontrol teritorial tertentu). |
+| Protokol        | Subjek                                                       | Inovasi Utama                                                                                                                                                    |
+| --------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Protokol I**  | Perlindungan Korban Pertikaian Bersenjata Internasional.     | Memperluas definisi konflik internasional; memperkenalkan konsep _civilian population_, _civilian objects_, dan _military objectives_; mengatur _civil defence_. |
+| **Protokol II** | Perlindungan Korban Pertikaian Bersenjata Non-Internasional. | Memberikan perlindungan lebih rinci dalam konflik internal (minimal 2 pihak bersenjata dengan kontrol teritorial tertentu).                                      |
 
 #### Pasal 3 Bersama Konvensi Jenewa 1949
 
 Pasal 3 merupakan ketentuan **minimal** yang berlaku dalam konflik non-internasional, memberikan perlindungan khusus kepada:
-- Orang-orang yang tidak turut serta aktif dalam sengketa (termasuk anggota angkatan perang yang telah meletakkan senjata atau *hors de combat*);
+
+- Orang-orang yang tidak turut serta aktif dalam sengketa (termasuk anggota angkatan perang yang telah meletakkan senjata atau _hors de combat_);
 - Harus diperlakukan dengan kemanusiaan, tanpa perbedaan merugikan;
 - Larangan: kekerasan atas jiwa dan raga (pembunuhan, penyiksaan), penyanderaan, perkosaan, dan hukuman mati tanpa keputusan pengadilan yang teratur.
 
@@ -714,8 +731,8 @@ Pasal 3 merupakan ketentuan **minimal** yang berlaku dalam konflik non-internasi
 **ROE** adalah keseluruhan instruksi yang diberikan kepada suatu kesatuan operasional, mencakup instruksi yang bersifat tetap maupun khusus yang berhubungan dengan operasi angkatan bersenjata.
 
 - ROE tidak harus selalu berkaitan dengan perintah dalam menghadapi musuh; dapat diberikan kepada kesatuan yang mengadakan kunjungan persahabatan.
-- Dalam menyusun ROE, perlu diperhatikan: **tujuan** (*objectives*), **perintah** (*orders*), dan **pembatasan** (*restraint*).
-- ROE menyatukan hukum humaniter dengan ketentuan operasional militer, sehingga prajurit dapat membedakan tindakan yang diizinkan (*permitted*), dilarang (*forbidden*), dan yang memerlukan otorisasi khusus (*reserved for authorization*).
+- Dalam menyusun ROE, perlu diperhatikan: **tujuan** (_objectives_), **perintah** (_orders_), dan **pembatasan** (_restraint_).
+- ROE menyatukan hukum humaniter dengan ketentuan operasional militer, sehingga prajurit dapat membedakan tindakan yang diizinkan (_permitted_), dilarang (_forbidden_), dan yang memerlukan otorisasi khusus (_reserved for authorization_).
 
 ### 4.7 Hubungan Hukum Humaniter dan HAM
 
@@ -723,78 +740,81 @@ Hukum humaniter dan HAM saling melengkapi. Hukum humaniter berlaku khusus dalam 
 
 #### Derogasi dan Public Emergency
 
-**Pasal 4 ayat (1) ICCPR** mengatur pengesampingan HAM dalam keadaan darurat umum (*public emergency*) yang mengancam kehidupan bangsa dan telah diumumkan secara resmi. Negara dapat mengambil upaya yang menyimpang (*derogate*) dari kewajiban ICCPR, sejauh dituntut oleh situasi darurat, dengan syarat tidak bertentangan dengan kewajiban hukum internasional lain dan tidak menyangkut diskriminasi.
+**Pasal 4 ayat (1) ICCPR** mengatur pengesampingan HAM dalam keadaan darurat umum (_public emergency_) yang mengancam kehidupan bangsa dan telah diumumkan secara resmi. Negara dapat mengambil upaya yang menyimpang (_derogate_) dari kewajiban ICCPR, sejauh dituntut oleh situasi darurat, dengan syarat tidak bertentangan dengan kewajiban hukum internasional lain dan tidak menyangkut diskriminasi.
 
-**Hak yang Tidak Dapat Diderogasi** (*Non-Derogable Rights*) menurut **Pasal 4 ayat (2) ICCPR** dan **Pasal 4 UU HAM**:
+**Hak yang Tidak Dapat Diderogasi** (_Non-Derogable Rights_) menurut **Pasal 4 ayat (2) ICCPR** dan **Pasal 4 UU HAM**:
+
 - Hak untuk hidup;
 - Hak untuk tidak disiksa;
 - Hak kebebasan pribadi, pikiran, dan hati nurani;
 - Hak beragama;
 - Hak untuk tidak diperbudak;
 - Hak untuk diakui sebagai pribadi dan persamaan di hadapan hukum;
-- Hak untuk tidak dituntut atas dasar hukum yang berlaku surut (*non-retroactivity*).
+- Hak untuk tidak dituntut atas dasar hukum yang berlaku surut (_non-retroactivity_).
 
 > [!IMPORTANT]
-> **Definisi *Public Emergency*** menurut **European Commission of Human Rights** (dan *Siracusa Principles*):
-> 1. Harus jelas dan nyata (*actual or imminent*);
+> **Definisi _Public Emergency_** menurut **European Commission of Human Rights** (dan _Siracusa Principles_):
+>
+> 1. Harus jelas dan nyata (_actual or imminent_);
 > 2. Dampaknya harus kepada seluruh bagian negara dan terhadap struktur masyarakat;
-> 3. Mengancam kehidupan terorganisir komunitas (*threaten the organized life of the community*);
-> 4. Bersifat *exceptional*, sehingga tindakan normal tidak memadai.
-> 
-> *Paris Standard* menambahkan: *"Public Emergency means an exceptional situation of crisis or public danger, actual or imminent, which affects the whole population or the whole population of the area to which the declaration applies and constitutes a threat to the organized life of the community of which the state is composed."*
+> 3. Mengancam kehidupan terorganisir komunitas (_threaten the organized life of the community_);
+> 4. Bersifat _exceptional_, sehingga tindakan normal tidak memadai.
+>
+> _Paris Standard_ menambahkan: _"Public Emergency means an exceptional situation of crisis or public danger, actual or imminent, which affects the whole population or the whole population of the area to which the declaration applies and constitutes a threat to the organized life of the community of which the state is composed."_
 
 > [!WARNING]
-> **Siracusa Principles** menegaskan: pembatasan hak tidak boleh membahayakan esensi hak (*essence of rights*). Semua klausul pembatasan harus ditafsirkan secara tegas (*strict interpretation*) dan ditujukan untuk mendukung hak-hak, bukan membatasinya secara sewenang-wenang.
+> **Siracusa Principles** menegaskan: pembatasan hak tidak boleh membahayakan esensi hak (_essence of rights_). Semua klausul pembatasan harus ditafsirkan secara tegas (_strict interpretation_) dan ditujukan untuk mendukung hak-hak, bukan membatasinya secara sewenang-wenang.
 
 ### 4.8 Mekanisme Penegakan Hukum Humaniter
 
 #### 4.8.1 Mekanisme Nasional
 
-**Pasal 1 Konvensi Jenewa** memberikan kewajiban bagi Pihak Peserta Agung untuk *"menghormati dan menjamin penghormatan"* (*to respect and to ensure respect*) terhadap Konvensi.
+**Pasal 1 Konvensi Jenewa** memberikan kewajiban bagi Pihak Peserta Agung untuk _"menghormati dan menjamin penghormatan"_ (_to respect and to ensure respect_) terhadap Konvensi.
 
-- **Pasal 49 (1) Konvensi I**, **Pasal 50 (1) Konvensi II**, **Pasal 129 (1) Konvensi III**, dan **Pasal 146 (1) Konvensi IV**: Negara wajib menerbitkan undang-undang nasional yang memberikan sanksi pidana efektif bagi pelaku pelanggaran berat (*grave breaches*).
-- **Protokol I 1977**: Memperkenalkan **Komisi Internasional Pencari Fakta** (*International Fact-Finding Commission*) untuk menyelidiki pelanggaran.
+- **Pasal 49 (1) Konvensi I**, **Pasal 50 (1) Konvensi II**, **Pasal 129 (1) Konvensi III**, dan **Pasal 146 (1) Konvensi IV**: Negara wajib menerbitkan undang-undang nasional yang memberikan sanksi pidana efektif bagi pelaku pelanggaran berat (_grave breaches_).
+- **Protokol I 1977**: Memperkenalkan **Komisi Internasional Pencari Fakta** (_International Fact-Finding Commission_) untuk menyelidiki pelanggaran.
 
 #### 4.8.2 Mekanisme Internasional
 
-| Mekanisme | Karakter | Yurisdiksi |
-|-----------|----------|------------|
-| **Mahkamah Nuremberg** | Ad hoc (1945–1946) | Kejahatan terhadap perdamaian, kejahatan perang, kejahatan terhadap kemanusiaan. |
-| **Mahkamah Tokyo** | Ad hoc (1946–1948) | Kejahatan perang Jepang di Asia-Pasifik. |
-| **ICTY** (Yugoslavia) | Ad hoc (1993–2017) | Pelanggaran serius hukum humaniter internasional, genosida, kejahatan terhadap kemanusiaan. |
-| **ICTR** (Rwanda) | Ad hoc (1994–2015) | Genosida dan kejahatan perang di Rwanda. |
-| **ICC** (Roma Statute, 1998) | Permanen (sejak 2002) | Genosida, kejahatan terhadap kemanusiaan, kejahatan agresi, kejahatan perang. |
+| Mekanisme                    | Karakter              | Yurisdiksi                                                                                  |
+| ---------------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
+| **Mahkamah Nuremberg**       | Ad hoc (1945–1946)    | Kejahatan terhadap perdamaian, kejahatan perang, kejahatan terhadap kemanusiaan.            |
+| **Mahkamah Tokyo**           | Ad hoc (1946–1948)    | Kejahatan perang Jepang di Asia-Pasifik.                                                    |
+| **ICTY** (Yugoslavia)        | Ad hoc (1993–2017)    | Pelanggaran serius hukum humaniter internasional, genosida, kejahatan terhadap kemanusiaan. |
+| **ICTR** (Rwanda)            | Ad hoc (1994–2015)    | Genosida dan kejahatan perang di Rwanda.                                                    |
+| **ICC** (Roma Statute, 1998) | Permanen (sejak 2002) | Genosida, kejahatan terhadap kemanusiaan, kejahatan agresi, kejahatan perang.               |
 
 > [!IMPORTANT]
-> **Prinsip Komplementaritas ICC**: ICC hanya berwenang jika mahkamah nasional tidak mau (*unwilling*) atau tidak mampu (*unable*) untuk mengadili pelaku. Ini menegaskan bahwa yurisdiksi nasional memiliki prioritas utama.
+> **Prinsip Komplementaritas ICC**: ICC hanya berwenang jika mahkamah nasional tidak mau (_unwilling_) atau tidak mampu (_unable_) untuk mengadili pelaku. Ini menegaskan bahwa yurisdiksi nasional memiliki prioritas utama.
 
-#### 4.8.3 Pelanggaran Berat (*Grave Breaches*) dan Penegakan di Indonesia
+#### 4.8.3 Pelanggaran Berat (_Grave Breaches_) dan Penegakan di Indonesia
 
 Konvensi Jenewa 1949 menetapkan kewajiban negara serta hak-hak individu yang dilindungi. Penolakan terhadap Konvensi Jenewa merupakan pelanggaran hukum internasional. Indonesia, sebagai negara peserta, wajib mengintegrasikan ketentuan-ketentuan ini ke dalam hukum nasional.
 
-| Jenis Kejahatan | Contoh | Dasar Hukum |
-|-----------------|--------|-------------|
-| **Willful killing** | Pembunuhan tawanan perang atau sipil. | Pasal 340 KUHP; Konvensi Jenewa |
-| **Torture** | Penyiksaan terhadap tawanan. | Pasal 21 UU 39/1999; Konvensi Menentang Penyiksaan |
-| **Willfully causing suffering** | Penganiayaan yang disengaja. | Pasal 351 dst KUHP |
-| **Destruction of property** | Perusakan harta sipil yang meluas. | Pasal 406 KUHP |
-| **Forced labour** | Memaksa tawanan bekerja untuk angkatan musuh. | Konvensi Jenewa III |
-| **Denial of fair trial** | Menghalangi tawanan memperoleh peradilan bebas. | Pasal 14 ICCPR; Konvensi Jenewa III |
+| Jenis Kejahatan                 | Contoh                                          | Dasar Hukum                                        |
+| ------------------------------- | ----------------------------------------------- | -------------------------------------------------- |
+| **Willful killing**             | Pembunuhan tawanan perang atau sipil.           | Pasal 340 KUHP; Konvensi Jenewa                    |
+| **Torture**                     | Penyiksaan terhadap tawanan.                    | Pasal 21 UU 39/1999; Konvensi Menentang Penyiksaan |
+| **Willfully causing suffering** | Penganiayaan yang disengaja.                    | Pasal 351 dst KUHP                                 |
+| **Destruction of property**     | Perusakan harta sipil yang meluas.              | Pasal 406 KUHP                                     |
+| **Forced labour**               | Memaksa tawanan bekerja untuk angkatan musuh.   | Konvensi Jenewa III                                |
+| **Denial of fair trial**        | Menghalangi tawanan memperoleh peradilan bebas. | Pasal 14 ICCPR; Konvensi Jenewa III                |
 
 ### 4.9 Perkembangan Baru: Perlindungan Masyarakat Sipil dan Civil Defence
 
 #### 4.9.1 Distinction antara Objek Sipil dan Sasaran Militer
 
 Protokol I 1977 memperkenalkan terminologi baru yang sebelumnya tidak digunakan dalam hukum Den Haag:
-- **Penduduk sipil** (*civilian population*), **orang sipil** (*civilian*), **objek-objek sipil** (*civilian objects*);
-- **Kombatan** (*combatant*) dan **sasaran militer** (*military objectives*).
+
+- **Penduduk sipil** (_civilian population_), **orang sipil** (_civilian_), **objek-objek sipil** (_civilian objects_);
+- **Kombatan** (_combatant_) dan **sasaran militer** (_military objectives_).
 
 > [!NOTE]
 > Sejak Perang Dunia I, korban di pihak penduduk sipil meningkat pesat (sampai 80% dalam beberapa konflik modern), sehingga ketentuan hukum perang memberikan perhatian signifikan terhadap perlindungan penduduk sipil.
 
 #### 4.9.2 Civil Defence (Perlindungan Masyarakat)
 
-Protokol I memperkenalkan organisasi **Civil Defence** (di Indonesia dulu dikenal sebagai Hansip/*Pertahanan Sipil*). Organisasi ini bertugas melindungi penduduk sipil terhadap akibat bencana alam maupun peperangan. Ada usul untuk mengubah istilah ini menjadi **"civil protection"** (*Perlindungan Masyarakat*) agar tidak disalahartikan sebagai organisasi pertahanan militer.
+Protokol I memperkenalkan organisasi **Civil Defence** (di Indonesia dulu dikenal sebagai Hansip/_Pertahanan Sipil_). Organisasi ini bertugas melindungi penduduk sipil terhadap akibat bencana alam maupun peperangan. Ada usul untuk mengubah istilah ini menjadi **"civil protection"** (_Perlindungan Masyarakat_) agar tidak disalahartikan sebagai organisasi pertahanan militer.
 
 ---
 
@@ -809,7 +829,7 @@ Hukum dan Hak Asasi Manusia (HUHAM) merupakan pilar fundamental dalam bangunan n
 3. **Hukum Humaniter** mengajarkan bahwa bahkan dalam situasi ekstrem seperti perang, tetap ada batasan kemanusiaan yang tidak boleh dilanggar. Prinsip pembedaan, proporsionalitas, dan kewajiban negara untuk menegakkan hukum—baik melalui mekanisme nasional maupun internasional seperti ICC—merupakan jaminan bahwa martabat manusia tidak dapat dihilangkan oleh keadaan apapun.
 
 > [!QUOTE]
-> *"Tidak seorang pun dapat melepaskan atau dipaksa untuk melepaskan haknya terhadap perlindungan yang diberikan oleh hukum humaniter."* Prinsip ini berlaku pula bagi seluruh hak asasi manusia: hak ini melekat, tidak dapat dicabut, dan menjadi tanggung jawab kolektif umat manusia untuk menghormati, melindungi, dan memenuhinya.
+> _"Tidak seorang pun dapat melepaskan atau dipaksa untuk melepaskan haknya terhadap perlindungan yang diberikan oleh hukum humaniter."_ Prinsip ini berlaku pula bagi seluruh hak asasi manusia: hak ini melekat, tidak dapat dicabut, dan menjadi tanggung jawab kolektif umat manusia untuk menghormati, melindungi, dan memenuhinya.
 
 ---
 
@@ -838,10 +858,10 @@ Hukum dan Hak Asasi Manusia (HUHAM) merupakan pilar fundamental dalam bangunan n
 
 ### Sumber Sekunder (Buku, Jurnal, dan Dokumen Akademik)
 
-19. Dahl, Robert A. (1989). *Democracy and Its Critics*. New Haven: Yale University Press.
-20. Bedjaoui, Mohammed. (1991). *International Law: Achievements and Prospects*. UNESCO/Dordrecht: Martinus Nijhoff.
-21. Bandura, Albert. (2002). "Selective Moral Disengagement in the Exercise of Moral Agency." *Journal of Moral Education*, 31(2), 101–119.
-22. Beulah Shekhar. (2009). *Child Rights and Human Rights*. New Delhi: Serials Publications.
+19. Dahl, Robert A. (1989). _Democracy and Its Critics_. New Haven: Yale University Press.
+20. Bedjaoui, Mohammed. (1991). _International Law: Achievements and Prospects_. UNESCO/Dordrecht: Martinus Nijhoff.
+21. Bandura, Albert. (2002). "Selective Moral Disengagement in the Exercise of Moral Agency." _Journal of Moral Education_, 31(2), 101–119.
+22. Beulah Shekhar. (2009). _Child Rights and Human Rights_. New Delhi: Serials Publications.
 23. General Comment No. 10 (2007): Children's Rights in Juvenile Justice (CRC/C/GC/10).
 24. Siracusa Principles on the Limitation and Derogation Provisions in the International Covenant on Civil and Political Rights, 1984.
 25. Paris Principles relating to the Status of National Institutions (1993).
@@ -850,11 +870,11 @@ Hukum dan Hak Asasi Manusia (HUHAM) merupakan pilar fundamental dalam bangunan n
 28. Human Rights Committee, General Comment No. 25 (1996) on Article 25 (Participation in Public Affairs and the Right to Vote).
 29. Putusan Mahkamah Konstitusi RI No. 22/PUU-XV/2017 tentang Uji Materi UU Perkawinan (batas usia perkawinan).
 30. Putusan Mahkamah Konstitusi RI No. 46/PUU-VIII/2010 tentang Status Anak Luar Kawin.
-31. Asshidique, Jimly. (2006). *Konstitusi & Konstitutionalisme Indonesia*. Jakarta: Sinar Grafika.
-32. Marzuki, Peter Mahmud. (2017). *Penelitian Hukum*. Jakarta: Kencana Prenada Media Group.
-33. Muladi. (2010). *Kapita Selekta Sistem Peradilan Pidana*. Semarang: Badan Penerbit Universitas Diponegoro.
-34. Soerjono Soekanto. (1982). *Sosiologi Suatu Pengantar*. Jakarta: Rajawali.
+31. Asshidique, Jimly. (2006). _Konstitusi & Konstitutionalisme Indonesia_. Jakarta: Sinar Grafika.
+32. Marzuki, Peter Mahmud. (2017). _Penelitian Hukum_. Jakarta: Kencana Prenada Media Group.
+33. Muladi. (2010). _Kapita Selekta Sistem Peradilan Pidana_. Semarang: Badan Penerbit Universitas Diponegoro.
+34. Soerjono Soekanto. (1982). _Sosiologi Suatu Pengantar_. Jakarta: Rajawali.
 
 ---
 
-*Catatan ini disusun untuk keperluan akademik dan tidak menggantikan nasihat hukum profesional. Beberapa ketentuan hukum, terutama yang berkaitan dengan perubahan undang-undang dan putusan pengadilan, perlu diverifikasi secara berkala terhadap sumber resmi yang berlaku.*
+_Catatan ini disusun untuk keperluan akademik dan tidak menggantikan nasihat hukum profesional. Beberapa ketentuan hukum, terutama yang berkaitan dengan perubahan undang-undang dan putusan pengadilan, perlu diverifikasi secara berkala terhadap sumber resmi yang berlaku._
