@@ -35,19 +35,15 @@ export default ((opts?: Partial<Options>) => {
     return (
       <article class={classNames(displayClass, "quiz-page")}>
         <header class="quiz-page-header">
-          <p class="quiz-page-meta">
-            <span class="quiz-category">{quiz.category}</span>
-            <span class="quiz-difficulty" data-difficulty={quiz.difficulty}>
-              {quiz.difficulty}
-            </span>
-          </p>
+          <p class="quiz-page-category">{quiz.category}</p>
           <h1 class="article-title">{quiz.title}</h1>
-          <p class="quiz-page-description">{quiz.description}</p>
-          <ul class="quiz-tags">
-            {quiz.tags.map((tag) => (
-              <li class="quiz-tag">{tag}</li>
-            ))}
-          </ul>
+          {quiz.tags.length > 0 && (
+            <ul class="quiz-tags">
+              {quiz.tags.map((tag) => (
+                <li class="quiz-tag">#{tag}</li>
+              ))}
+            </ul>
+          )}
         </header>
 
         <noscript>
@@ -71,59 +67,10 @@ export default ((opts?: Partial<Options>) => {
   margin-bottom: 1.5rem;
 }
 
-.quiz-page-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0 0 0.5rem 0;
+.quiz-page-category {
+  margin: 0 0 0.35rem 0;
   font-size: 0.85rem;
-}
-
-.quiz-category {
-  padding: 0.15rem 0.5rem;
-  background: var(--highlight);
-  border-radius: 3px;
-  color: var(--darkgray);
-}
-
-.quiz-difficulty {
-  padding: 0.15rem 0.5rem;
-  border-radius: 3px;
-  text-transform: capitalize;
-  font-weight: 500;
-}
-
-.quiz-difficulty[data-difficulty="easy"] {
-  background: rgba(46, 204, 113, 0.2);
-  color: #27ae60;
-}
-
-.quiz-difficulty[data-difficulty="medium"] {
-  background: rgba(243, 156, 18, 0.2);
-  color: #d68910;
-}
-
-.quiz-difficulty[data-difficulty="hard"] {
-  background: rgba(231, 76, 60, 0.2);
-  color: #c0392b;
-}
-
-:root[saved-theme="dark"] .quiz-difficulty[data-difficulty="easy"] {
-  color: #2ecc71;
-}
-
-:root[saved-theme="dark"] .quiz-difficulty[data-difficulty="medium"] {
-  color: #f39c12;
-}
-
-:root[saved-theme="dark"] .quiz-difficulty[data-difficulty="hard"] {
-  color: #e74c3c;
-}
-
-.quiz-page-description {
-  margin: 0.5rem 0;
-  color: var(--darkgray);
-  line-height: 1.5;
+  color: var(--gray);
 }
 
 .quiz-tags {
@@ -132,15 +79,13 @@ export default ((opts?: Partial<Options>) => {
   margin: 0.5rem 0 0 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.5rem;
 }
 
 .quiz-tag {
-  font-size: 0.75rem;
-  padding: 0.1rem 0.4rem;
-  background: var(--lightgray);
-  border-radius: 3px;
-  color: var(--gray);
+  font-size: 0.8rem;
+  color: var(--secondary);
+  font-weight: 500;
 }
 
 .quiz-noscript-warning {

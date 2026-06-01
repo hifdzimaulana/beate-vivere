@@ -88,7 +88,7 @@ function QuizList({ manifest, pageSlug }: { manifest: Manifest; pageSlug: FullSl
     })
   }, [manifest, search, category, difficulty, tag])
 
-  const quizHref = (slug: string) => resolveRelative(pageSlug, `quizzes/${slug}` as FullSlug)
+  const quizHref = (slug: string) => resolveRelative(pageSlug, `quizzes/${slug}/` as FullSlug)
 
   return h(
     "div",
@@ -176,7 +176,10 @@ function QuizList({ manifest, pageSlug }: { manifest: Manifest; pageSlug: FullSl
   )
 }
 
-async function init(root: HTMLElement) {
+async function init(root: HTMLElement, isReinit = false) {
+  if (isReinit && root.firstElementChild) {
+    return
+  }
   removeAllChildren(root)
   const manifestNode = document.getElementById("quiz-manifest")
   if (!manifestNode) {
@@ -206,7 +209,7 @@ function setup() {
 
 document.addEventListener("nav", () => {
   const root = document.getElementById("quiz-list-root")
-  if (root) void init(root)
+  if (root) void init(root, true)
 })
 
 setup()

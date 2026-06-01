@@ -102,7 +102,7 @@ export default (() => {
         <meta http-equiv="Expires" content="0" />
         <script
           dangerouslySetInnerHTML={{
-            __html: `try{for(var i=localStorage.length-1;i>=0;i--){var k=localStorage.key(i);if(k&&(k==="quiz:list:state:v1"||k.indexOf("quiz:taker:state:v1:")===0)){localStorage.removeItem(k)}}}catch(e){}`,
+            __html: `try{for(var i=localStorage.length-1;i>=0;i--){var k=localStorage.key(i);if(k&&(k.indexOf("quiz:list:state:")===0||k.indexOf("quiz:taker:state:")===0)){localStorage.removeItem(k)}}}catch(e){}`,
           }}
         />
       </head>

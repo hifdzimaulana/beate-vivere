@@ -109,6 +109,65 @@ async function fetchQuiz(slug: string): Promise<Quiz> {
   return (await res.json()) as Quiz
 }
 
+function NavPanel({
+  quiz,
+  state,
+  currentIdx,
+  onJump,
+}: {
+  quiz: Quiz
+  state: PersistedState
+  currentIdx: number
+  onJump: (idx: number) => void
+}) {
+  return h(
+    "nav",
+    { class: "quiz-nav-panel", "aria-label": "Question navigation" },
+    h(
+      "ol",
+      { class: "quiz-nav-grid" },
+      ...state.order.map((origIdx, idx) => {
+        const q = quiz.questions[origIdx]
+        const choiceMap = state.shuffledChoiceMaps[origIdx] || q.answer_choices.map((_, i) => i)
+        const correctShuffled = mapShuffledToOriginal(choiceMap, q.correct_answer)
+        const userShuffled = state.choices[origIdx]
+        const isAnswered = userShuffled !== undefined
+        const isCorrect = isAnswered && userShuffled === correctShuffled
+        const status = idx === currentIdx
+          ? "current"
+          : isAnswered
+            ? isCorrect
+              ? "correct"
+              : "incorrect"
+            : "unanswered"
+        const statusLabel = status === "current"
+          ? "current question"
+          : status === "correct"
+            ? "answered correctly"
+            : status === "incorrect"
+              ? "answered incorrectly"
+              : "unanswered"
+        return h(
+          "li",
+          { class: "quiz-nav-item" },
+          h(
+            "button",
+            {
+              type: "button",
+              class: "quiz-nav-btn",
+              "data-status": status,
+              "aria-current": idx === currentIdx ? "true" : undefined,
+              "aria-label": `Question ${idx + 1}, ${statusLabel}`,
+              onClick: () => onJump(idx),
+            },
+            String(idx + 1),
+          ),
+        )
+      }),
+    ),
+  )
+}
+
 function QuestionView({
   quiz,
   state,
@@ -469,9 +528,14 @@ function QuizTaker({
   const answered = state.choices[origIdx] !== undefined
   const progress = ((state.currentIdx + 1) / state.order.length) * 100
 
+  const onJump = (idx: number) => {
+    setState((s) => ({ ...s, currentIdx: idx }))
+  }
+
   return h(
     "div",
     { class: "quiz-active" },
+    h(NavPanel, { quiz, state, currentIdx: state.currentIdx, onJump }),
     h(
       "div",
       { class: "quiz-progress" },
@@ -503,7 +567,12 @@ function QuizTaker({
       { class: "quiz-actions" },
       h(
         "button",
-        { class: "quiz-button", type: "button", onClick: onPrev, disabled: state.currentIdx === 0 },
+        {
+          class: "quiz-button",
+          type: "button",
+          onClick: onPrev,
+          disabled: state.currentIdx === 0,
+        },
         "← Previous",
       ),
       h(
@@ -520,7 +589,10 @@ function QuizTaker({
   )
 }
 
-async function init(root: HTMLElement) {
+async function init(root: HTMLElement, isReinit = false) {
+  if (isReinit && root.firstElementChild) {
+    return
+  }
   removeAllChildren(root)
   const meta = loadMeta()
   if (!meta) {
@@ -553,7 +625,7 @@ function setup() {
 
 document.addEventListener("nav", () => {
   const root = document.getElementById("quiz-taker-root")
-  if (root) void init(root)
+  if (root) void init(root, true)
 })
 
 setup()
