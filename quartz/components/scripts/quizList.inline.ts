@@ -152,7 +152,19 @@ function QuizList({ manifest, pageSlug }: { manifest: Manifest; pageSlug: FullSl
               h(
                 "h2",
                 { class: "quiz-card-title" },
-                h("a", { class: "internal", href: quizHref(m.slug) }, m.title),
+                h(
+                  "a",
+                  {
+                    class: "internal",
+                    href: quizHref(m.slug),
+                    onClick: (e: MouseEvent) => {
+                      e.preventDefault()
+                      e.stopPropagation()
+                      window.location.assign(quizHref(m.slug))
+                    },
+                  },
+                  m.title,
+                ),
               ),
               h("p", { class: "quiz-card-description" }, m.description),
               h(
