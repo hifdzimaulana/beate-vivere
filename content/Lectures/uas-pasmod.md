@@ -472,10 +472,10 @@ Afiliasi meliputi hubungan:
 
 ```mermaid
 graph TD
-    A[Transaksi Afiliasi] --> B[1. Penilai Independen]
-    A --> C[2. Keterbukaan Informasi<br/>ke Publik]
-    A --> D[3. Laporan ke OJK]
-    A --> E[4. Persetujuan RUPS Independen]
+    A[Transaksi Afiliasi] --> B[1 - Penilai Independen]
+    A --> C[2 - Keterbukaan Informasi<br/>ke Publik]
+    A --> D[3 - Laporan ke OJK]
+    A --> E[4 - Persetujuan RUPS Independen]
     
     B --> F[Nilai Wajar Objek]
     C --> G[Surat Kabar Nasional,<br/>Situs Web]
