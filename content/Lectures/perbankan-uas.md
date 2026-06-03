@@ -1443,234 +1443,495 @@ Pemilik sebenarnya dari dana atau pengendalian transaksi:
 
 ### 14. Pencegahan dan Penanganan Krisis Sistem Keuangan
 
-#### 14.1 Kerangka Umum: UU PPKSK dan Perubahan P2SK
+#### 14.1 Kerangka Hukum
 
-Dasar hukum utama penanganan krisis sistem keuangan di Indonesia adalah **UU No. 9 Tahun 2016 tentang Pencegahan dan Penanganan Krisis Sistem Keuangan (PPKSK)**. Undang-undang ini kemudian diintegrasikan dan sebagian diubah oleh **UU No. 4 Tahun 2023 tentang P2SK**. Perubahan utama meliputi:
+**Dasar Hukum Utama:**
+- **UU No. 9 Tahun 2016 tentang Pencegahan dan Penanganan Krisis Sistem Keuangan (PPKSK)** — kerangka awal yang disahkan 17 Maret 2016.
+- **UU No. 4 Tahun 2023 tentang P2SK** — mengintegrasikan dan memperbarui banyak ketentuan UU PPKSK; kini menjadi rujukan utama.
 
-- Perluasan fungsi LPS (termasuk penjaminan polis asuransi dan likuidasi perusahaan asuransi).
-- Penegasan kewenangan KSSK dan mekanisme pengambilan keputusan.
-- Penguatan skema resolusi bank melalui **Bridge Bank**, **P&A**, dan **PMS**.
+> [!IMPORTANT]
+> **Update Regulasi:** UU PPKSK (UU No. 9/2016) **tidak dicabut secara keseluruhan**, namun banyak ketentuan kuncinya telah **diintegrasikan, diubah, dan diperkuat** dalam **UU No. 4 Tahun 2023 tentang P2SK**. Dalam studi kasus dan ujian, referensi ke "UU PPKSK" secara teknis masih dapat digunakan, namun perhatikan nomor pasal yang relevan dalam UU P2SK.
 
-**Tujuan UU PPKSK:**
-- Memberikan langkah-langkah pencegahan dan penanganan kondisi krisis sistem keuangan.
-- Mewujudkan stabilitas sistem keuangan yang kokoh, baik dari ancaman dalam negeri maupun luar negeri.
-- Mengutamakan penggunaan sumber daya bank sendiri dan pendekatan bisnis, bukan anggaran negara (*bail-out* dihindari).
+**Tujuan Kerangka PPKSK:**
+Memberikan langkah-langkah pencegahan dan penanganan kondisi krisis sistem keuangan sehingga dapat mewujudkan stabilitas sistem keuangan yang kokoh guna menghadapi ancaman dari dalam maupun luar negeri.
+
+**Ruang Lingkup:**
+1. Koordinasi pemantauan dan pemeliharaan Stabilitas Sistem Keuangan dalam KSSK.
+2. Penanganan Krisis Sistem Keuangan.
+3. Penanganan permasalahan Bank Sistemik, baik dalam kondisi normal maupun krisis.
+
+**Prinsip-Prinsip Utama:**
+1. Penanganan bank bermasalah diutamakan menggunakan **sumber daya bank itu sendiri** (bail-in) dan pendekatan bisnis, **tanpa menggunakan anggaran negara** (bail-out hanya sebagai pilihan terakhir).
+2. Industri perbankan mendominasi industri keuangan, sehingga lebih ditekankan pada penanganan permasalahan bank.
+3. Rencana mitigasi/action plan dilakukan saat kondisi **Normal** (bukan hanya saat krisis) — konsep Recovery and Resolution Plan (RRP).
+4. Presiden dilibatkan dalam keputusan kondisi krisis dan program restrukturisasi perbankan.
 
 #### 14.2 Komite Stabilitas Sistem Keuangan (KSSK)
 
-KSSK adalah forum koordinasi tertinggi untuk pencegahan dan penanganan krisis sistem keuangan.
+**Anggota KSSK (Pasal 4 UU P2SK):**
 
-> [!IMPORTANT]
-> **Keanggotaan KSSK (Pasal 4 UU P2SK):**
-> 1. **Menteri Keuangan** – sebagai koordinator merangkap anggota dengan hak suara
-> 2. **Gubernur Bank Indonesia** – anggota dengan hak suara
-> 3. **Ketua Dewan Komisioner OJK** – anggota dengan hak suara
-> 4. **Ketua Dewan Komisioner LPS** – anggota dengan hak suara
->
-> *Perubahan:* Sebelum P2SK, LPS hanya sebagai anggota tanpa hak suara. Sekarang LPS memiliki hak suara penuh.
+| Jabatan | Lembaga | Hak Suara |
+|---|---|---|
+| **Menteri Keuangan** (Koordinator merangkap anggota) | Kementerian Keuangan | Ya |
+| **Gubernur Bank Indonesia** | Bank Indonesia | Ya |
+| **Ketua Dewan Komisioner OJK** | OJK | Ya |
+| **Ketua Dewan Komisioner LPS** | LPS | Ya |
+
+> [!NOTE]
+> **Sebelum UU P2SK**, LPS hanya menjadi anggota KSSK tanpa hak suara. Setelah UU P2SK, LPS diberikan **hak suara penuh** dalam pengambilan keputusan KSSK, seiring perluasan fungsi dan kewenangan LPS dalam resolusi bank dan penjaminan asuransi.
 
 **Sistem Pengambilan Keputusan KSSK:**
-- Berdasarkan **voting**.
-- Jika terjadi *deadlock* (suara sama kuat), **Menteri Keuangan** yang memutuskan.
-- Menganut prinsip **primus inter pares** (yang pertama di antara yang sederajat).
+1. Voting dengan suara mayoritas.
+2. Jika *deadlock*, **Menteri Keuangan** (sebagai koordinator) yang memutuskan — menerapkan prinsip **primus inter pares** (yang pertama di antara yang setara): semua anggota setara secara hukum, namun satu memiliki posisi terdepan dalam pengambilan keputusan akhir.
 
 **Wewenang KSSK:**
-- Menetapkan tata kelola dan sekretariat KSSK.
-- Membentuk gugus tugas/kelompok kerja.
-- Menetapkan kriteria dan indikator Stabilitas Sistem Keuangan.
-- Melakukan penilaian kondisi stabilitas sistem keuangan.
-- Menetapkan langkah koordinasi pencegahan krisis.
-- Merekomendasikan kepada Presiden untuk mengubah status Stabilitas Sistem Keuangan (dari normal ke krisis atau sebaliknya).
-- Merekomendasikan langkah penanganan krisis.
-- Mengoordinasikan langkah antar anggota untuk mendukung resolusi Bank Sistemik oleh LPS.
+1. Menetapkan keputusan mengenai tata kelola KSSK dan sekretariat KSSK.
+2. Membentuk gugus tugas atau kelompok kerja.
+3. Menetapkan kriteria dan indikator penilaian kondisi Stabilitas Sistem Keuangan.
+4. Melakukan penilaian kondisi Stabilitas Sistem Keuangan.
+5. Menetapkan langkah koordinasi untuk mencegah Krisis Sistem Keuangan.
+6. **Merekomendasikan kepada Presiden** untuk memutuskan perubahan status (normal → krisis, atau krisis → normal).
+7. Merekomendasikan kepada Presiden untuk memutuskan langkah penanganan krisis.
+8. Mengoordinasikan langkah penanganan Bank Sistemik oleh LPS, termasuk pembelian SBN LPS oleh Bank Indonesia.
+9. Merekomendasikan kepada Presiden untuk memutuskan penyelenggaraan dan pengakhiran **Program Restrukturisasi Perbankan (PRP)**.
+
+**Surveillance KSSK (Pasal 3 ayat (2)):**
+KSSK melakukan pengawasan atas: fiskal; moneter; makroprudensial dan mikroprudensial; pasar keuangan; infrastruktur keuangan (sistem pembayaran dan penjaminan simpanan); dan resolusi bank.
 
 **Rapat KSSK:**
-- Rapat berkala: **satu kali setiap 3 bulan**.
-- Rapat sewaktu-waktu: atas permintaan anggota KSSK.
+- Berkala: satu kali setiap 3 bulan.
+- Sewaktu-waktu: berdasarkan permintaan anggota KSSK.
 
-#### 14.3 Status Pengawasan Bank (Baru menurut UU PPKSK + P2SK)
+#### 14.3 Bank Sistemik (Systemically Important Bank — SIB)
 
-OJK mengatur dan menetapkan tiga status pengawasan bank:
+**Definisi (POJK No. 46/POJK.03/2015 tentang Penetapan Bank Sistemik dan Pengenaan Surcharge):**
+> "Bank sistemik adalah bank yang karena ukuran aset, modal, kewajiban, luas jaringan, kompleksitas transaksi, dan keterkaitannya dengan sektor keuangan lain, apabila mengalami gangguan atau gagal, dapat menyebabkan terganggunya operasional atau stabilitas keuangan secara keseluruhan."
+
+**Penetapan Bank Sistemik (Pasal 17 UU P2SK):**
+1. Dilakukan OJK berkoordinasi dengan BI dan LPS.
+2. Dimasukkan ke dalam daftar Bank Sistemik.
+3. Pembaruan berkala satu kali setiap 6 bulan.
+4. Disampaikan kepada KSSK.
+
+**Ciri-Ciri Bank Sistemik:**
+- Ukuran aset sangat besar dan mendominasi pangsa pasar keuangan.
+- Kompleksitas transaksi tinggi (derivatif, pasar uang, lintas batas).
+- Keterkaitan erat dengan banyak lembaga lain (bank, perusahaan, pasar modal).
+- Jaringan luas (banyak cabang dalam negeri dan/atau luar negeri).
+- Peran sentral dalam fungsi sistemik (pembayaran, kredit, kliring).
+- Kegagalannya dapat memicu efek domino ke seluruh perekonomian.
+
+*Contoh bank sistemik di Indonesia: Bank Mandiri, BRI, BNI, BCA.*
+
+**Kewajiban Bank Sistemik (Pasal 18 UU P2SK):**
+1. Pemenuhan Rasio Kecukupan Modal yang lebih tinggi (dengan **capital surcharge** / tambahan modal).
+2. Pemenuhan Rasio Kecukupan Likuiditas.
+3. Tambahan kapasitas permodalan untuk menyerap kerugian saat permasalahan keuangan.
+4. Menyusun **rencana aksi (recovery plan)** paling sedikit memuat: kewajiban PSP menambah modal dan mengubah jenis utang tertentu menjadi modal.
+5. Menyusun dan menyampaikan **rencana resolusi (living will)** kepada LPS.
+
+**Rencana Resolusi (Living Will)** paling sedikit memuat:
+- Struktur bank, kondisi keuangan, lini bisnis utama, fungsi ekonomi penting, dan pihak terafiliasi.
+- Keterkaitan dengan Sistem Keuangan.
+
+LPS melakukan penilaian rencana resolusi dan dapat melakukan **uji resolvabilitas** untuk mengidentifikasi hambatan implementasi.
+
+#### 14.4 Too Big to Fail (TBTF)
+
+"Too Big to Fail" adalah teori yang merujuk pada lembaga keuangan yang begitu besar, berpengaruh, dan terhubung dengan sistem keuangan, sehingga jika lembaga tersebut gagal, dampaknya dapat menjatuhkan sistem keuangan secara keseluruhan. Karena itu, pemerintah cenderung akan menyelamatkannya.
+
+**Ciri-Ciri TBTF:**
+- Ukuran aset sangat besar dan mendominasi pasar.
+- Keterkaitan erat dengan banyak lembaga lain.
+- Peran sentral dalam fungsi sistemik.
+- Kegagalannya memicu efek domino.
+
+**Contoh Nyata:**
+- Krisis 2008: AIG, Citigroup diselamatkan pemerintah AS. Lehman Brothers dibiarkan bangkrut — akibatnya pasar global terguncang.
+- Indonesia 2008: Bank Century menerima dana talangan Rp 6,7 triliun dari LPS (kontroversial).
+
+**Risiko Moral Hazard dari TBTF:**
+Karena bank tahu pemerintah tidak akan membiarkannya gagal, bank dapat mengambil risiko berlebihan. Solusinya: penerapan regulasi yang lebih ketat (capital surcharge, stress test, living will), dan memprioritaskan bail-in daripada bail-out.
+
+**Kaitan TBTF dengan SIB:**
+Konsep TBTF selaras dengan pengaturan Bank Sistemik (SIB) dalam POJK dan UU P2SK. Bail-out tidak mensyaratkan bank harus SIB, namun dalam praktiknya hampir selalu dilakukan terhadap bank yang berstatus sistemik, karena alasan bail-out adalah mencegah krisis sistemik.
+
+#### 14.5 Status Pengawasan Bank
+
+OJK menetapkan tiga status pengawasan bank (Pasal 16A UU P2SK):
 
 ```mermaid
 graph LR
-    A["Bank"] --> B["Bank dalam<br>Pengawasan Normal"]
-    A --> C["Bank dalam<br>Penyehatan"]
-    A --> D["Bank dalam<br>Resolusi"]
-    B -->|Mengalami kesulitan<br>membahayakan| C
-    C -->|Tidak memenuhi<br>ketentuan setelah<br>jangka waktu| D
+    A["Bank Dalam</br>Pengawasan Normal"] -->|Kondisi memburuk,</br>tidak penuhi TKB/likuiditas/modal| B["Bank Dalam</br>Penyehatan"]
+    B -->|Gagal pulih dalam</br>1 tahun / tidak penuhi KPMM/GWM/ tidak kembalikan dana LPS| C["Bank Dalam</br>Resolusi"]
+    C -->|Resolusi gagal| D["Likuidasi"]
 ```
 
-| Status | Kriteria | Penanganan |
-|---|---|---|
-| **Pengawasan Normal** | Memenuhi tingkat kesehatan, likuiditas, dan permodalan | Pengawasan rutin OJK; bank wajib memiliki *Recovery Plan* (RRP) |
-| **Penyehatan** | Tidak memenuhi tingkat kesehatan, likuiditas, dan/atau permodalan (CAR <8%, NPL>5%, dll.) | OJK memberikan action plan; LPS dapat melakukan uji tuntas; jangka waktu maksimal 1 tahun |
-| **Resolusi** | Setelah masa penyehatan berakhir bank masih belum memenuhi ketentuan; atau bank tidak dapat mengembalikan penempatan dana LPS | LPS mengambil alih penanganan; OJK mencabut izin usaha jika diperlukan |
+**Bank Dalam Pengawasan Normal**
+Kondisi sehat, memenuhi seluruh ketentuan. Tindakan yang dapat dilakukan: Letter of Commitment; Capital Surcharge; Counter Cyclical Buffer; konversi surat berharga menjadi saham; CEMA; dukungan likuiditas dari pemegang saham.
 
-**Tindakan OJK terhadap Bank dalam Penyehatan:**
-- Memerintahkan bank menjual sebagian/seluruh aset atau mengalihkan kewajiban.
-- Menyerahkan pengelolaan bank kepada pihak lain.
+**Bank Dalam Penyehatan**
+Bank tidak memenuhi ketentuan: tingkat kesehatan; tingkat likuiditas; dan/atau tingkat permodalan dengan memperhitungkan risiko.
+
+OJK menetapkan jangka waktu paling lama **1 tahun** sejak pemberitahuan. Setelah penetapan, bank umum wajib:
+- Menerapkan recovery action plan yang disetujui OJK.
+- Menerapkan langkah penyehatan yang ditetapkan OJK (jika action plan belum disetujui).
+- Menyampaikan realisasi kepada OJK.
+
+OJK berwenang:
+- Memerintahkan bank menjual aset dan/atau mengalihkan kewajiban.
+- Memerintahkan bank menyerahkan pengelolaan kepada pihak lain.
 - Membatasi kegiatan usaha tertentu.
-- Menunjuk **pengelola statuter** yang mengambil alih wewenang direksi dan dewan komisaris.
+- Menunjuk **pengelola statuter**.
 
-#### 14.4 Bank Sistemik (Systemically Important Bank / SIB)
+LPS berperan melakukan:
+- Uji tuntas (*due diligence*) kondisi bank secara keseluruhan.
+- Penjajakan kepada bank lain yang bersedia menerima pengalihan aset/kewajiban.
+- Penjajakan kepada investor yang bersedia mengambil alih bank.
 
-**Definisi (POJK No. 46/POJK.03/2015):**
-> Bank sistemik adalah bank yang karena ukuran aset, modal, kewajiban, luas jaringan, kompleksitas transaksi, dan keterkaitannya dengan sektor keuangan lain, apabila mengalami gangguan atau gagal, dapat menyebabkan terganggunya operasional atau stabilitas keuangan secara keseluruhan.
+**Bank Dalam Resolusi**
+Bank ditetapkan sebagai Bank Dalam Resolusi jika:
+1. Sebelum berakhirnya jangka waktu penyehatan, bank mengalami pemburukan dan tidak memenuhi KPMM minimum dan/atau GWM.
+2. Sampai berakhirnya jangka waktu penyehatan, bank belum dapat memenuhi ketentuan permodalan/belum menyelesaikan permasalahan likuiditas mendasar.
+3. Bank tidak dapat mengembalikan penempatan dana LPS.
 
-**Ciri-ciri SIB:**
-- Ukuran aset dan modal sangat besar.
-- Kompleksitas transaksi tinggi (derivatif, pasar uang, dll.).
-- Saling keterkaitan erat dengan banyak bank dan lembaga keuangan lain.
-- Jaringan operasional yang luas (nasional bahkan internasional).
+Jika Bank Dalam Resolusi merupakan Bank Sistemik → OJK meminta penyelenggaraan rapat KSSK.
 
-**Kewajiban Bank Sistemik (Pasal 18 UU PPKSK):**
-1. Memenuhi **Capital Surcharge** – tambahan modal di atas CAR minimum.
-2. Memenuhi rasio kecukupan likuiditas yang lebih ketat.
-3. Menyusun **Rencana Resolusi (Living Will)** yang harus disetujui LPS.
-4. Tunduk pada **stress test** secara berkala oleh OJK.
+#### 14.6 Bail-Out
 
-**Penetapan Bank Sistemik:**
-- OJK berkoordinasi dengan BI dan LPS.
-- Diperbarui setiap **6 bulan**.
-- Disampaikan kepada KSSK.
+**Definisi:**
+Bail-out adalah penyelamatan bank bermasalah menggunakan **dana pemerintah/uang negara**. Dana diberikan agar bank tetap beroperasi dan tidak kolaps, mencegah dampak sistemik.
 
-> [!NOTE]
-> **Too Big to Fail (TBTF):** Teori bahwa bank yang sangat besar dan sistemik tidak boleh dibiarkan gagal karena dampaknya akan melumpuhkan perekonomian. Pemerintah cenderung akan menyelamatkan (*bail-out*) meskipun menimbulkan *moral hazard*. Di Indonesia, konsep TBTF diimplementasikan melalui rezim SIB dengan pengawasan ketat, *capital surcharge*, dan rencana resolusi.
+**Dasar Hukum:**
+UU No. 9/2016 (PPKSK) jo. UU P2SK — bail-out bukan lagi opsi utama; lebih diutamakan bail-in dan resolusi oleh LPS. Namun dalam situasi darurat sistemik, bantuan dana negara dapat dilakukan secara terbatas dan **harus mendapat persetujuan DPR** (Pasal 55-59 UU PPKSK).
 
-#### 14.5 Penanganan Bank Bermasalah: Normal vs. Krisis
+**Cara Kerja:**
+Bank besar/sistemik hampir kolaps → pemerintah menyuntikkan dana (penempatan modal, pembelian aset bermasalah, atau pinjaman darurat) → bank tetap likuid.
 
-**Dalam Kondisi Normal (Stabilitas Sistem Keuangan Terjaga):**
+**Mengapa Bail-Out Dihindari:**
+1. Penggunaan uang negara menimbulkan ketidakadilan (*"privatize profits, socialize losses"*).
+2. Mendorong **moral hazard** — pemegang saham dan kreditur terhindar dari kerugian.
+3. Mengganggu kompetisi yang wajar antara bank penerima bail-out dan bank lainnya.
 
-```mermaid
-graph TD
-    A["Bank mengalami<br>kesulitan likuiditas"] --> B["Pinjaman Likuiditas<br>Jangka Pendek (PLJP)<br>dari BI"]
-    A2["Bank mengalami<br>kesulitan solvabilitas"] --> C["OJK tetapkan<br>Bank dalam Penyehatan"]
-    C --> D["Action Plan &<br>Pemulihan internal"]
-    D -->|Berhasil| E["Kembali ke<br>Pengawasan Normal"]
-    D -->|Gagal| F["OJK tetapkan<br>Bank dalam Resolusi"]
-    F --> G["LPS mengambil alih<br>dengan P&A, Bridge Bank,<br>atau PMS"]
-```
+**Contoh Nyata:**
+Bank Century (2008) — dana talangan Rp 6,7 triliun dari LPS. Alasan: jika dibiarkan kolaps, dikhawatirkan bank lain terkena dampak domino. Kasus ini kontroversial dan berujung pada kasus hukum.
 
-**Dalam Kondisi Krisis Sistem Keuangan:**
-- Krisis ditetapkan oleh Presiden atas rekomendasi KSSK.
-- Penanganan dilakukan terhadap **seluruh bank** yang mengalami kesulitan likuiditas dan solvabilitas.
-- Presiden dapat mengaktifkan **Program Restrukturisasi Perbankan (PRP)**.
+> [!QUOTE]
+> *"Pada masa krisis COVID-19, Perppu No. 1/2020 mengizinkan BI membeli surat berharga yang diterbitkan LPS, dan LPS mendapat lebih banyak fleksibilitas dalam pembiayaan, mencerminkan semangat bail-out terbatas (quantitative easing) untuk menghadapi krisis yang luar biasa."*
 
-#### 14.6 Mekanisme Resolusi Bank oleh LPS
+#### 14.7 Bail-In
 
-LPS memiliki tiga instrumen utama untuk menangani Bank Dalam Resolusi (khususnya Bank Sistemik):
+**Definisi:**
+Bail-in adalah skema penyelesaian permasalahan bank dengan menggunakan **sumber pendanaan dari dalam bank sendiri**, berasal dari pemegang saham dan/atau kreditur bank (*bailing from inside*), karena mereka yang menikmati keuntungan saat bank meraih profit.
 
-**1. Purchase and Assumption (P&A)**
-Pengalihan sebagian atau seluruh aset dan/atau kewajiban bank sistemik kepada bank penerima (bank sehat). Tujuannya agar fungsi dan pelayanan bank yang berpotensi menimbulkan dampak sistemik tetap berjalan.
+**Dasar Hukum:**
+Pasal 21 UU No. 9/2016 (PPKSK) jo. UU P2SK — dalam situasi krisis sistemik, kewajiban-kewajiban bank sistemik tertentu dapat dikonversi menjadi modal (misalnya saham) untuk memperkuat struktur permodalan.
 
-**Langkah P&A:**
-- Identifikasi dan pemisahan *sound asset* (aset sehat) dan *unsound asset* (aset bermasalah).
-- Pemisahan kewajiban yang dapat dialihkan dan yang tidak dapat dialihkan.
-- LPS menetapkan jenis/kriteria aset yang dialihkan:
-  - Aset dengan kualitas lancar atau dalam perhatian khusus, tidak dalam sengketa/disita/dijaminkan.
-  - Aset tetap dan inventaris.
-  - Aset tak berwujud yang dimanfaatkan.
-  - Aset agunan dari kewajiban yang dialihkan.
-- LPS membayar selisih antara nilai aset dan nilai kewajiban yang dialihkan.
+**Cara Kerja:**
+1. Bank mengalami permasalahan solvabilitas — tidak mampu memenuhi kewajiban keuangan.
+2. Kewajiban kepada pemegang obligasi atau kreditur dikonversi menjadi ekuitas (saham).
+3. Para kreditur tidak lagi mendapat uang kembali, tetapi menjadi pemegang saham bank.
+4. Struktur modal bank diperkuat tanpa menggunakan uang negara.
 
-**2. Bridge Bank (Bank Perantara)**
-LPS mendirikan bank baru sebagai penampung sementara aset, kewajiban, dan operasional bank sistemik yang bermasalah.
+**CoCos (Contingent Convertible Securities):**
+CoCos adalah surat utang yang diterbitkan bank yang mengandung klausul dapat dikonversi menjadi modal. Umumnya tidak memiliki masa jatuh tempo (*perpetual*). Konversi terjadi ketika pemicu tertentu (*pre-specified trigger*) terlampaui:
+- *Capital-based trigger:* Misalnya CAR turun di bawah ambang tertentu.
+- *Market-based trigger:* Misalnya harga saham bank jatuh di bawah level tertentu.
 
-> [!NOTE]
-> **Pengecualian UU PT:** Dalam pendirian Bridge Bank, ketentuan UU PT yang mewajibkan PT didirikan oleh minimal 2 orang **tidak berlaku**. LPS dapat menjadi satu-satunya pendiri dan pemegang saham.
+CoCos termasuk instrumen **Additional Tier 1 (AT1)** atau **Tier 2 Capital** dalam kerangka Basel III, memungkinkan bank memperkuat modal tanpa penerbitan saham baru.
 
-**Langkah Bridge Bank:**
-- LPS telah menyiapkan entitas perbankan berizin namun belum beroperasi.
-- Saat bank sistemik bermasalah, seluruh operasional dialihkan ke Bridge Bank.
-- Pemisahan *sound asset* dan *unsound asset*; kewajiban yang dapat dialihkan dan tidak dapat dialihkan.
-- Bridge Bank mendapat setoran modal dari LPS.
-- Setelah Bridge Bank sehat, dijual kepada pihak ketiga dengan *recovery rate* optimal.
-- Badan hukum Bridge Bank dibubarkan setelah seluruh aset dan kewajiban terjual.
-- *Unsound asset* dan kewajiban tidak teralihkan dilelang, hasilnya menutup biaya LPS.
+**Persamaan dan Perbedaan Bail-In vs Bail-Out:**
 
-**3. Penyertaan Modal Sementara (PMS)**
-LPS menyuntikkan modal ke dalam bank sistemik (mengambil alih kepemilikan) untuk sementara waktu hingga bank sehat kembali.
-
-**Karakteristik PMS:**
-- LPS menguasai, mengelola, dan melakukan tindakan kepemilikan atas aset bank.
-- LPS dapat menjual/ mengalihkan aset tanpa persetujuan debitur/kreditur.
-- LPS dapat melakukan merger, konsolidasi, atau pengalihan manajemen.
-- Jangka waktu PMS: paling lama **3 tahun** (sebelumnya 5 tahun, diperpendek oleh P2SK) untuk melakukan *divestasi* (menjual kembali saham LPS).
-- Seluruh biaya yang dikeluarkan LPS merupakan penyertaan modal sementara yang harus dikembalikan melalui divestasi.
-
-*Contoh historis:* Bank Century (2008) – LPS melakukan bail-out Rp 6,7 triliun dan mengambil alih kepemilikan, kemudian menjadi Bank Mutiara, kemudian dijual ke JTrust (Jepang) dengan nilai Rp 4 triliun. Selisih defisit dianggap biaya penanganan krisis.
-
-#### 14.7 Bail-in vs. Bail-out vs. Blanket Guarantee
-
-> [!IMPORTANT]
-> **Bail-in** (Pasal 21 UU PPKSK):
-> - Kerugian bank ditanggung secara internal oleh pemegang saham, pemegang obligasi, dan kreditur.
-> - Utang dikonversi menjadi saham (ekuitas).
-> - Nasabah kecil (simpanan di bawah nilai yang dijamin LPS) tidak terkena bail-in.
-> - Tujuan: menghindari penggunaan uang negara (*bail-out*).
-
-> [!IMPORTANT]
-> **Bail-out** (Pasal 55-59 UU PPKSK):
-> - Upaya penyelamatan bank menggunakan dana pemerintah (APBN).
-> - Hanya dalam situasi darurat sistemik dan harus mendapat persetujuan DPR.
-> - Dihindari karena: (1) *Moral hazard*, (2) Ketidakadilan ("privatize profits, socialize losses"), (3) Mengganggu kompetisi wajar.
->
-> *Pengecualian:* Perppu No. 1/2020 tentang Kebijakan Keuangan Negara untuk Penanganan COVID-19 mengizinkan *bail-out* dan pembelian surat berharga negara oleh BI (quantitative easing) dalam konteks pandemi.
+| Aspek | Bail-In | Bail-Out |
+|---|---|---|
+| Sumber dana | Internal (pemegang saham, kreditur) | Eksternal (pemerintah/uang negara) |
+| Waktu pelaksanaan | Setelah bank gagal/FOTL/PoNV | Setelah bank gagal/darurat sistemik |
+| Persetujuan DPR | Tidak perlu | Wajib |
+| Moral hazard | Lebih rendah | Lebih tinggi |
+| Beban pada publik | Tidak langsung | Langsung (pajak rakyat) |
+| Pilihan utama | Ya (UU P2SK) | Tidak (pilihan terakhir) |
+| Contoh | Konversi obligasi → saham | Bank Century 2008 |
 
 > [!NOTE]
-> **Blanket Guarantee:** Pada masa krisis (misalnya krisis moneter 1998), pemerintah memberikan jaminan tak terbatas atas seluruh kewajiban bank. Ini berbeda dengan penjaminan LPS yang terbatas hingga Rp 2 miliar per nasabah per bank.
+> **FOTL (Failing or Likely to Fail)** dan **PoNV (Point of Non-Viability):** Kedua konsep ini menjadi titik trigger pelaksanaan bail-in maupun bail-out. Bank dianggap FOTL atau mencapai PoNV ketika sudah tidak mampu beroperasi secara mandiri dan kondisinya tidak dapat diperbaiki tanpa intervensi luar.
 
 #### 14.8 Fly to Quality
 
-**Fly to quality** adalah fenomena di mana investor/nasabah memindahkan dananya dari aset berisiko tinggi ke aset yang dianggap lebih aman sebagai respons terhadap ketidakpastian ekonomi atau krisis keuangan.
+Fly to quality adalah fenomena pasar di mana investor **memindahkan dananya dari aset berisiko tinggi ke aset yang lebih aman** (*safe haven*), sebagai respons terhadap ketidakpastian ekonomi atau krisis keuangan.
 
-**Dalam konteks perbankan:**
-- Saat ada rumor kebangkrutan bank, nasabah menarik dana dari bank kecil/berisiko.
-- Dana dipindahkan ke bank besar yang dianggap lebih stabil (SIB) atau ke instrumen yang dijamin pemerintah (obligasi negara, SBN).
-- Hal ini dapat memperburuk krisis dengan menciptakan *bank run* pada bank yang dianggap lemah.
+**Mengapa Fenomena Ini Terjadi:**
+- Krisis perbankan atau pasar menyebabkan kepercayaan investor menurun.
+- Instrumen berisiko (saham, obligasi korporasi) nilainya jatuh.
+- Investor mencari "tempat berlindung": obligasi pemerintah, emas, mata uang stabil (USD, CHF).
 
-**Contoh:** Krisis keuangan global 2008 – investor menjual saham dan membeli obligasi pemerintah AS. Pandemi COVID-19 awal 2020 – fenomena serupa terjadi.
+**Dampak pada Perbankan:**
+Dalam kondisi krisis kepercayaan (misalnya rumor kebangkrutan bank), nasabah/investor menarik dana dari bank kecil/berisiko dan memindahkannya ke bank yang lebih besar atau lebih stabil. Ini dapat memperburuk krisis karena menciptakan **bank run** dari bank yang dianggap lemah.
 
-#### 14.9 Koordinasi Makroprudensial dan Mikroprudensial
+**Contoh Nyata:**
+- Krisis global 2008: investor menjual saham dan obligasi swasta, membeli SBN AS dan emas.
+- Pandemi COVID-19 awal 2020: fly to quality menyebabkan arus masif ke aset aman.
 
-BI, OJK, dan LPS melakukan koordinasi kebijakan makroprudensial, mikroprudensial, dan penanganan permasalahan bank melalui mekanisme forum koordinasi.
+#### 14.9 Penanganan Bank Bermasalah oleh LPS
 
-**Pemeriksaan bersama:**
-- Jika ditemukan potensi permasalahan bank, OJK bersama BI dan/atau LPS dapat melakukan pemeriksaan bersama sebagai langkah antisipatif dan/atau penanganan permasalahan bank.
+**Mekanisme Penanganan Bank Sistemik oleh LPS (Pasal 22 UU P2SK):**
 
-**Peran masing-masing dalam krisis:**
-- **BI:** Kebijakan moneter, makroprudensial, lender of last resort (PLJP).
-- **OJK:** Pengawasan mikroprudensial, penetapan status bank, pencabutan izin usaha.
-- **LPS:** Penjaminan simpanan, resolusi bank, penanganan bank gagal.
-- **KSSK:** Koordinasi lintas sektor, rekomendasi status krisis ke Presiden.
+```mermaid
+graph TD
+    A["OJK menetapkan Bank</br>Sistemik sebagai</br>Bank Dalam Resolusi"] --> B["KSSK diinformasikan"]
+    B --> C{"Pilihan Mekanisme"}
+    C --> D["Purchase &</br>Assumption (P&A)"]
+    C --> E["Bridge Bank</br>(Bank Perantara)"]
+    C --> F["Penyertaan Modal</br>Sementara (PMS)"]
+    D --> G["Bank penerima</br>mengambil alih aset &</br>kewajiban yang sehat"]
+    E --> H["LPS mendirikan bank baru</br>untuk mengambil alih</br>operasional sementara"]
+    F --> I["LPS menyuntikkan modal</br>sementara ke bank sistemik"]
+    G --> J["LPS mencabut izin</br>bank sistemik bermasalah"]
+    H --> J
+    I --> K["Setelah sehat: dijual</br>ke pihak ketiga (divestasi)"]
+```
 
-#### 14.10 Perubahan Status Bank dalam Resolusi dan Likuidasi
+#### 14.10 Purchase and Assumption (P&A)
 
-**Pencabutan Izin Usaha:**
-- **OJK** yang berwenang mencabut izin usaha bank (Pasal 38 UU OJK jo. Pasal 23 ayat (1) UU PPKSK).
-- Pencabutan dilakukan setelah LPS menyatakan bahwa resolusi tidak dapat dilakukan dan bank akan dilikuidasi.
+**Dasar Hukum:** Pasal 22 ayat (1) huruf (a) UU PPKSK jo. UU P2SK.
 
-**Likuidasi Bank:**
-- Dilaksanakan oleh **Tim Likuidasi** yang dibentuk LPS.
-- Urutan pembayaran kewajiban (Pasal 54 ayat (2) UU LPS jo. P2SK):
-  1. Biaya likuidasi
-  2. Gaji dan hak pegawai (paling lama 3 bulan sebelum pencabutan izin)
-  3. Simpanan yang dijamin LPS (maks Rp 2 miliar per nasabah)
-  4. Sisa simpanan nasabah tidak dijamin LPS
-  5. Kewajiban lain kepada kreditur konkuren
-  6. Kewajiban subordinasi
-  7. Pemegang saham (jika ada sisa kekayaan)
+**Tujuan:** Mempertahankan kesinambungan fungsi dan pelayanan bank sistemik yang berpotensi menimbulkan dampak sistemik.
 
-**Sengketa dalam Likuidasi:**
-- Gugatan terhadap tindakan/keputusan LPS dalam likuidasi diajukan ke **Pengadilan Negeri Jakarta Pusat** (Pasal 56 UU LPS).
-- Gugatan **tidak menangguhkan** proses likuidasi.
+**Mekanisme:**
+1. LPS mengidentifikasi dan memisahkan **aset bermasalah (unsound asset)** dengan **aset yang masih baik (sound asset)**.
+2. Sisi kewajiban dipisahkan antara kewajiban yang dapat dialihkan dan yang tidak.
+3. *Sound asset* dan kewajiban yang dapat dialihkan berpindah ke bank penerima (acquiring bank).
+4. Bank penerima menerima pembayaran dari LPS atas selisih kurang antara nilai aset dan kewajiban yang dialihkan.
+
+**Jenis dan Kriteria Aset yang Dapat Dialihkan:**
+- Aset berkualitas Lancar atau Dalam Perhatian Khusus; tidak dalam sengketa/disita/dijaminkan.
+- Aset tetap dan inventaris untuk kegiatan usaha bank.
+- Aset tak berwujud untuk kegiatan usaha bank.
+- Aset yang menjadi agunan dari kewajiban yang dialihkan.
+- Aset lain yang ditetapkan LPS.
+
+**Jenis dan Kriteria Kewajiban yang Dapat Dialihkan:**
+- Simpanan nasabah penyimpan, termasuk simpanan dari bank lain.
+- Pinjaman yang diterima dari bank lain dalam bentuk PUAB, kecuali yang dijamin dengan aset bank.
+
+**Kewenangan LPS dalam P&A:**
+- Menetapkan jenis dan kriteria aset dan kewajiban yang dialihkan.
+- Mengalihkan kewajiban bank sistemik ke bank penerima **tanpa persetujuan kreditur, debitur, dan/atau pihak lain**.
+- Melakukan pembayaran kepada bank penerima atas selisih kurang.
+
+#### 14.11 Bridge Bank (Bank Perantara)
+
+**Dasar Hukum:** Pasal 22 ayat (1) huruf (b) dan Pasal 25 UU No. 9/2016 jo. UU P2SK.
+
+**Pengertian:**
+Bank Perantara adalah bank baru yang sengaja didirikan dan dimiliki sendiri oleh LPS untuk mengambil alih aset, kewajiban, dan operasional bank sistemik yang mengalami kesulitan solvabilitas berkelanjutan. Bridge bank adalah bentuk kepemilikan **sementara** Bank Sistemik yang bermasalah oleh LPS untuk dilakukan restrukturisasi, kemudian dijual kepada bank atau pihak lain yang sehat.
+
+**Mekanisme Bridge Bank:**
+1. LPS mendirikan bank baru (bridge bank) yang telah memiliki perizinan dan pendukung operasional namun **belum beroperasi**.
+2. Saat bank sistemik ditetapkan bermasalah, LPS melakukan pemantauan sambil mencari calon investor.
+3. Pada waktunya, bank sistemik diambil alih — seluruh operasional berpindah ke bridge bank.
+4. Dari neraca bank sistemik, dilakukan pemisahan: *sound asset* + kewajiban yang dapat dialihkan → bridge bank; *unsound asset* + kewajiban yang tidak dapat dialihkan → dilelang.
+5. *Sound asset* dan kewajiban yang dapat dialihkan (setelah valuasi fair value) masuk ke neraca bridge bank. LPS menyetor modal kepada bridge bank.
+6. Setelah bridge bank sehat, dijual kepada pihak ketiga dengan *recovery rate* optimal.
+7. Badan hukum bridge bank dibubarkan oleh LPS setelah seluruh aset dan kewajibannya terjual.
+
+**Pengecualian UU PT:** Pendirian Bridge Bank oleh LPS dikecualikan dari ketentuan UU No. 40/2007 tentang PT yang mewajibkan PT didirikan oleh minimal dua orang (Pasal 25 ayat (2) UU P2SK).
+
+**Proses Pemberian Izin Bridge Bank oleh OJK (Pasal 25 ayat (3) UU P2SK):**
+1. Persetujuan Prinsip: mencakup anggaran dasar; modal disetor; dan organisasi.
+2. Izin Usaha: susunan organisasi; rencana tindak (jadwal pengalihan, pemenuhan SDM, migrasi infrastruktur).
+
+**Selisih Recovery Rate:**
+Selisih antara *recovery rate* bridge bank dan total kewajiban menjadi **kerugian LPS** (kerugian negara) akibat penanganan bank sistemik.
+
+*Contoh historis:* Bank Century (2008) — LPS bail out Rp 6,7 triliun; kemudian bank diubah menjadi Bank Mutiara (model PMS). Akhirnya dibeli oleh J Trust (Jepang) seharga Rp 4 triliun. Defisit = biaya penanganan krisis.
+
+#### 14.12 Penyertaan Modal Sementara (PMS) / Open Bank Assistance
+
+**Mekanisme:**
+PMS adalah tindakan penyelamatan oleh LPS dengan menyuntikkan modal ke bank sistemik bermasalah (dengan atau tanpa partisipasi pemegang saham) agar bank dapat segera memenuhi kewajiban permodalan minimum dan tingkat kesehatan.
+
+**Cara Kerja:**
+- LPS menyuntikkan sejumlah besar kas ke neraca bank sistemik untuk meningkatkan CAR hingga ≥8%.
+- Suntikan kas ini menyebabkan kepemilikan atas bank mayoritas dipegang oleh LPS, namun secara operasional bank tetap entitas yang sama.
+- Setelah bank sehat, saham LPS harus dijual kembali (divestasi) paling lama **3 tahun** (dapat diperpanjang 1+1 tahun = total 5 tahun dalam kondisi tertentu).
+
+**Kewenangan LPS dalam PMS:**
+1. Menguasai, mengelola, dan melakukan tindakan kepemilikan atas aset dan hak bank.
+2. Menjual atau mengalihkan aset bank **tanpa persetujuan Nasabah Debitur** dan kewajiban bank tanpa persetujuan Nasabah Kreditur.
+3. Melakukan penyertaan modal sementara.
+4. Mengalihkan manajemen bank kepada pihak lain.
+5. Melakukan merger atau konsolidasi dengan bank lain.
+6. Melakukan pengalihan kepemilikan bank.
+7. Meninjau ulang, membatalkan, mengakhiri, dan/atau mengubah kontrak bank yang merugikan bank.
+
+**LPS dan Quantitative Easing:**
+UU P2SK mengizinkan LPS menanamkan modal di bank, sekaligus sebagai instrumen stimulasi aktivitas ekonomi perbankan dan quantitative easing.
+
+#### 14.13 Koordinasi KSSK dalam Penanganan Krisis
+
+**Proses Koordinasi Makroprudensial, Mikroprudensial, dan Penanganan Bank:**
+
+BI, OJK, dan LPS melakukan koordinasi melalui **forum koordinasi** berdasarkan mekanisme yang ditetapkan. Pemeriksaan bersama dapat dilakukan sebagai langkah antisipatif dan/atau penanganan permasalahan bank.
+
+**Alur Koordinasi Penanganan Bank Sistemik Bermasalah:**
+
+```mermaid
+graph TD
+    A["OJK menemukan</br>Bank Sistemik memburuk"] --> B["OJK beritahu LPS:</br>persiapkan penanganan</br>solvabilitas Bank"]
+    B --> C["LPS lakukan due diligence</br>& cari calon investor"]
+    C --> D{"Apakah OJK dan LPS</br>dapat selesaikan?"}
+    D -->|Ya| E["Bank disehatkan"]
+    D -->|Tidak| F["OJK minta rapat KSSK"]
+    F --> G["KSSK koordinasi langkah</br>Menkeu, Gub BI, Ketua DK OJK"]
+    G --> H["KSSK serahkan bank</br>ke LPS untuk resolusi"]
+    H --> I["LPS pilih mekanisme:</br>P&A / Bridge Bank / PMS"]
+    I --> J["LPS minta OJK</br>cabut izin usaha bank"]
+    J --> K["Likuidasi bank"]
+```
+
+**Penjualan SBN LPS kepada BI:**
+Dalam situasi krisis, untuk membiayai penanganan bank sistemik, LPS dapat menjual Surat Berharga Negara (SBN) yang dimilikinya kepada Bank Indonesia. Keputusan ini ditetapkan oleh KSSK.
+
+**Laporan LPS kepada KSSK:**
+LPS menyampaikan laporan kepada KSSK mengenai pelaksanaan tindakan resolusi kepada Bank Sistemik **satu kali setiap 6 bulan** atau sewaktu-waktu jika diperlukan.
+
+#### 14.14 Penanganan dalam Kondisi Krisis Sistem Keuangan
+
+**Aktivasi Status Krisis:**
+Diputuskan oleh Presiden berdasarkan rekomendasi KSSK. Presiden mengaktifkan **Program Restrukturisasi Perbankan (PRP)** dalam kondisi krisis yang membahayakan perekonomian nasional.
+
+**Dalam Kondisi Krisis:**
+1. Penanganan dilakukan terhadap **seluruh bank** — baik permasalahan likuiditas maupun solvabilitas (Pasal 37 ayat (1) dan (2)).
+2. Mekanisme penanganan krisis ditentukan oleh Presiden.
+
+**Penanganan Permasalahan Likuiditas Bank Sistemik (Pasal 20):**
+- **PLJP (Pinjaman Likuiditas Jangka Pendek)** dari BI — untuk bank yang masih solven namun kesulitan likuiditas.
+- Dasar: BI sebagai *lender of the last resort*.
+
+**Blanket Guarantee:**
+Dalam kondisi krisis yang sangat berat, pemerintah dapat menjamin seluruh kewajiban bank (blanket guarantee) — seluruh kewajiban bank dijamin oleh pemerintah jika bank tidak mampu membayar. Instrumen terakhir, memerlukan persetujuan DPR.
+
+#### 14.15 Pengelola Statuter
+
+Pengelola statuter adalah pihak yang ditunjuk OJK saat bank mengalami kesulitan atau dalam penyehatan. Pengelola statuter berwenang untuk:
+1. Mengambil alih **seluruh wewenang dan fungsi direksi dan dewan komisaris**.
+2. Mengendalikan dan mengelola kegiatan usaha bank sesuai ketentuan.
+3. Membatalkan/mengakhiri perjanjian bank dengan pihak ketiga yang merugikan.
+4. Melakukan pengalihan sebagian/seluruh portofolio kekayaan yang dapat mencegah kerugian lebih besar.
+
+#### 14.16 Prosedur Likuidasi Bank
+
+Saat bank ditetapkan sebagai Bank Dalam Resolusi dan tidak dapat disehatkan:
+1. **OJK** mencabut izin usaha bank setelah menerima pemberitahuan dari LPS bahwa resolusi tidak dapat dilakukan.
+2. **LPS** memutuskan pembubaran badan hukum bank dan menunjuk **Tim Likuidasi**.
+3. Tim Likuidasi menghitung aset dan kewajiban.
+4. Pembayaran dilakukan sesuai **urutan prioritas** (dibahas di bagian 6.4).
+
+**Pengadilan yang Berwenang dalam Sengketa Likuidasi:**
+Berdasarkan Pasal 56 UU LPS — sengketa dalam proses likuidasi bank diselesaikan di **Pengadilan Negeri**, khususnya gugatan terhadap tindakan/keputusan LPS dalam likuidasi diajukan ke **Pengadilan Negeri Jakarta Pusat**. Gugatan tidak menangguhkan proses likuidasi yang sedang berjalan.
 
 **Pertanggungjawaban Direksi, Komisaris, dan Pemegang Saham:**
-- **Secara perdata:** Pasal 97(3) UUPT (direksi bertanggung jawab atas kerugian karena kesalahan/kelalaian); Pasal 114(3) UUPT (komisaris jika lalai mengawasi).
-- **Secara pidana:** UU Tipikor (jika ada unsur korupsi); Pasal 49-50 UU Perbankan.
-- **LPS** berwenang menuntut pihak yang menyebabkan bank gagal (Pasal 50-51 UU LPS).
-- **Pemegang saham pengendali (PSP)** dapat dimintai tanggung jawab hingga harta pribadi jika terbukti menyebabkan kepailitan (*piercing the corporate veil*).
+Berdasarkan Pasal 50-51 UU LPS jo. UU P2SK, UUPT (Pasal 97 dan 114), dan UU Tipikor:
+- LPS berwenang menuntut pihak yang menyebabkan bank gagal.
+- Direksi bertanggung jawab atas kerugian akibat kesalahan/kelalaian (Pasal 97 ayat (3) UUPT).
+- Komisaris juga dapat dimintai tanggung jawab jika lalai mengawasi (Pasal 114 ayat (3) UUPT).
+- Jika ada unsur korupsi, penanggung jawab dapat dituntut pidana berdasarkan UU Tipikor.
+- Pemegang saham dapat dimintai pertanggungjawaban hingga harta pribadi jika terbukti menyebabkan kerugian (*piercing the corporate veil*).
+
+---
+
+### 15. Rangkuman Analisis Kasus
+
+#### 15.1 Kasus PT Q — Bank IAG (Kredit untuk Proyek di Luar Negeri)
+
+**Fakta Singkat:**
+S (Direktur Utama PT Q), bersama H (perwira TNI), mengajukan kredit USD 30 juta kepada Bank IAG melalui TT (Direktur Bank IAG). Kredit disetujui dengan jaminan gadai saham, personal guarantee (termasuk H), dan konsesi tambang. Dalam akta, H tercatat sebagai "swasta" bukan "TNI aktif." Kredit macet; S meminta H mengambil alih saham dan konsesi. H diadili di Pengadilan Militer atas penggelapan dan pemalsuan.
+
+**Permasalahan Hukum:**
+
+| No. | Permasalahan | Dasar Hukum |
+|---|---|---|
+| 1 | Pemalsuan identitas H sebagai "swasta" dalam akta notaris | Pasal 263 KUHP (pemalsuan surat) |
+| 2 | Pelanggaran disiplin militer — H terlibat bisnis sipil | Pasal 39 huruf c UU No. 34/2004 tentang TNI |
+| 3 | Kelalaian Bank IAG dalam due diligence (kredit tidak sesuai tujuan perusahaan) | Pasal 8 dan 29 UU No. 10/1998 tentang Perbankan |
+| 4 | Pengalihan saham tanpa prosedur sah | Pasal 60 ayat (3) UU No. 40/2007 tentang PT |
+| 5 | Penyimpangan tujuan kredit (bukan untuk tambang batu bara) | Prinsip kehati-hatian, Pasal 8 UU Perbankan |
+
+**Apakah Bank IAG Dapat Memberikan Kredit untuk Proyek Luar Negeri?**
+Secara umum tidak diperbolehkan tanpa izin khusus, terutama jika: (a) tidak sesuai kegiatan usaha debitur; (b) tidak melalui prosedur izin regulator; (c) tanpa pengelolaan risiko memadai. Sanksi: teguran tertulis OJK, pembatasan kegiatan usaha, pencabutan izin (Pasal 52 & 54 UU Perbankan), serta pertanggungjawaban pidana pejabat bank jika ada indikasi pelanggaran pidana.
+
+**Pertanggungjawaban H:**
+- *Pidana:* Pemalsuan identitas (Pasal 263 KUHP) + pelanggaran hukum militer (Pasal 39(c) UU TNI) → diadili Pengadilan Militer.
+- *Perdata:* Sebagai penjamin (personal guarantee), H dapat diminta menanggung utang PT Q; namun perjanjian dapat cacat hukum karena didasari data palsu.
+
+#### 15.2 Kasus Bank BRX — Kredit Fiktif KUR Mikro
+
+**Fakta Singkat:**
+AH (Kepala Cabang Pembantu), AL (Marketing Manager), dan SY (Customer Service) PT BRX Tbk merekayasa pemberian KUR Mikro kepada 338 debitur fiktif (2017-2020), mengakibatkan kerugian BRX Rp 11,58 miliar. KTP/KK dikumpulkan dengan iming-iming "bantuan" palsu. Dana dicairkan ke rekening penampungan, lalu ke rekening pribadi, digunakan untuk membeli rumah, kendaraan, dan deposito.
+
+**Peraturan yang Dilanggar:**
+
+| Ketentuan | Delik |
+|---|---|
+| Pasal 263 KUHP | Pemalsuan surat (berkas kredit fiktif) |
+| Pasal 264 ayat (1) ke-5 KUHP | Pemalsuan akta otentik |
+| Pasal 362 KUHP | Pencurian (mengambil dana bank secara melawan hukum) |
+| Pasal 49 ayat (2) huruf b UU Perbankan | Penyalahgunaan wewenang pegawai bank yang merugikan bank |
+| Pasal 2 ayat (1) dan Pasal 3 UU No. 31/1999 jo. UU No. 20/2001 (Tipikor) | Korupsi — memperkaya diri, merugikan keuangan negara (BUMN) |
+
+**Apakah Kerugian BRX Merupakan Kerugian Negara?**
+Ya, karena PT BRX merupakan BUMN (sebagian besar modal berasal dari kekayaan negara yang dipisahkan). Dasar: Pasal 1 angka 1 UU No. 19/2003 tentang BUMN; Pasal 2(g) UU No. 17/2003 tentang Keuangan Negara; Putusan MK No. 48/PUU-XI/2013. Oleh karena itu, perbuatan AH, SY, dan AL dapat dijerat sebagai tindak pidana korupsi.
+
+**Apakah Dana Hasil Kredit Fiktif termasuk TPPU?**
+Ya — dana yang diperoleh dari kejahatan (kredit fiktif = tindak pidana perbankan/korupsi) kemudian digunakan untuk membeli rumah, kendaraan, dan deposito, termasuk tahap **integration** dalam money laundering. Perbuatan ini dapat dijerat dengan Pasal 3 dan/atau Pasal 5 UU No. 8/2010 tentang TPPU.
+
+**Dalil Pembelaan yang Dapat Diajukan Penasihat Hukum:**
+1. Prinsip ultimum remedium — pidana sebagai upaya terakhir; ajukan penyelesaian administratif dulu.
+2. Tidak terpenuhinya unsur kesengajaan (mens rea) untuk SY dan AL yang hanya menjalankan perintah.
+3. Proporsionalitas pertanggungjawaban — peran masing-masing berbeda; AH sebagai aktor intelektual.
+4. Itikad baik pengembalian kerugian — dapat menjadi dasar keringanan.
+5. Kerugian BRX adalah kerugian korporasi (BUMN), bukan APBN langsung — mereduksi tuntutan Pasal 2/3 Tipikor.
+
+---
+
+### 16. Kebijakan Perkreditan Bank (POJK No. 42 Tahun 2017)
+
+#### 16.1 Pedoman Kebijakan Perkreditan Bank
+
+POJK No. 42/POJK.03/2017 tentang Kewajiban Penyusunan dan Pelaksanaan Kebijakan Perkreditan atau Pembiayaan Bank bagi Bank Umum mengatur:
+
+**1. Prinsip Kehati-hatian dalam Perkreditan:**
+- Kebijakan pokok perkreditan yang sehat.
+- Tata cara penilaian kualitas kredit.
+- Profesionalisme dan integritas pejabat kredit.
+- Kredit kepada pihak terkait.
+- Pemberian kredit yang perlu dihindari.
+
+**2. Organisasi dan Manajemen Kredit:**
+- Pengendalian intern dalam proses perkreditan.
+- Komite Kebijakan Perkreditan dan Komite Kredit.
+- Tugas dan wewenang Direksi serta Komisaris dalam perkreditan.
+
+**3. Kebijakan Persetujuan Kredit:**
+- Persetujuan kredit mempertimbangkan konsep hubungan total pemohon.
+- Proses persetujuan kredit, mulai permohonan, rekomendasi, hingga persetujuan pencairan.
+- Perjanjian kredit sebagai dokumen legal.
+
+**4. Dokumentasi dan Administrasi Kredit:**
+- Seluruh kredit harus dicatat dan dibukukan secara benar.
+- Administrasi kredit harus mengandung unsur pengendalian intern.
+- Penyusunan statistik perkreditan.
+
+**5. Pengawasan Kredit:**
+- Mengawasi pelaksanaan kredit sesuai Kebijakan Perkreditan Bank (KPB).
+- Memantau penilaian kolektibilitas.
+- Melakukan pembinaan kepada debitur.
+- Memantau kecukupan PPAP (Penyisihan Penghapusan Aktiva Produktif).
+
+**6. Penyelesaian Kredit Bermasalah:**
+- *Rescheduling* — penjadwalan ulang.
+- *Reconditioning* — persyaratan ulang.
+- *Restructuring* — penataan ulang secara komprehensif.
 
 ---
 
