@@ -308,16 +308,16 @@ Semua pihak dalam L/C bertindak berdasarkan itikad baik. Fraud exception: jika b
 
 ```mermaid
 graph LR
-    A["Importir<br>(Applicant)"] -->|"1. Sales Contract"| B["Eksportir<br>(Beneficiary)"]
-    A -->|"2. Permohonan buka L/C"| C["Issuing Bank"]
-    C -->|"3. Menerbitkan L/C"| D["Advising Bank<br>(Correspondent Bank)"]
-    D -->|"4. Meneruskan L/C"| B
-    B -->|"5. Kirim barang"| A
-    B -->|"6. Serahkan dokumen"| D
-    D -->|"7. Verifikasi dokumen &"<br>"teruskan ke Issuing Bank"| C
-    C -->|"8. Verifikasi kedua &"<br>"serahkan dokumen ke Importir"| A
-    C -->|"9. Pembayaran ke Advising Bank"| D
-    D -->|"10. Pembayaran ke Eksportir"| B
+    A["Importir<br>(Applicant)"] -->|1 - Sales Contract| B["Eksportir<br>(Beneficiary)"]
+    A -->|2 - Permohonan buka L/C| C["Issuing Bank"]
+    C -->|3 - Menerbitkan L/C| D["Advising Bank<br>(Correspondent Bank)"]
+    D -->|4 - Meneruskan L/C| B
+    B -->|5 - Kirim barang| A
+    B -->|6 - Serahkan dokumen| D
+    D -->|7 - Verifikasi dokumen &<br>teruskan ke Issuing Bank| C
+    C -->|8 - Verifikasi kedua &<br>serahkan dokumen ke Importir| A
+    C -->|9 - Pembayaran ke Advising Bank| D
+    D -->|10 - Pembayaran ke Eksportir| B
 ```
 
 **Langkah-langkah:**
