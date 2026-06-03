@@ -349,11 +349,21 @@ Aksi Korporasi adalah tindakan emiten/perusahaan publik atau peristiwa tertentu 
 - Jika tidak digunakan, dapat ditawarkan ke pihak ketiga
 
 **Pengecualian HMETD (Pasal 43 ayat (3) UU PT):**
-1. Ditujukan kepada karyawan perseroan (ESOP/MSOP)
+Pengesampingan HMETD berarti saham baru yang diterbitkan oleh perseroan tidak wajib terlebih dahulu ditawarkan secara proporsional kepada seluruh pemegang saham yang sudah ada. Dengan kata lain, perseroan dapat langsung menerbitkan saham kepada pihak tertentu tanpa memberikan kesempatan kepada pemegang saham eksisting untuk membeli saham tersebut terlebih dahulu.
+
+>[!NOTE]Dalam kondisi normal, ketika perseroan melakukan penambahan modal melalui penerbitan saham baru, setiap pemegang saham memiliki Hak Memesan Efek Terlebih Dahulu (HMETD) untuk mempertahankan persentase kepemilikannya. Misalnya, jika seorang pemegang saham memiliki 10% saham perusahaan, ia berhak membeli sebagian saham baru agar porsi kepemilikannya tetap sekitar 10%.
+
+Tujuannya adalah:
+1. Ditujukan kepada karyawan perseroan (**ESOP:** *Employee Stock Ownership Program*) / **MSOP:** *Management Stock Option Program*)
 2. Ditujukan kepada pemegang obligasi/efek konversi (dengan persetujuan RUPS)
 3. Dalam rangka reorganisasi/restrukturisasi (dengan persetujuan RUPS)
 
-**Penambahan Modal Tanpa HMETD (POJK 14/2019):**
+**Penambahan Modal Tanpa HMETD (PMTHMETD) / *Private Placement* - (POJK 14/2019):**
+Private placement adalah metode penghimpunan modal di mana suatu perusahaan menerbitkan saham baru dan menjualnya secara langsung kepada pihak atau kelompok investor tertentu, tanpa melakukan penawaran kepada seluruh pemegang saham yang ada atau kepada publik secara luas. Berbeda dengan rights issue yang memberikan hak kepada seluruh pemegang saham eksisting untuk membeli saham baru, dalam private placement perusahaan dapat memilih investor yang akan menerima saham tersebut.
+
+Private placement memerlukan persetujuan pemegang saham melalui RUPS, keterbukaan informasi, serta ketentuan mengenai harga penerbitan saham agar transaksi tidak merugikan pemegang saham yang sudah ada.
+
+Tujuannya adalah:
 - Untuk perbaikan posisi keuangan (modal kerja bersih negatif, liabilitas >80% aset)
 - Untuk selain perbaikan keuangan (maksimal 10% dari saham ditempatkan)
 - Penerbitan saham bonus
