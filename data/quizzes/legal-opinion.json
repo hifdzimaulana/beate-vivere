@@ -1,0 +1,342 @@
+{
+  "title": "Quiz Legal Opinion",
+  "category": "UAS",
+  "description": "55 soal Ujian Akhir Semester",
+  "difficulty": "medium",
+  "tags": [
+    "legal-opinion",
+    "not-100%-accurate"
+  ],
+  "questions": [
+  {
+    "question": "Argumen hukum mencari apa yang benar (what is true).",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Argumen hukum bertujuan untuk mencari kebenaran dalam konteks hukum [1, 2]."
+  },
+  {
+    "question": "Kebenaran dalam argumentasi hukum merupakan kebenaran relatif.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Kebenaran dalam argumentasi hukum hanya berlaku pada saat tertentu atau kondisi tertentu (relatif) [2, 3]."
+  },
+  {
+    "question": "Kebenaran dalam argumentasi hukum merupakan kebenaran absolut.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Karena kebenaran hukum bersifat relatif, maka ia bukan merupakan kebenaran absolut [3]."
+  },
+  {
+    "question": "Proses langkah pertama suatu argumen hukum mulai dengan norma hukum (Rule).",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Langkah pertama dalam argumentasi hukum dimulai dengan identifikasi fakta, bukan norma [4]."
+  },
+  {
+    "question": "Proses suatu argumen hukum mulai dengan identifikasi semua fakta yang relevan.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Langkah awal (F dalam FIRAC) adalah mengidentifikasi fakta yang relevan [4]."
+  },
+  {
+    "question": "Argumentasi hukum merupakan suatu proses dari langkah pertama sampai dengan langkah C (Conclusion).",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Argumentasi mengikuti alur logis hingga mencapai kesimpulan akhir [5]."
+  },
+  {
+    "question": "Pada argumentasi dengan metodologi FIRAC, ada lima langkah yang harus diikuti secara berturut-turut.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "FIRAC terdiri dari Facts, Issue, Rule, Analysis, dan Conclusion [5]."
+  },
+  {
+    "question": "Fakta yang relevan dalam argumentasi hukum menentukan pertanyaan hukum yang relevan (F menentukan I).",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Perubahan pada fakta akan menyebabkan perubahan pada isu atau pertanyaan hukum yang muncul [5, 6]."
+  },
+  {
+    "question": "Fakta yang relevan dalam argumentasi hukum secara langsung menentukan R (norma hukum) yang relevan.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Fakta tidak langsung menentukan norma; harus melalui penentuan isu hukum (I) terlebih dahulu [6]."
+  },
+  {
+    "question": "Perbedaan pendapat hukum boleh didasarkan atas fakta yang berbeda asal analisis hukum yang sama.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Fakta yang berbeda pasti akan menimbulkan analisis hukum yang berbeda [7]."
+  },
+  {
+    "question": "Argumentasi hukum pada prinsipnya terdiri atas pertanyaan hukum dan jawaban atas pertanyaan hukum tersebut berupa konklusi, di mana pertanyaan ditentukan oleh fakta relevan dan konklusi hasil analisis.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Struktur argumentasi hukum menghubungkan fakta, isu, analisis, dan konklusi secara logis [8]."
+  },
+  {
+    "question": "Pada analisis hukum, kita terapkan fakta yang relevan terhadap syarat yang ditentukan oleh kaidah hukum yang relevan.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Analisis hukum (A) adalah proses 'menabrakkan' fakta ke dalam syarat-syarat norma hukum [8, 9]."
+  },
+  {
+    "question": "Menyimak dan memahami perspektif orang lain adalah keterampilan penting dalam legal reasoning.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Memahami perspektif lain membantu dalam membangun argumentasi yang lebih komprehensif [10]."
+  },
+  {
+    "question": "Konklusi dalam suatu argumen hukum harus mampu menjawab pertanyaan hukum yang bersangkutan.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Kesimpulan akhir (C) wajib menjawab isu hukum (I) yang diajukan di awal [10]."
+  },
+  {
+    "question": "Jawaban atas suatu pertanyaan hukum tidak boleh di antara 'ya' atau 'tidak' (misalnya 'mungkin').",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Konklusi hukum harus tegas antara ya atau tidak; jawaban 'tergantung' dianggap tidak canggih [10, 11]."
+  },
+  {
+    "question": "Kebenaran suatu argumentasi hukum sampai dengan konklusinya diperoleh dengan logika.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Logika adalah alat utama untuk mencapai kebenaran dalam argumentasi hukum [11]."
+  },
+  {
+    "question": "Kebenaran suatu argumentasi hukum sampai dengan konklusinya diperoleh dengan cara terlebih dahulu mencari dasar hukumnya.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Langkah pertama tetap harus fakta, tidak bisa langsung melompat ke dasar hukum [11, 12]."
+  },
+  {
+    "question": "Generalisasi adalah ciri penalaran deduktif.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Generalisasi adalah ciri khas penalaran induktif [12]."
+  },
+  {
+    "question": "Apabila suatu akibat hukum mempunyai pengecualian, maka analisis hukum langsung dapat menguji apakah syarat tambahan untuk pengecualian dipenuhi.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Analisis harus memeriksa pemenuhan unsur utama terlebih dahulu sebelum masuk ke pengecualian [12, 13]."
+  },
+  {
+    "question": "Pada penalaran deduktif, jika semua premis secara faktual benar, maka kesimpulan otomatis benar secara hukum.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Kesimpulan bisa logis secara faktual (misal: mencuri membuat kaya) tapi salah secara hukum karena dilarang [14]."
+  },
+  {
+    "question": "Metode berpikir deduktif adalah metode yang menerapkan hal-hal yang umum terlebih dahulu untuk kemudian dihubungkan dengan fakta nyata.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Deduktif bergerak dari norma umum ke kasus/fakta khusus [14]."
+  },
+  {
+    "question": "Contoh penalaran yang menyatakan 'Burung elang dan merpati bisa terbang, penguin adalah burung, maka penguin bisa terbang' adalah penalaran deduktif.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Ini adalah contoh penalaran induktif yang cacat, bukan deduktif [14, 15]."
+  },
+  {
+    "question": "Pernyataan 'Setiap hari Jumat di Jakarta macet, hari ini Jumat, maka hari ini macet' merupakan penalaran deduktif.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Ini adalah penalaran induktif yang mencoba 'dijual' sebagai deduktif, karena tidak selalu macet setiap Jumat [15-17]."
+  },
+  {
+    "question": "Dalam konteks FIRAC, yang dimaksud dengan Rule bukan kaidah hukum relevan sehubungan dengan fakta, melainkan peraturan perundang-undangan yang berlaku secara umum.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Rule merujuk pada norma hukum atau peraturan perundang-undangan yang berlaku umum [17]."
+  },
+  {
+    "question": "Walaupun sistem hukum di dunia berbeda, prinsip logika hukum pada prinsipnya adalah sama.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Prinsip logika tetap universal meski sistem hukum (Common Law vs Civil Law) berbeda [18]."
+  },
+  {
+    "question": "Walaupun peraturan perundang-undangan sewaktu-waktu berubah, prinsip logika hukum tidak ikut berubah.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Prinsip logika bersifat tetap dan tidak bergantung pada perubahan regulasi [18]."
+  },
+  {
+    "question": "Apabila kita ingin membantah argumen hukum pihak ketiga secara efektif, kita membantah konklusi dan dasar hukum terlebih dahulu.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Bantahan yang efektif dimulai dari fakta (fondasi), bukan langsung konklusi [19, 20]."
+  },
+  {
+    "question": "Apabila kita ingin membantah argumen pihak ketiga secara efektif, kita membantah analisis hukum terlebih dahulu.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Sama dengan sebelumnya, bantahan efektif sebaiknya dimulai dari fakta [19, 20]."
+  },
+  {
+    "question": "Pada penalaran hukum secara deduktif, semua pernyataan harus faktual benar, yuridis benar, dan saling terkait secara kausal sehingga tidak mengizinkan konklusi lain.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Ini adalah syarat mutlak penalaran deduktif dalam hukum agar kesimpulannya benar [21, 22]."
+  },
+  {
+    "question": "Logika hukum seringkali menyerupai sebuah algoritma.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Hukum mengikuti pola sebab-akibat yang konsisten seperti algoritma [22]."
+  },
+  {
+    "question": "Pada penalaran hukum induktif, kebenaran konklusi bersifat absolut.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Konklusi induktif belum tentu selalu berlaku bagi setiap orang atau keadaan [23]."
+  },
+  {
+    "question": "You can have different opinions but you cannot have different facts.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Opini boleh berbeda, namun fakta dasar harus tetap satu dan tidak bisa diubah [24]."
+  },
+  {
+    "question": "Legal problem solving berurusan dengan masalah hukum yang telah/sedang terjadi, sedangkan risiko hukum preventif berurusan dengan masalah yang mungkin terjadi di masa depan.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Perbedaan mendasar antara penyelesaian masalah hukum dan mitigasi risiko [24, 25]."
+  },
+  {
+    "question": "Setiap bagian dalam negosiasi sebaiknya hanya disetujui dengan syarat hasil negosiasi secara keseluruhan nanti dapat diterima.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Prinsip 'gajah medium'; persetujuan per pasal digantungkan pada hasil akhir perjanjian [25-27]."
+  },
+  {
+    "question": "Silogisme disusun dari Major Premis, Minor Premis, dan sebuah Konklusi.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Silogisme adalah bentuk dasar penarikan kesimpulan deduktif dalam tiga langkah [28, 29]."
+  },
+  {
+    "question": "Apabila fakta, pertanyaan hukum, dan dasar hukum semua telah tepat, maka tidak ada alasan untuk membantah argumentasi hukum tersebut.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Analisis hukum atau penarikan konklusinya masih berpeluang salah meskipun premis lainnya benar [30]."
+  },
+  {
+    "question": "Pada penalaran hukum secara induktif, satu atau lebih pernyataan belum tentu selalu berlaku.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Ciri khas induktif adalah adanya pengecualian atau ketidakteraturan dalam kasus tertentu [23]."
+  },
+  {
+    "question": "Metodologi argumentasi hukum yang umumnya diikuti dikenal dengan IRAC (Issue, Rule, Analysis, Conclusion).",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "IRAC adalah standar internasional dalam argumentasi hukum [23]."
+  },
+  {
+    "question": "FIRAC adalah akronim untuk Facts, Issue, Rule, Analysis, Conclusion.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "FIRAC merupakan pengembangan IRAC dengan menambahkan elemen Fakta di awal [23]."
+  },
+  {
+    "question": "Penalaran hukum negatif terjadi pada tahap analisis hukum.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Menganalisis mengapa suatu unsur tidak terpenuhi merupakan bagian dari analisis hukum [23, 31]."
+  },
+  {
+    "question": "Rumus norma hukum dalam peraturan adalah: 'Apabila X maka bukan Y'.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Rumus standar norma hukum adalah 'Apabila X (unsur) maka Y (akibat)' [31-33]."
+  },
+  {
+    "question": "Apabila unsur dari kaidah hukum terjadi secara faktual, maka akibat hukum dari kaidah tersebut tidak berlaku.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Seharusnya akibat hukum berlaku jika unsur-unsurnya terpenuhi [33]."
+  },
+  {
+    "question": "Jika unsur dalam kaidah disambung secara kumulatif ('dan'), maka semua unsur harus terpenuhi agar akibat hukum berlaku.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Hubungan kumulatif mensyaratkan semua kondisi terpenuhi tanpa kecuali [34]."
+  },
+  {
+    "question": "Jika unsur dalam kaidah disambung secara alternatif ('atau'), maka cukup salah satu unsur terpenuhi agar akibat hukum berlaku.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Hubungan alternatif hanya mensyaratkan salah satu unsur terpenuhi [34]."
+  },
+  {
+    "question": "Akibat hukum bisa tetap tidak berlaku walau unsur terpenuhi karena adanya ketentuan pengecualian.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Aturan hukum seringkali memiliki klausa pengecualian (exception) [34, 35]."
+  },
+  {
+    "question": "Pengecualian tetap terjadi walaupun ada fakta unsur utama, jika fakta tersebut justru memenuhi unsur pengecualian yang diatur.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Fakta tertentu dapat membatalkan akibat hukum utama jika masuk dalam kategori pengecualian [35, 36]."
+  },
+  {
+    "question": "Penalaran induktif ditandai dengan pernyataan pertama yang belum tentu selalu berlaku bagi setiap orang.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Berbeda dengan deduktif, induktif berangkat dari kasus-kasus individual yang beragam [36]."
+  },
+  {
+    "question": "Legal Opinion (Pendapat Hukum) pada prinsipnya diberikan secara tertulis dalam surat tanpa disertai asumsi dan kualifikasi.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Pendapat hukum formal biasanya menghindari spekulasi di luar fakta yang diberikan [36, 37]."
+  },
+  {
+    "question": "Struktur surat pendapat hukum terdiri dari 12 komponen termasuk fakta, isu, norma, analisis, dan kualifikasi.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Terdapat komponen standar seperti identitas penerima hingga lampiran dalam LO profesional [37]."
+  },
+  {
+    "question": "Kualifikasi dalam pendapat hukum berarti pembatasan ruang lingkup pendapat tersebut.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Kualifikasi membatasi agar pendapat hukum tidak disalahgunakan di luar konteksnya [37]."
+  },
+  {
+    "question": "Asumsi dalam pendapat hukum berarti asumsi faktual yang secara wajar tidak dapat diperiksa oleh pemberi pendapat.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Lawyer sering mengasumsikan keaslian dokumen yang tidak bisa diverifikasi langsung [37]."
+  },
+  {
+    "question": "Asumsi pada pendapat hukum berarti pembatasan tentang uang (biaya) dan bukan asumsi tentang fakta.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "Asumsi dalam LO berkaitan dengan fakta/kejadian, bukan biaya jasa hukum [37]."
+  },
+  {
+    "question": "Metodologi IRAC hanya dapat digunakan dalam sistem hukum Civil Law saja.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 1,
+    "explanation": "IRAC adalah metodologi universal yang digunakan baik di Civil Law maupun Common Law."
+  },
+  {
+    "question": "Langkah 'Analysis' dalam FIRAC menghubungkan Rule dengan Facts.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Analisis adalah jembatan yang menunjukkan apakah fakta memenuhi kriteria dalam norma hukum."
+  },
+  {
+    "question": "Kepastian hukum dalam argumentasi diperoleh melalui konsistensi antara fakta, norma, dan analisis hukum.",
+    "answer_choices": ["Benar", "Salah"],
+    "correct_answer": 0,
+    "explanation": "Argumentasi yang solid membutuhkan sinkronisasi yang logis di semua elemennya [38]."
+  }
+]
+}
