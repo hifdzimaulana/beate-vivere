@@ -1026,15 +1026,15 @@ Berdasarkan Pasal 41 hingga Pasal 44C UU P2SK, terdapat **9 jenis pengecualian**
 
 ```mermaid
 graph LR
-    A["9 Pengecualian<br>Rahasia Bank<br>(UU P2SK)"] --> B["1. Perpajakan<br>(UU 9/2017)"]
-    A --> C["2. Perkara Pidana<br>(izin OJK)"]
-    A --> D["3. Perkara Perdata<br>di Pengadilan"]
-    A --> E["4. Kepailitan/<br>Likuidasi"]
-    A --> F["5. Waris<br>Ahli Waris Sah"]
-    A --> G["6. Persetujuan<br>Nasabah Sendiri"]
-    A --> H["7. Pemeriksaan<br>OJK atau BI"]
-    A --> I["8. Audit/<br>Pemeriksaan Akuntan"]
-    A --> J["9. TPPU & TPPT<br>(PPATK, tanpa izin OJK)"]
+    A["9 Pengecualian<br>Rahasia Bank<br>(UU P2SK)"] --> B["Perpajakan<br>(UU 9/2017)"]
+    A --> C["Perkara Pidana<br>(izin OJK)"]
+    A --> D["Perkara Perdata<br>di Pengadilan"]
+    A --> E["Kepailitan/<br>Likuidasi"]
+    A --> F["Waris<br>Ahli Waris Sah"]
+    A --> G["Persetujuan<br>Nasabah Sendiri"]
+    A --> H["Pemeriksaan<br>OJK atau BI"]
+    A --> I["Audit/<br>Pemeriksaan Akuntan"]
+    A --> J["TPPU & TPPT<br>(PPATK, tanpa izin OJK)"]
 ```
 
 | No. | Jenis Pengecualian | Mekanisme | Dasar Hukum |
