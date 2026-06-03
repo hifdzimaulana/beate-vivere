@@ -1,5 +1,5 @@
 ---
-title: Pasar Modal - UAS"
+title: Pasar Modal - UAS
 tags: [Hukum Pasar Modal, UU P2SK 2023, OJK, BEI, IPO, Kejahatan Pasar Modal, GCG, Tender Offer, Delisting, Reksadana, Pasar Modal Syariah, IOSCO]
 ---
 
@@ -308,8 +308,8 @@ graph TD
     E --> F[Tim Privatisasi &<br/>Seleksi Profesi Penunjang]
     F --> G[IPO melalui<br/>Pasar Modal]
     
-    style A fill:#e1f5fe
-    style G fill:#c8e6c9
+    style A fill:#008080
+    style G fill:#C27e79
 ```
 
 **Metode Privatisasi BUMN:**
@@ -529,14 +529,14 @@ GCG di Indonesia memiliki **tiga status sekaligus**:
 
 ```mermaid
 graph LR
-    A[8 Prinsip GCG] --> B[1. Peningkatan Nilai RUPS]
-    A --> C[2. Komunikasi dengan Pemegang Saham]
-    A --> D[3. Komposisi Dewan Komisaris]
-    A --> E[4. Tugas & Tanggung Jawab Dewan Komisaris]
-    A --> F[5. Komposisi Direksi]
-    A --> G[6. Tugas & Tanggung Jawab Direksi]
-    A --> H[7. Partisipasi Pemangku Kepentingan]
-    A --> I[8. Pelaksanaan Keterbukaan Informasi]
+    A[8 Prinsip GCG] --> B[Peningkatan Nilai RUPS]
+    A --> C[Komunikasi dengan Pemegang Saham]
+    A --> D[Komposisi Dewan Komisaris]
+    A --> E[Tugas & Tanggung Jawab Dewan Komisaris]
+    A --> F[Komposisi Direksi]
+    A --> G[Tugas & Tanggung Jawab Direksi]
+    A --> H[Partisipasi Pemangku Kepentingan]
+    A --> I[Pelaksanaan Keterbukaan Informasi]
 ```
 
 #### 8.3 Peran Organ GCG
@@ -550,14 +550,40 @@ graph LR
 
 #### 8.4 Agency Theory sebagai Dasar GCG
 
-**Teori Keagenan** menjelaskan adanya **pemisahan kepemilikan (principal)** dan **pengelolaan (agent)** yang menimbulkan potensi konflik kepentingan:
+*Agency Theory* merupakan salah satu landasan teoritis utama dari konsep Good Corporate Governance (GCG) dalam pasar modal. Teori ini pertama kali dikembangkan secara sistematis oleh Michael C. Jensen dan William H. Meckling melalui artikel Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure (1976).
 
-```
-Pemegang Saham (Principal) → Kontrak → Direksi (Agent)
-                                    ↓
-                        Potensi: Moral Hazard
-                        Agent mengutamakan kepentingan pribadi
-```
+##### 8.4.1 Konsep Dasar Agency Theory
+Agency Theory berangkat dari hubungan antara:
+
+- **Principal** → pihak yang memiliki perusahaan atau modal (pemegang saham/investor).
+- **Agent** → pihak yang diberi kewenangan untuk mengelola perusahaan (direksi dan manajemen).
+
+Dalam perusahaan terbuka (go public), pemegang saham tidak mengelola perusahaan secara langsung. Mereka menyerahkan pengelolaan kepada manajemen profesional.
+
+Masalah muncul karena:
+
+- Kepentingan principal dan agent tidak selalu sama.
+- Agent memiliki informasi lebih banyak daripada principal (information asymmetry).
+- Agent dapat bertindak demi kepentingannya sendiri (self-interest).
+
+>[!NOTE]
+>Contoh:
+>Pemegang saham ingin laba dan nilai perusahaan meningkat. Direksi mungkin lebih fokus pada bonus, fasilitas, atau mempertahankan jabatannya.
+> Kondisi inilah yang disebut *agency problem*.
+
+##### 8.4.2 Type II Agency Problem
+Banyak perusahaan publik di Indonesia memiliki struktur kepemilikan terkonsentrasi. Risikonya adalah:
+- Pemegang saham pengendali mengambil keuntungan pribadi (*private benefits of control*).
+- Transaksi afiliasi yang merugikan pemegang saham minoritas.
+- Pengalihan aset perusahaan kepada pihak terafiliasi.
+
+##### 8.4.3 Agency Cost
+Menurut Jensen dan Meckling, konflik principal-agent menimbulkan agency costs, yaitu biaya yang harus dikeluarkan untuk memastikan agent bertindak sesuai kepentingan principal.
+
+Agency cost terdiri dari:
+- **Monitoring Cost:** Biaya pengawasan yang dikeluarkan principal (audit eksternal, komite audit, komisaris independen, dan kewajiban keterbukaan informasi).
+- **Bonding Cost:** Biaya yang dikeluarkan agent untuk meyakinkan principal (penyusunan laporan berkala, sertifikasi kepatuhan, sistem pengendalian internal).
+- **Residual Loss:** Kerugian yang tetap ada meskipun pengawasan telah dilakukan (keputusan bisnis yang tidak optimal, inefisiensi manajemen).
 
 **Mekanisme mengurangi agency problem:**
 - Pengawasan oleh komisaris independen
@@ -783,8 +809,8 @@ graph TD
     PERIKSA --> C[Pemeriksaan<br/>Administratif]
     SIDIK --> D[Penyidikan<br/>Tindak Pidana]
     
-    style OJK fill:#e3f2fd
-    style SIDIK fill:#ffebee
+    style OJK fill:#B4B4F6
+    style SIDIK fill:#C27e79
 ```
 
 #### 11.4 Prinsip Una Via dalam Praktik
@@ -805,8 +831,8 @@ graph TD
     D --> G[Peringatan,<br/>Denda, Pembekuan, dll.]
     E --> H[Disgorgement +<br/>Sanksi Administratif]
     
-    style C fill:#ffebee
-    style D fill:#e8f5e9
+    style C fill:#C27e79
+    style D fill:#6D8196
 ```
 
 ---
@@ -888,8 +914,8 @@ graph TD
     A -->|Mengelola| F[Portofolio Efek]
     C -->|Penyimpanan &<br/>Perhitungan NAB| F
     
-    style B fill:#e8f5e9
-    style E fill:#fff3e0
+    style B fill:#9FC131
+    style E fill:#C27e79
 ```
 
 **Peran Bank Kustodian:**
@@ -945,8 +971,8 @@ graph LR
     A -->|Pada Jatuh Tempo:<br/>Membeli Kembali Efek| B
     B -->|Mengembalikan Efek| A
     
-    style A fill:#e3f2fd
-    style B fill:#fff3e0
+    style A fill:#008080
+    style B fill:#9FC131
 ```
 
 #### 14.2 GMRA Indonesia
@@ -1003,8 +1029,8 @@ graph LR
     B -->|Mengikat| C[Lembaga Jasa Keuangan Syariah]
     A -->|Sumber Hukum| D[Fiqih Muamalah]
     
-    style A fill:#e8f5e9
-    style B fill:#e3f2fd
+    style A fill:#9FC131
+    style B fill:#7393B3
 ```
 
 **Karakteristik Fatwa DSN-MUI:**
@@ -1117,7 +1143,7 @@ graph TD
     F --> G[Suspensi Saham]
     G --> H[Delisting Efektif]
     
-    style H fill:#ffebee
+    style H fill:#C27e79
 ```
 
 **Perlindungan Investor Minoritas:**
