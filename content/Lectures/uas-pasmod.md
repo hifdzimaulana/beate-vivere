@@ -351,7 +351,8 @@ Aksi Korporasi adalah tindakan emiten/perusahaan publik atau peristiwa tertentu 
 **Pengecualian HMETD (Pasal 43 ayat (3) UU PT):**
 Pengesampingan HMETD berarti saham baru yang diterbitkan oleh perseroan tidak wajib terlebih dahulu ditawarkan secara proporsional kepada seluruh pemegang saham yang sudah ada. Dengan kata lain, perseroan dapat langsung menerbitkan saham kepada pihak tertentu tanpa memberikan kesempatan kepada pemegang saham eksisting untuk membeli saham tersebut terlebih dahulu.
 
->[!NOTE]Dalam kondisi normal, ketika perseroan melakukan penambahan modal melalui penerbitan saham baru, setiap pemegang saham memiliki Hak Memesan Efek Terlebih Dahulu (HMETD) untuk mempertahankan persentase kepemilikannya. Misalnya, jika seorang pemegang saham memiliki 10% saham perusahaan, ia berhak membeli sebagian saham baru agar porsi kepemilikannya tetap sekitar 10%.
+>[!NOTE]
+>Dalam kondisi normal, ketika perseroan melakukan penambahan modal melalui penerbitan saham baru, setiap pemegang saham memiliki Hak Memesan Efek Terlebih Dahulu (HMETD) untuk mempertahankan persentase kepemilikannya. Misalnya, jika seorang pemegang saham memiliki 10% saham perusahaan, ia berhak membeli sebagian saham baru agar porsi kepemilikannya tetap sekitar 10%.
 
 Tujuannya adalah:
 1. Ditujukan kepada karyawan perseroan (**ESOP:** *Employee Stock Ownership Program*) / **MSOP:** *Management Stock Option Program*)
@@ -369,6 +370,18 @@ Tujuannya adalah:
 - Penerbitan saham bonus
 
 #### 6.3 Tender Offer
+
+##### 6.3.1 Mandatory Tender Offer (MTO)
+Mandatory Tender Offer adalah tender offer yang wajib dilakukan oleh pihak yang memperoleh pengendalian atas perusahaan terbuka. Prinsip dasarnya adalah perlindungan terhadap pemegang saham minoritas. Ketika terjadi perubahan pengendali, pemegang saham publik harus diberi kesempatan untuk menjual sahamnya kepada pengendali baru apabila mereka tidak ingin tetap menjadi pemegang saham di bawah pengendalian yang baru.
+
+>[!NOTE]Contoh:
+>Jika Perusahaan A membeli 60% saham Perusahaan B dari pemegang saham pengendali lama sehingga menjadi pengendali baru, maka Perusahaan A wajib melakukan tender offer kepada pemegang saham publik yang tersisa. Dengan demikian, pemegang saham minoritas memperoleh kesempatan untuk keluar (exit opportunity) dengan syarat yang sama sebagaimana ditentukan dalam regulasi.
+
+##### 6.3.2 Voluntary Tender Offer (VTO)
+Voluntary Tender Offer adalah tender offer yang dilakukan atas kehendak sendiri oleh pihak penawar dan bukan karena kewajiban hukum akibat memperoleh pengendalian. Tujuannya bisa beragam, misalnya meningkatkan kepemilikan saham, memperkuat posisi dalam perusahaan, mempersiapkan delisting, atau mengakumulasi saham dalam jumlah tertentu.
+
+>[!NOTE]Contoh:
+>Seorang investor telah memiliki 20% saham suatu emiten dan ingin meningkatkan kepemilikannya menjadi 40%. Investor tersebut dapat menawarkan kepada seluruh pemegang saham untuk membeli saham mereka pada harga tertentu melalui voluntary tender offer, meskipun ia belum menjadi pengendali dan tidak diwajibkan oleh peraturan untuk melakukannya.
 
 | Aspek | Voluntary Tender Offer (POJK 54/2015) | Mandatory Tender Offer (POJK 9/2018) |
 |-------|--------------------------------------|--------------------------------------|

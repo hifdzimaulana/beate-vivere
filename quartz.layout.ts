@@ -25,6 +25,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.ExportPDF(),
+      condition: (page) => page.fileData.slug?.startsWith("Lectures/") ?? false,
+    }),
   ],
   left: [
     Component.PageTitle(),

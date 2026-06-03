@@ -1,0 +1,47 @@
+.dl-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  margin: 0;
+  font-size: 0.8rem;
+  font-family: var(--bodyFont);
+  color: var(--darkgray);
+  background: transparent;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1;
+  vertical-align: middle;
+
+  &:hover:not(:disabled) {
+    color: var(--accentColor);
+    border-color: var(--accentColor);
+    background: var(--highlight);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  &.loading .dl-pdf-icon {
+    animation: spin 1s linear infinite;
+  }
+}
+
+.dl-pdf-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
