@@ -1,5 +1,5 @@
 ---
-title: "Hukum Perbankan Indonesia — Materi Belajar Komprehensif (UAS 2024/2026)"
+title: "Hukum Perbankan Indonesia - UAS"
 tags:
   - hukum-perbankan
   - UAS
@@ -131,17 +131,17 @@ Mencakup layanan yang melibatkan teknologi informasi tinggi, kegiatan dengan lem
 
 ```mermaid
 graph TD
-    A["Bank Inisiasi</br>Produk Baru"] --> B{"Kategori?"}
+    A["Bank Inisiasi<br>Produk Baru"] --> B{"Kategori?"}
     B --> C["Produk Bank Dasar"]
     B --> D["Produk Bank Lanjutan"]
-    C --> E["Laporan ke OJK</br>maks 5 hari kerja</br>setelah implementasi"]
-    D --> F{"Perlu</br>Uji Coba Terbatas?"}
-    F --> G["Ya: Ajukan rencana</br>uji coba ke OJK</br>min 5 hari kerja sebelum"]
-    F --> H["Tidak: Ajukan izin</br>langsung ke OJK"]
-    G --> I["OJK setuju/tolak</br>dalam 14 hari kerja"]
+    C --> E["Laporan ke OJK<br>maks 5 hari kerja<br>setelah implementasi"]
+    D --> F{"Perlu<br>Uji Coba Terbatas?"}
+    F --> G["Ya: Ajukan rencana<br>uji coba ke OJK<br>min 5 hari kerja sebelum"]
+    F --> H["Tidak: Ajukan izin<br>langsung ke OJK"]
+    G --> I["OJK setuju/tolak<br>dalam 14 hari kerja"]
     H --> I
-    I --> J["Jika tidak ada</br>keberatan 10 hari kerja,</br>izin efektif"]
-    J --> K["Implementasi</br>Produk"]
+    I --> J["Jika tidak ada<br>keberatan 10 hari kerja,<br>izin efektif"]
+    J --> K["Implementasi<br>Produk"]
 ```
 
 **Rencana Penyelenggaraan Produk Bank (RPPB)**
@@ -308,14 +308,14 @@ Semua pihak dalam L/C bertindak berdasarkan itikad baik. Fraud exception: jika b
 
 ```mermaid
 graph LR
-    A["Importir</br>(Applicant)"] -->|1. Sales Contract| B["Eksportir</br>(Beneficiary)"]
+    A["Importir<br>(Applicant)"] -->|1. Sales Contract| B["Eksportir<br>(Beneficiary)"]
     A -->|2. Permohonan buka L/C| C["Issuing Bank"]
-    C -->|3. Menerbitkan L/C| D["Advising Bank</br>(Correspondent Bank)"]
+    C -->|3. Menerbitkan L/C| D["Advising Bank<br>(Correspondent Bank)"]
     D -->|4. Meneruskan L/C| B
     B -->|5. Kirim barang| A
     B -->|6. Serahkan dokumen| D
-    D -->|7. Verifikasi dokumen &</br>teruskan ke Issuing Bank| C
-    C -->|8. Verifikasi kedua &</br>serahkan dokumen ke Importir| A
+    D -->|7. Verifikasi dokumen &<br>teruskan ke Issuing Bank| C
+    C -->|8. Verifikasi kedua &<br>serahkan dokumen ke Importir| A
     C -->|9. Pembayaran ke Advising Bank| D
     D -->|10. Pembayaran ke Eksportir| B
 ```
@@ -660,12 +660,12 @@ Sebelum memberikan kredit, bank menganalisis menggunakan prinsip **5C**:
 
 ```mermaid
 graph LR
-    A["5C of</br>Credit"] --> B["Character"]
+    A["5C of<br>Credit"] --> B["Character"]
     A --> C["Capacity"]
     A --> D["Capital"]
-    A --> E["Condition</br>of Economy"]
+    A --> E["Condition<br>of Economy"]
     A --> F["Collateral"]
-    B --> G["Yang paling</br>penting:</br>Landasan Kepercayaan"]
+    B --> G["Yang paling<br>penting:<br>Landasan Kepercayaan"]
 ```
 
 1. **Character** — Integritas dan itikad baik peminjam. Ini adalah **faktor terpenting** karena landasan kredit adalah kepercayaan. Peminjam berkarakter baik akan memenuhi kewajiban meskipun kondisi keuangan sedang sulit.
@@ -772,15 +772,15 @@ LPIP (Lembaga Pengelola Informasi Perkreditan) yang diatur oleh **POJK No. 42/PO
 
 ```mermaid
 graph TD
-    A["Calon debitur</br>mengajukan proposal"] --> B["Account Officer</br>menerima & periksa kelengkapan"]
-    B --> C["Analisis kredit:</br>5C, yuridis, jaminan,</br>finansial, dll"]
+    A["Calon debitur<br>mengajukan proposal"] --> B["Account Officer<br>menerima & periksa kelengkapan"]
+    B --> C["Analisis kredit:<br>5C, yuridis, jaminan,<br>finansial, dll"]
     C --> D["Rekomendasi kredit"]
-    D --> E{"Keputusan Cabang/</br>Kantor Pusat/Direksi"}
-    E -->|Ditolak| F["File sebagai</br>bagian KYC Principle"]
-    E -->|Disetujui| G["Pembuatan</br>Perjanjian Kredit"]
-    G --> H["Pengikatan</br>agunan/jaminan"]
-    H --> I["Dropping dana/</br>Pencairan oleh cabang"]
-    I --> J["Pembayaran/</br>Pelunasan oleh debitur"]
+    D --> E{"Keputusan Cabang/<br>Kantor Pusat/Direksi"}
+    E -->|Ditolak| F["File sebagai<br>bagian KYC Principle"]
+    E -->|Disetujui| G["Pembuatan<br>Perjanjian Kredit"]
+    G --> H["Pengikatan<br>agunan/jaminan"]
+    H --> I["Dropping dana/<br>Pencairan oleh cabang"]
+    I --> J["Pembayaran/<br>Pelunasan oleh debitur"]
 ```
 
 #### 9.8 Isi Perjanjian Kredit
@@ -873,14 +873,14 @@ Kredit sindikasi adalah kredit yang diberikan kepada peminjam (*borrower*) oleh 
 
 ```mermaid
 graph TD
-    A["Borrower</br>(Debitur)"] -->|Mandates| B["Arranger</br>(Lead Manager)"]
-    B -->|Invites| C["Peserta</br>Sindikasi</br>(Lenders)"]
+    A["Borrower<br>(Debitur)"] -->|Mandates| B["Arranger<br>(Lead Manager)"]
+    B -->|Invites| C["Peserta<br>Sindikasi<br>(Lenders)"]
     B -->|Appoints| D["Facility Agent"]
     B -->|Appoints| E["Security Agent"]
     A --- D
     A --- E
-    D -->|Distributes funds</br>& payments| C
-    E -->|Manages</br>collateral| C
+    D -->|Distributes funds<br>& payments| C
+    E -->|Manages<br>collateral| C
 ```
 
 | Pihak | Peran |
@@ -1026,15 +1026,15 @@ Berdasarkan Pasal 41 hingga Pasal 44C UU P2SK, terdapat **9 jenis pengecualian**
 
 ```mermaid
 graph LR
-    A["9 Pengecualian</br>Rahasia Bank</br>(UU P2SK)"] --> B["1. Perpajakan</br>(UU 9/2017)"]
-    A --> C["2. Perkara Pidana</br>(izin OJK)"]
-    A --> D["3. Perkara Perdata</br>di Pengadilan"]
-    A --> E["4. Kepailitan/</br>Likuidasi"]
-    A --> F["5. Waris</br>Ahli Waris Sah"]
-    A --> G["6. Persetujuan</br>Nasabah Sendiri"]
-    A --> H["7. Pemeriksaan</br>OJK atau BI"]
-    A --> I["8. Audit/</br>Pemeriksaan Akuntan"]
-    A --> J["9. TPPU & TPPT</br>(PPATK, tanpa izin OJK)"]
+    A["9 Pengecualian<br>Rahasia Bank<br>(UU P2SK)"] --> B["1. Perpajakan<br>(UU 9/2017)"]
+    A --> C["2. Perkara Pidana<br>(izin OJK)"]
+    A --> D["3. Perkara Perdata<br>di Pengadilan"]
+    A --> E["4. Kepailitan/<br>Likuidasi"]
+    A --> F["5. Waris<br>Ahli Waris Sah"]
+    A --> G["6. Persetujuan<br>Nasabah Sendiri"]
+    A --> H["7. Pemeriksaan<br>OJK atau BI"]
+    A --> I["8. Audit/<br>Pemeriksaan Akuntan"]
+    A --> J["9. TPPU & TPPT<br>(PPATK, tanpa izin OJK)"]
 ```
 
 | No. | Jenis Pengecualian | Mekanisme | Dasar Hukum |
@@ -1258,10 +1258,10 @@ Tujuannya: mempersulit penelusuran (*tracing*) dan mempersulit penyidikan. Berda
 
 ```mermaid
 graph LR
-    A["Tindak Pidana</br>Asal</br>(Predicate Crime)"] --> B["PLACEMENT</br>Penempatan dana</br>ke sistem keuangan"]
-    B --> C["LAYERING</br>Memisahkan uang</br>dari sumbernya melalui</br>transaksi kompleks"]
-    C --> D["INTEGRATION</br>Mengembalikan dana</br>yang tampak sah</br>ke perekonomian"]
-    D --> E["Harta Kekayaan</br>Tampak Legal"]
+    A["Tindak Pidana<br>Asal<br>(Predicate Crime)"] --> B["PLACEMENT<br>Penempatan dana<br>ke sistem keuangan"]
+    B --> C["LAYERING<br>Memisahkan uang<br>dari sumbernya melalui<br>transaksi kompleks"]
+    C --> D["INTEGRATION<br>Mengembalikan dana<br>yang tampak sah<br>ke perekonomian"]
+    D --> E["Harta Kekayaan<br>Tampak Legal"]
 ```
 
 **1. Placement (Penempatan)**
@@ -1492,11 +1492,11 @@ OJK mengatur dan menetapkan tiga status pengawasan bank:
 
 ```mermaid
 graph LR
-    A["Bank"] --> B["Bank dalam</br>Pengawasan Normal"]
-    A --> C["Bank dalam</br>Penyehatan"]
-    A --> D["Bank dalam</br>Resolusi"]
-    B -->|Mengalami kesulitan</br>membahayakan| C
-    C -->|Tidak memenuhi</br>ketentuan setelah</br>jangka waktu| D
+    A["Bank"] --> B["Bank dalam<br>Pengawasan Normal"]
+    A --> C["Bank dalam<br>Penyehatan"]
+    A --> D["Bank dalam<br>Resolusi"]
+    B -->|Mengalami kesulitan<br>membahayakan| C
+    C -->|Tidak memenuhi<br>ketentuan setelah<br>jangka waktu| D
 ```
 
 | Status | Kriteria | Penanganan |
@@ -1542,12 +1542,12 @@ graph LR
 
 ```mermaid
 graph TD
-    A["Bank mengalami</br>kesulitan likuiditas"] --> B["Pinjaman Likuiditas</br>Jangka Pendek (PLJP)</br>dari BI"]
-    A2["Bank mengalami</br>kesulitan solvabilitas"] --> C["OJK tetapkan</br>Bank dalam Penyehatan"]
-    C --> D["Action Plan &</br>Pemulihan internal"]
-    D -->|Berhasil| E["Kembali ke</br>Pengawasan Normal"]
-    D -->|Gagal| F["OJK tetapkan</br>Bank dalam Resolusi"]
-    F --> G["LPS mengambil alih</br>dengan P&A, Bridge Bank,</br>atau PMS"]
+    A["Bank mengalami<br>kesulitan likuiditas"] --> B["Pinjaman Likuiditas<br>Jangka Pendek (PLJP)<br>dari BI"]
+    A2["Bank mengalami<br>kesulitan solvabilitas"] --> C["OJK tetapkan<br>Bank dalam Penyehatan"]
+    C --> D["Action Plan &<br>Pemulihan internal"]
+    D -->|Berhasil| E["Kembali ke<br>Pengawasan Normal"]
+    D -->|Gagal| F["OJK tetapkan<br>Bank dalam Resolusi"]
+    F --> G["LPS mengambil alih<br>dengan P&A, Bridge Bank,<br>atau PMS"]
 ```
 
 **Dalam Kondisi Krisis Sistem Keuangan:**
