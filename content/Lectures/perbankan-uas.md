@@ -1710,4 +1710,3 @@ BI, OJK, dan LPS melakukan koordinasi kebijakan makroprudensial, mikroprudensial
 ---
 
 **Dokumen ini disusun per Juni 2026.** Seluruh regulasi dan putusan pengadilan yang disebutkan adalah yang terbaru diketahui pada tanggal tersebut. Untuk praktik hukum terkini, konsultasikan dengan peraturan yang berlaku dan putusan-putusan terbaru.
-```
