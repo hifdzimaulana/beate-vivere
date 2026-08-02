@@ -360,19 +360,15 @@ Tindakan itu sendiri dapat bersifat **sepihak** (menimbulkan hak/kewajiban tanpa
 > - **Rezim lama (Pasal 3 UU PTUN 1986):** sikap diam pejabat = **fiktif negatif** (dianggap menolak) → dapat digugat ke PTUN sebagai KTUN.
 > - **Rezim baru (Pasal 53 UU AP 2014):** sikap diam pejabat atas permohonan = **fiktif positif** (dianggap **dikabulkan** secara hukum) → warga mengajukan **permohonan** (bukan gugatan) ke PTUN untuk memperoleh **putusan** yang menjadi dasar terbitnya Keputusan/Tindakan yang dianggap dikabulkan tersebut.
 
-> [!quote] Pasal 53 UU AP (ayat 1–3, 5–6)
-> (1) Batas waktu kewajiban menetapkan Keputusan/Tindakan sesuai peraturan perundang-undangan.
-> (2) Jika tidak diatur, batas waktu **10 hari kerja** sejak permohonan diterima lengkap.
-> (3) Bila lewat batas waktu, permohonan **dianggap dikabulkan secara hukum**.
-> (5) Pengadilan wajib memutus permohonan paling lama **21 hari kerja** sejak diajukan.
-> (6) Badan/Pejabat wajib menetapkan Keputusan pelaksana putusan Pengadilan paling lama **5 hari kerja**.
+> [!quote] Pasal 53 UU AP (diubah UU 6/2023 Ps. 175)
+> (2) batas waktu default dipersingkat jadi **5 hari kerja** (sebelumnya 10).
+> (4): permohonan tetap **dianggap dikabulkan secara hukum** bila lewat batas waktu — fiktif positif tidak dicabut.
+> (5) [baru, menggantikan ayat 5–6 lama]: *"Ketentuan lebih lanjut mengenai bentuk penetapan Keputusan dan/atau Tindakan yang dianggap dikabulkan secara hukum sebagaimana dimaksud pada ayat (4) diatur dalam Peraturan Presiden."* — **Perpres ini belum ada** per Agustus 2026.
 
-> [!warning] Pemutakhiran Penting — Fiktif Positif "Dihapus" dari Kewenangan PTUN, Kembali ke Fiktif Negatif
-> Pasca-berlakunya **UU No. 6 Tahun 2023** (penetapan Perpu No. 2/2022 tentang Cipta Kerja menjadi UU), kewenangan PTUN untuk memeriksa, mengadili, dan memutus **Permohonan Fiktif Positif** dihapuskan dari sejumlah sektor perizinan berusaha yang telah dialihkan ke rezim OSS/Perizinan Berusaha Berbasis Risiko.
+> [!warning] Pemutakhiran — Bukan Penghapusan, tapi Kekosongan Mekanisme
+> UU No. 6/2023 (Cipta Kerja) **tidak menghapus** fiktif positif. Yang diubah hanya Pasal 53 ayat (2) UU AP (10→5 hari kerja) dan penggantian mekanisme lama (Pengadilan memutus 21 hari) dengan pendelegasian pengaturan "bentuk penetapan" kepada **Peraturan Presiden** — yang **belum diterbitkan** hingga Agustus 2026. Akibatnya terjadi kekosongan hukum praktis: hak fiktif positif secara normatif tetap berlaku, tapi mekanisme formal untuk mengonfirmasinya tidak (lagi) jelas.
 >
-> Menindaklanjuti hal ini, Mahkamah Agung menerbitkan **SEMA No. 2 Tahun 2024** yang menegaskan bahwa untuk penanganan perkara terkait Keputusan Fiktif, pengadilan **kembali berpedoman pada Pasal 3 UU PTUN 1986 (rezim fiktif negatif)**. Artinya, sikap diam Badan/Pejabat TUN kini secara praktik ditafsirkan sebagai **fiktif negatif** yang dapat digugat sebagai KTUN — bukan lagi murni fiktif positif menurut Pasal 53 UU AP. Perdebatan doktrinal masih berlangsung mengenai apakah Upaya Administratif tetap wajib ditempuh terhadap Keputusan Fiktif Negatif ini (lihat diskusi interpretasi sistematis vs komparatif dalam kepustakaan PTUN).
->
-> *Sumber: SEMA No. 2 Tahun 2024 (Rumusan Kamar TUN, hasil Pleno Kamar 2024); Pasal 175 UU No. 6/2023.*
+> Terpisah dari itu, **SEMA No. 2/2024** (merevisi SEMA 1/2017 Rumusan Kamar TUN angka 4) **hanya berlaku untuk sengketa pendaftaran MODI (Minerba One Data Indonesia) di Kementerian ESDM** — menyatakan sikap diam pejabat atas permohonan pendaftaran MODI bukan tindakan faktual omisi, melainkan penolakan KTUN menurut Pasal 3 UU PTUN (fiktif negatif). Ini **rumusan sektoral**, bukan pembalikan rezim fiktif secara umum.
 
 ---
 
@@ -467,7 +463,7 @@ graph LR
     C --> D["SEMA No. 1/2017</br>UA jadi pilihan hukum"]
     D --> E["PERMA No. 6/2018</br>tata cara beracara"]
     E --> F["SEMA No. 2/2019</br>revisi kompetensi</br>PTUN/PTTUN"]
-    F --> G["SEMA No. 2/2024</br>update rezim fiktif"]
+    F --> G[SEMA No. 2/2024</br>fiktif negatif khusus MODI ESDM"]
 ```
 
 #### 6.4.1 Fase 1 — UU PTUN 1986 (Pasal 48 & 51) dan SEMA No. 2/1991
@@ -595,7 +591,7 @@ graph TD
 #### 6.4.6 Fase 6 — Pemutakhiran 2024–2026
 
 > [!warning] Pemutakhiran — SEMA No. 2/2024
-> Sebagaimana dibahas pada [[#4.8 Fiktif Positif vs Fiktif Negatif — Dua Rezim yang Berkembang]], SEMA No. 2/2024 (hasil Pleno Kamar TUN 2024) mengalihkan penanganan **Keputusan Fiktif** kembali pada rezim **fiktif negatif** (Pasal 3 UU PTUN 1986), menyusul dicabutnya kewenangan PTUN memeriksa Permohonan Fiktif Positif untuk sektor tertentu pasca UU Cipta Kerja (UU No. 6/2023). Bila Keputusan Fiktif Negatif dipandang sebagai suatu KTUN, secara interpretasi sistematis ia **tetap tunduk** pada kewajiban menempuh Upaya Administratif terlebih dahulu — meski terdapat pandangan alternatif (interpretasi komparatif dengan Rumusan Kamar TUN SEMA No. 5/2021 mengenai Tindakan Pemerintahan yang bersifat *omission*/tidak bertindak) yang berpendapat UA tidak diperlukan karena tidak efektif ditempuh terhadap sikap diam pejabat.
+> Sebagaimana dibahas pada [[#4.8 Fiktif Positif vs Fiktif Negatif — Dua Rezim yang Berkembang]], SEMA No. 2 Tahun 2024 mengalihkan penanganan **sengketa pendaftaran MODI di Kementerian ESDM** ke rezim fiktif negatif (Pasal 3 UU PTUN 1986); di luar konteks MODI, fiktif positif (Pasal 53 UU AP) tetap berlaku secara normatif meski mekanisme formalisasinya menunggu Perpres yang belum terbit.
 
 > [!note] Stabilitas Konstitusional
 > Dua permohonan uji materiil terbaru terhadap UU PTUN dan UU AP — **Putusan MK No. 109/PUU-XXIII/2025** (14 Agustus 2025, terkait frasa "cacat") dan **Putusan MK No. 59/PUU-XXIV/2026** (16 April 2026, terkait pengecualian dalam KTUN) — **keduanya ditolak**. Artinya kerangka normatif Upaya Administratif sebagaimana diuraikan di atas **tetap berlaku tanpa perubahan substantif** hingga Agustus 2026.
