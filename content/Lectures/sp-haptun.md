@@ -463,7 +463,7 @@ graph LR
     C --> D["SEMA No. 1/2017</br>UA jadi pilihan hukum"]
     D --> E["PERMA No. 6/2018</br>tata cara beracara"]
     E --> F["SEMA No. 2/2019</br>revisi kompetensi</br>PTUN/PTTUN"]
-    F --> G[SEMA No. 2/2024</br>fiktif negatif khusus MODI ESDM"]
+    F --> G["SEMA No. 2/2024</br>fiktif negatif khusus MODI ESDM"]
 ```
 
 #### 6.4.1 Fase 1 — UU PTUN 1986 (Pasal 48 & 51) dan SEMA No. 2/1991
