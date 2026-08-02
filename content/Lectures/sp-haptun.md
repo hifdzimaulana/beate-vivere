@@ -1,6 +1,6 @@
 ---
-title: "Hukum Acara PTUN: Asas, Tindakan Pemerintah, Prosedur Administrasi, Upaya Administratif & OOD"
-tags: [hukum-administrasi-negara, haptun, ptun, upaya-administratif, onrechtmatige-overheidsdaad, hukum-acara, tata-usaha-negara, uu-ap]
+title: "SP Haptun - UAS"
+tags: [hukum-administrasi-negara, haptun, ptun, hukum-acara, tata-usaha-negara, uu-ap]
 ---
 
 # Hukum Acara Peradilan Tata Usaha Negara (HAPTUN)

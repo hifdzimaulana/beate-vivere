@@ -1,5 +1,5 @@
 ---
-title: "Hukum Acara Peradilan Tata Usaha Negara — Catatan UTS Semester Pendek"
+title: "SP Haptun - UTS"
 tags: [hukum-acara, ptun, han, hukum-administrasi-negara, semester-pendek, uts]
 ---
 
