@@ -31,9 +31,9 @@ graph TD
     PM26 -->|dicabut oleh Ps. 18 huruf b| PM6
     PM6 -->|berlaku sejak| Now["21 Juli 2026<br>(tanggal diundangkan)"]
 
-    style PM52 fill:#fce8b2,stroke:#b8860b
-    style PM26 fill:#d6e4ff,stroke:#4169e1
-    style PM6 fill:#c8f7c5,stroke:#2e7d32
+    style PM52 fill:#556b2f,stroke:#b8860b
+    style PM26 fill:#003153,stroke:#4169e1
+    style PM6 fill:#5e503f,stroke:#2e7d32
 ```
 
 > [!danger] Yang Benar-Benar Hilang (Dicabut Total)
@@ -85,8 +85,8 @@ graph TD
 
     B -->|"Ex-officio Dirjen<br>(bukan permohonan pihak)"| F["Sertifikat kelaikudaraan<br>tidak dipertahankan<br>3 tahun berturut-turut<br>(47.31 huruf g)"]
 
-    style D fill:#c8f7c5,stroke:#2e7d32
-    style E fill:#fce8b2,stroke:#b8860b
+    style D fill:#556b2f,stroke:#2e7d32
+    style E fill:#5e503f,stroke:#b8860b
 ```
 
 ### 3.2 Evolusi Ketentuan "Wanprestasi Tanpa Putusan Pengadilan" Lintas 3 Regulasi
